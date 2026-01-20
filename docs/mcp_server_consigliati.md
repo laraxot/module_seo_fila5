@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: mcp_server_consigliati
@@ -10,6 +11,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_C
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
 # Server MCP consigliati per il modulo Seo
 
 ## Scopo del modulo
@@ -36,6 +39,9 @@ Analisi SEO, automazione di audit, recupero dati da web, generazione di report.
 **Nota:**
 Aggiungi solo i server che realmente ti servono per il tuo workflow. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: build-publish
@@ -10,6 +11,8 @@ See canonical documentation: ../../../../../Themes/docs/shared-components/build-
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
 name: Build & Publish
 
 on:
@@ -46,8 +49,12 @@ jobs:
         git subtree split --prefix build_production -b master
         git push -f origin master:master
 <<<<<<< HEAD
+<<<<<<< HEAD
         git branch -D master
 >>>>>>> 7ec200b (.)
 =======
         git branch -D master
 >>>>>>> d20252d (.)
+=======
+        git branch -D master
+>>>>>>> dbf8b8d (.)

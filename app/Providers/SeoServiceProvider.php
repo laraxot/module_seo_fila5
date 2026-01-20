@@ -7,6 +7,7 @@ namespace Modules\Seo\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Adapters\MetatagState;
 =======
@@ -18,6 +19,9 @@ use Modules\Seo\Services\MetatagService;
 =======
 use Modules\Seo\Services\MetatagService;
 >>>>>>> d20252d (.)
+=======
+use Modules\Seo\Services\MetatagService;
+>>>>>>> dbf8b8d (.)
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
 class SeoServiceProvider extends XotBaseServiceProvider
@@ -26,17 +30,23 @@ class SeoServiceProvider extends XotBaseServiceProvider
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
     /**
      * Register the service provider.
      */
@@ -44,6 +54,7 @@ class SeoServiceProvider extends XotBaseServiceProvider
     {
         parent::register();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +75,11 @@ class SeoServiceProvider extends XotBaseServiceProvider
             return new MetatagService;
         });
 >>>>>>> d20252d (.)
+=======
+        $this->app->singleton(MetatagService::class, function ($app) {
+            return new MetatagService;
+        });
+>>>>>>> dbf8b8d (.)
     }
 
     /**
@@ -74,6 +90,7 @@ class SeoServiceProvider extends XotBaseServiceProvider
     public function provides(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +105,9 @@ class SeoServiceProvider extends XotBaseServiceProvider
 =======
             MetatagService::class,
 >>>>>>> d20252d (.)
+=======
+            MetatagService::class,
+>>>>>>> dbf8b8d (.)
         ];
     }
 }

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -30,6 +31,8 @@ docs/phpstan/
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
 docs/cache/
 cache/
 -e 
@@ -37,14 +40,18 @@ cache/
 docs/phpstan/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
 # Backup files
 *.old
 *.old1
 *.backup
 *.backup.*
+<<<<<<< HEAD
 lang/lang/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,3 +83,5 @@ _docs/
 _docs/
 _docs/
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Data;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
@@ -15,20 +16,28 @@ use Spatie\LaravelData\Data;
 class MetatagData extends Data implements Wireable
 =======
 =======
+=======
+>>>>>>> dbf8b8d (.)
 use BadMethodCallException;
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
+<<<<<<< HEAD
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
 use Modules\Seo\Interfaces\MetatagDataInterface;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 
 class MetatagData extends Data implements MetatagDataInterface, Wireable
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
 {
     use WireableData;
 
@@ -109,10 +118,14 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $result ? $result : $default;
 =======
         return $result ?: $default;
 >>>>>>> d20252d (.)
+=======
+        return $result ?: $default;
+>>>>>>> dbf8b8d (.)
     }
 
     /**
@@ -231,15 +244,21 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
     /**
      * Get extra metadata.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function get(string $key, mixed $default = null): mixed
 =======
+=======
+>>>>>>> dbf8b8d (.)
      *
      * @param  mixed  $default
      * @return mixed
      */
     public function get(string $key, $default = null)
+<<<<<<< HEAD
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
     {
         return Arr::get($this->data, $key, $default);
     }
@@ -253,6 +272,28 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Handle dynamic method calls.
+     *
+     * @param  array<int, mixed>  $parameters
+     * @return mixed
+     */
+    public function __call(string $method, array $parameters)
+    {
+        if (strpos($method, 'get') === 0) {
+            $key = lcfirst(substr($method, 3));
+
+            return $this->get($key, $parameters[0] ?? null);
+        }
+
+        throw new BadMethodCallException(sprintf(
+            'Method %s::%s does not exist.', static::class, $method
+        ));
+    }
+
+    /**
+>>>>>>> dbf8b8d (.)
      * Convert the object to its array representation.
      *
      * @return array<string, mixed>
@@ -275,14 +316,20 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
     /**
      * Create a new instance from Livewire data.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public static function fromLivewire(mixed $value): self
 =======
+=======
+>>>>>>> dbf8b8d (.)
      *
      * @param  mixed  $value
      */
     public static function fromLivewire($value): self
+<<<<<<< HEAD
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
     {
         if (is_array($value)) {
             /** @var array<string, mixed> $typedValue */

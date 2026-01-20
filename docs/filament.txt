@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: filament
@@ -15,3 +16,7 @@ https://github.com/ralphjsmit/laravel-filament-seo
 https://github.com/ralphjsmit/laravel-filament-seo
 
 >>>>>>> d20252d (.)
+=======
+https://github.com/ralphjsmit/laravel-filament-seo
+
+>>>>>>> dbf8b8d (.)

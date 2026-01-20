@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Facade;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Datas\MetatagData;
 =======
@@ -23,6 +24,10 @@ use Modules\Seo\Services\MetatagService;
 use Modules\Seo\Data\MetatagData;
 use Modules\Seo\Services\MetatagService;
 >>>>>>> d20252d (.)
+=======
+use Modules\Seo\Data\MetatagData;
+use Modules\Seo\Services\MetatagService;
+>>>>>>> dbf8b8d (.)
 
 /**
  * @method static MetatagData get()
@@ -45,6 +50,7 @@ use Modules\Seo\Services\MetatagService;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @see MetatagFacadeAdapter
 =======
  * @see MetatagManager
@@ -55,11 +61,15 @@ use Modules\Seo\Services\MetatagService;
 =======
  * @see \Modules\Seo\Services\MetatagService
 >>>>>>> d20252d (.)
+=======
+ * @see \Modules\Seo\Services\MetatagService
+>>>>>>> dbf8b8d (.)
  */
 class Metatag extends Facade
 {
     /**
      * Get the registered name of the component.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     protected static function getFacadeAccessor(): string
@@ -74,12 +84,17 @@ class Metatag extends Facade
         return MetatagService::class;
 >>>>>>> 7ec200b (.)
 =======
+=======
+>>>>>>> dbf8b8d (.)
      *
      * @return string
      */
     protected static function getFacadeAccessor()
     {
         return MetatagService::class;
+<<<<<<< HEAD
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
     }
 }

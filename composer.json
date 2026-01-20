@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
     "name": "laraxot/module_seo_fila5",
     "description": "Modulo SEO per l'ottimizzazione dei contenuti",
     "homepage": "https://github.com/laraxot/module_seo_fila5",
+=======
+    "name": "laraxot/module_seo_fila3",
+    "description": "Modulo SEO per l'ottimizzazione dei contenuti",
+    "homepage": "https://github.com/laraxot/module_seo_fila3",
+>>>>>>> dbf8b8d (.)
     "license": "MIT",
     "authors": [
         {
@@ -30,6 +36,7 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "autoload-dev": {
         "psr-4": {
             "Modules\\Seo\\Tests\\": "tests/"
@@ -47,6 +54,11 @@
         "openai-php/laravel": "*",
         "thecodingmachine/safe": "^2.5"
 >>>>>>> d20252d (.)
+=======
+    "require_comment": {
+        "openai-php/laravel": "*",
+        "thecodingmachine/safe": "^2.5"
+>>>>>>> dbf8b8d (.)
     },
     "require-dev_comment": {
         "laravel/pint": "^1.13",
