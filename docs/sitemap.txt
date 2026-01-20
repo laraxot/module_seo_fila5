@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: sitemap
@@ -15,3 +16,7 @@ https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
 https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
 
 >>>>>>> d20252d (.)
+=======
+https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
+
+>>>>>>> dbf8b8d (.)

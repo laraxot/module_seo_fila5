@@ -8,9 +8,15 @@ Il modulo SEO fornisce funzionalità di ottimizzazione per i motori di ricerca, 
 ### 1. Composer.json
 ```json
 {
+<<<<<<< HEAD
     "name": "laraxot/module_seo_fila5",
     "description": "Modulo SEO per l'ottimizzazione dei contenuti",
     "homepage": "https://github.com/laraxot/module_seo_fila5",
+=======
+    "name": "laraxot/module_seo_fila3",
+    "description": "Modulo SEO per l'ottimizzazione dei contenuti",
+    "homepage": "https://github.com/laraxot/module_seo_fila3",
+>>>>>>> dbf8b8d (.)
     "license": "MIT"
 }
 ```
@@ -63,9 +69,15 @@ Seo/
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Configurazione Moduli](../../../../docs/project/module-configuration.md)
 - [Relazioni tra Moduli](../../../../docs/project/module-relationships.md)
 - [Regole dei Namespace](../../../../docs/project/module-namespace-rules.md)
+=======
+- [Configurazione Moduli](../../../project_docs/module-configuration.md)
+- [Relazioni tra Moduli](../../../project_docs/module-relationships.md)
+- [Regole dei Namespace](../../../project_docs/module-namespace-rules.md)
+>>>>>>> dbf8b8d (.)
 
 ## Checklist Implementazione
 

@@ -83,15 +83,21 @@ interface MetatagDataInterface
     /**
      * Get extra metadata.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function get(string $key, mixed $default = null): mixed;
 =======
+=======
+>>>>>>> dbf8b8d (.)
      *
      * @param  mixed  $default
      * @return mixed
      */
     public function get(string $key, $default = null);
+<<<<<<< HEAD
 >>>>>>> d20252d (.)
+=======
+>>>>>>> dbf8b8d (.)
 
     /**
      * Check if the metadata has a specific key.
