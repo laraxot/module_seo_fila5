@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data:** [DATE] | **Status:** ✅
 =======
 **Data:** 2025-10-15 | **Status:** ✅
@@ -21,6 +22,9 @@
 =======
 **Data:** [DATE] | **Status:** ✅
 >>>>>>> d0f51b6 (.)
+=======
+**Data:** 2025-10-15 | **Status:** ✅
+>>>>>>> a771e9c (.)
 
 ## 📊 Struttura
 Models: 0 | Resources: 0 | Services: 1 | Actions: 0 | Docs: 21

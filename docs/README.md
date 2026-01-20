@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
@@ -56,12 +57,16 @@ updated: 2026-06-05
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+# 🎯 SEO Module - Search Engine Optimization
+>>>>>>> a771e9c (.)
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN-green.svg)](https://laravel.com/docs/localization)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +135,8 @@ php artisan migrate
 <<<<<<< HEAD
 >>>>>>> d20252d (.)
 =======
+=======
+>>>>>>> a771e9c (.)
 > **🚀 Modulo SEO**: Sistema completo per ottimizzazione motori di ricerca, gestione meta tags, sitemap e structured data.
 
 ## 📋 **Panoramica**
@@ -145,6 +152,7 @@ Il modulo **SEO** fornisce strumenti avanzati per l'ottimizzazione SEO:
 
 ## ⚡ **Funzionalità Core**
 
+<<<<<<< HEAD
 >>>>>>> dbf8b8d (.)
 =======
 <<<<<<< HEAD
@@ -155,6 +163,8 @@ Il modulo **SEO** fornisce strumenti avanzati per l'ottimizzazione SEO:
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -409,6 +419,7 @@ php artisan seo:validate-schema
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7ec200b (.)
@@ -529,3 +540,5 @@ Please verify all changes with:
 =======
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
@@ -28,6 +29,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_C
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
 # Server MCP consigliati per il modulo Seo
 
 ## Scopo del modulo
@@ -56,6 +59,7 @@ Aggiungi solo i server che realmente ti servono per il tuo workflow.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
@@ -69,3 +73,5 @@ Aggiungi solo i server che realmente ti servono per il tuo workflow.
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
@@ -28,6 +29,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/file-naming-
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
 # Regole di Naming per File
 
 ## 🎯 Regola Fondamentale: NO Duplicati Case-Insensitive
@@ -151,6 +154,7 @@ Se entrambi i file contengono contenuto diverso:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
@@ -164,3 +168,5 @@ Se entrambi i file contengono contenuto diverso:
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)

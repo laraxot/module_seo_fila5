@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
@@ -43,3 +44,7 @@ https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
+
+>>>>>>> a771e9c (.)

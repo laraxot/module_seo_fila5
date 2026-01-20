@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
@@ -28,6 +29,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_R
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
 # Server MCP consigliati per Seo
 
 Per il modulo Seo, si consiglia di utilizzare i seguenti server MCP:
@@ -47,6 +50,7 @@ Per dettagli e best practice consulta la guida generale MCP nel workspace.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
@@ -60,3 +64,5 @@ Per dettagli e best practice consulta la guida generale MCP nel workspace.
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)

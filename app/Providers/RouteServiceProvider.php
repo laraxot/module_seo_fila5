@@ -14,6 +14,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $name = 'Seo';
 
 =======
@@ -34,10 +35,13 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
     public string $name = 'Seo';
 
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)
     /**
      * The module namespace to assume when generating URLs to actions.
      */
     protected string $moduleNamespace = 'Modules\Seo\Http\Controllers';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,10 +56,13 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
 
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,4 +85,8 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+
+    public string $name = 'Seo';
+>>>>>>> a771e9c (.)
 }

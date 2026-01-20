@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
 =======
@@ -46,6 +47,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> a771e9c (.)
 # Roadmap Modulo Seo
 
 **Versione**: 2025.10
@@ -254,6 +257,7 @@ Secondo le "Regole Windsurf per base_predict_fila3_mono", gli obiettivi per l'an
 
 [⬅️ Torna alla Roadmap Principale](/project_docs/roadmap.md)
 
+<<<<<<< HEAD
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
@@ -263,3 +267,5 @@ Secondo le "Regole Windsurf per base_predict_fila3_mono", gli obiettivi per l'an
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)

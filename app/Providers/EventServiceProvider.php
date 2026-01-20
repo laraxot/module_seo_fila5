@@ -23,6 +23,7 @@ class EventServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
      * @var bool
@@ -41,6 +42,10 @@ class EventServiceProvider extends ServiceProvider
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+     *
+     * @var bool
+>>>>>>> a771e9c (.)
      */
     protected static $shouldDiscoverEvents = true;
 
