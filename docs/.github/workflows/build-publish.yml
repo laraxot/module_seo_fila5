@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
@@ -28,6 +29,8 @@ See canonical documentation: ../../../../../Themes/docs/shared-components/build-
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
 name: Build & Publish
 
 on:
@@ -66,6 +69,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         git branch -D master
 >>>>>>> 7ec200b (.)
 =======
@@ -83,3 +87,6 @@ jobs:
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+        git branch -D master
+>>>>>>> a771e9c (.)

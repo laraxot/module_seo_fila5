@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
@@ -28,6 +29,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
 **Powered by**: Super Mucca AI 🐄✨  
@@ -569,6 +572,7 @@ public function getTableFilters(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
@@ -582,3 +586,5 @@ public function getTableFilters(): array
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)

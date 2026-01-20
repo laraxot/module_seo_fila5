@@ -10,6 +10,7 @@ namespace Modules\Seo\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
@@ -36,10 +37,13 @@ class MetatagData extends Data implements Wireable
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
 use BadMethodCallException;
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d20252d (.)
@@ -52,11 +56,14 @@ use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> a771e9c (.)
 use Modules\Seo\Interfaces\MetatagDataInterface;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 
 class MetatagData extends Data implements MetatagDataInterface, Wireable
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +81,8 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)
 {
     use WireableData;
 
@@ -159,6 +168,7 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $result ? $result : $default;
 =======
         return $result ?: $default;
@@ -178,6 +188,9 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 =======
         return $result ? $result : $default;
 >>>>>>> d0f51b6 (.)
+=======
+        return $result ?: $default;
+>>>>>>> a771e9c (.)
     }
 
     /**
@@ -301,6 +314,7 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function get(string $key, mixed $default = null): mixed
 =======
@@ -308,11 +322,14 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
      *
      * @param  mixed  $default
      * @return mixed
      */
     public function get(string $key, $default = null)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d20252d (.)
@@ -332,6 +349,8 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
      */
     public function get(string $key, mixed $default = null): mixed
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)
     {
         return Arr::get($this->data, $key, $default);
     }
@@ -350,7 +369,10 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a771e9c (.)
      * Handle dynamic method calls.
      *
      * @param  array<int, mixed>  $parameters
@@ -370,6 +392,7 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
     }
 
     /**
+<<<<<<< HEAD
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
@@ -379,6 +402,8 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)
      * Convert the object to its array representation.
      *
      * @return array<string, mixed>
@@ -406,6 +431,7 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public static function fromLivewire(mixed $value): self
 =======
@@ -413,10 +439,13 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> a771e9c (.)
      *
      * @param  mixed  $value
      */
     public static function fromLivewire($value): self
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d20252d (.)
@@ -436,6 +465,8 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
      */
     public static function fromLivewire(mixed $value): self
 >>>>>>> d0f51b6 (.)
+=======
+>>>>>>> a771e9c (.)
     {
         if (is_array($value)) {
             /** @var array<string, mixed> $typedValue */

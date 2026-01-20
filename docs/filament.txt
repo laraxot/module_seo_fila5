@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
@@ -43,3 +44,7 @@ https://github.com/ralphjsmit/laravel-filament-seo
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+https://github.com/ralphjsmit/laravel-filament-seo
+
+>>>>>>> a771e9c (.)
