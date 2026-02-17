@@ -1,25 +1,33 @@
-# 🎯 SEO Module - Search Engine Optimization
+# Module Documentation
 
+<<<<<<< HEAD
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN-green.svg)](https://laravel.com/docs/localization)
+=======
+This directory contains the documentation for the Seo module.
+>>>>>>> 013c0d2 (.)
 
-> **🚀 Modulo SEO**: Sistema completo per ottimizzazione motori di ricerca, gestione meta tags, sitemap e structured data.
+## Purpose
 
-## 📋 **Panoramica**
+The purpose of this documentation is to provide comprehensive information about the Seo's functionality, architecture, and usage. It aims to:
+- Explain key features and their implementation details.
+- Guide developers on how to use, extend, and maintain the module.
+- Ensure consistency with Laraxot architectural principles and coding standards.
 
-Il modulo **SEO** fornisce strumenti avanzati per l'ottimizzazione SEO:
+## Structure
 
-- 🎯 **Meta Tags** - Gestione meta tags dinamici
-- 🗺️ **Sitemap** - Generazione sitemap automatica
-- 📊 **Structured Data** - Schema.org markup
-- 🔍 **Robots.txt** - Configurazione robots.txt
-- 🎨 **Open Graph** - Meta tags social media
-- 🌐 **Multi-lingua** - SEO multilingua
+- `README.md`: This overview file.
+- Other Markdown files will detail specific aspects of the module, such as:
+    - `installation.md`
+    - `usage.md`
+    - `architecture.md`
+    - `troubleshooting.md`
 
-## ⚡ **Funzionalità Core**
+## Contribution
 
+<<<<<<< HEAD
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -267,3 +275,6 @@ php artisan seo:validate-schema
 
 
 
+=======
+Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
+>>>>>>> 013c0d2 (.)
