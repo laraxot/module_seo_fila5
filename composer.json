@@ -1,7 +1,7 @@
 {
-    "name": "laraxot/module_seo_fila3",
+    "name": "laraxot/module_seo_fila5",
     "description": "Modulo SEO per l'ottimizzazione dei contenuti",
-    "homepage": "https://github.com/laraxot/module_seo_fila3",
+    "homepage": "https://github.com/laraxot/module_seo_fila5",
     "license": "MIT",
     "authors": [
         {
@@ -28,7 +28,7 @@
             "Modules\\Seo\\Database\\Seeders\\": "database/seeders/"
         }
     },
-    "require_comment": {
+    "require-comment": {
         "openai-php/laravel": "*",
         "thecodingmachine/safe": "^2.5"
     },
