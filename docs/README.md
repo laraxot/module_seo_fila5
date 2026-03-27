@@ -31,8 +31,6 @@ php artisan module:enable Seo
 php artisan migrate
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -280,40 +278,3 @@ php artisan seo:validate-schema
 
 
 
-=======
-Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
->>>>>>> 013c0d2 (.)
-=======
-## ⚙️ Configuration
-
-Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
-
-```bash
-php artisan vendor:publish --provider="Modules\Seo\Providers\SeoServiceProvider" --tag="config"
-```
-
-## 📖 Documentation
-
-- [Roadmap](roadmap.md): Detailed development status and future plans.
-- [Rules Index](rules-index.md): Coding standards and architectural rules.
-- [PHPStan Guide](phpstan.md): Static analysis configuration (Level 10).
-
-## 🛠 Usage
-
-The module automatically injects SEO tags into your layout if configured. You can also manually manage tags via the facade or helper functions:
-
-```php
-use Modules\Seo\Facades\Seo;
-
-Seo::setTitle('My Amazing Page');
-Seo::setDescription('The best page on the internet.');
-```
-
-For Filament resources, use the provided SEO trait to add configuration fields to your forms.
-
-## 🤝 Contribution
-
-Please verify all changes with:
-- `phpstan analyse Modules/Seo` (Level 10)
-- `pest` (Test Suite)
->>>>>>> b33919b (.)
