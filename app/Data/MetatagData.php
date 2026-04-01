@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Data;
 
+<<<<<<< HEAD
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
@@ -13,12 +14,21 @@ use Spatie\LaravelData\Data;
 
 class MetatagData extends Data implements Wireable
 =======
+=======
+use BadMethodCallException;
+use DateTimeInterface;
+use Illuminate\Support\Arr;
+use Livewire\Wireable;
+>>>>>>> d20252d (.)
 use Modules\Seo\Interfaces\MetatagDataInterface;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 
 class MetatagData extends Data implements MetatagDataInterface, Wireable
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 {
     use WireableData;
 
@@ -98,7 +108,11 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
             $result[$strKey] = $strValue;
         }
 
+<<<<<<< HEAD
         return $result ? $result : $default;
+=======
+        return $result ?: $default;
+>>>>>>> d20252d (.)
     }
 
     /**
@@ -216,8 +230,16 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 
     /**
      * Get extra metadata.
+<<<<<<< HEAD
      */
     public function get(string $key, mixed $default = null): mixed
+=======
+     *
+     * @param  mixed  $default
+     * @return mixed
+     */
+    public function get(string $key, $default = null)
+>>>>>>> d20252d (.)
     {
         return Arr::get($this->data, $key, $default);
     }
@@ -252,8 +274,15 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 
     /**
      * Create a new instance from Livewire data.
+<<<<<<< HEAD
      */
     public static function fromLivewire(mixed $value): self
+=======
+     *
+     * @param  mixed  $value
+     */
+    public static function fromLivewire($value): self
+>>>>>>> d20252d (.)
     {
         if (is_array($value)) {
             /** @var array<string, mixed> $typedValue */

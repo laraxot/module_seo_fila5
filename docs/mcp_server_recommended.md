@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: mcp_server_recommended
@@ -7,6 +8,8 @@ canonical: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Server MCP consigliati per Seo
 
 Per il modulo Seo, si consiglia di utilizzare i seguenti server MCP:
@@ -23,4 +26,7 @@ Per il modulo Seo, si consiglia di utilizzare i seguenti server MCP:
 - Non usare fetch, mysql o redis se non attivo.
 
 Per dettagli e best practice consulta la guida generale MCP nel workspace.
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)

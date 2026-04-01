@@ -6,6 +6,7 @@ namespace Modules\Seo\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 use Modules\User\Models\User;
 use Modules\Xot\Tests\XotBaseTestCase;
@@ -13,10 +14,15 @@ use Modules\Xot\Tests\XotBaseTestCase;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Xot\Tests\CreatesApplication;
 >>>>>>> 7ec200b (.)
+=======
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Modules\Xot\Tests\CreatesApplication;
+>>>>>>> d20252d (.)
 
 /**
  * Base test case for Seo module.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 abstract class TestCase extends XotBaseTestCase
 {
@@ -27,6 +33,8 @@ abstract class TestCase extends XotBaseTestCase
         'sqlite',
         'user',
 =======
+=======
+>>>>>>> d20252d (.)
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
@@ -35,13 +43,17 @@ abstract class TestCase extends BaseTestCase
     protected $connectionsToTransact = [
         'mysql',
         'seo',
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
     ];
 
     protected function setUp(): void
     {
         parent::setUp();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $database = database_path('fixcity_data.sqlite');
 
@@ -70,11 +82,16 @@ abstract class TestCase extends BaseTestCase
         config(['xra.pub_theme' => 'Meetup']);
         config(['xra.main_module' => 'Seo']);
 =======
+=======
+>>>>>>> d20252d (.)
         config(['xra.pub_theme' => 'Meetup']);
         config(['xra.main_module' => 'Seo']);
 
         // Ensure Seo config is loaded/set if needed for tests
         // config(['seo.default_title' => 'Test Site']);
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
     }
 }

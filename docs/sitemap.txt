@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: sitemap
@@ -10,3 +11,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/sitemap.md
 https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
 
 >>>>>>> 7ec200b (.)
+=======
+https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
+
+>>>>>>> d20252d (.)

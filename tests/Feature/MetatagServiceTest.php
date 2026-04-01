@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Tests\Feature;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagManager;
 use PHPUnit\Framework\Assert;
 
@@ -68,6 +69,8 @@ it('can set colors', function (): void {
     $service->setColors($colors);
     Assert::assertSame($colors, $service->get()->getColors());
 =======
+=======
+>>>>>>> d20252d (.)
 use Modules\Seo\Services\MetatagService;
 
 it('can set title', function () {
@@ -105,5 +108,8 @@ it('can set colors', function () {
     $colors = ['primary' => '#000000', 'secondary' => '#ffffff'];
     $service->setColors($colors);
     expect($service->get()->getColors())->toBe($colors);
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 });

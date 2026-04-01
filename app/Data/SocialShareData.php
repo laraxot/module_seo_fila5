@@ -14,6 +14,7 @@ class SocialShareData extends Data
     /**
      * Create a new SocialShareData instance.
      *
+<<<<<<< HEAD
      * @param  string  $url  The URL to share.
      * @param  string|null  $title  The title of the content.
      * @param  string|null  $text  Additional text or description.
@@ -21,6 +22,15 @@ class SocialShareData extends Data
      * @param  string|null  $hashtags  Comma-separated list of hashtags.
      * @param  string|null  $via  The Twitter handle (without @).
      * @param  array<int, string>  $platforms  List of enabled platforms.
+=======
+     * @param string $url The URL to share.
+     * @param string|null $title The title of the content.
+     * @param string|null $text Additional text or description.
+     * @param string|null $image Canonical image URL.
+     * @param string|null $hashtags Comma-separated list of hashtags.
+     * @param string|null $via The Twitter handle (without @).
+     * @param array<int, string> $platforms List of enabled platforms.
+>>>>>>> d20252d (.)
      */
     public function __construct(
         public string $url,
@@ -31,9 +41,14 @@ class SocialShareData extends Data
         public ?string $via = null,
         public array $platforms = ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'],
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {
     }
 =======
     ) {}
 >>>>>>> 7ec200b (.)
+=======
+    ) {
+    }
+>>>>>>> d20252d (.)
 }

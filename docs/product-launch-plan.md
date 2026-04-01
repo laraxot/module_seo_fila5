@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: product-launch-plan
@@ -7,6 +8,8 @@ canonical: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Seo Module - Product Launch Plan
 
 **Module:** Seo  
@@ -88,4 +91,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_LAUN
 
 ---
 
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)

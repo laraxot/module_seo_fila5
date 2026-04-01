@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📚 Indice Documentazione Modulo Seo
 
 **Status**: 🟡 In Progress
@@ -46,6 +47,8 @@
 
 - [Dependency intelligence](dependency-intelligence.md)
 =======
+=======
+>>>>>>> d20252d (.)
 # 📚 Seo Module - Documentation Index
 
 **Path**: `laravel/Modules/Seo/docs/`  
@@ -102,4 +105,7 @@ php artisan seo:generate-sitemap
 ---
 
 **Ultimo Aggiornamento**: 2026-03-24
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
