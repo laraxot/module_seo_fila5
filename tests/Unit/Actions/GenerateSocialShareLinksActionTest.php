@@ -7,6 +7,7 @@ namespace Modules\Seo\Tests\Unit\Actions;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Datas\SocialShareData;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
@@ -21,19 +22,25 @@ uses(\Modules\Seo\Tests\TestCase::class);
 
 it('generates social share links for all platforms', function (): void {
 =======
+=======
+>>>>>>> d20252d (.)
 use Modules\Seo\Data\SocialShareData;
 use Tests\TestCase;
 
 uses(TestCase::class);
 
 it('generates social share links for all platforms', function () {
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
     $data = SocialShareData::from([
         'url' => 'https://example.com/page',
         'title' => 'Test Title',
         'text' => 'Check this out',
     ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $links = app(GenerateSocialShareLinksAction::class)->execute($data);
@@ -51,6 +58,8 @@ it('generates social share links for all platforms', function () {
 
 it('includes via and hashtags in twitter link when provided', function (): void {
 =======
+=======
+>>>>>>> d20252d (.)
     $action = new GenerateSocialShareLinksAction;
     $links = $action->execute($data);
 
@@ -61,13 +70,17 @@ it('includes via and hashtags in twitter link when provided', function (): void 
 });
 
 it('includes via and hashtags in twitter link when provided', function () {
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
     $data = SocialShareData::from([
         'url' => 'https://example.com',
         'via' => 'myhandle',
         'hashtags' => 'laravel,php',
     ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $links = app(GenerateSocialShareLinksAction::class)->execute($data);
@@ -79,10 +92,15 @@ it('includes via and hashtags in twitter link when provided', function () {
     Assert::assertStringContainsString('via='.urlencode('myhandle'), (string) $links['twitter']);
     Assert::assertStringContainsString('hashtags='.urlencode('laravel,php'), (string) $links['twitter']);
 =======
+=======
+>>>>>>> d20252d (.)
     $action = new GenerateSocialShareLinksAction;
     $links = $action->execute($data);
 
     expect($links['twitter'])->toContain('via='.urlencode('myhandle'))
         ->and($links['twitter'])->toContain('hashtags='.urlencode('laravel,php'));
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 });

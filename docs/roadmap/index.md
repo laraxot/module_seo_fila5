@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: index
@@ -7,6 +8,8 @@ canonical: ../../../../Themes/docs/shared-components/00-index.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/00-index.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Seo Module - Roadmap
 
 > Gestione SEO automatizzata: meta tags, sitemap, social sharing.
@@ -33,4 +36,7 @@ See canonical documentation: ../../../../Themes/docs/shared-components/00-index.
 ## Collegamenti
 
 - [00-index modulo](../00-index.md)
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)

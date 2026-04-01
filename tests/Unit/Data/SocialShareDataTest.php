@@ -6,6 +6,7 @@ namespace Modules\Seo\Tests\Unit\Data;
 
 use Modules\Seo\Data\SocialShareData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
@@ -14,10 +15,16 @@ use Tests\TestCase;
 
 uses(TestCase::class);
 >>>>>>> 7ec200b (.)
+=======
+use Tests\TestCase;
+
+uses(TestCase::class);
+>>>>>>> d20252d (.)
 
 it('creates instance with required url', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame('https://laravelpizza.com', $data->url);
     Assert::assertNull($data->title);
@@ -26,18 +33,24 @@ it('creates instance with required url', function (): void {
     Assert::assertNull($data->hashtags);
     Assert::assertNull($data->via);
 =======
+=======
+>>>>>>> d20252d (.)
     expect($data->url)->toBe('https://laravelpizza.com')
         ->and($data->title)->toBeNull()
         ->and($data->text)->toBeNull()
         ->and($data->image)->toBeNull()
         ->and($data->hashtags)->toBeNull()
         ->and($data->via)->toBeNull();
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 });
 
 it('has default platforms list', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame(
         ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'],
@@ -46,6 +59,9 @@ it('has default platforms list', function (): void {
 =======
     expect($data->platforms)->toBe(['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy']);
 >>>>>>> 7ec200b (.)
+=======
+    expect($data->platforms)->toBe(['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy']);
+>>>>>>> d20252d (.)
 });
 
 it('accepts all optional fields', function (): void {
@@ -60,6 +76,7 @@ it('accepts all optional fields', function (): void {
     );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame('https://laravelpizza.com/events/laravel-pizza-1', $data->url);
     Assert::assertSame('Laravel Pizza Meetup', $data->title);
     Assert::assertSame('Join us for pizza and Laravel!', $data->text);
@@ -68,6 +85,8 @@ it('accepts all optional fields', function (): void {
     Assert::assertSame('laravelpizza', $data->via);
     Assert::assertSame(['twitter', 'linkedin'], $data->platforms);
 =======
+=======
+>>>>>>> d20252d (.)
     expect($data->url)->toBe('https://laravelpizza.com/events/laravel-pizza-1')
         ->and($data->title)->toBe('Laravel Pizza Meetup')
         ->and($data->text)->toBe('Join us for pizza and Laravel!')
@@ -75,7 +94,10 @@ it('accepts all optional fields', function (): void {
         ->and($data->hashtags)->toBe('laravel,php,meetup')
         ->and($data->via)->toBe('laravelpizza')
         ->and($data->platforms)->toBe(['twitter', 'linkedin']);
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 });
 
 it('can override platforms with custom list', function (): void {
@@ -85,12 +107,17 @@ it('can override platforms with custom list', function (): void {
     );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame(['twitter'], $data->platforms);
     Assert::assertCount(1, $data->platforms);
 =======
     expect($data->platforms)->toBe(['twitter'])
         ->and($data->platforms)->toHaveCount(1);
 >>>>>>> 7ec200b (.)
+=======
+    expect($data->platforms)->toBe(['twitter'])
+        ->and($data->platforms)->toHaveCount(1);
+>>>>>>> d20252d (.)
 });
 
 it('serializes to array via Spatie Data', function (): void {
@@ -102,6 +129,7 @@ it('serializes to array via Spatie Data', function (): void {
     $array = $data->toArray();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertArrayHasKey('url', $array);
     Assert::assertSame('https://laravelpizza.com', $array['url']);
     Assert::assertArrayHasKey('title', $array);
@@ -110,4 +138,8 @@ it('serializes to array via Spatie Data', function (): void {
     expect($array)->toHaveKey('url', 'https://laravelpizza.com')
         ->and($array)->toHaveKey('title', 'Laravel Pizza');
 >>>>>>> 7ec200b (.)
+=======
+    expect($array)->toHaveKey('url', 'https://laravelpizza.com')
+        ->and($array)->toHaveKey('title', 'Laravel Pizza');
+>>>>>>> d20252d (.)
 });

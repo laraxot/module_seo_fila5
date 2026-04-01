@@ -6,15 +6,20 @@ namespace Modules\Seo\Tests\Unit\Filament\Widgets;
 
 use Modules\Seo\Filament\Widgets\SocialShareWidget;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 =======
 use Tests\TestCase;
 >>>>>>> 7ec200b (.)
+=======
+use Tests\TestCase;
+>>>>>>> d20252d (.)
 
 uses(TestCase::class);
 
 it('builds social links and exposes platforms in widget view data', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -27,6 +32,9 @@ it('builds social links and exposes platforms in widget view data', function ():
     $widget = new class extends SocialShareWidget
     {
 >>>>>>> 7ec200b (.)
+=======
+    $widget = new class extends SocialShareWidget {
+>>>>>>> d20252d (.)
         public function exposeViewData(): array
         {
             return $this->getViewData();
@@ -40,6 +48,7 @@ it('builds social links and exposes platforms in widget view data', function ():
 
     $viewData = $widget->exposeViewData();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertArrayHasKey('links', $viewData);
     Assert::assertArrayHasKey('platforms', $viewData);
@@ -62,6 +71,8 @@ it('returns empty form schema', function (): void {
 
     Assert::assertSame([], $widget->getFormSchema());
 =======
+=======
+>>>>>>> d20252d (.)
     expect($viewData)->toHaveKeys(['links', 'platforms', 'data'])
         ->and($viewData['links'])->toHaveKeys(['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'])
         ->and($viewData['links']['copy'])->toBe('https://example.test/page')
@@ -72,5 +83,8 @@ it('returns empty form schema', function (): void {
     $widget = new SocialShareWidget;
 
     expect($widget->getFormSchema())->toBe([]);
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 });

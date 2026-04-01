@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Tests\Unit\Services;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagManager;
 <<<<<<< HEAD
 use Modules\Seo\Tests\TestCase;
@@ -13,10 +14,15 @@ use PHPUnit\Framework\Assert;
 use Modules\Seo\Services\MetatagService;
 use Tests\TestCase;
 >>>>>>> 7ec200b (.)
+=======
+use Modules\Seo\Services\MetatagService;
+use Tests\TestCase;
+>>>>>>> d20252d (.)
 
 uses(TestCase::class);
 
 it('sets all optional seo fields through service', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
     $service = new MetatagManager();
 =======
@@ -29,6 +35,9 @@ it('sets all optional seo fields through service', function (): void {
 =======
     $service = new MetatagService;
 >>>>>>> 7ec200b (.)
+=======
+    $service = new MetatagService;
+>>>>>>> d20252d (.)
     $published = now()->subDay();
     $modified = now();
 
@@ -44,6 +53,7 @@ it('sets all optional seo fields through service', function (): void {
     $meta = $service->get();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame('https://example.test/image.png', $meta->getImage());
     Assert::assertSame('it', $meta->getLocale());
     Assert::assertSame('article', $meta->getType());
@@ -53,6 +63,8 @@ it('sets all optional seo fields through service', function (): void {
     Assert::assertSame($published->format('c'), $meta->getPublishedTime()?->format('c'));
     Assert::assertSame($modified->format('c'), $meta->getModifiedTime()?->format('c'));
 =======
+=======
+>>>>>>> d20252d (.)
     expect($meta->getImage())->toBe('https://example.test/image.png')
         ->and($meta->getLocale())->toBe('it')
         ->and($meta->getType())->toBe('article')
@@ -61,5 +73,10 @@ it('sets all optional seo fields through service', function (): void {
         ->and($meta->getAuthor())->toBe('Mario')
         ->and($meta->getPublishedTime()?->format('c'))->toBe($published->format('c'))
         ->and($meta->getModifiedTime()?->format('c'))->toBe($modified->format('c'));
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 });
+=======
+});
+
+>>>>>>> d20252d (.)

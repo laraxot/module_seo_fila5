@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: build-publish
@@ -7,6 +8,8 @@ canonical: ../../../../../Themes/docs/shared-components/build-publish-Modules.ym
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/build-publish-Modules.yml
 =======
+=======
+>>>>>>> d20252d (.)
 name: Build & Publish
 
 on:
@@ -42,5 +45,9 @@ jobs:
       run: |
         git subtree split --prefix build_production -b master
         git push -f origin master:master
+<<<<<<< HEAD
         git branch -D master
 >>>>>>> 7ec200b (.)
+=======
+        git branch -D master
+>>>>>>> d20252d (.)

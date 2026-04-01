@@ -6,6 +6,7 @@ namespace Modules\Seo\Tests\Unit\Facades;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Facades\Metatag;
 use Modules\Seo\Tests\TestCase;
@@ -25,6 +26,8 @@ it('resolves metatag service through facade accessor', function (): void {
     $service = app(MetatagManager::class);
 >>>>>>> cf01f0b (.)
 =======
+=======
+>>>>>>> d20252d (.)
 use Modules\Seo\Facades\Metatag;
 use Modules\Seo\Services\MetatagService;
 use Tests\TestCase;
@@ -33,11 +36,15 @@ uses(TestCase::class);
 
 it('resolves metatag service through facade accessor', function (): void {
     $service = app(MetatagService::class);
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 
     Metatag::setTitle('Facade Title');
     Metatag::setDescription('Facade Description');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame('Facade Title', $adapter->get()->getTitle());
@@ -51,3 +58,9 @@ it('resolves metatag service through facade accessor', function (): void {
         ->and($service->get()->getDescription())->toBe('Facade Description');
 >>>>>>> 7ec200b (.)
 });
+=======
+    expect($service->get()->getTitle())->toBe('Facade Title')
+        ->and($service->get()->getDescription())->toBe('Facade Description');
+});
+
+>>>>>>> d20252d (.)

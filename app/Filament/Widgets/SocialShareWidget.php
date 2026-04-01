@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 <<<<<<< HEAD
@@ -17,10 +18,16 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 use Modules\Seo\Data\SocialShareData;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 >>>>>>> 7ec200b (.)
+=======
+use Modules\Seo\Actions\GenerateSocialShareLinksAction;
+use Modules\Seo\Data\SocialShareData;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
+>>>>>>> d20252d (.)
 
 /**
  * Filament widget for social sharing.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 class SocialShareWidget extends XotBaseSchemaWidget
 =======
@@ -28,6 +35,16 @@ class SocialShareWidget extends XotBaseWidget
 >>>>>>> 7ec200b (.)
 {
     /**
+=======
+class SocialShareWidget extends XotBaseWidget
+{
+    /**
+     * The view for the widget.
+     */
+    protected string $view = 'seo::filament.widgets.social-share';
+
+    /**
+>>>>>>> d20252d (.)
      * Dati del form.
      *
      * @var array<string, mixed>
@@ -35,6 +52,7 @@ class SocialShareWidget extends XotBaseWidget
     public ?array $data = [];
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * The view for the widget.
@@ -55,6 +73,11 @@ class SocialShareWidget extends XotBaseWidget
      * Get the form schema.
      *
      * @return array<int|string, Component>
+=======
+     * Get the form schema.
+     *
+     * @return array<int|string, \Filament\Schemas\Components\Component>
+>>>>>>> d20252d (.)
      */
     public function getFormSchema(): array
     {
@@ -67,12 +90,15 @@ class SocialShareWidget extends XotBaseWidget
      * @return array<string, mixed>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
 >>>>>>> cf01f0b (.)
      * @SuppressWarnings("PHPMD.StaticAccess")
 =======
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
      */
     protected function getViewData(): array
     {

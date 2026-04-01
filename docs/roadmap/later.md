@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: later
@@ -11,3 +12,8 @@ See canonical documentation: ../../../../Themes/docs/shared-components/03-later-
 
 ## Longer-term ideas
 >>>>>>> 7ec200b (.)
+=======
+# Later (Module Seo)
+
+## Longer-term ideas
+>>>>>>> d20252d (.)

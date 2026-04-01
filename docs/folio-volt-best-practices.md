@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: folio-volt-best-practices
@@ -7,6 +8,8 @@ canonical: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modu
 
 See canonical documentation: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modules.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Laravel Folio + Volt - Best Practices and Patterns Analysis
 
 ## Overview
@@ -109,5 +112,9 @@ middleware(['auth', 'verified']);
 - Genesis Starter Kit: https://github.com/thedevdojo/genesis
 
 ## Date
+<<<<<<< HEAD
 2025-11-29
 >>>>>>> 7ec200b (.)
+=======
+2025-11-29
+>>>>>>> d20252d (.)

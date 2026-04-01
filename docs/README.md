@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: "Seo Module Documentation"
 type: documentation
@@ -16,6 +17,8 @@ updated: 2026-06-05
 
 =======
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 # Seo Module
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -27,12 +30,15 @@ The **Seo Module** provides a comprehensive search engine optimization toolkit f
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Metatag facade (canone):** `MetatagFacadeAdapter` + `MetatagState` + Actions — vedi [conflict-resolution.md](./conflict-resolution.md) e [metatag-data-contract.md](./wiki/concepts/metatag-data-contract.md).
 
 =======
 >>>>>>> cf01f0b (.)
 =======
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
 ## 🚀 Features
 
 ### ✅ Completed
@@ -57,6 +63,11 @@ php artisan module:enable Seo
 php artisan migrate
 ```
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d20252d (.)
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -305,9 +316,16 @@ php artisan seo:validate-schema
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7ec200b (.)
+=======
+=======
+Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
+>>>>>>> 013c0d2 (.)
+=======
+>>>>>>> d20252d (.)
 ## ⚙️ Configuration
 
 Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
@@ -341,6 +359,7 @@ Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b33919b (.)
 >>>>>>> 7ec200b (.)
@@ -368,3 +387,6 @@ Please verify all changes with:
 =======
 >>>>>>> 01dce8d29 (initial commit)
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> b33919b (.)
+>>>>>>> d20252d (.)

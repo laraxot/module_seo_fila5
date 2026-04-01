@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: user-research
@@ -7,6 +8,8 @@ canonical: ../../../Themes/docs/shared-components/USER_RESEARCH.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/USER_RESEARCH.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Seo Module - User Research
 
 **Module:** Seo  
@@ -93,4 +96,7 @@ Long-tail keywords drive qualified traffic.
 
 ---
 
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)

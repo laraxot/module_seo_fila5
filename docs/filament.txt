@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: filament
@@ -10,3 +11,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament.md
 https://github.com/ralphjsmit/laravel-filament-seo
 
 >>>>>>> 7ec200b (.)
+=======
+https://github.com/ralphjsmit/laravel-filament-seo
+
+>>>>>>> d20252d (.)

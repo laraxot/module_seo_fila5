@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: sprint-planning
@@ -7,6 +8,8 @@ canonical: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Seo Module - Sprint Planning
 
 **Module:** Seo  
@@ -73,4 +76,7 @@ Implement core technical SEO features including meta tags, sitemap, and schema m
 
 ---
 
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)

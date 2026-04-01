@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: product-roadmap
@@ -7,6 +8,8 @@ canonical: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Seo Module - Product Roadmap
 
 **Module:** Seo  
@@ -113,4 +116,7 @@ To build a **comprehensive SEO optimization system** that drives organic traffic
 
 ---
 
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: workstreams
@@ -7,6 +8,8 @@ canonical: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Workstreams - Seo
 
 ## WS1 Architecture
@@ -27,5 +30,9 @@ See canonical documentation: ../../../../Themes/docs/shared-components/03-workst
 ## WS4 Testing
 
 - Test funzionali mirati sui percorsi ad alto rischio.
+<<<<<<< HEAD
 - Checklist di validazione post-fix.
 >>>>>>> 7ec200b (.)
+=======
+- Checklist di validazione post-fix.
+>>>>>>> d20252d (.)

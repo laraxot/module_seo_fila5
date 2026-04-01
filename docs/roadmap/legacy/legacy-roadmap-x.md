@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: legacy-roadmap-x
@@ -7,6 +8,8 @@ canonical: ../../../../../Themes/docs/shared-components/ROADMAP-Modules.md
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/ROADMAP-Modules.md
 =======
+=======
+>>>>>>> d20252d (.)
 # 🎯 SEO MODULE - ROADMAP 2025
 
 **Modulo**: Seo ([Description])  
@@ -222,4 +225,7 @@ Seo Module
 ---
 
 *Questa roadmap è specifica per il modulo Seo e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)

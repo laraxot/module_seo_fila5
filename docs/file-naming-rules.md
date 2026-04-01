@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: file-naming-rules
@@ -7,6 +8,8 @@ canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
 =======
+=======
+>>>>>>> d20252d (.)
 # Regole di Naming per File
 
 ## 🎯 Regola Fondamentale: NO Duplicati Case-Insensitive
@@ -127,4 +130,7 @@ Se entrambi i file contengono contenuto diverso:
 - Laravel Naming Conventions
 - Filament Best Practices
 - Git Case Sensitivity Issues
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> d20252d (.)
