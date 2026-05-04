@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Filament\Widgets;
 
+use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Data\SocialShareData;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
@@ -28,7 +29,7 @@ class SocialShareWidget extends XotBaseWidget
     /**
      * Get the form schema.
      *
-     * @return array<int|string, \Filament\Schemas\Components\Component>
+     * @return array<int|string, Component>
      */
     public function getFormSchema(): array
     {

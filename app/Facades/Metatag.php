@@ -27,7 +27,7 @@ use Modules\Seo\Services\MetatagService;
  * @method static void setPublishedTime(DateTimeInterface $time)
  * @method static void setModifiedTime(DateTimeInterface $time)
  *
- * @see \Modules\Seo\Services\MetatagService
+ * @see MetatagService
  */
 class Metatag extends Facade
 {
