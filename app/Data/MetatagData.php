@@ -26,6 +26,7 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
      * Create a new metatag data instance.
      *
      * @param  array<string, mixed>  $data
+     *
      * @return void
      */
     public function __construct(array $data = [])

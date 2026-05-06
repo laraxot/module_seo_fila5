@@ -18,6 +18,7 @@ class GenerateSocialShareLinksAction
      * Execute the action to construct sharing URLs.
      *
      * @param  SocialShareData  $data  The sharing data.
+     *
      * @return array<string, string> Keyed by platform name, value is the sharing URL.
      */
     public function execute(SocialShareData $data): array
