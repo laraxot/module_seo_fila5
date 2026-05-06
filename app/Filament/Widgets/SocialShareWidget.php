@@ -15,16 +15,16 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
 class SocialShareWidget extends XotBaseWidget
 {
     /**
-     * The view for the widget.
-     */
-    protected string $view = 'seo::filament.widgets.social-share';
-
-    /**
      * Dati del form.
      *
      * @var array<string, mixed>
      */
     public ?array $data = [];
+
+    /**
+     * The view for the widget.
+     */
+    protected string $view = 'seo::filament.widgets.social-share';
 
     /**
      * Get the form schema.

@@ -17,13 +17,13 @@ class EventServiceProvider extends ServiceProvider
 
     /**
      * Indicates if events should be discovered.
-     *
-     * @var bool
      */
     protected static $shouldDiscoverEvents = true;
 
     /**
      * Configure the proper event listeners for email verification.
      */
-    protected function configureEmailVerification(): void {}
+    protected function configureEmailVerification(): void
+    {
+    }
 }
