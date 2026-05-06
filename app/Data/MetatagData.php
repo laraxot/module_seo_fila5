@@ -26,6 +26,7 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
      * Create a new metatag data instance.
      *
      * @param  array<string, mixed>  $data
+     *
      * @return void
      */
     public function __construct(array $data = [])
@@ -91,7 +92,7 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
             $result[$strKey] = $strValue;
         }
 
-        return $result ?: $default;
+        return $result ? $result : $default;
     }
 
     /**
@@ -209,11 +210,8 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 
     /**
      * Get extra metadata.
-     *
-     * @param  mixed  $default
-     * @return mixed
      */
-    public function get(string $key, $default = null)
+    public function get(string $key, mixed $default = null): mixed
     {
         return Arr::get($this->data, $key, $default);
     }
@@ -248,10 +246,8 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 
     /**
      * Create a new instance from Livewire data.
-     *
-     * @param  mixed  $value
      */
-    public static function fromLivewire($value): self
+    public static function fromLivewire(mixed $value): self
     {
         if (is_array($value)) {
             /** @var array<string, mixed> $typedValue */
