@@ -7,10 +7,18 @@ namespace Modules\Seo\Data;
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
+<<<<<<< HEAD
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 
 class MetatagData extends Data implements Wireable
+=======
+use Modules\Seo\Interfaces\MetatagDataInterface;
+use Spatie\LaravelData\Concerns\WireableData;
+use Spatie\LaravelData\Data;
+
+class MetatagData extends Data implements MetatagDataInterface, Wireable
+>>>>>>> 7ec200b (.)
 {
     use WireableData;
 

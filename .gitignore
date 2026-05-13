@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -25,12 +26,21 @@ cache/
 >>>>>>> cf01f0b (.)
 # PHPStan documentation
 docs/phpstan/
+=======
+docs/cache/
+cache/
+-e 
+# PHPStan documentation
+docs/phpstan/
+
+>>>>>>> 7ec200b (.)
 # Backup files
 *.old
 *.old1
 *.backup
 *.backup.*
 lang/lang/
+<<<<<<< HEAD
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
 **/docs/archive/
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
@@ -51,3 +61,7 @@ tests/AuditCoverage
 .devcontainer/
 =======
 >>>>>>> cf01f0b (.)
+=======
+_docs/
+_docs/
+>>>>>>> 7ec200b (.)

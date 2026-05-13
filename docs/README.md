@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Seo Module Documentation"
 type: documentation
@@ -13,6 +14,8 @@ updated: 2026-06-05
 >>>>>>> cf01f0b (.)
 ---
 
+=======
+>>>>>>> 7ec200b (.)
 # Seo Module
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -23,10 +26,13 @@ updated: 2026-06-05
 The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Metatag facade (canone):** `MetatagFacadeAdapter` + `MetatagState` + Actions — vedi [conflict-resolution.md](./conflict-resolution.md) e [metatag-data-contract.md](./wiki/concepts/metatag-data-contract.md).
 
 =======
 >>>>>>> cf01f0b (.)
+=======
+>>>>>>> 7ec200b (.)
 ## 🚀 Features
 
 ### ✅ Completed
@@ -298,6 +304,10 @@ php artisan seo:validate-schema
 
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7ec200b (.)
 ## ⚙️ Configuration
 
 Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
@@ -330,6 +340,10 @@ For Filament resources, use the provided SEO trait to add configuration fields t
 Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
+<<<<<<< HEAD
+=======
+>>>>>>> b33919b (.)
+>>>>>>> 7ec200b (.)
 
 
 ## Standard Rules & Workflow
@@ -337,10 +351,20 @@ Please verify all changes with:
 - [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
 - [[Context Engineering](../../../../docs/wiki/concepts/context-engineering.md)]
 - [[LLM Wiki Governance](../../../../docs/wiki/concepts/llm-wiki-governance.md)]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7ec200b (.)
 
 ## Documentation
 
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
 - [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
 - [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
+<<<<<<< HEAD
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
+=======
+- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
+=======
+>>>>>>> 01dce8d29 (initial commit)
+>>>>>>> 7ec200b (.)

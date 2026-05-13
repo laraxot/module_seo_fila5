@@ -9,5 +9,8 @@ npm-debug.log
 # PHPStan documentation
 docs/phpstan/
 _docs/
+<<<<<<< HEAD
 archive/
 agentdb.rvf
+=======
+>>>>>>> 7ec200b (.)
