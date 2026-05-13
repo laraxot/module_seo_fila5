@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: "Conflict resolution — MetatagFacadeAdapter"
 type: troubleshooting
@@ -53,6 +54,8 @@ Durante l’iterazione `gitmodules.ini` (prompt 17) risultavano marker `<<<<<<<`
 - [metatag-data-contract.md](./wiki/concepts/metatag-data-contract.md)
 - Prompt: [17-gitmodules-path-iteration.md](../../../../bashscripts/tools/prompts/17-gitmodules-path-iteration.md)
 =======
+=======
+>>>>>>> 7ec200b (.)
 # Conflict Resolution — Module Seo
 
 ## Summary
@@ -70,4 +73,7 @@ Durante l’iterazione `gitmodules.ini` (prompt 17) risultavano marker `<<<<<<<`
 
 ## Backlinks
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
+<<<<<<< HEAD
 >>>>>>> cf01f0b (.)
+=======
+>>>>>>> 7ec200b (.)

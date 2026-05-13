@@ -7,12 +7,17 @@ namespace Modules\Seo\Facades;
 use DateTimeInterface;
 use Illuminate\Support\Facades\Facade;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Datas\MetatagData;
 =======
 use Modules\Seo\Adapters\MetatagManager;
 use Modules\Seo\Data\MetatagData;
 >>>>>>> cf01f0b (.)
+=======
+use Modules\Seo\Data\MetatagData;
+use Modules\Seo\Services\MetatagService;
+>>>>>>> 7ec200b (.)
 
 /**
  * @method static MetatagData get()
@@ -33,10 +38,14 @@ use Modules\Seo\Data\MetatagData;
  * @method static void setModifiedTime(DateTimeInterface $time)
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @see MetatagFacadeAdapter
 =======
  * @see MetatagManager
 >>>>>>> cf01f0b (.)
+=======
+ * @see MetatagService
+>>>>>>> 7ec200b (.)
  */
 class Metatag extends Facade
 {
@@ -46,9 +55,13 @@ class Metatag extends Facade
     protected static function getFacadeAccessor(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return MetatagFacadeAdapter::class;
 =======
         return MetatagManager::class;
 >>>>>>> cf01f0b (.)
+=======
+        return MetatagService::class;
+>>>>>>> 7ec200b (.)
     }
 }

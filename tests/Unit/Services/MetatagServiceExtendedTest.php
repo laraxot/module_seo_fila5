@@ -4,14 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Tests\Unit\Services;
 
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagManager;
 <<<<<<< HEAD
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
+=======
+use Modules\Seo\Services\MetatagService;
+use Tests\TestCase;
+>>>>>>> 7ec200b (.)
 
 uses(TestCase::class);
 
 it('sets all optional seo fields through service', function (): void {
+<<<<<<< HEAD
     $service = new MetatagManager();
 =======
 use PHPUnit\Framework\Assert;
@@ -20,6 +26,9 @@ uses(\Modules\Seo\Tests\TestCase::class);
 it('sets all optional seo fields through service', function (): void {
     $service = new MetatagManager;
 >>>>>>> cf01f0b (.)
+=======
+    $service = new MetatagService;
+>>>>>>> 7ec200b (.)
     $published = now()->subDay();
     $modified = now();
 
@@ -34,6 +43,7 @@ it('sets all optional seo fields through service', function (): void {
 
     $meta = $service->get();
 
+<<<<<<< HEAD
     Assert::assertSame('https://example.test/image.png', $meta->getImage());
     Assert::assertSame('it', $meta->getLocale());
     Assert::assertSame('article', $meta->getType());
@@ -42,4 +52,14 @@ it('sets all optional seo fields through service', function (): void {
     Assert::assertSame('Mario', $meta->getAuthor());
     Assert::assertSame($published->format('c'), $meta->getPublishedTime()?->format('c'));
     Assert::assertSame($modified->format('c'), $meta->getModifiedTime()?->format('c'));
+=======
+    expect($meta->getImage())->toBe('https://example.test/image.png')
+        ->and($meta->getLocale())->toBe('it')
+        ->and($meta->getType())->toBe('article')
+        ->and($meta->getSiteName())->toBe('LaravelPizza')
+        ->and($meta->getUrl())->toBe('https://example.test/post')
+        ->and($meta->getAuthor())->toBe('Mario')
+        ->and($meta->getPublishedTime()?->format('c'))->toBe($published->format('c'))
+        ->and($meta->getModifiedTime()?->format('c'))->toBe($modified->format('c'));
+>>>>>>> 7ec200b (.)
 });

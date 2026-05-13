@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Seo Module Wiki Index"
 type: index
@@ -32,6 +33,10 @@ related:
 >>>>>>> cf01f0b (.)
 
 
+=======
+# Seo Module LLM Wiki
+
+>>>>>>> 7ec200b (.)
 Indice operativo del wiki Seo.
 
 ## Struttura canonica (sacred)
