@@ -278,7 +278,6 @@ php artisan seo:validate-schema
 
 
 
-=======
 ## ⚙️ Configuration
 
 Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
@@ -311,7 +310,6 @@ For Filament resources, use the provided SEO trait to add configuration fields t
 Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
->>>>>>> b33919b (.)
 
 
 ## Standard Rules & Workflow
@@ -319,7 +317,6 @@ Please verify all changes with:
 - [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
 - [[Context Engineering](../../../../docs/wiki/concepts/context-engineering.md)]
 - [[LLM Wiki Governance](../../../../docs/wiki/concepts/llm-wiki-governance.md)]
-<<<<<<< HEAD
 
 ## Documentation
 
@@ -327,5 +324,3 @@ Please verify all changes with:
 - [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
 - [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
-=======
->>>>>>> 01dce8d29 (initial commit)
