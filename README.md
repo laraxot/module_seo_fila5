@@ -1,144 +1,56 @@
----
-title: Seo
-module: seo
-related: Xot
-status: production
----
+# 🔍 Seo
 
-# Seo Module
+[![Domain-SEO](https://img.shields.io/badge/Domain-SEO-827717.svg)](#)
+[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+[![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
+[![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
+[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
+[![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
+[![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 
-**Module**: `seo`
-**Namespace**: `Modules\Seo\`
-**Status**: ✅ Production
-
----
-
-## Overview
-
-TODO: Add overview for Seo module
-
-### Key Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-### Module Dependencies
-
-- [Xot](../Xot/README.md) (required)
+> **Trovabile su Google, accessibile a tutti.** Meta, sitemap, structured data — visibilità istituzionale.
 
 ---
 
-## Quick Start
+## Perché esiste
 
-### Installation
+I servizi comunali devono essere discoverable.
 
-```bash
-# Already included in main project
-# No additional setup required
-```
+## Superpoteri
 
-### Basic Usage
+- Meta tag e Open Graph
+- Sitemap e robots
+- Integrazione Folio/CMS
+- Filament configurazione
 
-```php
-use Modules\Seo\Models\YourModel;
+## Certificazioni
 
-$item = YourModel::first();
-```
+| Certificazione | Stato |
+|----------------|-------|
+| PHPStan livello 10 | Target progetto |
+| `declare(strict_types=1)` | Su nuovo codice PHP |
+| Filament 5 + XotBase | Admin enterprise |
+| Test PHPUnit / Pest | Suite modulo |
+| Documentazione wiki | Cartella `docs/` |
 
-### Configuration
+## Vuoi entrare nel team?
 
-Configuration file: `config/seo.php`
+Se non si trova, **non esiste** — SEO matters.
 
-Key settings:
-- `setting1` - Description
-- `setting2` - Description
-
----
-
-## Architecture
-
-### Directory Structure
-
-```
-Seo/
-├── src/
-│   ├── Models/
-│   ├── Controllers/
-│   ├── Resources/
-│   ├── Actions/
-│   └── Traits/
-├── routes/
-│   ├── api.php
-│   └── web.php
-├── database/
-│   ├── migrations/
-│   └── seeders/
-├── tests/
-│   ├── Unit/
-│   └── Feature/
-├── config/
-│   └── seo.php
-├── docs/
-│   └── README.md
-└── composer.json
-```
-
-### Key Components
-
-
+Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — vedi [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
 
 ---
 
-## API Reference
+## Documentazione
 
-Reference
-
----
-
-## Usage Examples
-
-### Common Tasks
-
-#### Task 1: Description
-
-```php
-// Code example
-```
+| Lingua | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
 
 ---
 
-## Testing
-
-### Running Tests
-
-```bash
-# Run all module tests
-composer test -- Modules/Seo
-```
-
----
-
-## Troubleshooting
-
-### Common Issues
-
-#### Issue: Problem description
-
-**Solution**: How to fix this issue
-
----
-
-## Related Modules
-
-### Dependencies
-
-- [Xot](../Xot/README.md) - Required module
-
-### Dependents
-
-- [Blog](../Blog/README.md) - Depends on this module
-
----
-
-Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
+**Modulo** `seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5

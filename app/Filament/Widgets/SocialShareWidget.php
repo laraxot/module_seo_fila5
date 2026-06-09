@@ -7,12 +7,12 @@ namespace Modules\Seo\Filament\Widgets;
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Data\SocialShareData;
-use Modules\Xot\Filament\Widgets\XotBaseWidget;
+use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
  * Filament widget for social sharing.
  */
-class SocialShareWidget extends XotBaseWidget
+class SocialShareWidget extends XotBaseSchemaWidget
 {
     /**
      * Dati del form.
