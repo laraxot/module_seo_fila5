@@ -209,8 +209,6 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 
     /**
      * Get extra metadata.
-     *
-     * @SuppressWarnings(PHPMD.StaticAccess)
      */
     public function get(string $key, mixed $default = null): mixed
     {
@@ -219,8 +217,6 @@ class MetatagData extends Data implements MetatagDataInterface, Wireable
 
     /**
      * Check if the metadata has a specific key.
-     *
-     * @SuppressWarnings(PHPMD.StaticAccess)
      */
     public function has(string $key): bool
     {
