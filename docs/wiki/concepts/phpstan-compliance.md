@@ -3,7 +3,10 @@ title: "Seo Module - PHPStan Type Compliance"
 type: concept
 tags: [seo, phpstan, types, compliance, quality, static-analysis]
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-18
+qmd: "Seo PHPStan MetatagData SuppressWarnings phpDoc parseError"
+issues: []
+discussions: []
 related:
   - ../../../../Themes/Sixteen/docs/wiki/concepts/phpstan-compliance.md
   - ../../../../../docs/wiki/concepts/phpstan-level-max-compliance.md
@@ -120,6 +123,14 @@ vendor/bin/pest laravel/Modules/Seo/tests --parallel
 - [x] Tests pass
 - [x] CI/CD validates on push
 
+## Fix recenti (2026-06-18)
+
+| File | Problema | Fix |
+|------|----------|-----|
+| `app/Data/MetatagData.php` | `@SuppressWarnings(PHPMD.StaticAccess)` → `phpDoc.parseError` | Rimossi tag PHPMD dal PHPDoc (PHPStan non li interpreta; `Arr::get`/`Arr::has` non generano errori statici) |
+
+Exit code 1 sul modulo può restare per pattern `ignoreErrors` obsoleto in `phpstan.neon` (solo utente) — non indica errori nel codice Seo.
+
 ## Next Review
 
 **Scheduled**: 2026-06-17
@@ -127,5 +138,5 @@ vendor/bin/pest laravel/Modules/Seo/tests --parallel
 ---
 
 **Maintainer**: Dev Agent 3  
-**Last Updated**: 2026-06-10  
+**Last Updated**: 2026-06-18  
 **Status**: GREEN
