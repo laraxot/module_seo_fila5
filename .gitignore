@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -42,12 +43,15 @@ docs/phpstan/
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 docs/cache/
 cache/
 -e 
 # PHPStan documentation
 docs/phpstan/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +68,8 @@ docs/phpstan/
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 # Backup files
 *.old
 *.old1
@@ -73,20 +79,26 @@ docs/phpstan/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lang/lang/
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 lang/lang/
 _docs/
 _docs/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
 **/docs/archive/
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
@@ -97,6 +109,7 @@ _docs/
 *.orig
 *.rej
 *~head
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 agentdb.rvf
@@ -132,3 +145,7 @@ agentdb.rvf
 
 agentdb.rvf
 >>>>>>> c101b34 (.)
+=======
+
+agentdb.rvf
+>>>>>>> d0f51b6 (.)

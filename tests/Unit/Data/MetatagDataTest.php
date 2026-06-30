@@ -10,6 +10,7 @@ use Modules\Seo\Data\MetatagData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
@@ -38,6 +39,11 @@ use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
 >>>>>>> c101b34 (.)
+=======
+use PHPUnit\Framework\Assert;
+
+uses(\Modules\Seo\Tests\TestCase::class);
+>>>>>>> d0f51b6 (.)
 
 it('returns sane defaults for empty data', function (): void {
     $data = new MetatagData;
@@ -47,10 +53,13 @@ it('returns sane defaults for empty data', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
     Assert::assertSame('', $data->getTitle());
     Assert::assertSame('', $data->getDescription());
     Assert::assertSame('', $data->getKeywords());
@@ -58,6 +67,7 @@ it('returns sane defaults for empty data', function (): void {
     Assert::assertNull($data->getCanonical());
     Assert::assertNull($data->getImage());
     Assert::assertSame('website', $data->getType());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -83,6 +93,8 @@ it('returns sane defaults for empty data', function (): void {
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 });
 
 it('returns typed colors and falls back for invalid colors', function (): void {
@@ -101,10 +113,13 @@ it('returns typed colors and falls back for invalid colors', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
     Assert::assertSame('#111111', $colors['primary']);
     Assert::assertSame('#222222', $colors['secondary']);
 
@@ -119,6 +134,7 @@ it('returns typed colors and falls back for invalid colors', function (): void {
 
     $fallback = new MetatagData(['colors' => 'invalid']);
     Assert::assertArrayHasKey('primary', $fallback->getColors());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -143,6 +159,8 @@ it('returns typed colors and falls back for invalid colors', function (): void {
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 });
 
 it('reads nested keys and has method works', function (): void {
@@ -152,6 +170,7 @@ it('reads nested keys and has method works', function (): void {
         ],
     ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +204,11 @@ it('reads nested keys and has method works', function (): void {
     Assert::assertSame('OG Title', $data->get('og.title'));
     Assert::assertSame('default', $data->get('og.missing', 'default'));
 >>>>>>> c101b34 (.)
+=======
+    Assert::assertTrue($data->has('og.title'));
+    Assert::assertSame('OG Title', $data->get('og.title'));
+    Assert::assertSame('default', $data->get('og.missing', 'default'));
+>>>>>>> d0f51b6 (.)
 });
 
 it('supports livewire serialization cycle', function (): void {
@@ -202,6 +226,7 @@ it('supports livewire serialization cycle', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame($original, $restored->toArray());
 =======
     expect($restored->toArray())->toBe($original);
@@ -218,6 +243,9 @@ it('supports livewire serialization cycle', function (): void {
 =======
     Assert::assertSame($original, $restored->toArray());
 >>>>>>> c101b34 (.)
+=======
+    Assert::assertSame($original, $restored->toArray());
+>>>>>>> d0f51b6 (.)
 });
 
 it('handles non array livewire payload and url fallback', function (): void {
@@ -227,10 +255,13 @@ it('handles non array livewire payload and url fallback', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
     Assert::assertSame([], $restored->toArray());
 
     $data = new MetatagData(['url' => 123]);
@@ -242,6 +273,7 @@ it('returns explicit locale from data payload', function (): void {
     $data = new MetatagData(['locale' => 'it']);
 
     Assert::assertSame('it', $data->getLocale());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -265,6 +297,8 @@ it('returns explicit locale from data payload', function (): void {
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 });
 
 it('falls back to en when app locale is not a string', function (): void {
@@ -272,6 +306,7 @@ it('falls back to en when app locale is not a string', function (): void {
 
     $data = new MetatagData([]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,4 +328,7 @@ it('falls back to en when app locale is not a string', function (): void {
 =======
     Assert::assertSame('en', $data->getLocale());
 >>>>>>> c101b34 (.)
+=======
+    Assert::assertSame('en', $data->getLocale());
+>>>>>>> d0f51b6 (.)
 });

@@ -10,6 +10,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 use Modules\User\Models\User;
 use Modules\Xot\Tests\XotBaseTestCase;
@@ -35,6 +36,11 @@ use Illuminate\Support\Facades\DB;
 use Modules\User\Models\User;
 use Modules\Xot\Tests\XotBaseTestCase;
 >>>>>>> c101b34 (.)
+=======
+use Illuminate\Support\Facades\DB;
+use Modules\Fixcity\Models\User;
+use Modules\Xot\Tests\XotBaseTestCase;
+>>>>>>> d0f51b6 (.)
 
 /**
  * Base test case for Seo module.
@@ -44,10 +50,13 @@ use Modules\Xot\Tests\XotBaseTestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
@@ -56,6 +65,7 @@ abstract class TestCase extends XotBaseTestCase
     protected $connectionsToTransact = [
         'sqlite',
         'user',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -82,6 +92,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
     ];
 
     protected function setUp(): void
@@ -93,10 +105,13 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
         $database = database_path('fixcity_data.sqlite');
 
         /** @var array<string, array<string, mixed>> $connections */
@@ -125,6 +140,7 @@ abstract class TestCase extends BaseTestCase
         config(['xra.main_module' => 'Seo']);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -146,5 +162,7 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
     }
 }

@@ -8,15 +8,19 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 /*
  * Bootstrap Pest — modulo Seo.
  * Ogni file test dichiara uses(\Modules\Seo\Tests\TestCase::class) se serve il container.
  * Vietato pest()->extend() e uses()->group() qui (PHPStan method.internalClass).
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -35,3 +39,5 @@ uses()->group('seo');
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)

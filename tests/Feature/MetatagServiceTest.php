@@ -9,6 +9,7 @@ namespace Modules\Seo\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagManager;
 use PHPUnit\Framework\Assert;
 
@@ -21,15 +22,20 @@ it('can set title', function (): void {
 =======
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 use Modules\Seo\Services\MetatagService;
 use PHPUnit\Framework\Assert;
 
 it('can set title', function (): void {
     $service = new MetatagService;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
     $service->setTitle('Test Title');
     Assert::assertSame('Test Title', $service->get()->getTitle());
 });
@@ -38,6 +44,7 @@ it('can set description', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $service = new MetatagManager();
 =======
     $service = new MetatagManager;
@@ -48,6 +55,9 @@ it('can set description', function (): void {
 =======
     $service = new MetatagService;
 >>>>>>> c101b34 (.)
+=======
+    $service = new MetatagService;
+>>>>>>> d0f51b6 (.)
     $service->setDescription('Test Description');
     Assert::assertSame('Test Description', $service->get()->getDescription());
 });
@@ -56,6 +66,7 @@ it('can set keywords', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $service = new MetatagManager();
 =======
     $service = new MetatagManager;
@@ -66,6 +77,9 @@ it('can set keywords', function (): void {
 =======
     $service = new MetatagService;
 >>>>>>> c101b34 (.)
+=======
+    $service = new MetatagService;
+>>>>>>> d0f51b6 (.)
     $service->setKeywords('seo, test, laravel');
     Assert::assertSame('seo, test, laravel', $service->get()->getKeywords());
 });
@@ -74,6 +88,7 @@ it('can set robots', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $service = new MetatagManager();
 =======
     $service = new MetatagManager;
@@ -84,6 +99,9 @@ it('can set robots', function (): void {
 =======
     $service = new MetatagService;
 >>>>>>> c101b34 (.)
+=======
+    $service = new MetatagService;
+>>>>>>> d0f51b6 (.)
     $service->setRobots('index, follow');
     Assert::assertSame('index, follow', $service->get()->getRobots());
 });
@@ -92,6 +110,7 @@ it('can set canonical url', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $service = new MetatagManager();
 =======
     $service = new MetatagManager;
@@ -102,11 +121,15 @@ it('can set canonical url', function (): void {
 =======
     $service = new MetatagService;
 >>>>>>> c101b34 (.)
+=======
+    $service = new MetatagService;
+>>>>>>> d0f51b6 (.)
     $service->setCanonical('https://example.com');
     Assert::assertSame('https://example.com', $service->get()->getCanonical());
 });
 
 it('can set colors', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,12 +192,17 @@ it('can set colors', function () {
 =======
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
     $service = new MetatagService;
     $colors = ['primary' => '#000000', 'secondary' => '#ffffff'];
     $service->setColors($colors);
     Assert::assertSame($colors, $service->get()->getColors());
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 });
