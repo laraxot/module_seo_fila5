@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
 =======
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
@@ -32,3 +33,6 @@
 =======
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
 >>>>>>> c101b34 (.)
+=======
+- Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+>>>>>>> d0f51b6 (.)

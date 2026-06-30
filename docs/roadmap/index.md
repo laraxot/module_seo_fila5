@@ -3,12 +3,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 ---
 module: theme
 topic: index
@@ -16,6 +19,7 @@ canonical: ../../../../Themes/docs/shared-components/00-index.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/00-index.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,3 +62,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/00-index.
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)

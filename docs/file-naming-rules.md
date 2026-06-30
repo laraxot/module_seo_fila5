@@ -4,10 +4,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)
 ---
 module: theme
 topic: file-naming-rules
@@ -15,6 +18,7 @@ canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -158,3 +162,5 @@ Se entrambi i file contengono contenuto diverso:
 >>>>>>> fc52fe0 (.)
 =======
 >>>>>>> c101b34 (.)
+=======
+>>>>>>> d0f51b6 (.)

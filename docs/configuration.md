@@ -12,6 +12,7 @@ Il modulo SEO fornisce funzionalità di ottimizzazione per i motori di ricerca, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "laraxot/module_seo_fila5",
     "description": "Modulo SEO per l'ottimizzazione dei contenuti",
     "homepage": "https://github.com/laraxot/module_seo_fila5",
@@ -35,6 +36,11 @@ Il modulo SEO fornisce funzionalità di ottimizzazione per i motori di ricerca, 
     "description": "Modulo SEO per l'ottimizzazione dei contenuti",
     "homepage": "https://github.com/laraxot/module_seo_fila5",
 >>>>>>> c101b34 (.)
+=======
+    "name": "laraxot/module_seo_fila5",
+    "description": "Modulo SEO per l'ottimizzazione dei contenuti",
+    "homepage": "https://github.com/laraxot/module_seo_fila5",
+>>>>>>> d0f51b6 (.)
     "license": "MIT"
 }
 ```
@@ -91,6 +97,7 @@ Seo/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Configurazione Moduli](../../../../docs/project/module-configuration.md)
 - [Relazioni tra Moduli](../../../../docs/project/module-relationships.md)
 - [Regole dei Namespace](../../../../docs/project/module-namespace-rules.md)
@@ -114,6 +121,11 @@ Seo/
 - [Relazioni tra Moduli](../../../../docs/project/module-relationships.md)
 - [Regole dei Namespace](../../../../docs/project/module-namespace-rules.md)
 >>>>>>> c101b34 (.)
+=======
+- [Configurazione Moduli](../../../../docs/project/module-configuration.md)
+- [Relazioni tra Moduli](../../../../docs/project/module-relationships.md)
+- [Regole dei Namespace](../../../../docs/project/module-namespace-rules.md)
+>>>>>>> d0f51b6 (.)
 
 ## Checklist Implementazione
 
