@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 ---
 title: "Seo Module Wiki Index"
 type: index
@@ -36,6 +39,7 @@ related:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [services-to-queueable-actions](./concepts/no-app-support-queueable-actions.md) — Metatag state in Adapter, use case in Actions
 =======
 >>>>>>> cf01f0b (.)
@@ -53,6 +57,10 @@ related:
 
 
 >>>>>>> fc52fe0 (.)
+=======
+
+
+>>>>>>> c101b34 (.)
 Indice operativo del wiki Seo.
 
 ## Struttura canonica (sacred)

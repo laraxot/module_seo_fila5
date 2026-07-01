@@ -13,6 +13,7 @@ Concetti specifici del modulo Seo. Carica on-demand via `qmd search` o consulta 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 | Concept | Note |
 |---------|------|
@@ -27,3 +28,5 @@ Concetti specifici del modulo Seo. Carica on-demand via `qmd search` o consulta 
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

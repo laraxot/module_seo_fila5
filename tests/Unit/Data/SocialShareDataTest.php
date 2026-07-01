@@ -9,6 +9,7 @@ use Modules\Seo\Data\SocialShareData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
@@ -32,6 +33,11 @@ use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
 >>>>>>> fc52fe0 (.)
+=======
+use PHPUnit\Framework\Assert;
+
+uses(\Modules\Seo\Tests\TestCase::class);
+>>>>>>> c101b34 (.)
 
 it('creates instance with required url', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');
@@ -40,14 +46,18 @@ it('creates instance with required url', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
     Assert::assertSame('https://laravelpizza.com', $data->url);
     Assert::assertNull($data->title);
     Assert::assertNull($data->text);
     Assert::assertNull($data->image);
     Assert::assertNull($data->hashtags);
     Assert::assertNull($data->via);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -69,6 +79,8 @@ it('creates instance with required url', function (): void {
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 });
 
 it('has default platforms list', function (): void {
@@ -78,12 +90,16 @@ it('has default platforms list', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
     Assert::assertSame(
         ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'],
         $data->platforms,
     );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     expect($data->platforms)->toBe(['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy']);
@@ -96,6 +112,8 @@ it('has default platforms list', function (): void {
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 });
 
 it('accepts all optional fields', function (): void {
@@ -113,8 +131,11 @@ it('accepts all optional fields', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
     Assert::assertSame('https://laravelpizza.com/events/laravel-pizza-1', $data->url);
     Assert::assertSame('Laravel Pizza Meetup', $data->title);
     Assert::assertSame('Join us for pizza and Laravel!', $data->text);
@@ -122,6 +143,7 @@ it('accepts all optional fields', function (): void {
     Assert::assertSame('laravel,php,meetup', $data->hashtags);
     Assert::assertSame('laravelpizza', $data->via);
     Assert::assertSame(['twitter', 'linkedin'], $data->platforms);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -144,6 +166,8 @@ it('accepts all optional fields', function (): void {
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 });
 
 it('can override platforms with custom list', function (): void {
@@ -152,6 +176,7 @@ it('can override platforms with custom list', function (): void {
         platforms: ['twitter'],
     );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +199,10 @@ it('can override platforms with custom list', function (): void {
     Assert::assertSame(['twitter'], $data->platforms);
     Assert::assertCount(1, $data->platforms);
 >>>>>>> fc52fe0 (.)
+=======
+    Assert::assertSame(['twitter'], $data->platforms);
+    Assert::assertCount(1, $data->platforms);
+>>>>>>> c101b34 (.)
 });
 
 it('serializes to array via Spatie Data', function (): void {
@@ -188,12 +217,16 @@ it('serializes to array via Spatie Data', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
     Assert::assertArrayHasKey('url', $array);
     Assert::assertSame('https://laravelpizza.com', $array['url']);
     Assert::assertArrayHasKey('title', $array);
     Assert::assertSame('Laravel Pizza', $array['title']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     expect($array)->toHaveKey('url', 'https://laravelpizza.com')
@@ -209,4 +242,6 @@ it('serializes to array via Spatie Data', function (): void {
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 });

@@ -2,16 +2,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 module: theme
 topic: source
 canonical: ../../../../../Themes/docs/shared-components/source.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/source.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -67,3 +71,5 @@ _Any additional notes, context, or observations._
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

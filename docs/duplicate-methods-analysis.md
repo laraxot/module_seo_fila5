@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data Generazione**: 2025-10-15 06:41:17
 **Totale Gruppi di Duplicati**: 
 =======
@@ -27,6 +28,10 @@
 **Data Generazione**: 2025-10-15 06:41:17
 **Totale Gruppi di Duplicati**: 
 >>>>>>> fc52fe0 (.)
+=======
+**Data Generazione**: 2025-10-15 06:41:17
+**Totale Gruppi di Duplicati**: 
+>>>>>>> c101b34 (.)
 
 ## Sommario Esecutivo
 

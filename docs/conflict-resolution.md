@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: "Conflict resolution — MetatagFacadeAdapter"
 type: troubleshooting
@@ -65,6 +66,8 @@ Durante l’iterazione `gitmodules.ini` (prompt 17) risultavano marker `<<<<<<<`
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 # Conflict Resolution — Module Seo
 
 ## Summary
@@ -86,6 +89,7 @@ Durante l’iterazione `gitmodules.ini` (prompt 17) risultavano marker `<<<<<<<`
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cf01f0b (.)
 =======
 >>>>>>> 7ec200b (.)
@@ -95,3 +99,5 @@ Durante l’iterazione `gitmodules.ini` (prompt 17) risultavano marker `<<<<<<<`
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

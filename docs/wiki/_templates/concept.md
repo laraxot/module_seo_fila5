@@ -2,16 +2,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 module: theme
 topic: concept
 canonical: ../../../../../Themes/docs/shared-components/concept.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -58,3 +62,5 @@ _How this concept is implemented in our codebase (with file references)._
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

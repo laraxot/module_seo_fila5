@@ -10,6 +10,7 @@ Modules\\Seo\\Database\\Seeders
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Pacchetto Composer**: laraxot/module_seo_fila5
 =======
 - **Pacchetto Composer**: laraxot/module_seo_fila3
@@ -20,6 +21,9 @@ Modules\\Seo\\Database\\Seeders
 =======
 - **Pacchetto Composer**: laraxot/module_seo_fila5
 >>>>>>> fc52fe0 (.)
+=======
+- **Pacchetto Composer**: laraxot/module_seo_fila5
+>>>>>>> c101b34 (.)
 marco sottana
 - **Dipendenze**: 
 - **Totale file PHP**: 9
