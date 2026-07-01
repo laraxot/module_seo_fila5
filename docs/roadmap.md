@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 # Roadmap (Module Seo)
 
 ## Current roadmap
@@ -35,6 +38,7 @@
 - [roadmap/quality.md](roadmap/quality.md)
 - [roadmap/vision.md](roadmap/vision.md)
 - [seo-optimization-roadmap.md](seo-optimization-roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -251,3 +255,5 @@ Secondo le "Regole Windsurf per base_predict_fila3_mono", gli obiettivi per l'an
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

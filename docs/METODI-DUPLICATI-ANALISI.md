@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 ---
 module: theme
 topic: METODI-DUPLICATI-ANALISI
@@ -11,6 +14,7 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -564,3 +568,5 @@ public function getTableFilters(): array
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

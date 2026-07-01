@@ -7,6 +7,7 @@ namespace Modules\Seo\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 <<<<<<< HEAD
@@ -31,15 +32,21 @@ use Modules\Seo\Data\SocialShareData;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 >>>>>>> 77e0353 (.)
 =======
+=======
+>>>>>>> c101b34 (.)
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Data\SocialShareData;
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
+<<<<<<< HEAD
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 
 /**
  * Filament widget for social sharing.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +77,11 @@ class SocialShareWidget extends XotBaseSchemaWidget
 {
     /**
 >>>>>>> fc52fe0 (.)
+=======
+class SocialShareWidget extends XotBaseSchemaWidget
+{
+    /**
+>>>>>>> c101b34 (.)
      * Dati del form.
      *
      * @var array<string, mixed>
@@ -77,6 +89,7 @@ class SocialShareWidget extends XotBaseSchemaWidget
     public ?array $data = [];
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,10 +104,14 @@ class SocialShareWidget extends XotBaseSchemaWidget
 =======
      * The view for the widget.
 >>>>>>> fc52fe0 (.)
+=======
+     * The view for the widget.
+>>>>>>> c101b34 (.)
      */
     protected string $view = 'seo::filament.widgets.social-share';
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -119,6 +136,11 @@ class SocialShareWidget extends XotBaseSchemaWidget
      *
      * @return array<int|string, Component>
 >>>>>>> fc52fe0 (.)
+=======
+     * Get the form schema.
+     *
+     * @return array<int|string, Component>
+>>>>>>> c101b34 (.)
      */
     public function getFormSchema(): array
     {
@@ -134,6 +156,7 @@ class SocialShareWidget extends XotBaseSchemaWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
 >>>>>>> cf01f0b (.)
@@ -147,6 +170,9 @@ class SocialShareWidget extends XotBaseSchemaWidget
 =======
      * @SuppressWarnings("PHPMD.StaticAccess")
 >>>>>>> fc52fe0 (.)
+=======
+     * @SuppressWarnings("PHPMD.StaticAccess")
+>>>>>>> c101b34 (.)
      */
     protected function getViewData(): array
     {

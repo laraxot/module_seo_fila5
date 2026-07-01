@@ -3,8 +3,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 ---
 module: theme
 topic: mcp_server_recommended
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -48,3 +52,5 @@ Per dettagli e best practice consulta la guida generale MCP nel workspace.
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

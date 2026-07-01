@@ -9,6 +9,7 @@ namespace Modules\Seo\Tests\Unit\Facades;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Facades\Metatag;
 use Modules\Seo\Tests\TestCase;
@@ -25,10 +26,15 @@ use Modules\Seo\Adapters\MetatagManager;
 use Modules\Seo\Facades\Metatag;
 use Modules\Seo\Services\MetatagService;
 >>>>>>> fc52fe0 (.)
+=======
+use Modules\Seo\Facades\Metatag;
+use Modules\Seo\Services\MetatagService;
+>>>>>>> c101b34 (.)
 use PHPUnit\Framework\Assert;
 uses(\Modules\Seo\Tests\TestCase::class);
 
 it('resolves metatag service through facade accessor', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
     $service = app(MetatagManager::class);
 >>>>>>> cf01f0b (.)
@@ -55,10 +61,14 @@ it('resolves metatag service through facade accessor', function (): void {
 =======
     $service = app(MetatagService::class);
 >>>>>>> fc52fe0 (.)
+=======
+    $service = app(MetatagService::class);
+>>>>>>> c101b34 (.)
 
     Metatag::setTitle('Facade Title');
     Metatag::setDescription('Facade Description');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,3 +101,8 @@ it('resolves metatag service through facade accessor', function (): void {
     Assert::assertSame('Facade Description', $service->get()->getDescription());
 });
 >>>>>>> fc52fe0 (.)
+=======
+    Assert::assertSame('Facade Title', $service->get()->getTitle());
+    Assert::assertSame('Facade Description', $service->get()->getDescription());
+});
+>>>>>>> c101b34 (.)

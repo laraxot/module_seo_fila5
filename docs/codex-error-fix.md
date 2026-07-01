@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 ---
 module: theme
 topic: codex-error-fix
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/codex-error-fix.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/codex-error-fix.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -102,3 +106,5 @@ args = ["laravel/artisan", "boost:mcp"]
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

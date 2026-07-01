@@ -3,8 +3,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
 ---
 module: theme
 topic: filament
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/filament.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 https://github.com/ralphjsmit/laravel-filament-seo
@@ -31,3 +35,5 @@ https://github.com/ralphjsmit/laravel-filament-seo
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)

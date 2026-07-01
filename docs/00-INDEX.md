@@ -2,6 +2,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c101b34 (.)
 # 📚 Indice Documentazione Modulo Seo
 
 **Status**: 🟡 In Progress
@@ -48,6 +51,7 @@
 ## Dependency Intelligence
 
 - [Dependency intelligence](dependency-intelligence.md)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -119,3 +123,5 @@ php artisan seo:generate-sitemap
 >>>>>>> 77e0353 (.)
 =======
 >>>>>>> fc52fe0 (.)
+=======
+>>>>>>> c101b34 (.)
