@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: rules-index
@@ -8,6 +11,7 @@ canonical: ../../../Themes/docs/shared-components/rules-index.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/rules-index.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -25,3 +29,5 @@ This module follows the global Laraxot coding standards.
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

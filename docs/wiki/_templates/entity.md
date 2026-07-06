@@ -1,14 +1,18 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 module: theme
 topic: entity
 canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/entity-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 title: "Entity Name"
@@ -51,3 +55,5 @@ _How this entity relates to the project, what role it plays._
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

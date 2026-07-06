@@ -1,14 +1,18 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 module: theme
 topic: source
 canonical: ../../../../../Themes/docs/shared-components/source.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/source.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 title: "Source Title"
@@ -61,3 +65,5 @@ _Any additional notes, context, or observations._
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

@@ -7,6 +7,7 @@ namespace Modules\Seo\Tests\Unit\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Providers\EventServiceProvider;
@@ -53,10 +54,19 @@ uses(TestCase::class);
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+use Modules\Seo\Providers\EventServiceProvider;
+use Modules\Seo\Providers\SeoServiceProvider;
+use Modules\Seo\Services\MetatagService;
+use PHPUnit\Framework\Assert;
+uses(\Modules\Seo\Tests\TestCase::class);
+
+>>>>>>> fc52fe0 (.)
 it('registers metatag service singleton and provides list', function (): void {
     $provider = new SeoServiceProvider(app());
     $provider->register();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,6 +77,14 @@ it('registers metatag service singleton and provides list', function (): void {
     Assert::assertSame($instanceA, $instanceB);
     Assert::assertContains(MetatagManager::class, $provider->provides());
 >>>>>>> cf01f0b (.)
+=======
+    $instanceA = app(MetatagService::class);
+    $instanceB = app(MetatagService::class);
+
+    Assert::assertInstanceOf(MetatagService::class, $instanceA);
+    Assert::assertSame($instanceA, $instanceB);
+    Assert::assertContains(MetatagService::class, $provider->provides());
+>>>>>>> fc52fe0 (.)
 });
 
 it('event service provider enables event discovery', function (): void {
@@ -75,6 +93,7 @@ it('event service provider enables event discovery', function (): void {
     $property->setAccessible(true);
 
     Assert::assertTrue($property->getValue());
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -101,4 +120,6 @@ it('event service provider enables event discovery', function (): void {
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 });

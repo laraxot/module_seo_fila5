@@ -6,6 +6,7 @@ namespace Modules\Seo\Filament\Widgets;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 <<<<<<< HEAD
@@ -29,10 +30,17 @@ use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Data\SocialShareData;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 >>>>>>> 77e0353 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Modules\Seo\Actions\GenerateSocialShareLinksAction;
+use Modules\Seo\Data\SocialShareData;
+use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
+>>>>>>> fc52fe0 (.)
 
 /**
  * Filament widget for social sharing.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,6 +65,11 @@ class SocialShareWidget extends XotBaseWidget
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+class SocialShareWidget extends XotBaseSchemaWidget
+{
+    /**
+>>>>>>> fc52fe0 (.)
      * Dati del form.
      *
      * @var array<string, mixed>
@@ -68,16 +81,21 @@ class SocialShareWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * The view for the widget.
      *
      * @phpstan-var view-string
 =======
      * The view for the widget.
 >>>>>>> 7ec200b (.)
+=======
+     * The view for the widget.
+>>>>>>> fc52fe0 (.)
      */
     protected string $view = 'seo::filament.widgets.social-share';
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cf01f0b (.)
@@ -96,6 +114,11 @@ class SocialShareWidget extends XotBaseWidget
      *
      * @return array<int|string, \Filament\Schemas\Components\Component>
 >>>>>>> 77e0353 (.)
+=======
+     * Get the form schema.
+     *
+     * @return array<int|string, Component>
+>>>>>>> fc52fe0 (.)
      */
     public function getFormSchema(): array
     {
@@ -110,6 +133,7 @@ class SocialShareWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
 >>>>>>> cf01f0b (.)
@@ -120,6 +144,9 @@ class SocialShareWidget extends XotBaseWidget
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+     * @SuppressWarnings("PHPMD.StaticAccess")
+>>>>>>> fc52fe0 (.)
      */
     protected function getViewData(): array
     {

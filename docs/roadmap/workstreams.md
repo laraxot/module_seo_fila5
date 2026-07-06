@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: workstreams
@@ -10,6 +13,7 @@ canonical: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -42,3 +46,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/03-workst
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

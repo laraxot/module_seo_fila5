@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: risks
@@ -10,6 +13,7 @@ canonical: ../../../../Themes/docs/shared-components/04-risks-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/04-risks-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -25,3 +29,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/04-risks-
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

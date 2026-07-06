@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: sprint-planning
@@ -10,6 +13,7 @@ canonical: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -86,3 +90,5 @@ Implement core technical SEO features including meta tags, sitemap, and schema m
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

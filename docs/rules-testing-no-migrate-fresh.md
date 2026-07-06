@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: rules-testing-no-migrate-fresh
@@ -8,6 +11,7 @@ canonical: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -33,3 +37,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/rules-testin
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

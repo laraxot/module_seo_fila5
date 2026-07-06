@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ---
 title: "Seo Module Wiki Index"
 type: index
@@ -32,6 +35,7 @@ related:
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [services-to-queueable-actions](./concepts/no-app-support-queueable-actions.md) — Metatag state in Adapter, use case in Actions
 =======
 >>>>>>> cf01f0b (.)
@@ -45,6 +49,10 @@ related:
 
 
 >>>>>>> 77e0353 (.)
+=======
+
+
+>>>>>>> fc52fe0 (.)
 Indice operativo del wiki Seo.
 
 ## Struttura canonica (sacred)

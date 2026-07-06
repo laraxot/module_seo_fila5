@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: overview
@@ -10,6 +13,7 @@ canonical: ../../../../Themes/docs/shared-components/00-overview-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/00-overview-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -27,3 +31,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/00-overvi
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

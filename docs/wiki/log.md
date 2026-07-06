@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ## [2026-06-10] phpstan | Modulo Seo zero errori codice
 
 - `./vendor/bin/phpstan analyse Modules/Seo` → 0 errori codice (79 fix: expect→Assert, Pest.php, TestCase)
@@ -13,10 +16,13 @@
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 # Seo Wiki Log
 
 ## [2026-04-15] init | wiki bootstrap

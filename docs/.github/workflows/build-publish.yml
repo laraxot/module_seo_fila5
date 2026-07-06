@@ -2,6 +2,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: build-publish
@@ -9,6 +12,7 @@ canonical: ../../../../../Themes/docs/shared-components/build-publish-Modules.ym
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/build-publish-Modules.yml
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -65,3 +69,5 @@ jobs:
 =======
         git branch -D master
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
