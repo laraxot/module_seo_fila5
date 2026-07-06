@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -36,12 +37,15 @@ docs/phpstan/
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 docs/cache/
 cache/
 -e 
 # PHPStan documentation
 docs/phpstan/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +56,8 @@ docs/phpstan/
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 # Backup files
 *.old
 *.old1
@@ -59,9 +65,16 @@ docs/phpstan/
 *.backup.*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lang/lang/
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+lang/lang/
+_docs/
+_docs/
+
+>>>>>>> fc52fe0 (.)
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
 **/docs/archive/
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
@@ -72,6 +85,7 @@ lang/lang/
 *.orig
 *.rej
 *~head
+<<<<<<< HEAD
 agentdb.rvf
 tests/AuditCoverage
 # AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
@@ -97,3 +111,7 @@ lang/lang/
 _docs/
 _docs/
 >>>>>>> 77e0353 (.)
+=======
+
+agentdb.rvf
+>>>>>>> fc52fe0 (.)

@@ -7,6 +7,7 @@ namespace Modules\Seo\Tests\Unit\Services;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagManager;
 <<<<<<< HEAD
 use Modules\Seo\Tests\TestCase;
@@ -32,10 +33,14 @@ it('sets all optional seo fields through service', function (): void {
 <<<<<<< HEAD
     $service = new MetatagManager();
 =======
+=======
+use Modules\Seo\Services\MetatagService;
+>>>>>>> fc52fe0 (.)
 use PHPUnit\Framework\Assert;
 uses(\Modules\Seo\Tests\TestCase::class);
 
 it('sets all optional seo fields through service', function (): void {
+<<<<<<< HEAD
     $service = new MetatagManager;
 >>>>>>> cf01f0b (.)
 =======
@@ -47,6 +52,9 @@ it('sets all optional seo fields through service', function (): void {
 =======
     $service = new MetatagService;
 >>>>>>> 77e0353 (.)
+=======
+    $service = new MetatagService;
+>>>>>>> fc52fe0 (.)
     $published = now()->subDay();
     $modified = now();
 
@@ -64,6 +72,9 @@ it('sets all optional seo fields through service', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
     Assert::assertSame('https://example.test/image.png', $meta->getImage());
     Assert::assertSame('it', $meta->getLocale());
     Assert::assertSame('article', $meta->getType());
@@ -72,6 +83,7 @@ it('sets all optional seo fields through service', function (): void {
     Assert::assertSame('Mario', $meta->getAuthor());
     Assert::assertSame($published->format('c'), $meta->getPublishedTime()?->format('c'));
     Assert::assertSame($modified->format('c'), $meta->getModifiedTime()?->format('c'));
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -97,3 +109,6 @@ it('sets all optional seo fields through service', function (): void {
 });
 
 >>>>>>> 77e0353 (.)
+=======
+});
+>>>>>>> fc52fe0 (.)

@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: folio-volt-best-practices
@@ -8,6 +11,7 @@ canonical: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modu
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modules.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -125,3 +129,5 @@ middleware(['auth', 'verified']);
 =======
 2025-11-29
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

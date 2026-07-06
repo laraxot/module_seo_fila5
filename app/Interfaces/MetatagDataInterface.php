@@ -85,6 +85,7 @@ interface MetatagDataInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function get(string $key, mixed $default = null): mixed;
 =======
@@ -104,6 +105,10 @@ interface MetatagDataInterface
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+     */
+    public function get(string $key, mixed $default = null): mixed;
+>>>>>>> fc52fe0 (.)
 
     /**
      * Check if the metadata has a specific key.

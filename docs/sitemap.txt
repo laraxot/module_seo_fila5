@@ -2,6 +2,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: sitemap
@@ -9,6 +12,7 @@ canonical: ../../../Themes/docs/shared-components/sitemap.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/sitemap.md
+<<<<<<< HEAD
 =======
 https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
 
@@ -25,3 +29,5 @@ https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
 https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
 
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

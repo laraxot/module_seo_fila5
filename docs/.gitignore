@@ -10,6 +10,7 @@ npm-debug.log
 docs/phpstan/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 _docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24,3 +25,8 @@ agentdb.rvf
 =======
 _docs/
 >>>>>>> 77e0353 (.)
+=======
+_docs/
+archive/
+agentdb.rvf
+>>>>>>> fc52fe0 (.)

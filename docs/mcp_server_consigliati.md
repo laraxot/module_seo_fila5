@@ -2,6 +2,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: mcp_server_consigliati
@@ -9,6 +12,7 @@ canonical: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -51,3 +55,5 @@ Aggiungi solo i server che realmente ti servono per il tuo workflow.
 >>>>>>> dbf8b8d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

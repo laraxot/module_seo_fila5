@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: user-research
@@ -10,6 +13,7 @@ canonical: ../../../Themes/docs/shared-components/USER_RESEARCH.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/USER_RESEARCH.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -106,3 +110,5 @@ Long-tail keywords drive qualified traffic.
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: merge-conflict-files-list
@@ -9,6 +12,7 @@ canonical: ../../../Themes/docs/shared-components/merge-conflict-files-list.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/merge-conflict-files-list.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Merge Conflict Files List
@@ -96,3 +100,5 @@ This file contains a comprehensive list of files with merge conflict markers (`<
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

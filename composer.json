@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "laraxot/module_seo_fila5",
     "description": "Modulo SEO per l'ottimizzazione dei contenuti",
     "homepage": "https://github.com/laraxot/module_seo_fila5",
@@ -14,6 +15,11 @@
     "description": "Modulo SEO per l'ottimizzazione dei contenuti",
     "homepage": "https://github.com/laraxot/module_seo_fila5",
 >>>>>>> 77e0353 (.)
+=======
+    "name": "laraxot/module_seo_fila5",
+    "description": "Modulo SEO per l'ottimizzazione dei contenuti",
+    "homepage": "https://github.com/laraxot/module_seo_fila5",
+>>>>>>> fc52fe0 (.)
     "license": "MIT",
     "authors": [
         {
@@ -44,6 +50,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
     "autoload-dev": {
         "psr-4": {
             "Modules\\Seo\\Tests\\": "tests/"
@@ -51,6 +60,7 @@
     },
     "require": {
         "spatie/laravel-sitemap": "^7.0"
+<<<<<<< HEAD
 =======
     "require_comment": {
         "openai-php/laravel": "*",
@@ -71,6 +81,8 @@
         "openai-php/laravel": "*",
         "thecodingmachine/safe": "^2.5"
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
     },
     "require-dev_comment": {
         "laravel/pint": "^1.13",

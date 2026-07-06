@@ -8,6 +8,7 @@ use Modules\Seo\Filament\Widgets\SocialShareWidget;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 =======
@@ -43,6 +44,15 @@ it('builds social links and exposes platforms in widget view data', function ():
 =======
     $widget = new class extends SocialShareWidget {
 >>>>>>> 77e0353 (.)
+=======
+use PHPUnit\Framework\Assert;
+uses(\Modules\Seo\Tests\TestCase::class);
+
+it('builds social links and exposes platforms in widget view data', function (): void {
+    $widget = new class extends SocialShareWidget
+    {
+        /** @return array<string, mixed> */
+>>>>>>> fc52fe0 (.)
         public function exposeViewData(): array
         {
             return $this->getViewData();
@@ -59,6 +69,9 @@ it('builds social links and exposes platforms in widget view data', function ():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
     Assert::assertArrayHasKey('links', $viewData);
     Assert::assertArrayHasKey('platforms', $viewData);
     Assert::assertArrayHasKey('data', $viewData);
@@ -76,6 +89,7 @@ it('builds social links and exposes platforms in widget view data', function ():
 });
 
 it('returns empty form schema', function (): void {
+<<<<<<< HEAD
     $widget = new SocialShareWidget();
 
     Assert::assertSame([], $widget->getFormSchema());
@@ -101,4 +115,9 @@ it('returns empty form schema', function (): void {
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+    $widget = new SocialShareWidget;
+
+    Assert::assertSame([], $widget->getFormSchema());
+>>>>>>> fc52fe0 (.)
 });

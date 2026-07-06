@@ -2,11 +2,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
 ---
 title: "Seo Module Documentation"
 type: documentation
 tags: [module, documentation]
 created: 2026-06-05
+<<<<<<< HEAD
 <<<<<<< HEAD
 updated: 2026-07-24
 related:
@@ -28,12 +32,19 @@ updated: 2026-06-05
 =======
 # Seo Module
 >>>>>>> 77e0353 (.)
+=======
+updated: 2026-06-05
+---
+
+# Seo Module
+>>>>>>> fc52fe0 (.)
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN-green.svg)](https://laravel.com/docs/localization)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
@@ -53,6 +64,10 @@ The **Seo Module** provides a comprehensive search engine optimization toolkit f
 The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
 
 >>>>>>> 77e0353 (.)
+=======
+The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
+
+>>>>>>> fc52fe0 (.)
 ## 🚀 Features
 
 ### ✅ Completed
@@ -79,6 +94,7 @@ php artisan migrate
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,6 +119,8 @@ Il modulo **SEO** fornisce strumenti avanzati per l'ottimizzazione SEO:
 =======
 <<<<<<< HEAD
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -354,6 +372,7 @@ php artisan seo:validate-schema
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7ec200b (.)
@@ -368,6 +387,8 @@ Developers are encouraged to contribute to this documentation to keep it accurat
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
 ## ⚙️ Configuration
 
 Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
@@ -403,9 +424,12 @@ Please verify all changes with:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b33919b (.)
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> fc52fe0 (.)
 
 
 ## Standard Rules & Workflow
@@ -414,15 +438,19 @@ Please verify all changes with:
 - [[Context Engineering](../../../../docs/wiki/concepts/context-engineering.md)]
 - [[LLM Wiki Governance](../../../../docs/wiki/concepts/llm-wiki-governance.md)]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> fc52fe0 (.)
 
 ## Documentation
 
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
 - [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
 - [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
 =======
@@ -438,3 +466,6 @@ Please verify all changes with:
 =======
 >>>>>>> b33919b (.)
 >>>>>>> 77e0353 (.)
+=======
+- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
+>>>>>>> fc52fe0 (.)

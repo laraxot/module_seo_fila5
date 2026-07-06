@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
 ---
 module: theme
 topic: phpstan
@@ -8,6 +11,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -25,3 +29,5 @@ This module adheres to PHPStan Level 10.
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

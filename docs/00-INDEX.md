@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📚 Indice Documentazione Modulo Seo
 
 **Status**: 🟡 In Progress
@@ -50,6 +51,8 @@
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> fc52fe0 (.)
 # 📚 Seo Module - Documentation Index
 
 **Path**: `laravel/Modules/Seo/docs/`  
@@ -107,9 +110,12 @@ php artisan seo:generate-sitemap
 
 **Ultimo Aggiornamento**: 2026-03-24
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
 =======
 # Documentation Index
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)

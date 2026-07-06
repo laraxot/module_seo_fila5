@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data:** [DATE] | **Status:** ✅
 =======
 **Data:** 2025-10-15 | **Status:** ✅
@@ -9,6 +10,9 @@
 =======
 **Data:** [DATE] | **Status:** ✅
 >>>>>>> 77e0353 (.)
+=======
+**Data:** [DATE] | **Status:** ✅
+>>>>>>> fc52fe0 (.)
 
 ## 📊 Struttura
 Models: 0 | Resources: 0 | Services: 1 | Actions: 0 | Docs: 21

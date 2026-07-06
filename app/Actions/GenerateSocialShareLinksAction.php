@@ -8,6 +8,7 @@ namespace Modules\Seo\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Datas\SocialShareData;
 =======
 use Modules\Seo\Data\SocialShareData;
@@ -21,6 +22,9 @@ use Modules\Seo\Data\SocialShareData;
 =======
 use Modules\Seo\Data\SocialShareData;
 >>>>>>> 77e0353 (.)
+=======
+use Modules\Seo\Data\SocialShareData;
+>>>>>>> fc52fe0 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -35,6 +39,7 @@ class GenerateSocialShareLinksAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  SocialShareData  $data  The sharing data.
 =======
      * @param SocialShareData $data The sharing data.
@@ -42,6 +47,9 @@ class GenerateSocialShareLinksAction
 =======
      * @param SocialShareData $data The sharing data.
 >>>>>>> 77e0353 (.)
+=======
+     * @param  SocialShareData  $data  The sharing data.
+>>>>>>> fc52fe0 (.)
      * @return array<string, string> Keyed by platform name, value is the sharing URL.
      */
     public function execute(SocialShareData $data): array
@@ -51,6 +59,9 @@ class GenerateSocialShareLinksAction
         return [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc52fe0 (.)
             'facebook' => 'https://www.facebook.com/sharer/sharer.php?u='.urlencode($data->url),
             'twitter' => 'https://twitter.com/intent/tweet?url='.urlencode($data->url)
                 .'&text='.urlencode($text)
@@ -59,6 +70,7 @@ class GenerateSocialShareLinksAction
             'linkedin' => 'https://www.linkedin.com/sharing/share-offsite/?url='.urlencode($data->url),
             'whatsapp' => 'https://api.whatsapp.com/send?text='.urlencode($text.' '.$data->url),
             'telegram' => 'https://t.me/share/url?url='.urlencode($data->url).'&text='.urlencode($text),
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 77e0353 (.)
@@ -74,6 +86,8 @@ class GenerateSocialShareLinksAction
 >>>>>>> d20252d (.)
 =======
 >>>>>>> 77e0353 (.)
+=======
+>>>>>>> fc52fe0 (.)
             'copy' => $data->url,
         ];
     }
