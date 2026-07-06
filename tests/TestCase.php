@@ -6,7 +6,7 @@ namespace Modules\Seo\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
-use Modules\Fixcity\Models\User;
+use Modules\User\Models\User;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 /**
