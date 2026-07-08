@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: phpstan
@@ -10,12 +11,17 @@ See canonical documentation: ../../../Themes/docs/shared-components/phpstan.md
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 # PHPStan Configuration
 
 This module adheres to PHPStan Level 10.
 
 - [Global PHPStan Guide](../../../../docs/phpstan-level-10.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)

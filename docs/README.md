@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: "Seo Module Documentation"
 type: documentation
@@ -24,12 +25,16 @@ updated: 2026-06-05
 =======
 # 🎯 SEO Module - Search Engine Optimization
 >>>>>>> dbf8b8d (.)
+=======
+# Seo Module
+>>>>>>> 77e0353 (.)
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN-green.svg)](https://laravel.com/docs/localization)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
 
@@ -44,6 +49,10 @@ The **Seo Module** provides a comprehensive search engine optimization toolkit f
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
+
+>>>>>>> 77e0353 (.)
 ## 🚀 Features
 
 ### ✅ Completed
@@ -69,6 +78,7 @@ php artisan migrate
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,6 +100,9 @@ Il modulo **SEO** fornisce strumenti avanzati per l'ottimizzazione SEO:
 ## ⚡ **Funzionalità Core**
 
 >>>>>>> dbf8b8d (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 77e0353 (.)
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -340,15 +353,21 @@ php artisan seo:validate-schema
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7ec200b (.)
 =======
 =======
+>>>>>>> 77e0353 (.)
+=======
 Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
 >>>>>>> 013c0d2 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 ## ⚙️ Configuration
 
 Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
@@ -383,6 +402,7 @@ Please verify all changes with:
 - `pest` (Test Suite)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b33919b (.)
 >>>>>>> 7ec200b (.)
@@ -415,3 +435,6 @@ Please verify all changes with:
 >>>>>>> d20252d (.)
 =======
 >>>>>>> dbf8b8d (.)
+=======
+>>>>>>> b33919b (.)
+>>>>>>> 77e0353 (.)

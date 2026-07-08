@@ -7,6 +7,7 @@ namespace Modules\Seo\Tests\Unit\Data;
 use Modules\Seo\Data\MetatagData;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
@@ -20,10 +21,16 @@ use Tests\TestCase;
 
 uses(TestCase::class);
 >>>>>>> d20252d (.)
+=======
+use Tests\TestCase;
+
+uses(TestCase::class);
+>>>>>>> 77e0353 (.)
 
 it('returns sane defaults for empty data', function (): void {
     $data = new MetatagData;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame('', $data->getTitle());
@@ -36,6 +43,8 @@ it('returns sane defaults for empty data', function (): void {
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
     expect($data->getTitle())->toBe('')
         ->and($data->getDescription())->toBe('')
         ->and($data->getKeywords())->toBe('')
@@ -44,9 +53,12 @@ it('returns sane defaults for empty data', function (): void {
         ->and($data->getImage())->toBeNull()
         ->and($data->getType())->toBe('website');
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 });
 
 it('returns typed colors and falls back for invalid colors', function (): void {
@@ -60,6 +72,7 @@ it('returns typed colors and falls back for invalid colors', function (): void {
 
     $colors = $data->getColors();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame('#111111', $colors['primary']);
@@ -79,6 +92,8 @@ it('returns typed colors and falls back for invalid colors', function (): void {
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
     expect($colors['primary'])->toBe('#111111')
         ->and($colors['secondary'])->toBe('#222222')
         ->and($colors['10'])->toBe('');
@@ -86,9 +101,12 @@ it('returns typed colors and falls back for invalid colors', function (): void {
     $fallback = new MetatagData(['colors' => 'invalid']);
     expect($fallback->getColors())->toHaveKey('primary');
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 });
 
 it('reads nested keys and has method works', function (): void {
@@ -98,6 +116,7 @@ it('reads nested keys and has method works', function (): void {
         ],
     ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertTrue($data->has('og.title'));
@@ -113,6 +132,11 @@ it('reads nested keys and has method works', function (): void {
         ->and($data->get('og.title'))->toBe('OG Title')
         ->and($data->get('og.missing', 'default'))->toBe('default');
 >>>>>>> d20252d (.)
+=======
+    expect($data->has('og.title'))->toBeTrue()
+        ->and($data->get('og.title'))->toBe('OG Title')
+        ->and($data->get('og.missing', 'default'))->toBe('default');
+>>>>>>> 77e0353 (.)
 });
 
 it('supports livewire serialization cycle', function (): void {
@@ -127,6 +151,7 @@ it('supports livewire serialization cycle', function (): void {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame($original, $restored->toArray());
 =======
     expect($restored->toArray())->toBe($original);
@@ -134,10 +159,14 @@ it('supports livewire serialization cycle', function (): void {
 =======
     expect($restored->toArray())->toBe($original);
 >>>>>>> d20252d (.)
+=======
+    expect($restored->toArray())->toBe($original);
+>>>>>>> 77e0353 (.)
 });
 
 it('handles non array livewire payload and url fallback', function (): void {
     $restored = MetatagData::fromLivewire('invalid');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame([], $restored->toArray());
@@ -154,15 +183,20 @@ it('returns explicit locale from data payload', function (): void {
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
     expect($restored->toArray())->toBe([]);
 
     $data = new MetatagData(['url' => 123]);
     $url = $data->getUrl();
     expect($url)->toBeString();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 });
 
 it('falls back to en when app locale is not a string', function (): void {
@@ -172,6 +206,7 @@ it('falls back to en when app locale is not a string', function (): void {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame('en', $data->getLocale());
 =======
     expect($data->getLocale())->toBe('en');
@@ -179,4 +214,7 @@ it('falls back to en when app locale is not a string', function (): void {
 =======
     expect($data->getLocale())->toBe('en');
 >>>>>>> d20252d (.)
+=======
+    expect($data->getLocale())->toBe('en');
+>>>>>>> 77e0353 (.)
 });

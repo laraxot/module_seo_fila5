@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 module: theme
 topic: README
@@ -6,6 +9,7 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -33,3 +37,5 @@ Questa cartella contiene pagine curate per l'uso con LLM (wiki). Mettere qui sin
 >>>>>>> 3898c746b (.)
 >>>>>>> 01dce8d29 (initial commit)
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> 77e0353 (.)

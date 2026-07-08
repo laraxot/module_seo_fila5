@@ -9,6 +9,7 @@ npm-debug.log
 # PHPStan documentation
 docs/phpstan/
 <<<<<<< HEAD
+<<<<<<< HEAD
 _docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20,3 +21,6 @@ agentdb.rvf
 >>>>>>> d20252d (.)
 =======
 >>>>>>> dbf8b8d (.)
+=======
+_docs/
+>>>>>>> 77e0353 (.)

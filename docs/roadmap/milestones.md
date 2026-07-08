@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 module: theme
 topic: milestones
@@ -7,6 +10,7 @@ canonical: ../../../../Themes/docs/shared-components/04-milestones-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/04-milestones-Modules.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -31,3 +35,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/04-milest
 =======
 - Riduzione regressioni ricorrenti.
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)

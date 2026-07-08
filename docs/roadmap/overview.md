@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 module: theme
 topic: overview
@@ -7,6 +10,7 @@ canonical: ../../../../Themes/docs/shared-components/00-overview-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/00-overview-Modules.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -21,3 +25,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/00-overvi
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)

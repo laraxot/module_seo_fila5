@@ -19,6 +19,7 @@ class EventServiceProvider extends ServiceProvider
      * Indicates if events should be discovered.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
      * @var bool
@@ -27,6 +28,10 @@ class EventServiceProvider extends ServiceProvider
      *
      * @var bool
 >>>>>>> dbf8b8d (.)
+=======
+     *
+     * @var bool
+>>>>>>> 77e0353 (.)
      */
     protected static $shouldDiscoverEvents = true;
 

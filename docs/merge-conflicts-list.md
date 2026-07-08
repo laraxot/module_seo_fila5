@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 module: theme
 topic: merge-conflicts-list
@@ -6,6 +9,7 @@ canonical: ../../../Themes/docs/shared-components/merge-conflicts-list.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/merge-conflicts-list.md
+<<<<<<< HEAD
 =======
 # Merge conflict markers — file list
 
@@ -62,3 +66,5 @@ Elenco dei file trovati contenenti marker di merge (<<<<<<<, >>>>>>>, .merge_fil
 - Quando si risolve un file, aggiornare lo stato nella lista e sincronizzare l'LLM Wiki (qmd embed) per ingestione.
 
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> 77e0353 (.)

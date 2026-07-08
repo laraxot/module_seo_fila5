@@ -1,11 +1,15 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 module: theme
 topic: source
 canonical: ../../../../../Themes/docs/shared-components/source.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/source.md
+<<<<<<< HEAD
 =======
 title: "Source Title"
 type: source
@@ -55,3 +59,5 @@ _Any additional notes, context, or observations._
 - [ ] Cross-reference with: _existing page_
 - [ ] Verify claim: _specific claim that needs verification_
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> 77e0353 (.)

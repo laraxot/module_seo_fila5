@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 module: theme
 topic: workstreams
@@ -7,6 +10,7 @@ canonical: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -36,3 +40,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/03-workst
 =======
 - Checklist di validazione post-fix.
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)

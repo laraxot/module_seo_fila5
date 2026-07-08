@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: links
@@ -13,6 +14,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/links-Module
 >>>>>>> d20252d (.)
 =======
 >>>>>>> dbf8b8d (.)
+=======
+>>>>>>> 77e0353 (.)
 
 
 https://splade.dev/docs/title-meta
@@ -82,8 +85,11 @@ https://www.coine.it/web-developing/laravel-localization-seo-friendly/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
 =======
 >>>>>>> dbf8b8d (.)
+=======
+>>>>>>> 77e0353 (.)

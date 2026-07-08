@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 title: "Seo Module Wiki Index"
 type: index
@@ -28,6 +31,7 @@ related:
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [services-to-queueable-actions](./concepts/no-app-support-queueable-actions.md) — Metatag state in Adapter, use case in Actions
 =======
 >>>>>>> cf01f0b (.)
@@ -37,6 +41,10 @@ related:
 # Seo Module LLM Wiki
 
 >>>>>>> 7ec200b (.)
+=======
+
+
+>>>>>>> 77e0353 (.)
 Indice operativo del wiki Seo.
 
 ## Struttura canonica (sacred)

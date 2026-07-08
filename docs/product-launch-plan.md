@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 module: theme
 topic: product-launch-plan
@@ -7,6 +10,7 @@ canonical: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -95,3 +99,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_LAUN
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)

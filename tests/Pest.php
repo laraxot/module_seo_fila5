@@ -5,6 +5,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
  * Bootstrap Pest — modulo Seo.
  * Ogni file test dichiara uses(\Modules\Seo\Tests\TestCase::class) se serve il container.
@@ -19,3 +20,6 @@ uses()->group('seo');
 =======
 uses()->group('seo');
 >>>>>>> dbf8b8d (.)
+=======
+uses()->group('seo');
+>>>>>>> 77e0353 (.)

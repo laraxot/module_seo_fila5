@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 module: theme
 topic: current-state
@@ -7,6 +10,7 @@ canonical: ../../../../Themes/docs/shared-components/01-current-state-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/01-current-state-Modules.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -28,3 +32,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/01-curren
 =======
 3. Copertura test minima per i flussi critici.
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
