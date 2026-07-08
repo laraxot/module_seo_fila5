@@ -7,6 +7,7 @@ namespace Modules\Seo\Tests\Unit\Data;
 use Modules\Seo\Data\SocialShareData;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
@@ -20,10 +21,16 @@ use Tests\TestCase;
 
 uses(TestCase::class);
 >>>>>>> d20252d (.)
+=======
+use Tests\TestCase;
+
+uses(TestCase::class);
+>>>>>>> 77e0353 (.)
 
 it('creates instance with required url', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame('https://laravelpizza.com', $data->url);
@@ -35,6 +42,8 @@ it('creates instance with required url', function (): void {
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
     expect($data->url)->toBe('https://laravelpizza.com')
         ->and($data->title)->toBeNull()
         ->and($data->text)->toBeNull()
@@ -42,14 +51,18 @@ it('creates instance with required url', function (): void {
         ->and($data->hashtags)->toBeNull()
         ->and($data->via)->toBeNull();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 });
 
 it('has default platforms list', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame(
@@ -62,6 +75,9 @@ it('has default platforms list', function (): void {
 =======
     expect($data->platforms)->toBe(['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy']);
 >>>>>>> d20252d (.)
+=======
+    expect($data->platforms)->toBe(['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy']);
+>>>>>>> 77e0353 (.)
 });
 
 it('accepts all optional fields', function (): void {
@@ -77,6 +93,7 @@ it('accepts all optional fields', function (): void {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame('https://laravelpizza.com/events/laravel-pizza-1', $data->url);
     Assert::assertSame('Laravel Pizza Meetup', $data->title);
     Assert::assertSame('Join us for pizza and Laravel!', $data->text);
@@ -87,6 +104,8 @@ it('accepts all optional fields', function (): void {
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
     expect($data->url)->toBe('https://laravelpizza.com/events/laravel-pizza-1')
         ->and($data->title)->toBe('Laravel Pizza Meetup')
         ->and($data->text)->toBe('Join us for pizza and Laravel!')
@@ -95,9 +114,12 @@ it('accepts all optional fields', function (): void {
         ->and($data->via)->toBe('laravelpizza')
         ->and($data->platforms)->toBe(['twitter', 'linkedin']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 });
 
 it('can override platforms with custom list', function (): void {
@@ -106,6 +128,7 @@ it('can override platforms with custom list', function (): void {
         platforms: ['twitter'],
     );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertSame(['twitter'], $data->platforms);
@@ -118,6 +141,10 @@ it('can override platforms with custom list', function (): void {
     expect($data->platforms)->toBe(['twitter'])
         ->and($data->platforms)->toHaveCount(1);
 >>>>>>> d20252d (.)
+=======
+    expect($data->platforms)->toBe(['twitter'])
+        ->and($data->platforms)->toHaveCount(1);
+>>>>>>> 77e0353 (.)
 });
 
 it('serializes to array via Spatie Data', function (): void {
@@ -128,6 +155,7 @@ it('serializes to array via Spatie Data', function (): void {
 
     $array = $data->toArray();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Assert::assertArrayHasKey('url', $array);
@@ -142,4 +170,8 @@ it('serializes to array via Spatie Data', function (): void {
     expect($array)->toHaveKey('url', 'https://laravelpizza.com')
         ->and($array)->toHaveKey('title', 'Laravel Pizza');
 >>>>>>> d20252d (.)
+=======
+    expect($array)->toHaveKey('url', 'https://laravelpizza.com')
+        ->and($array)->toHaveKey('title', 'Laravel Pizza');
+>>>>>>> 77e0353 (.)
 });

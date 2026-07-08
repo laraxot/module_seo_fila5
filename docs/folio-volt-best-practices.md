@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 module: theme
 topic: folio-volt-best-practices
@@ -10,6 +11,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/folio-volt-b
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 # Laravel Folio + Volt - Best Practices and Patterns Analysis
 
 ## Overview
@@ -113,8 +116,12 @@ middleware(['auth', 'verified']);
 
 ## Date
 <<<<<<< HEAD
+<<<<<<< HEAD
 2025-11-29
 >>>>>>> 7ec200b (.)
 =======
 2025-11-29
 >>>>>>> d20252d (.)
+=======
+2025-11-29
+>>>>>>> 77e0353 (.)

@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 ---
 module: theme
 topic: product-roadmap
@@ -7,6 +10,7 @@ canonical: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d20252d (.)
@@ -120,3 +124,5 @@ To build a **comprehensive SEO optimization system** that drives organic traffic
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)

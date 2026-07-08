@@ -6,6 +6,7 @@ namespace Modules\Seo\Tests\Feature;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagManager;
 use PHPUnit\Framework\Assert;
 
@@ -71,6 +72,8 @@ it('can set colors', function (): void {
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 use Modules\Seo\Services\MetatagService;
 
 it('can set title', function () {
@@ -109,7 +112,10 @@ it('can set colors', function () {
     $service->setColors($colors);
     expect($service->get()->getColors())->toBe($colors);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 });

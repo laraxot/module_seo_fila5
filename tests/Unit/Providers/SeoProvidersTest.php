@@ -6,6 +6,7 @@ namespace Modules\Seo\Tests\Unit\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Providers\EventServiceProvider;
@@ -35,6 +36,8 @@ uses(\Modules\Seo\Tests\TestCase::class);
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 
 use Modules\Seo\Providers\EventServiceProvider;
 use Modules\Seo\Providers\SeoServiceProvider;
@@ -44,13 +47,17 @@ use Tests\TestCase;
 uses(TestCase::class);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 it('registers metatag service singleton and provides list', function (): void {
     $provider = new SeoServiceProvider(app());
     $provider->register();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $instanceA = app(MetatagManager::class);
@@ -71,6 +78,8 @@ it('event service provider enables event discovery', function (): void {
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
     $instanceA = app(MetatagService::class);
     $instanceB = app(MetatagService::class);
 
@@ -86,7 +95,10 @@ it('event service provider enables event discovery', function (): void {
 
     expect($property->getValue())->toBeTrue();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 });

@@ -1,11 +1,15 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 module: theme
 topic: concept
 canonical: ../../../../../Themes/docs/shared-components/concept.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md
+<<<<<<< HEAD
 =======
 title: "Untitled Concept"
 type: concept
@@ -46,3 +50,5 @@ _How this concept is implemented in our codebase (with file references)._
 - [[related-concept-2]]
 - [docs/wiki/concepts/project-concept](../../wiki/concepts/project-concept.md)
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> 77e0353 (.)

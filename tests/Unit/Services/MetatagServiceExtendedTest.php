@@ -6,6 +6,7 @@ namespace Modules\Seo\Tests\Unit\Services;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagManager;
 <<<<<<< HEAD
 use Modules\Seo\Tests\TestCase;
@@ -18,10 +19,15 @@ use Tests\TestCase;
 use Modules\Seo\Services\MetatagService;
 use Tests\TestCase;
 >>>>>>> d20252d (.)
+=======
+use Modules\Seo\Services\MetatagService;
+use Tests\TestCase;
+>>>>>>> 77e0353 (.)
 
 uses(TestCase::class);
 
 it('sets all optional seo fields through service', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $service = new MetatagManager();
@@ -38,6 +44,9 @@ it('sets all optional seo fields through service', function (): void {
 =======
     $service = new MetatagService;
 >>>>>>> d20252d (.)
+=======
+    $service = new MetatagService;
+>>>>>>> 77e0353 (.)
     $published = now()->subDay();
     $modified = now();
 
@@ -54,6 +63,7 @@ it('sets all optional seo fields through service', function (): void {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Assert::assertSame('https://example.test/image.png', $meta->getImage());
     Assert::assertSame('it', $meta->getLocale());
     Assert::assertSame('article', $meta->getType());
@@ -65,6 +75,8 @@ it('sets all optional seo fields through service', function (): void {
 =======
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
     expect($meta->getImage())->toBe('https://example.test/image.png')
         ->and($meta->getLocale())->toBe('it')
         ->and($meta->getType())->toBe('article')
@@ -74,9 +86,14 @@ it('sets all optional seo fields through service', function (): void {
         ->and($meta->getPublishedTime()?->format('c'))->toBe($published->format('c'))
         ->and($meta->getModifiedTime()?->format('c'))->toBe($modified->format('c'));
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ec200b (.)
 });
 =======
 });
 
 >>>>>>> d20252d (.)
+=======
+});
+
+>>>>>>> 77e0353 (.)

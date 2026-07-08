@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 <<<<<<< HEAD
@@ -23,10 +24,16 @@ use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Data\SocialShareData;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 >>>>>>> d20252d (.)
+=======
+use Modules\Seo\Actions\GenerateSocialShareLinksAction;
+use Modules\Seo\Data\SocialShareData;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
+>>>>>>> 77e0353 (.)
 
 /**
  * Filament widget for social sharing.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class SocialShareWidget extends XotBaseSchemaWidget
@@ -36,6 +43,8 @@ class SocialShareWidget extends XotBaseWidget
 {
     /**
 =======
+=======
+>>>>>>> 77e0353 (.)
 class SocialShareWidget extends XotBaseWidget
 {
     /**
@@ -44,7 +53,10 @@ class SocialShareWidget extends XotBaseWidget
     protected string $view = 'seo::filament.widgets.social-share';
 
     /**
+<<<<<<< HEAD
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
      * Dati del form.
      *
      * @var array<string, mixed>
@@ -52,6 +64,7 @@ class SocialShareWidget extends XotBaseWidget
     public ?array $data = [];
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +91,11 @@ class SocialShareWidget extends XotBaseWidget
      *
      * @return array<int|string, \Filament\Schemas\Components\Component>
 >>>>>>> d20252d (.)
+=======
+     * Get the form schema.
+     *
+     * @return array<int|string, \Filament\Schemas\Components\Component>
+>>>>>>> 77e0353 (.)
      */
     public function getFormSchema(): array
     {
@@ -91,6 +109,7 @@ class SocialShareWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
 >>>>>>> cf01f0b (.)
@@ -99,6 +118,8 @@ class SocialShareWidget extends XotBaseWidget
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
      */
     protected function getViewData(): array
     {

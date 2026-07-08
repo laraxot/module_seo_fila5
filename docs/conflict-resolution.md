@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: "Conflict resolution — MetatagFacadeAdapter"
 type: troubleshooting
@@ -59,6 +60,8 @@ Durante l’iterazione `gitmodules.ini` (prompt 17) risultavano marker `<<<<<<<`
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)
 # Conflict Resolution — Module Seo
 
 ## Summary
@@ -78,8 +81,11 @@ Durante l’iterazione `gitmodules.ini` (prompt 17) risultavano marker `<<<<<<<`
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cf01f0b (.)
 =======
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)

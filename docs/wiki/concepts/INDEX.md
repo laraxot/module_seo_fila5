@@ -11,6 +11,7 @@ updated: 2026-05-11
 Concetti specifici del modulo Seo. Carica on-demand via `qmd search` o consulta il [trigger map root](/docs/wiki/rules/00-TRIGGER_MAP.md).
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 | Concept | Note |
 |---------|------|
@@ -21,3 +22,5 @@ Concetti specifici del modulo Seo. Carica on-demand via `qmd search` o consulta 
 >>>>>>> cf01f0b (.)
 =======
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> 77e0353 (.)

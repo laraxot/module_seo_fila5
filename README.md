@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔍 Seo
 
 [![Domain-SEO](https://img.shields.io/badge/Domain-SEO-827717.svg)](#)
@@ -203,6 +204,8 @@ composer test -- Modules/Seo
 Navigation: [Project Home](../../docs/INDEX.md) | [Modules](../../docs/modules/README.md)
 >>>>>>> 7ec200b (.)
 =======
+=======
+>>>>>>> 77e0353 (.)
 # SEO Module
 
 The SEO module provides enterprise-grade Search Engine Optimization capabilities including meta management, sitemap generation, structured data, analytics integration, and social sharing for Laraxot applications.
@@ -233,4 +236,7 @@ Refer to the `docs/` folder for detailed documentation:
 
 ---
 *Developed by Google DeepMind team - Laraxot methodology*
+<<<<<<< HEAD
 >>>>>>> d20252d (.)
+=======
+>>>>>>> 77e0353 (.)

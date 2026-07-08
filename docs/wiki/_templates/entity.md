@@ -1,11 +1,15 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 77e0353 (.)
 module: theme
 topic: entity
 canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/entity-Modules.md
+<<<<<<< HEAD
 =======
 title: "Entity Name"
 type: entity
@@ -45,3 +49,5 @@ _How this entity relates to the project, what role it plays._
 - [[concept-related-1]]
 - [[decision-related-2]]
 >>>>>>> 7ec200b (.)
+=======
+>>>>>>> 77e0353 (.)

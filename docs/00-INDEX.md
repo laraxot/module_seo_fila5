@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📚 Indice Documentazione Modulo Seo
 
 **Status**: 🟡 In Progress
@@ -109,3 +110,6 @@ php artisan seo:generate-sitemap
 >>>>>>> 7ec200b (.)
 =======
 >>>>>>> d20252d (.)
+=======
+# Documentation Index
+>>>>>>> 77e0353 (.)
