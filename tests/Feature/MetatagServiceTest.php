@@ -5,41 +5,40 @@ declare(strict_types=1);
 namespace Modules\Seo\Tests\Feature;
 
 use Modules\Seo\Services\MetatagService;
-use PHPUnit\Framework\Assert;
 
-it('can set title', function (): void {
+it('can set title', function () {
     $service = new MetatagService;
     $service->setTitle('Test Title');
-    Assert::assertSame('Test Title', $service->get()->getTitle());
+    expect($service->get()->getTitle())->toBe('Test Title');
 });
 
-it('can set description', function (): void {
+it('can set description', function () {
     $service = new MetatagService;
     $service->setDescription('Test Description');
-    Assert::assertSame('Test Description', $service->get()->getDescription());
+    expect($service->get()->getDescription())->toBe('Test Description');
 });
 
-it('can set keywords', function (): void {
+it('can set keywords', function () {
     $service = new MetatagService;
     $service->setKeywords('seo, test, laravel');
-    Assert::assertSame('seo, test, laravel', $service->get()->getKeywords());
+    expect($service->get()->getKeywords())->toBe('seo, test, laravel');
 });
 
-it('can set robots', function (): void {
+it('can set robots', function () {
     $service = new MetatagService;
     $service->setRobots('index, follow');
-    Assert::assertSame('index, follow', $service->get()->getRobots());
+    expect($service->get()->getRobots())->toBe('index, follow');
 });
 
-it('can set canonical url', function (): void {
+it('can set canonical url', function () {
     $service = new MetatagService;
     $service->setCanonical('https://example.com');
-    Assert::assertSame('https://example.com', $service->get()->getCanonical());
+    expect($service->get()->getCanonical())->toBe('https://example.com');
 });
 
-it('can set colors', function (): void {
+it('can set colors', function () {
     $service = new MetatagService;
     $colors = ['primary' => '#000000', 'secondary' => '#ffffff'];
     $service->setColors($colors);
-    Assert::assertSame($colors, $service->get()->getColors());
+    expect($service->get()->getColors())->toBe($colors);
 });

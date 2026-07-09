@@ -9,5 +9,3 @@ npm-debug.log
 # PHPStan documentation
 docs/phpstan/
 _docs/
-archive/
-agentdb.rvf

@@ -6,11 +6,11 @@ namespace Modules\Seo\Tests\Unit\Actions;
 
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Data\SocialShareData;
-use PHPUnit\Framework\Assert;
+use Tests\TestCase;
 
-uses(\Modules\Seo\Tests\TestCase::class);
+uses(TestCase::class);
 
-it('generates social share links for all platforms', function (): void {
+it('generates social share links for all platforms', function () {
     $data = SocialShareData::from([
         'url' => 'https://example.com/page',
         'title' => 'Test Title',
@@ -20,14 +20,13 @@ it('generates social share links for all platforms', function (): void {
     $action = new GenerateSocialShareLinksAction;
     $links = $action->execute($data);
 
-    foreach (['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'] as $key) {
-        Assert::assertArrayHasKey($key, $links);
-    }
-    Assert::assertStringContainsString(urlencode('https://example.com/page'), (string) $links['facebook']);
-    Assert::assertSame('https://example.com/page', $links['copy']);
+    expect($links)->toBeArray()
+        ->toHaveKeys(['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'])
+        ->and($links['facebook'])->toContain(urlencode('https://example.com/page'))
+        ->and($links['copy'])->toBe('https://example.com/page');
 });
 
-it('includes via and hashtags in twitter link when provided', function (): void {
+it('includes via and hashtags in twitter link when provided', function () {
     $data = SocialShareData::from([
         'url' => 'https://example.com',
         'via' => 'myhandle',
@@ -37,6 +36,6 @@ it('includes via and hashtags in twitter link when provided', function (): void 
     $action = new GenerateSocialShareLinksAction;
     $links = $action->execute($data);
 
-    Assert::assertStringContainsString('via='.urlencode('myhandle'), (string) $links['twitter']);
-    Assert::assertStringContainsString('hashtags='.urlencode('laravel,php'), (string) $links['twitter']);
+    expect($links['twitter'])->toContain('via='.urlencode('myhandle'))
+        ->and($links['twitter'])->toContain('hashtags='.urlencode('laravel,php'));
 });

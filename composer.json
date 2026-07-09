@@ -28,13 +28,9 @@
             "Modules\\Seo\\Database\\Seeders\\": "database/seeders/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Modules\\Seo\\Tests\\": "tests/"
-        }
-    },
-    "require": {
-        "spatie/laravel-sitemap": "^7.0"
+    "require_comment": {
+        "openai-php/laravel": "*",
+        "thecodingmachine/safe": "^2.5"
     },
     "require-dev_comment": {
         "laravel/pint": "^1.13",

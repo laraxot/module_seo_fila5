@@ -4,16 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Filament\Widgets;
 
-use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Data\SocialShareData;
-use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
 /**
  * Filament widget for social sharing.
  */
-class SocialShareWidget extends XotBaseSchemaWidget
+class SocialShareWidget extends XotBaseWidget
 {
+    /**
+     * The view for the widget.
+     */
+    protected string $view = 'seo::filament.widgets.social-share';
+
     /**
      * Dati del form.
      *
@@ -22,14 +26,9 @@ class SocialShareWidget extends XotBaseSchemaWidget
     public ?array $data = [];
 
     /**
-     * The view for the widget.
-     */
-    protected string $view = 'seo::filament.widgets.social-share';
-
-    /**
      * Get the form schema.
      *
-     * @return array<int|string, Component>
+     * @return array<int|string, \Filament\Schemas\Components\Component>
      */
     public function getFormSchema(): array
     {
