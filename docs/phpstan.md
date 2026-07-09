@@ -1,7 +1,5 @@
----
-module: theme
-topic: phpstan
-canonical: ../../../Themes/docs/shared-components/phpstan.md
----
+# PHPStan Configuration
 
-See canonical documentation: ../../../Themes/docs/shared-components/phpstan.md
+This module adheres to PHPStan Level 10.
+
+- [Global PHPStan Guide](../../../../docs/phpstan-level-10.md)
