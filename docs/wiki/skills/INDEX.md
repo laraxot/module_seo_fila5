@@ -30,6 +30,10 @@ Le Skills progettuali vivono qui, nel wiki del Module **Seo**, e vengono caricat
 | Ricerca semantica | `qmd search "<topic>"` |
 | Via trigger map | Consulta `../rules/00-TRIGGER_MAP.md` |
 
+## Voci ricorrenti
+
+- [module-contracts-naming-placement.md](./module-contracts-naming-placement.md) — audit `*Interface` → `*Contract`, placement `Contracts/`
+
 ## Note
 
 - La sorgente di verita' per le Skills e' sempre il wiki locale

@@ -30,6 +30,10 @@ Le Rules progettuali vivono qui, nel wiki del Module **Seo**, e vengono caricate
 | Ricerca semantica | `qmd search "<topic>"` |
 | Via trigger map | Consulta `../rules/00-TRIGGER_MAP.md` |
 
+## Voci ricorrenti
+
+- [module-contracts-naming-placement.md](./module-contracts-naming-placement.md) — `app/Contracts/`, suffisso `*Contract`, no `app/Interfaces/`
+
 ## Note
 
 - La sorgente di verita' per le Rules e' sempre il wiki locale

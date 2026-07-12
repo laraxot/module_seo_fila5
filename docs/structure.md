@@ -116,7 +116,7 @@ app/Http/Controllers
 app/Http/Livewire
 app/Http/Middleware
 app/Http/Requests
-app/Interfaces
+app/Contracts
 app/Jobs
 app/Listeners
 app/Models

@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Tests\Unit\Data;
 
+use Modules\Seo\Contracts\MetatagDataContract;
 use Modules\Seo\Data\MetatagData;
 use Tests\TestCase;
 
 uses(TestCase::class);
+
+it('implements MetatagDataContract', function (): void {
+    $data = new MetatagData;
+
+    expect($data)->toBeInstanceOf(MetatagDataContract::class);
+});
 
 it('returns sane defaults for empty data', function (): void {
     $data = new MetatagData;

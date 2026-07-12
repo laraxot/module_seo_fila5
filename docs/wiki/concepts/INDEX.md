@@ -9,3 +9,5 @@ updated: 2026-05-11
 # concepts Index — Seo
 
 Concetti specifici del modulo Seo. Carica on-demand via `qmd search` o consulta il [trigger map root](/docs/wiki/rules/00-TRIGGER_MAP.md).
+
+- [metatag-data-contract.md](./metatag-data-contract.md) — `MetatagDataContract`, placement `app/Contracts/`, no `Interfaces/`
