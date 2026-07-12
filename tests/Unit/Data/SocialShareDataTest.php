@@ -4,10 +4,31 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Tests\Unit\Data;
 
+use InvalidArgumentException;
 use Modules\Seo\Data\SocialShareData;
 use Tests\TestCase;
 
 uses(TestCase::class);
+
+it('rejects javascript: scheme in url', function (): void {
+    expect(fn () => new SocialShareData(url: 'javascript:alert(1)'))
+        ->toThrow(InvalidArgumentException::class);
+});
+
+it('rejects javascript: scheme in image', function (): void {
+    expect(fn () => new SocialShareData(url: 'https://laravelpizza.com', image: 'javascript:alert(1)'))
+        ->toThrow(InvalidArgumentException::class);
+});
+
+it('rejects url with quote that could break out of a JS string context', function (): void {
+    expect(fn () => new SocialShareData(url: "https://example.com/'; alert(1); //"))
+        ->toThrow(InvalidArgumentException::class);
+});
+
+it('rejects non-url garbage', function (): void {
+    expect(fn () => new SocialShareData(url: 'not a url'))
+        ->toThrow(InvalidArgumentException::class);
+});
 
 it('creates instance with required url', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');

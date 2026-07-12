@@ -12,3 +12,7 @@ docs/phpstan/
 lang/lang/
 _docs/
 _docs/
+
+# claude-audit bridge (non committare)
+audit-coverage/
+tests/AuditCoverage/*

@@ -11,7 +11,7 @@
 
 | # | Tag | Cosa | Sostituzione | Path | Stato |
 |---|-----|------|--------------|------|-------|
-| S1 | `yagni` | `MetatagDataInterface` (unica impl) | Contratto inline in `MetatagData` | `app/Interfaces/MetatagDataInterface.php.bak` | ✅ `.bak` |
+| S1 | `contract` | `MetatagDataInterface` in `app/Interfaces/` | `MetatagDataContract` in `app/Contracts/` | ✅ migrato 2026-07-12 — vedi [wiki/concepts/metatag-data-contract.md](wiki/concepts/metatag-data-contract.md) |
 | S2 | `yagni` | Doppio `MetatagData` Seo vs Xot | Un tipo canonico o facade verso Xot | `app/Data/MetatagData.php` | da discutere |
 
 ## Collegamenti

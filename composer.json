@@ -13,8 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Modules\\Seo\\Providers\\SeoServiceProvider",
-                "Modules\\Seo\\Providers\\Filament\\AdminPanelProvider"
+                "Modules\\Seo\\Providers\\SeoServiceProvider"
             ],
             "aliases": {
 
@@ -28,21 +27,15 @@
             "Modules\\Seo\\Database\\Seeders\\": "database/seeders/"
         }
     },
-    "require_comment": {
-        "openai-php/laravel": "*",
-        "thecodingmachine/safe": "^2.5"
+    "require": {
+        "php": "^8.3",
+        "spatie/laravel-data": "^4.23",
+        "spatie/laravel-queueable-action": "^2.17",
+        "livewire/livewire": "^4.3"
     },
-    "require-dev_comment": {
+    "require-dev": {
         "laravel/pint": "^1.13",
-        "nunomaduro/phpinsights": "^2.11",
-        "larastan/larastan": "*",
-        "vimeo/psalm": "^5.17",
-        "psalm/plugin-laravel": "^2.8",
-        "enlightn/enlightn": "^2.7",
-        "driftingly/rector-laravel": "^0.26.2",
-        "symplify/phpstan-rules": "*",
-        "rector/rector": "^0.18.12",
-        "thecodingmachine/phpstan-safe-rule": "^1.2"
+        "larastan/larastan": "*"
     },
     "repositories": [
         {

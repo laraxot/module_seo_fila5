@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Providers;
 
-use Modules\Seo\Services\MetatagService;
+use Modules\Seo\Adapters\MetatagFacadeAdapter;
+use Modules\Seo\Adapters\MetatagState;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
 class SeoServiceProvider extends XotBaseServiceProvider
@@ -18,8 +19,12 @@ class SeoServiceProvider extends XotBaseServiceProvider
     {
         parent::register();
 
-        $this->app->singleton(MetatagService::class, function () {
-            return new MetatagService();
+        $this->app->singleton(MetatagState::class, function () {
+            return new MetatagState();
+        });
+
+        $this->app->singleton(MetatagFacadeAdapter::class, function () {
+            return new MetatagFacadeAdapter();
         });
     }
 
@@ -31,7 +36,7 @@ class SeoServiceProvider extends XotBaseServiceProvider
     public function provides(): array
     {
         return [
-            MetatagService::class,
+            MetatagFacadeAdapter::class,
         ];
     }
 }
