@@ -91,11 +91,7 @@ class MetatagData extends Data implements MetatagDataContract, Wireable
             $result[$strKey] = $strValue;
         }
 
-        if ($result === []) {
-            return $default;
-        }
-
-        return $result;
+        return $result ? $result : $default;
     }
 
     /**

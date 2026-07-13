@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-use Modules\Seo\Tests\TestCase;
-
-uses(TestCase::class)->in('Feature', 'Unit');
-uses()->group('seo');
+/*
+ * Bootstrap Pest — modulo Seo.
+ * Ogni file test dichiara uses(\Modules\Seo\Tests\TestCase::class) se serve il container.
+ * Vietato pest()->extend() e uses()->group() qui (PHPStan method.internalClass).
+ */

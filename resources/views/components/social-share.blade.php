@@ -15,7 +15,7 @@
                 <div x-data="{ copied: false }" class="relative inline-block">
                     <button 
                         @click="
-                            navigator.clipboard.writeText(@js($links[$platform]));
+                            navigator.clipboard.writeText('{{ $links[$platform] }}');
                             copied = true;
                             setTimeout(() => copied = false, 2000)
                         "

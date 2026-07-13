@@ -19,13 +19,8 @@ class SeoServiceProvider extends XotBaseServiceProvider
     {
         parent::register();
 
-        $this->app->singleton(MetatagState::class, function () {
-            return new MetatagState();
-        });
-
-        $this->app->singleton(MetatagFacadeAdapter::class, function () {
-            return new MetatagFacadeAdapter();
-        });
+        $this->app->singleton(MetatagState::class);
+        $this->app->singleton(MetatagFacadeAdapter::class);
     }
 
     /**
@@ -37,6 +32,7 @@ class SeoServiceProvider extends XotBaseServiceProvider
     {
         return [
             MetatagFacadeAdapter::class,
+            MetatagState::class,
         ];
     }
 }
