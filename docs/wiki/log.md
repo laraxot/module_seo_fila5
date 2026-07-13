@@ -14,7 +14,7 @@
 ## [2026-06-10] phpstan | Modulo Seo zero errori codice
 
 - `./vendor/bin/phpstan analyse Modules/Seo` → 0 errori codice (79 fix: expect→Assert, Pest.php, TestCase)
-- Campagna: [docs/chat/2026-06-10-phpstan-modules-second-brain.md](../../../../../docs/chat/2026-06-10-phpstan-modules-second-brain.md)
+- Campagna: [docs/chat/phpstan-modules-second-brain.md](../../../../../docs/chat/phpstan-modules-second-brain.md)
 
 ## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
 
