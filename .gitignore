@@ -27,3 +27,7 @@ _docs/
 agentdb.rvf
 tests/AuditCoverage/
 audit-coverage/
+.cursor/
+.vscode/
+.windsurf/
+.devcontainer/
