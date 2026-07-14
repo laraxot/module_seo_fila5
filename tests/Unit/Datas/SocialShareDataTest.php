@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Modules\Seo\Tests\Unit\Data;
+namespace Modules\Seo\Tests\Unit\Datas;
 
-use Modules\Seo\Data\SocialShareData;
+use Modules\Seo\Datas\SocialShareData;
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
