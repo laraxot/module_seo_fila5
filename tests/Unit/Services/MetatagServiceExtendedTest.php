@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Tests\Unit\Services;
 
 use Modules\Seo\Adapters\MetatagManager;
+<<<<<<< HEAD
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -12,6 +13,13 @@ uses(TestCase::class);
 
 it('sets all optional seo fields through service', function (): void {
     $service = new MetatagManager();
+=======
+use PHPUnit\Framework\Assert;
+uses(\Modules\Seo\Tests\TestCase::class);
+
+it('sets all optional seo fields through service', function (): void {
+    $service = new MetatagManager;
+>>>>>>> cf01f0b (.)
     $published = now()->subDay();
     $modified = now();
 

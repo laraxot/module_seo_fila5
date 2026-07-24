@@ -6,7 +6,11 @@ namespace Modules\Seo\Filament\Widgets;
 
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
+<<<<<<< HEAD
 use Modules\Seo\Datas\SocialShareData;
+=======
+use Modules\Seo\Data\SocialShareData;
+>>>>>>> cf01f0b (.)
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -22,6 +26,7 @@ class SocialShareWidget extends XotBaseSchemaWidget
     public ?array $data = [];
 
     /**
+<<<<<<< HEAD
      * The view for the widget.
      *
      * @phpstan-var view-string
@@ -29,6 +34,8 @@ class SocialShareWidget extends XotBaseSchemaWidget
     protected string $view = 'seo::filament.widgets.social-share';
 
     /**
+=======
+>>>>>>> cf01f0b (.)
      * Get the form schema.
      *
      * @return array<int|string, Component>
@@ -42,7 +49,10 @@ class SocialShareWidget extends XotBaseSchemaWidget
      * Get the data for the view.
      *
      * @return array<string, mixed>
+<<<<<<< HEAD
      *
+=======
+>>>>>>> cf01f0b (.)
      * @SuppressWarnings("PHPMD.StaticAccess")
      */
     protected function getViewData(): array

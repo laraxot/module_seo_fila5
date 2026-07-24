@@ -3,10 +3,14 @@ title: "Seo Module Documentation"
 type: documentation
 tags: [module, documentation]
 created: 2026-06-05
+<<<<<<< HEAD
 updated: 2026-07-24
 related:
   - ./conflict-resolution.md
   - ./wiki/concepts/metatag-data-contract.md
+=======
+updated: 2026-06-05
+>>>>>>> cf01f0b (.)
 ---
 
 # Seo Module
@@ -18,8 +22,11 @@ related:
 
 The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
 
+<<<<<<< HEAD
 **Metatag facade (canone):** `MetatagFacadeAdapter` + `MetatagState` + Actions — vedi [conflict-resolution.md](./conflict-resolution.md) e [metatag-data-contract.md](./wiki/concepts/metatag-data-contract.md).
 
+=======
+>>>>>>> cf01f0b (.)
 ## 🚀 Features
 
 ### ✅ Completed

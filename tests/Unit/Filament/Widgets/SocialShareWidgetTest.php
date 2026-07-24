@@ -11,6 +11,10 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 it('builds social links and exposes platforms in widget view data', function (): void {
+<<<<<<< HEAD
+=======
+    /** @var TestCase $this */
+>>>>>>> cf01f0b (.)
     $widget = new class() extends SocialShareWidget
     {
         /** @return array<string, mixed> */
