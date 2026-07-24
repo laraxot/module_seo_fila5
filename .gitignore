@@ -19,6 +19,10 @@ test-results
 tests/.claude-audit
 docs/cache/
 cache/
+<<<<<<< HEAD
+=======
+-e 
+>>>>>>> cf01f0b (.)
 # PHPStan documentation
 docs/phpstan/
 # Backup files
@@ -40,7 +44,10 @@ lang/lang/
 agentdb.rvf
 tests/AuditCoverage
 # AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
+<<<<<<< HEAD
 .cursor/
 .vscode/
 .windsurf/
 .devcontainer/
+=======
+>>>>>>> cf01f0b (.)

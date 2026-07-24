@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Actions;
 
+<<<<<<< HEAD
 use Modules\Seo\Datas\SocialShareData;
+=======
+use Modules\Seo\Data\SocialShareData;
+>>>>>>> cf01f0b (.)
 use Spatie\QueueableAction\QueueableAction;
 
 /**
