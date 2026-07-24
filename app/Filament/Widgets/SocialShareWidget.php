@@ -22,8 +22,6 @@ class SocialShareWidget extends XotBaseSchemaWidget
     public ?array $data = [];
 
     /**
-<<<<<<< HEAD
-=======
      * The view for the widget.
      *
      * @phpstan-var view-string
@@ -32,7 +30,6 @@ class SocialShareWidget extends XotBaseSchemaWidget
     protected string $view = 'seo::filament.widgets.social-share';
 
     /**
->>>>>>> laraxot/dev
      * Get the form schema.
      *
      * @return array<int|string, Component>
