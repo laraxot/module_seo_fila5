@@ -17,8 +17,12 @@ it('generates social share links for all platforms', function (): void {
         'text' => 'Check this out',
     ]);
 
+<<<<<<< HEAD
     $action = new GenerateSocialShareLinksAction;
     $links = $action->execute($data);
+=======
+    $links = app(GenerateSocialShareLinksAction::class)->execute($data);
+>>>>>>> laraxot/dev
 
     foreach (['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'] as $key) {
         Assert::assertArrayHasKey($key, $links);
@@ -34,8 +38,12 @@ it('includes via and hashtags in twitter link when provided', function (): void 
         'hashtags' => 'laravel,php',
     ]);
 
+<<<<<<< HEAD
     $action = new GenerateSocialShareLinksAction;
     $links = $action->execute($data);
+=======
+    $links = app(GenerateSocialShareLinksAction::class)->execute($data);
+>>>>>>> laraxot/dev
 
     Assert::assertStringContainsString('via='.urlencode('myhandle'), (string) $links['twitter']);
     Assert::assertStringContainsString('hashtags='.urlencode('laravel,php'), (string) $links['twitter']);
