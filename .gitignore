@@ -27,7 +27,6 @@ docs/phpstan/
 *.backup
 *.backup.*
 lang/lang/
-_docs/
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
 **/docs/archive/
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
@@ -40,8 +39,8 @@ _docs/
 *~head
 agentdb.rvf
 tests/AuditCoverage
-audit-coverage/
+# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
 .cursor/
 .vscode/
 .windsurf/
-# AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
+.devcontainer/
