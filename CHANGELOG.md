@@ -1,3 +1,9 @@
+## [1.0.0-dev.2](https://github.com/laraxot/module_seo_fila5/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-27)
+
+### Bug Fixes
+
+* phpinsights findings + add ReplaceMetatagDataAction coverage ([38f8b04](https://github.com/laraxot/module_seo_fila5/commit/38f8b04ddd201d3b95e4376128810a8996411181))
+
 ## 1.0.0-dev.1 (2026-08-27)
 
 ### Bug Fixes
