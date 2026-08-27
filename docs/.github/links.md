@@ -1,3 +1,4 @@
+<<<<<<< HEAD:docs/.github/links.txt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11,6 +12,10 @@
 >>>>>>> c101b34 (.)
 =======
 >>>>>>> d0f51b6 (.)
+=======
+# Links
+
+>>>>>>> 28e62e0 (.):docs/.github/links.md
 ---
 module: theme
 topic: links
