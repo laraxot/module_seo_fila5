@@ -2,46 +2,13 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fc52fe0 (.)
-=======
->>>>>>> c101b34 (.)
-=======
->>>>>>> d0f51b6 (.)
+use Modules\Seo\Tests\TestCase;
+
 /*
  * Bootstrap Pest — modulo Seo.
- * Ogni file test dichiara uses(\Modules\Seo\Tests\TestCase::class) se serve il container.
- * Vietato pest()->extend() e uses()->group() qui (PHPStan method.internalClass).
+ * `pest()->extend(TestCase::class)->in(...)` è la forma **consigliata** (XOT-5.41).
+ * Non duplicare `uses(TestCase::class)` nei file: XOR → TestCaseAlreadyInUse.
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+pest()->extend(TestCase::class)->in(__DIR__.'/Unit', __DIR__.'/Feature');
+
 uses()->group('seo');
->>>>>>> 7ec200b (.)
-=======
-uses()->group('seo');
->>>>>>> d20252d (.)
-=======
-uses()->group('seo');
->>>>>>> dbf8b8d (.)
-=======
-uses()->group('seo');
->>>>>>> 77e0353 (.)
-=======
->>>>>>> fc52fe0 (.)
-=======
->>>>>>> c101b34 (.)
-=======
->>>>>>> d0f51b6 (.)
-=======
-uses()->group('seo');
->>>>>>> a771e9c (.)
