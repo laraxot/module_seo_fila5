@@ -43,6 +43,8 @@ class MetatagManager
 
     /**
      * Set the metatag data.
+     *
+     * @param  array<string, mixed>  $data
      */
     public function set(array $data): void
     {
@@ -187,7 +189,6 @@ class MetatagManager
     public function getTitle(): string
     {
         $title = $this->metatagData->toArray()['title'] ?? '';
-        Assert::string($title);
 
         return is_string($title) ? $title : '';
     }
