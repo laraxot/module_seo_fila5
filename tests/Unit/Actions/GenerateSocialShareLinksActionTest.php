@@ -6,16 +6,9 @@ namespace Modules\Seo\Tests\Unit\Actions;
 
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Data\SocialShareData;
-<<<<<<< .merge_file_LMzDuS
-use Modules\Seo\Tests\TestCase;
-use PHPUnit\Framework\Assert;
-
-uses(TestCase::class);
-=======
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\Seo\Tests\TestCase::class);
->>>>>>> .merge_file_pNj9mD
 
 it('generates social share links for all platforms', function (): void {
     $data = SocialShareData::from([
