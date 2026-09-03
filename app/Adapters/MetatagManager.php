@@ -43,8 +43,6 @@ class MetatagManager
 
     /**
      * Set the metatag data.
-     *
-     * @param  array<string, mixed>  $data
      */
     public function set(array $data): void
     {
