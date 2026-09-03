@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Modules\Seo\Tests\Unit\Providers;
+<<<<<<< .merge_file_BhO4gJ
 
 use Modules\Seo\Adapters\MetatagManager;
 use Modules\Seo\Providers\EventServiceProvider;
@@ -12,6 +13,14 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
+=======
+use Modules\Seo\Providers\EventServiceProvider;
+use Modules\Seo\Providers\SeoServiceProvider;
+use Modules\Seo\Adapters\MetatagManager;
+use PHPUnit\Framework\Assert;
+uses(\Modules\Seo\Tests\TestCase::class);
+
+>>>>>>> .merge_file_lbNf86
 it('registers metatag service singleton and provides list', function (): void {
     $provider = new SeoServiceProvider(app());
     $provider->register();
