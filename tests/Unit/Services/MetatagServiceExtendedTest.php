@@ -5,13 +5,21 @@ declare(strict_types=1);
 namespace Modules\Seo\Tests\Unit\Services;
 
 use Modules\Seo\Adapters\MetatagManager;
+<<<<<<< .merge_file_Y1MPxL
 use Modules\Seo\Tests\TestCase;
+=======
+>>>>>>> .merge_file_69J7C5
 use PHPUnit\Framework\Assert;
+uses(\Modules\Seo\Tests\TestCase::class);
 
 uses(TestCase::class);
 
 it('sets all optional seo fields through service', function (): void {
+<<<<<<< .merge_file_Y1MPxL
     $service = new MetatagManager();
+=======
+    $service = new MetatagManager;
+>>>>>>> .merge_file_69J7C5
     $published = now()->subDay();
     $modified = now();
 

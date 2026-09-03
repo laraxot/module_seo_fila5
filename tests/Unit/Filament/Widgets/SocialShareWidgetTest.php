@@ -8,7 +8,11 @@ use Modules\Seo\Filament\Widgets\SocialShareWidget;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_Baku4G
 uses(TestCase::class);
+=======
+uses(\Modules\Seo\Tests\TestCase::class);
+>>>>>>> .merge_file_JFUpWH
 
 it('builds social links and exposes platforms in widget view data', function (): void {
     /** @var TestCase $this */
