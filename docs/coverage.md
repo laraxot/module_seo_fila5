@@ -1,5 +1,15 @@
 # Code Coverage: Seo
 
+## PHPStan (2026-09-07)
+
+4 `method.nonObject` errors in `tests/TestCase.php` on `$this->app['config']->set(...)`
+(ArrayAccess on the container resolves to `mixed` without Larastan — see
+second-brain `project_phpstan_neon_larastan_disabled_2026_09_07.md`, owner
+confirmed config stays as-is). Fixed: replaced with the `config()` helper,
+whose own conditional-return-type PHPDoc resolves to `Repository` without
+needing Larastan. PHPStan: 4 -> 0. The 12 pre-existing Pest failures below are
+unrelated (confirmed via `git stash` reproduction before this fix).
+
 **Pest Test Results:** 35 passed, 12 failed (74.5% pass rate)
 
 ## Test Summary
