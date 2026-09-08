@@ -1,0 +1,12 @@
+{
+    "name": "Seo",
+    "alias": "seo",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Seo\\Providers\\SeoServiceProvider",
+        "Modules\\Seo\\Providers\\Filament\\AdminPanelProvider"
+    ],
+    "files": []
+}
