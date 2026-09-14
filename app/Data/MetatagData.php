@@ -208,12 +208,6 @@ class MetatagData extends Data implements Wireable
 
     /**
      * Get extra metadata.
-<<<<<<< HEAD
-     */
-    public function get(string $key, mixed $default = null): mixed
-    {
-        return Arr::get($this->data, $key, $default);
-=======
      *
      * @param  string  $key  The metadata key
      * @param  array<string, mixed>|string|int|float|bool|null  $default  Default value
@@ -224,7 +218,6 @@ class MetatagData extends Data implements Wireable
         $value = Arr::get($this->data, $key, $default);
         /** @var array<string, mixed>|string|int|float|bool|null $value */
         return $value;
->>>>>>> laraxot/dev
     }
 
     /**

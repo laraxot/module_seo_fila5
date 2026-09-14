@@ -7,15 +7,8 @@ namespace Modules\Seo\Tests\Unit\Data;
 use Modules\Seo\Data\MetatagData;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-uses(\Modules\Seo\Tests\TestCase::class);
-
-it('returns sane defaults for empty data', function (): void {
-    $data = new MetatagData;
-=======
 it('returns sane defaults for empty data', function (): void {
     $data = new MetatagData();
->>>>>>> laraxot/dev
 
     Assert::assertSame('', $data->getTitle());
     Assert::assertSame('', $data->getDescription());
@@ -40,16 +33,6 @@ it('returns typed colors and falls back for invalid colors', function (): void {
     Assert::assertSame('#111111', $colors['primary']);
     Assert::assertSame('#222222', $colors['secondary']);
 
-<<<<<<< HEAD
-    $numericKeyValue = null;
-    foreach ($colors as $key => $value) {
-        if ($key === '10') {
-            $numericKeyValue = $value;
-            break;
-        }
-    }
-    Assert::assertTrue($numericKeyValue === '' || $numericKeyValue === null);
-=======
     $numericColor = null;
     foreach ($colors as $key => $value) {
         if ((string) $key === '10') {
@@ -58,7 +41,6 @@ it('returns typed colors and falls back for invalid colors', function (): void {
         }
     }
     Assert::assertSame('', $numericColor);
->>>>>>> laraxot/dev
 
     $fallback = new MetatagData(['colors' => 'invalid']);
     Assert::assertArrayHasKey('primary', $fallback->getColors());
@@ -102,13 +84,10 @@ it('returns explicit locale from data payload', function (): void {
     $data = new MetatagData(['locale' => 'it']);
 
     Assert::assertSame('it', $data->getLocale());
-<<<<<<< HEAD
-=======
 
     $data = new MetatagData(['url' => 123]);
     $url = $data->getUrl();
     expect($url)->toBeString();
->>>>>>> laraxot/dev
 });
 
 it('falls back to en when app locale is not a string', function (): void {

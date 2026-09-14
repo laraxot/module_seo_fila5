@@ -5,8 +5,6 @@ canonical: ../../../Themes/docs/shared-components/codex-error-fix.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/codex-error-fix.md
-<<<<<<< HEAD
-=======
 # Codex Configuration Error Fixes
 
 Questo documento descrive le correzioni applicate agli errori riscontrati durante l'avvio di `codex`.
@@ -89,4 +87,3 @@ args = ["laravel/artisan", "boost:mcp"]
     ]
 }
 ```
->>>>>>> laraxot/dev

@@ -65,8 +65,6 @@ https://www.coine.it/web-developing/laravel-localization-seo-friendly/
 
 
 
-<<<<<<< HEAD
-=======
 
 
 ## Contenuto originale (txt)
@@ -78,4 +76,3 @@ canonical: ../../../Themes/docs/shared-components/links-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/links-Modules.md
->>>>>>> laraxot/dev

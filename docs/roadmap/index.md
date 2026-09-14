@@ -5,8 +5,6 @@ canonical: ../../../../Themes/docs/shared-components/00-index.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/00-index.md
-<<<<<<< HEAD
-=======
 # Seo Module - Roadmap
 
 > Gestione SEO automatizzata: meta tags, sitemap, social sharing.
@@ -33,4 +31,3 @@ See canonical documentation: ../../../../Themes/docs/shared-components/00-index.
 ## Collegamenti
 
 - [00-index modulo](../00-index.md)
->>>>>>> laraxot/dev
