@@ -210,9 +210,24 @@ class MetatagData extends Data implements MetatagDataContract, Wireable
     /**
      * Get extra metadata.
      */
+<<<<<<< HEAD
     public function get(string $key, mixed $default = null): mixed
     {
         return Arr::get($this->data, $key, $default);
+=======
+    public function get(string $key, array|string|int|float|bool|null $default = null): array|string|int|float|bool|null
+    {
+        $value = Arr::get($this->data, $key, $default);
+        if (is_array($value)) {
+            /** @var array<string, mixed> $value */
+            return $value;
+        }
+        if (is_int($value) || is_float($value) || is_bool($value) || is_string($value) || $value === null) {
+            return $value;
+        }
+
+        return $default;
+>>>>>>> laraxot/dev
     }
 
     /**

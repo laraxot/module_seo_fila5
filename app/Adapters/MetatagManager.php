@@ -162,6 +162,13 @@ class MetatagManager
      */
     public function setModifiedTime(DateTimeInterface $time): void
     {
+<<<<<<< HEAD
         $this->set(array_merge($this->metatagData->toArray(), ['modified_time' => $time]));
+=======
+        $this->set(array_merge(
+            $this->metatagData->toArray(),
+            ['modified_time' => $time],
+        ));
+>>>>>>> laraxot/dev
     }
 }

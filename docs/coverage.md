@@ -1,5 +1,6 @@
 # Code Coverage: Seo
 
+<<<<<<< HEAD
 **Pest Test Results:** 35 passed, 12 failed (74.5% pass rate)
 
 ## Test Summary
@@ -25,6 +26,13 @@
 
 **PHPMD:** 1 issue detected
 - Long variable name in TestCase.php ($connectionsToTransact > 20 chars)
+=======
+**Lines Coverage:** N/A (Search engine optimization module)
+
+## Summary
+
+This module contains search engine optimization functionality for the application.
+>>>>>>> laraxot/dev
 
 ## Files Overview
 
@@ -37,6 +45,10 @@
 
 - SEO functionality module
 - Integration with content management
+<<<<<<< HEAD
 - Search engine optimization tools
 - Merge from laraxot/dev completed 2026-09-06
 - Primary issues: facade adapter data persistence, binding resolution in test setup
+=======
+- Search engine optimization tools
+>>>>>>> laraxot/dev
