@@ -12,8 +12,6 @@
         "postcss": "^8.3.7",
         "vite": "^6.4.3"
     }
-<<<<<<< HEAD
-=======
   "private": true,
   "type": "module",
   "scripts": {
@@ -29,5 +27,4 @@
   }
         "vite": "^6.4.2"
     }
->>>>>>> laraxot/dev
 }

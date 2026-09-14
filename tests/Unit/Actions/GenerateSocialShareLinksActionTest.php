@@ -5,17 +5,9 @@ declare(strict_types=1);
 namespace Modules\Seo\Tests\Unit\Actions;
 
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
-<<<<<<< HEAD
-use Modules\Seo\Data\SocialShareData;
-use PHPUnit\Framework\Assert;
-
-uses(\Modules\Seo\Tests\TestCase::class);
-
-=======
 use Modules\Seo\Datas\SocialShareData;
 use PHPUnit\Framework\Assert;
 
->>>>>>> laraxot/dev
 it('generates social share links for all platforms', function (): void {
     $data = SocialShareData::from([
         'url' => 'https://example.com/page',
@@ -23,11 +15,7 @@ it('generates social share links for all platforms', function (): void {
         'text' => 'Check this out',
     ]);
 
-<<<<<<< HEAD
-    $action = new GenerateSocialShareLinksAction;
-=======
     $action = new GenerateSocialShareLinksAction();
->>>>>>> laraxot/dev
     $links = $action->execute($data);
 
     foreach (['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'] as $key) {
@@ -37,22 +25,14 @@ it('generates social share links for all platforms', function (): void {
     Assert::assertSame('https://example.com/page', $links['copy']);
 });
 
-<<<<<<< HEAD
-it('includes via and hashtags in twitter link when provided', function (): void {
-=======
 it('includes via and hashtags in twitter link when provided', function () {
->>>>>>> laraxot/dev
     $data = SocialShareData::from([
         'url' => 'https://example.com',
         'via' => 'myhandle',
         'hashtags' => 'laravel,php',
     ]);
 
-<<<<<<< HEAD
-    $action = new GenerateSocialShareLinksAction;
-=======
     $action = new GenerateSocialShareLinksAction();
->>>>>>> laraxot/dev
     $links = $action->execute($data);
 
     Assert::assertStringContainsString('via='.urlencode('myhandle'), (string) $links['twitter']);

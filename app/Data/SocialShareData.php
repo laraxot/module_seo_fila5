@@ -21,8 +21,6 @@ class SocialShareData extends Data
      * @param  string|null  $hashtags  Comma-separated list of hashtags.
      * @param  string|null  $via  The Twitter handle (without @).
      * @param  array<int, string>  $platforms  List of enabled platforms.
-<<<<<<< HEAD
-=======
      * @param string $url The URL to share.
      * @param string|null $title The title of the content.
      * @param string|null $text Additional text or description.
@@ -30,7 +28,6 @@ class SocialShareData extends Data
      * @param string|null $hashtags Comma-separated list of hashtags.
      * @param string|null $via The Twitter handle (without @).
      * @param array<int, string> $platforms List of enabled platforms.
->>>>>>> laraxot/dev
      */
     public function __construct(
         public string $url,

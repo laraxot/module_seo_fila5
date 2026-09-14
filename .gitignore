@@ -22,27 +22,21 @@ cache/
 -e 
 # PHPStan documentation
 docs/phpstan/
-<<<<<<< HEAD
-=======
 docs/cache/
 cache/
 -e 
 # PHPStan documentation
 docs/phpstan/
 
->>>>>>> laraxot/dev
 # Backup files
 *.old
 *.old1
 *.backup
 *.backup.*
 lang/lang/
-<<<<<<< HEAD
-=======
 _docs/
 _docs/
 
->>>>>>> laraxot/dev
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
 **/docs/archive/
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
@@ -56,23 +50,7 @@ _docs/
 agentdb.rvf
 tests/AuditCoverage
 # AI/TOOL SCAFFOLD — must never exist in module tree (see docs/wiki/rules/module-theme-root-cleanup.md)
-<<<<<<< HEAD
-
-# Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
-.cursor/
-.devcontainer/
-.vscode/
-.windsurf/
-tests/AuditCoverage/
-
-# Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
-phpinsights.php
-rector.php
-graphify-out
-node_modules
-=======
 .cursor/
 .vscode/
 .windsurf/
 .devcontainer/
->>>>>>> laraxot/dev

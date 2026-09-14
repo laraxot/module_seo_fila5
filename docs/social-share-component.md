@@ -146,25 +146,15 @@ Open Graph NON richiede pacchetti. Si aggiungono direttamente nel layout:
 ## Anti-pattern vietato
 
 ```bash
-<<<<<<< HEAD
-# ❌ MAI fare questo per logica semplice (scope: componente social-share di Seo)
-composer require kudashevs/laravel-share-buttons
-=======
 # ❌ MAI fare questo per logica semplice
 composer require kudashevs/laravel-share-buttons
 composer require spatie/laravel-feed
->>>>>>> laraxot/dev
 ```
 
 **Regola**: Prima di installare un pacchetto Composer, chiedi: _si può fare in meno di 20 righe di PHP nativo?_ Se sì → **non installare il pacchetto**.
 
 I link social sono stringhe URL con `urlencode()`. Non serve libreria.
 
-<<<<<<< HEAD
-Nota: `spatie/laravel-feed` NON è anti-pattern in generale — è dipendenza reale del modulo **Blog** (RSS/Atom su `Article`, vedi `Modules/Blog/docs/dependencies.md`), non di Seo. Se serve un feed RSS altrove, riusa quello, non installarlo di nuovo qui.
-
-=======
->>>>>>> laraxot/dev
 ## Chiavi di traduzione
 
 Struttura corretta in `Themes/Meetup/lang/{locale}/event.php`:
