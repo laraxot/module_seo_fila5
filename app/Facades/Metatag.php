@@ -6,8 +6,13 @@ namespace Modules\Seo\Facades;
 
 use DateTimeInterface;
 use Illuminate\Support\Facades\Facade;
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagManager;
 use Modules\Seo\Data\MetatagData;
+=======
+use Modules\Seo\Adapters\MetatagFacadeAdapter;
+use Modules\Seo\Datas\MetatagData;
+>>>>>>> laraxot/dev
 
 /**
  * @method static MetatagData get()
@@ -27,7 +32,11 @@ use Modules\Seo\Data\MetatagData;
  * @method static void setPublishedTime(DateTimeInterface $time)
  * @method static void setModifiedTime(DateTimeInterface $time)
  *
+<<<<<<< HEAD
  * @see MetatagManager
+=======
+ * @see MetatagFacadeAdapter
+>>>>>>> laraxot/dev
  */
 class Metatag extends Facade
 {
@@ -36,6 +45,10 @@ class Metatag extends Facade
      */
     protected static function getFacadeAccessor(): string
     {
+<<<<<<< HEAD
         return MetatagManager::class;
+=======
+        return MetatagFacadeAdapter::class;
+>>>>>>> laraxot/dev
     }
 }
