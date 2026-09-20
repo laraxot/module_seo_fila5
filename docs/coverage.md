@@ -1,5 +1,6 @@
 # Code Coverage: Seo
 
+<<<<<<< HEAD
 ## PHPStan (2026-09-07)
 
 4 `method.nonObject` errors in `tests/TestCase.php` on `$this->app['config']->set(...)`
@@ -38,6 +39,13 @@ Complexity 94.2, Architecture 88.2, Style 92.8 — all above min-70.
 
 **PHPMD:** 1 issue detected
 - Long variable name in TestCase.php ($connectionsToTransact > 20 chars)
+=======
+**Lines Coverage:** N/A (Search engine optimization module)
+
+## Summary
+
+This module contains search engine optimization functionality for the application.
+>>>>>>> laraxot/dev
 
 ## Files Overview
 
@@ -50,6 +58,10 @@ Complexity 94.2, Architecture 88.2, Style 92.8 — all above min-70.
 
 - SEO functionality module
 - Integration with content management
+<<<<<<< HEAD
 - Search engine optimization tools
 - Merge from laraxot/dev completed 2026-09-06
 - Primary issues: facade adapter data persistence, binding resolution in test setup
+=======
+- Search engine optimization tools
+>>>>>>> laraxot/dev

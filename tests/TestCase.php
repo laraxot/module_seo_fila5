@@ -6,8 +6,14 @@ namespace Modules\Seo\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
 use Modules\User\Models\User;
 use Modules\Xot\Tests\XotBaseTestCase;
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Tests\XotBaseTestCase;
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
 
 /**
  * Base test case for Seo module.
@@ -35,21 +41,35 @@ abstract class TestCase extends XotBaseTestCase
             $driver = config("database.connections.{$connection}.driver");
 
             if ($driver === 'sqlite') {
+<<<<<<< HEAD
                 config()->set("database.connections.{$connection}.database", $database);
+=======
+                $this->app['config']->set("database.connections.{$connection}.database", $database);
+>>>>>>> laraxot/dev
                 DB::purge($connection);
 
                 continue;
             }
 
             if ($driver === 'mysql') {
+<<<<<<< HEAD
                 config()->set("database.connections.{$connection}.driver", 'sqlite');
                 config()->set("database.connections.{$connection}.database", $database);
                 config()->set("database.connections.{$connection}.prefix", '');
+=======
+                $this->app['config']->set("database.connections.{$connection}.driver", 'sqlite');
+                $this->app['config']->set("database.connections.{$connection}.database", $database);
+                $this->app['config']->set("database.connections.{$connection}.prefix", '');
+>>>>>>> laraxot/dev
                 DB::purge($connection);
             }
         }
 
+<<<<<<< HEAD
         config(['auth.providers.users.model' => User::class]);
+=======
+        config(['auth.providers.users.model' => \Modules\User\Models\User::class]);
+>>>>>>> laraxot/dev
         config(['xra.pub_theme' => 'Meetup']);
         config(['xra.main_module' => 'Seo']);
     }
