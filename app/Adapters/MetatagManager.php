@@ -6,11 +6,8 @@ namespace Modules\Seo\Adapters;
 
 use DateTimeInterface;
 use Modules\Seo\Data\MetatagData;
-<<<<<<< HEAD
-=======
-use Webmozart\Assert\Assert;
->>>>>>> laraxot/dev
 use Modules\Seo\Facades\Metatag;
+use Webmozart\Assert\Assert;
 
 /**
  * Metatag facade coordinator.
@@ -168,8 +165,6 @@ class MetatagManager
     {
         $this->set(array_merge($this->metatagData->toArray(), ['modified_time' => $time]));
     }
-<<<<<<< HEAD
-=======
 
     /**
      * Set a meta field.
@@ -271,5 +266,4 @@ class MetatagManager
     {
         $this->set(array_merge($this->metatagData->toArray(), ['section' => $section]));
     }
->>>>>>> laraxot/dev
 }
