@@ -1,7 +1,15 @@
 <<<<<<< HEAD
 # Documentation Index
 
+<<<<<<< HEAD
 - [Conflict Resolution](conflict-resolution.md)
+=======
+Modulo: Seo
+
+## File disponibili
+
+<!-- auto-generato: elencare i file .md presenti -->
+>>>>>>> laraxot/dev
 =======
 # Seo module — documentation index
 

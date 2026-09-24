@@ -8,8 +8,11 @@ use Modules\Seo\Datas\SocialShareData;
 use PHPUnit\Framework\Assert;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(\Modules\Seo\Tests\TestCase::class);
 
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 it('creates instance with required url', function (): void {
