@@ -206,21 +206,8 @@ Seo Module
 
 ---
 
-<<<<<<< HEAD
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Last Updated**: 2025-10-01
-**Next Review**: 2025-11-01
->>>>>>> laraxot/dev
-=======
-**Last Updated**: 2025-10-01
-**Next Review**: 2025-11-01
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 **Status**: 🚧 PLANNING  
 **Confidence Level**: 70%  
 
