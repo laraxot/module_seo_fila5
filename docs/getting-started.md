@@ -77,9 +77,6 @@ npm run dev
 ```
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 >>>>>>> origin/develop
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

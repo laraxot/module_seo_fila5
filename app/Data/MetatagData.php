@@ -4,13 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Data;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use BadMethodCallException;
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
@@ -97,15 +90,7 @@ class MetatagData extends Data implements Wireable
             $result[$strKey] = $strValue;
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $result ?: $default;
-=======
         return $result ? $result : $default;
->>>>>>> laraxot/dev
-=======
-        return $result ? $result : $default;
->>>>>>> laraxot/dev
     }
 
     /**
@@ -224,17 +209,6 @@ class MetatagData extends Data implements Wireable
     /**
      * Get extra metadata.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  mixed  $default
-     * @return mixed
-     */
-    public function get(string $key, $default = null)
-    {
-        return Arr::get($this->data, $key, $default);
-=======
-=======
->>>>>>> laraxot/dev
      * @param  string  $key  The metadata key
      * @param  array<string, mixed>|string|int|float|bool|null  $default  Default value
      * @return array<string, mixed>|string|int|float|bool|null The metadata value or default
@@ -242,15 +216,9 @@ class MetatagData extends Data implements Wireable
     public function get(string $key, array|string|int|float|bool|null $default = null): array|string|int|float|bool|null
     {
         $value = Arr::get($this->data, $key, $default);
-<<<<<<< HEAD
-        /** @var array<string, mixed>|string|int|float|bool|null $value */
-        return $value;
->>>>>>> laraxot/dev
-=======
 
         /** @var array<string, mixed>|string|int|float|bool|null $value */
         return $value;
->>>>>>> laraxot/dev
     }
 
     /**
@@ -283,20 +251,8 @@ class MetatagData extends Data implements Wireable
 
     /**
      * Create a new instance from Livewire data.
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-     * @param  mixed  $value
-     */
-    public static function fromLivewire($value): self
-=======
      */
     public static function fromLivewire(mixed $value): self
->>>>>>> laraxot/dev
-=======
-     */
-    public static function fromLivewire(mixed $value): self
->>>>>>> laraxot/dev
     {
         if (is_array($value)) {
             /** @var array<string, mixed> $typedValue */

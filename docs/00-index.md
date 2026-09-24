@@ -4,10 +4,6 @@
 **Module Version**: 1.0.0
 
 <<<<<<< HEAD
-## 🎯 Lettura Essenziale
-1. [README.md](./readme.md) - Panoramica del modulo SEO.
-=======
-<<<<<<< HEAD
 ## Audit over-engineering
 
 | Documento | Scopo |
@@ -20,7 +16,6 @@
 =======
 ## 🎯 Lettura Essenziale
 1. [README.md](./readme.md) - Panoramica del modulo SEO.
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: AI Content Optimization & Schema.org.
 
@@ -42,13 +37,9 @@
 
 ## 📦 Pacchetti Composer
 <<<<<<< HEAD
-- [Riferimento](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md) - Nessuna dipendenza diretta; usa Xot
-=======
-<<<<<<< HEAD
 - [Riferimento composer packages](../../../../bashscripts/ai/wiki/memories/composer-packages-reference.md) - Nessuna dipendenza diretta; usa Xot
 =======
 - [Riferimento](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md) - Nessuna dipendenza diretta; usa Xot
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## 🔗 Moduli Correlati

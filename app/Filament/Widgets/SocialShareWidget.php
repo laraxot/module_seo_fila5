@@ -6,15 +6,7 @@ namespace Modules\Seo\Filament\Widgets;
 
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Seo\Data\SocialShareData;
-=======
 use Modules\Seo\Datas\SocialShareData;
->>>>>>> laraxot/dev
-=======
-use Modules\Seo\Datas\SocialShareData;
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -34,13 +26,6 @@ class SocialShareWidget extends XotBaseSchemaWidget
      *
      * @phpstan-var view-string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    /** @phpstan-ignore property.defaultValue */
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     protected string $view = 'seo::filament.widgets.social-share';
 
     /**
@@ -57,14 +42,7 @@ class SocialShareWidget extends XotBaseSchemaWidget
      * Get the data for the view.
      *
      * @return array<string, mixed>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
      *
->>>>>>> laraxot/dev
-=======
-     *
->>>>>>> laraxot/dev
      * @SuppressWarnings("PHPMD.StaticAccess")
      */
     protected function getViewData(): array

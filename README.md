@@ -1,52 +1,6 @@
 <<<<<<< HEAD
 # 🔍 Seo
 
-<<<<<<< HEAD
-[![Domain-SEO](https://img.shields.io/badge/Domain-SEO-827717.svg)](#)
-[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-[![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
-[![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
-[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
-[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
-[![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
-[![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
-
-> **Trovabile su Google, accessibile a tutti.** Meta, sitemap, structured data — visibilità istituzionale.
-
----
-
-## Perché esiste
-
-I servizi comunali devono essere discoverable.
-
-## Superpoteri
-
-- Meta tag e Open Graph
-- Sitemap e robots
-- Integrazione Folio/CMS
-- Filament configurazione
-
-## Certificazioni
-
-| Certificazione | Stato |
-|----------------|-------|
-| PHPStan livello 10 | Target progetto |
-| `declare(strict_types=1)` | Su nuovo codice PHP |
-| Filament 5 + XotBase | Admin enterprise |
-| Test PHPUnit / Pest | Suite modulo |
-| Documentazione wiki | Cartella `docs/` |
-
-## Vuoi entrare nel team?
-
-Se non si trova, **non esiste** — SEO matters.
-
-Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — vedi [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
-
----
-
-## Documentazione
-=======
 [![Stars](https://img.shields.io/github/stars/laraxot/module_seo_fila5?style=plastic&color=yellow)]()
 [![Forks](https://img.shields.io/github/forks/laraxot/module_seo_fila5?style=plastic&color=green)]()
 [![Issues](https://img.shields.io/github/issues/laraxot/module_seo_fila5?style=plastic&color=red)]()
@@ -89,19 +43,12 @@ In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Qu
 - **XotBase** - Pattern consolidati che funzionano
 
 ## 📖 Documentazione
->>>>>>> laraxot/dev
 
 | Lingua | Link |
 |--------|------|
 | 🇮🇹 Presentazione | Questo file (`README.md`) |
 | 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
 | 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
-<<<<<<< HEAD
-
----
-
-**Modulo** `seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-=======
 | 🎯 Esempi | [docs/examples/](./docs/examples/) |
 
 ## 🔧 Tecnologie chiave
@@ -117,7 +64,6 @@ Importa, installa, configura. Il resto ci penseremo noi.
 ---
 
 **Modulo** `Seo` · **Laraxot** · PHPStan 10 · Filament 5
->>>>>>> laraxot/dev
 =======
 ---
 id: module-seo-readme

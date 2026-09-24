@@ -7,14 +7,6 @@ namespace Modules\Seo\Tests\Feature;
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-uses(\Modules\Seo\Tests\TestCase::class);
-
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 it('can set title', function (): void {
     $adapter = app(MetatagFacadeAdapter::class);
     $adapter->setTitle('Test Title');
