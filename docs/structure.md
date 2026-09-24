@@ -116,7 +116,11 @@ app/Http/Controllers
 app/Http/Livewire
 app/Http/Middleware
 app/Http/Requests
+<<<<<<< HEAD
 app/Interfaces
+=======
+app/Contracts
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
 app/Jobs
 app/Listeners
 app/Models
@@ -172,6 +176,30 @@ tests/Unit
     },
     "require_comment": {
         "openai-php/laravel": "*"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_EAaL6F
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1c344a1 (.)
+=======
+>>>>>>> origin/develop
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 1c344a1 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> .merge_file_voil1i
+=======
+>>>>>>> 1c344a1 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
     },
 ```
 

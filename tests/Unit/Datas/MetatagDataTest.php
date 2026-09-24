@@ -8,10 +8,27 @@ use Modules\Seo\Data\MetatagData;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
 uses(TestCase::class);
 
 it('returns sane defaults for empty data', function (): void {
     $data = new MetatagData;
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_s0r4F2
+it('returns sane defaults for empty data', function (): void {
+    $data = new MetatagData();
+=======
+uses(\Modules\Seo\Tests\TestCase::class);
+
+it('returns sane defaults for empty data', function (): void {
+    $data = new MetatagData;
+>>>>>>> .merge_file_VbAS0s
+=======
+it('returns sane defaults for empty data', function (): void {
+    $data = new MetatagData();
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 
     Assert::assertSame('', $data->getTitle());
     Assert::assertSame('', $data->getDescription());
