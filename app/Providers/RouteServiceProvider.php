@@ -15,10 +15,13 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
      */
     protected string $moduleNamespace = 'Modules\Seo\Http\Controllers';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 }

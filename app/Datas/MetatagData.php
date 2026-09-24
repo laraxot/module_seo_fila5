@@ -210,9 +210,12 @@ class MetatagData extends Data implements MetatagDataContract, Wireable
     /**
      * Get extra metadata.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param  array<string, mixed>|string|int|float|bool|null  $default
      * @return array<string, mixed>|string|int|float|bool|null
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
      */

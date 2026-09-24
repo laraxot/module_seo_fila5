@@ -8,8 +8,11 @@ use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use PHPUnit\Framework\Assert;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(\Modules\Seo\Tests\TestCase::class);
 
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 it('can set title', function (): void {

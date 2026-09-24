@@ -8,7 +8,11 @@ use DateTimeInterface;
 use Illuminate\Support\Facades\Facade;
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Data\MetatagData;
+=======
+use Modules\Seo\Datas\MetatagData;
+>>>>>>> laraxot/dev
 =======
 use Modules\Seo\Datas\MetatagData;
 >>>>>>> laraxot/dev

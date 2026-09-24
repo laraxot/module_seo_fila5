@@ -8,7 +8,10 @@ use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Facades\Metatag;
 use PHPUnit\Framework\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(\Modules\Seo\Tests\TestCase::class);
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 

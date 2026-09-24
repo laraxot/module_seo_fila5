@@ -6,6 +6,7 @@ namespace Modules\Seo\Tests\Unit\Services;
 
 use Modules\Seo\Services\MetatagService;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Tests\TestCase;
 
 uses(TestCase::class);
@@ -13,10 +14,15 @@ uses(TestCase::class);
 it('sets all optional seo fields through service', function (): void {
     $service = new MetatagService;
 =======
+=======
+>>>>>>> laraxot/dev
 use PHPUnit\Framework\Assert;
 
 it('sets all optional seo fields through service', function (): void {
     $service = new MetatagService();
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     $published = now()->subDay();
     $modified = now();
@@ -33,6 +39,7 @@ it('sets all optional seo fields through service', function (): void {
     $meta = $service->get();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect($meta->getImage())->toBe('https://example.test/image.png')
         ->and($meta->getLocale())->toBe('it')
         ->and($meta->getType())->toBe('article')
@@ -44,6 +51,8 @@ it('sets all optional seo fields through service', function (): void {
 });
 
 =======
+=======
+>>>>>>> laraxot/dev
     Assert::assertSame('https://example.test/image.png', $meta->getImage());
     Assert::assertSame('it', $meta->getLocale());
     Assert::assertSame('article', $meta->getType());
@@ -58,4 +67,7 @@ it('sets all optional seo fields through service', function (): void {
     Assert::assertSame($published->format('c'), $publishedTime->format('c'));
     Assert::assertSame($modified->format('c'), $modifiedTime->format('c'));
 });
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

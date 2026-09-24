@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Tests\Unit\Providers;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Providers\EventServiceProvider;
 use Modules\Seo\Providers\SeoServiceProvider;
@@ -25,6 +26,8 @@ it('registers metatag adapter singleton and provides list', function (): void {
 it('event service provider enables event discovery', function (): void {
     $reflection = new \ReflectionClass(EventServiceProvider::class);
 =======
+=======
+>>>>>>> laraxot/dev
 
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Adapters\MetatagState;
@@ -48,6 +51,9 @@ it('registers metatag adapter and state singletons', function (): void {
 
 it('event service provider enables event discovery', function (): void {
     $reflection = new ReflectionClass(EventServiceProvider::class);
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     $property = $reflection->getProperty('shouldDiscoverEvents');
     $property->setAccessible(true);
