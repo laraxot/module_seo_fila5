@@ -1,73 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# 🔍 Seo
-
-[![Stars](https://img.shields.io/github/stars/laraxot/module_seo_fila5?style=plastic&color=yellow)]()
-[![Forks](https://img.shields.io/github/forks/laraxot/module_seo_fila5?style=plastic&color=green)]()
-[![Issues](https://img.shields.io/github/issues/laraxot/module_seo_fila5?style=plastic&color=red)]()
-[![License](https://img.shields.io/github/license/laraxot/module_seo_fila5?style=plastic&color=blue)]()
-[![Last Commit](https://img.shields.io/github/last-commit/laraxot/module_seo_fila5?style=plastic&color=purple)]()
-[![Release](https://img.shields.io/github/v/release/laraxot/module_seo_fila5?style=plastic&color=orange&display_name=release)]()
-[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)
-[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)
-[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)
-[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
-]()
-
-> **SEO integrato, sempre aggiornato**  
-> SEO meta, sitemap, canonical e strumenti per il posizionamento.
-
-## 🎯 La Visione
-
-Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modulo è stato pensato per risolvere problemi reali con soluzioni eleganti.
-
-## Perché esiste questo modulo?
-
-**SEO meta, sitemap, canonical e strumenti per il posizionamento.**
-
-In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Questo modulo non è solo una libreria: è una **promessa di qualità** mantenuta.
-
-## 🧘 I Principi Zen (e la nostra filosofia)
-
-1. **Semplicità vince sulla complessità** - Il codice chiaro è più potente di mille righe di commenti.
-2. **Modulare è dare vita** - Ogni pezzo può vivere da solo, ma insieme diventa un universo.
-3. **Documentare è onniscienza** - La mancanza di documentazione è la paura del futuro.
-4. **Testare è fidarsi** - Non fidarsi del proprio codice è fidarsi del caos.
-5. **Rifattorizzare è crescere** - Lentamente, incrementalmente, diventiamo migliori.
-
-## 💎 Le sue Superpoteri
-
-- **Architettura modulare** - Separazione netta tra logica di business e presentazione
-- **PHPStan Level 10** - Massima sicurezza tipizzazione
-- **PSR-12** - Codice che parla lo stesso linguaggio del mondo
-- **Filament 5** - Admin panel d'eccellenza
-- **XotBase** - Pattern consolidati che funzionano
-
-## 📖 Documentazione
-
-| Lingua | Link |
-|--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
-| 🎯 Esempi | [docs/examples/](./docs/examples/) |
-
-## 🔧 Tecnologie chiave
-
-**Stack principale:** Laravel 13, Filament 5, XotBase
-
-**Keywords:** SEO, Metadata, Sitemap
-
-## 🚀 Pronte all'uso
-
-Importa, installa, configura. Il resto ci penseremo noi.
-
----
-
-**Modulo** `Seo` · **Laraxot** · PHPStan 10 · Filament 5
-=======
->>>>>>> laraxot/dev
 ---
 id: module-seo-readme
 title: "SEO — Metadati, Sitemap e Dati Strutturati"
@@ -92,6 +22,17 @@ sources: []
 
 > **Metadati, sitemap e dati strutturati.**
 
+[![Stars](https://img.shields.io/github/stars/laraxot/module_seo_fila5?style=plastic&color=yellow)]()
+[![Forks](https://img.shields.io/github/forks/laraxot/module_seo_fila5?style=plastic&color=green)]()
+[![Issues](https://img.shields.io/github/issues/laraxot/module_seo_fila5?style=plastic&color=red)]()
+[![License](https://img.shields.io/github/license/laraxot/module_seo_fila5?style=plastic&color=blue)]()
+[![Last Commit](https://img.shields.io/github/last-commit/laraxot/module_seo_fila5?style=plastic&color=purple)]()
+[![Release](https://img.shields.io/github/v/release/laraxot/module_seo_fila5?style=plastic&color=orange&display_name=release)]()
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
+
 Pagine pubbliche trovabili, condivisibili e semanticamente leggibili.
 
 ## Cosa offre
@@ -100,6 +41,8 @@ Pagine pubbliche trovabili, condivisibili e semanticamente leggibili.
 - **Open Graph** – social sharing
 - **Sitemap/robots** – crawling efficiency
 - **Schema.org/CMS** – structured data
+
+**Keywords:** SEO, Metadata, Sitemap, Open Graph, Schema.org
 
 ## Confini architetturali
 
@@ -119,6 +62,7 @@ See local docs for integration patterns.
 
 The technical map is in [docs/README.md](./docs/README.md).
 
+- [Business card (EN)](./docs/readme-en.md)
 - [Story BMAD del modulo](./docs/stories/)
 - [Regole del progetto](../../../docs/wiki/)
 - [README del progetto](../../README.md)
@@ -129,8 +73,4 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 
 ---
 
-**Modulo** `seo` · **Laraxot ecosystem** · **Project-agnostic**
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+**Modulo** `seo` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
