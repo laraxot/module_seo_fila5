@@ -7,19 +7,8 @@ namespace Modules\Seo\Tests\Unit\Adapters;
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
 uses(\Modules\Seo\Tests\TestCase::class);
 
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_WfCMPK
-=======
-uses(\Modules\Seo\Tests\TestCase::class);
-
->>>>>>> .merge_file_c03Zc3
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 it('sets all optional seo fields through adapter', function (): void {
     $adapter = app(MetatagFacadeAdapter::class);
     $published = now()->subDay();

@@ -8,19 +8,8 @@ use Modules\Seo\Data\SocialShareData;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
 uses(TestCase::class);
 
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_IPfvzH
-=======
-uses(\Modules\Seo\Tests\TestCase::class);
-
->>>>>>> .merge_file_Uucw0d
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 it('creates instance with required url', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');
 
