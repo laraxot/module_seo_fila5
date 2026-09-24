@@ -1,4 +1,3 @@
-<<<<<<< .merge_file_csJ8Kz
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -23,8 +22,6 @@ cache/
 -e
 # PHPStan documentation
 docs/phpstan/
-=======
->>>>>>> .merge_file_h0x01n
 docs/cache/
 cache/
 -e
