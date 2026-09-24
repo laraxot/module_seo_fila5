@@ -873,26 +873,4 @@ SEO is not magic. It's infrastructure. The Seo module is the foundation.
 
 **Last updated:** 2025-09-06  
 **Owner:** Seo Module Team  
-<<<<<<< .merge_file_Hy5yUT
-=======
-<<<<<<< .merge_file_RS5oRb
 **Platform:** FixCity · Laravel 12 · Filament 5
-=======
-<<<<<<< .merge_file_O7XMvw
-**Platform:** FixCity · Laravel 12 · Filament 5
-=======
->>>>>>> .merge_file_B5CW67
-<<<<<<< HEAD
-**Platform:** FixCity · Laravel 12 · Filament 5
-=======
-<<<<<<< HEAD
-**Platform:** FixCity · Laravel 13 · Filament 5
-=======
-**Platform:** FixCity · Laravel 12 · Filament 5
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_Hy5yUT
-=======
->>>>>>> .merge_file_9QI7uF
->>>>>>> .merge_file_IF8zjG
->>>>>>> .merge_file_B5CW67

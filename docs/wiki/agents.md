@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 ---
 title: "Agent instructions"
 type: reference
@@ -16,10 +11,6 @@ related:
   - ./coding-agent-manifests.md
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Seo {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** Seo
