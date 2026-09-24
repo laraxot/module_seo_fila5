@@ -6,13 +6,8 @@ namespace Modules\Seo\Adapters;
 
 use DateTimeInterface;
 use Modules\Seo\Data\MetatagData;
-<<<<<<< HEAD
-use Webmozart\Assert\Assert;
-use Modules\Seo\Facades\Metatag;
-=======
 use Modules\Seo\Facades\Metatag;
 use Webmozart\Assert\Assert;
->>>>>>> laraxot/dev
 
 /**
  * Metatag facade coordinator.
