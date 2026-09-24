@@ -32,9 +32,9 @@ it('returns typed colors and falls back for invalid colors', function (): void {
 
     $colors = $data->getColors();
 
-    expect($colors['primary'])->toBe('#111111')
-        ->and($colors['secondary'])->toBe('#222222')
-        ->and($colors['10'])->toBe('');
+    expect($colors['primary'])->toBe('#111111');
+    expect($colors['secondary'])->toBe('#222222');
+    expect($colors['10'] ?? '')->toBe('');
 
     $fallback = new MetatagData(['colors' => 'invalid']);
     expect($fallback->getColors())->toHaveKey('primary');
