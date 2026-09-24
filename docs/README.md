@@ -1,21 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
----
-title: "Seo Module Documentation"
-type: documentation
-tags: [module, documentation]
-created: 2026-06-05
-updated: 2026-06-05
----
-
-# Seo Module
-=======
-# 🎯 SEO Module - Search Engine Optimization
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # Seo
 
 [![Module](https://img.shields.io/badge/Module-Seo-8B0000.svg)]()
@@ -52,10 +35,6 @@ Core module for the FixCity Platform.
 **Modulo** `Seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 =======
 # 🎯 SEO Module - Search Engine Optimization
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
@@ -64,21 +43,8 @@ Core module for the FixCity Platform.
 
 The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
 
-<<<<<<< HEAD
 **Metatag facade (canone):** `MetatagFacadeAdapter` + `MetatagState` + Actions — vedi [conflict-resolution.md](./conflict-resolution.md) e [metatag-data-contract.md](./wiki/concepts/metatag-data-contract.md).
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Metatag facade (canone):** `MetatagFacadeAdapter` + `MetatagState` + Actions — vedi [conflict-resolution.md](./conflict-resolution.md) e [metatag-data-contract.md](./wiki/concepts/metatag-data-contract.md).
-
->>>>>>> laraxot/dev
-=======
-**Metatag facade (canone):** `MetatagFacadeAdapter` + `MetatagState` + Actions — vedi [conflict-resolution.md](./conflict-resolution.md) e [metatag-data-contract.md](./wiki/concepts/metatag-data-contract.md).
-
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ## 🚀 Features
 
 ### ✅ Completed
@@ -103,14 +69,6 @@ php artisan module:enable Seo
 php artisan migrate
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 > **🚀 Modulo SEO**: Sistema completo per ottimizzazione motori di ricerca, gestione meta tags, sitemap e structured data.
 
 ## 📋 **Panoramica**
@@ -126,13 +84,6 @@ Il modulo **SEO** fornisce strumenti avanzati per l'ottimizzazione SEO:
 
 ## ⚡ **Funzionalità Core**
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ### 🎯 **Meta Tags Management**
 ```php
 // Impostazione meta tags
@@ -380,18 +331,7 @@ php artisan seo:validate-schema
 
 
 
-<<<<<<< HEAD
 Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
->>>>>>> laraxot/dev
-=======
-Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ## ⚙️ Configuration
 
 Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
@@ -424,27 +364,5 @@ For Filament resources, use the provided SEO trait to add configuration fields t
 Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-## Standard Rules & Workflow
-
-- [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
-- [[Context Engineering](../../../../docs/wiki/concepts/context-engineering.md)]
-- [[LLM Wiki Governance](../../../../docs/wiki/concepts/llm-wiki-governance.md)]
-
-## Documentation
-
-- [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
-- [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
-- [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
-- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
 >>>>>>> laraxot/dev
