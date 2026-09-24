@@ -12,13 +12,34 @@
 
 > **Trovabile su Google, accessibile a tutti.** Meta, sitemap, structured data — visibilità istituzionale.
 
+<<<<<<< .merge_file_yQnxmJ
+[![Stars](https://img.shields.io/github/stars/laraxot/module_seo_fila5?style=plastic&color=yellow)]()
+[![Forks](https://img.shields.io/github/forks/laraxot/module_seo_fila5?style=plastic&color=green)]()
+[![Issues](https://img.shields.io/github/issues/laraxot/module_seo_fila5?style=plastic&color=red)]()
+[![License](https://img.shields.io/github/license/laraxot/module_seo_fila5?style=plastic&color=blue)]()
+[![Last Commit](https://img.shields.io/github/last-commit/laraxot/module_seo_fila5?style=plastic&color=purple)]()
+[![Release](https://img.shields.io/github/v/release/laraxot/module_seo_fila5?style=plastic&color=orange&display_name=release)]()
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
+
+Pagine pubbliche trovabili, condivisibili e semanticamente leggibili.
+=======
 ---
+>>>>>>> .merge_file_2YRKyf
 
 ## Perché esiste
 
 I servizi comunali devono essere discoverable.
 
+<<<<<<< .merge_file_yQnxmJ
+**Keywords:** SEO, Metadata, Sitemap, Open Graph, Schema.org
+
+## Confini architetturali
+=======
 ## Superpoteri
+>>>>>>> .merge_file_2YRKyf
 
 - Meta tag e Open Graph
 - Sitemap e robots
@@ -41,7 +62,14 @@ Se non si trova, **non esiste** — SEO matters.
 
 Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — vedi [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
 
+<<<<<<< .merge_file_yQnxmJ
+- [Business card (EN)](./docs/readme-en.md)
+- [Story BMAD del modulo](./docs/stories/)
+- [Regole del progetto](../../../docs/wiki/)
+- [README del progetto](../../README.md)
+=======
 ---
+>>>>>>> .merge_file_2YRKyf
 
 ## Documentazione
 
@@ -53,4 +81,8 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
+<<<<<<< .merge_file_yQnxmJ
+**Modulo** `seo` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
+=======
 **Modulo** `seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> .merge_file_2YRKyf

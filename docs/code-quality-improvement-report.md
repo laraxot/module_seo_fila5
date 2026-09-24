@@ -8,9 +8,33 @@ updated: 2026-07-17
 qmd: "code quality baseline PHPStan Pest strict types Laraxot Seo"
 story: STORY-001
 issues:
+<<<<<<< .merge_file_Yoa3st
   - "https://github.com/laraxot/base_techplanner_fila5/issues/46"
 discussions:
   - "https://github.com/laraxot/base_techplanner_fila5/discussions/47"
+=======
+<<<<<<< .merge_file_UAUXLz
+  - "https://github.com/laraxot/base_techplanner_fila5/issues/46"
+discussions:
+  - "https://github.com/laraxot/base_techplanner_fila5/discussions/47"
+=======
+<<<<<<< HEAD
+  - "https://github.com/laraxot/base_techplanner_fila5/issues/46"
+discussions:
+  - "https://github.com/laraxot/base_techplanner_fila5/discussions/47"
+=======
+<<<<<<< HEAD
+  - "https://github.com/laraxot/base_workorder_fila5/issues/46"
+discussions:
+  - "https://github.com/laraxot/base_workorder_fila5/discussions/47"
+=======
+  - "https://github.com/laraxot/base_techplanner_fila5/issues/46"
+discussions:
+  - "https://github.com/laraxot/base_techplanner_fila5/discussions/47"
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Y45pTW
+>>>>>>> .merge_file_9LUxdM
 related:
   - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
 ---

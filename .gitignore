@@ -1,6 +1,31 @@
+# Auto-generated forbidden paths — do not edit manually
+# Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
+
+bashscripts
+_bmad-output
+.circleci
+.claude-audit
+.devcontainer
+_docs
+docs/archive
+docs/archived
+docs/legacy
+docs/workbench
+.kilocode
+.kiro
+.ralph
+scripts
+test-results
+tests/.claude-audit
 docs/cache/
 cache/
--e 
+-e
+# PHPStan documentation
+docs/phpstan/
+docs/cache/
+cache/
+-e
+-e
 # PHPStan documentation
 docs/phpstan/
 
@@ -31,3 +56,17 @@ audit-coverage/
 .vscode/
 .windsurf/
 .devcontainer/
+
+# Laraxot — IDE folders forbidden at module/theme root (see module-theme-root-hygiene)
+.cursor/
+.devcontainer/
+.vscode/
+.windsurf/
+tests/AuditCoverage/
+
+# Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
+phpinsights.php
+rector.php
+graphify-out
+
+node_modules
