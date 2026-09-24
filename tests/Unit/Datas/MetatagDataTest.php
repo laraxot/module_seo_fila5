@@ -7,10 +7,15 @@ namespace Modules\Seo\Tests\Unit\Datas;
 use Modules\Seo\Datas\MetatagData;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_s0r4F2
+it('returns sane defaults for empty data', function (): void {
+    $data = new MetatagData();
+=======
 uses(\Modules\Seo\Tests\TestCase::class);
 
 it('returns sane defaults for empty data', function (): void {
     $data = new MetatagData;
+>>>>>>> .merge_file_VbAS0s
 
     Assert::assertSame('', $data->getTitle());
     Assert::assertSame('', $data->getDescription());
