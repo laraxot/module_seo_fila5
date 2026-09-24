@@ -7,6 +7,14 @@ namespace Modules\Seo\Tests\Feature;
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_w8zP1x
+=======
+<<<<<<< .merge_file_CLTVcK
+=======
+uses(\Modules\Seo\Tests\TestCase::class);
+
+>>>>>>> .merge_file_pdCTQ1
+>>>>>>> .merge_file_P6nk8D
 it('can set title', function (): void {
     $adapter = app(MetatagFacadeAdapter::class);
     $adapter->setTitle('Test Title');

@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Tests\Unit\Services;
 
-use Modules\Seo\Adapters\MetatagFacadeAdapter;
+use Modules\Seo\Services\MetatagService;
 use Tests\TestCase;
 
 uses(TestCase::class);
 
 it('sets all optional seo fields through service', function (): void {
-    $service = app(MetatagFacadeAdapter::class);
+    $service = new MetatagService;
     $published = now()->subDay();
     $modified = now();
 

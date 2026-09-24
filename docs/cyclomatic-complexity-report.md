@@ -1,6 +1,17 @@
 # Cyclomatic Complexity Report - Module: Seo
 
-**Generated:** 2025-10-01 19:44:11
+**Generated:** 2025-10-01 19:44:11  
+<<<<<<< .merge_file_O99bgq
+<<<<<<< HEAD
+**Generated:** 2025-10-01 19:44:11  
+=======
+<<<<<<< HEAD
+=======
+**Generated:** 2025-10-01 19:44:11  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_44mnQY
 **Analyzer:** Super Mucca 🐮
 
 ---
