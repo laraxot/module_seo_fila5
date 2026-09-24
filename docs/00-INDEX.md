@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 Indice Documentazione Modulo Seo
 
 **Status**: 🟡 In Progress
@@ -44,3 +45,6 @@
 ## Dependency Intelligence
 
 - [Dependency intelligence](dependency-intelligence.md)
+=======
+# Documentation Index
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])

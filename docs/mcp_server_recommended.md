@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_UPpcqy
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+---
+module: theme
+topic: mcp_server_recommended
+canonical: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_YyduEL
+=======
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 # Server MCP consigliati per Seo
 
 Per il modulo Seo, si consiglia di utilizzare i seguenti server MCP:

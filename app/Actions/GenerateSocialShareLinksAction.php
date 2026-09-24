@@ -17,7 +17,11 @@ class GenerateSocialShareLinksAction
     /**
      * Execute the action to construct sharing URLs.
      *
+<<<<<<< HEAD
      * @param  SocialShareData  $data  The sharing data.
+=======
+     * @param SocialShareData $data The sharing data.
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
      * @return array<string, string> Keyed by platform name, value is the sharing URL.
      */
     public function execute(SocialShareData $data): array
@@ -25,6 +29,7 @@ class GenerateSocialShareLinksAction
         $text = $data->text ?? $data->title ?? '';
 
         return [
+<<<<<<< HEAD
             'facebook' => 'https://www.facebook.com/sharer/sharer.php?u='.urlencode($data->url),
             'twitter' => 'https://twitter.com/intent/tweet?url='.urlencode($data->url)
                 .'&text='.urlencode($text)
@@ -33,6 +38,16 @@ class GenerateSocialShareLinksAction
             'linkedin' => 'https://www.linkedin.com/sharing/share-offsite/?url='.urlencode($data->url),
             'whatsapp' => 'https://api.whatsapp.com/send?text='.urlencode($text.' '.$data->url),
             'telegram' => 'https://t.me/share/url?url='.urlencode($data->url).'&text='.urlencode($text),
+=======
+            'facebook' => "https://www.facebook.com/sharer/sharer.php?u=".urlencode($data->url),
+            'twitter' => "https://twitter.com/intent/tweet?url=".urlencode($data->url)
+                ."&text=".urlencode($text)
+                .($data->via ? "&via=".urlencode($data->via) : "")
+                .($data->hashtags ? "&hashtags=".urlencode($data->hashtags) : ""),
+            'linkedin' => "https://www.linkedin.com/sharing/share-offsite/?url=".urlencode($data->url),
+            'whatsapp' => "https://api.whatsapp.com/send?text=".urlencode($text." ".$data->url),
+            'telegram' => "https://t.me/share/url?url=".urlencode($data->url)."&text=".urlencode($text),
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
             'copy' => $data->url,
         ];
     }

@@ -5,7 +5,19 @@ declare(strict_types=1);
 namespace Modules\Seo\Contracts;
 
 use DateTimeInterface;
+<<<<<<< HEAD
 use Modules\Seo\Data\MetatagData;
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_GSmApn
+use Modules\Seo\Datas\MetatagData;
+=======
+use Modules\Seo\Data\MetatagData;
+>>>>>>> .merge_file_i4Ks3n
+=======
+use Modules\Seo\Data\MetatagData;
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 
 /**
  * Contratto read-only per i metadati SEO (title, OG, canonical, …).
@@ -45,7 +57,26 @@ interface MetatagDataContract
 
     public function getModifiedTime(): ?DateTimeInterface;
 
+<<<<<<< HEAD
     public function get(string $key, mixed $default = null): mixed;
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_GSmApn
+    /**
+     * Get a metadata value by key.
+     *
+     * @param  string  $key  The metadata key
+     * @param  array<string, mixed>|string|int|float|bool|null  $default  Default value if key doesn't exist
+     * @return array<string, mixed>|string|int|float|bool|null The metadata value or default
+     */
+    public function get(string $key, array|string|int|float|bool|null $default = null): array|string|int|float|bool|null;
+=======
+    public function get(string $key, mixed $default = null): mixed;
+>>>>>>> .merge_file_i4Ks3n
+=======
+    public function get(string $key, mixed $default = null): mixed;
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 
     public function has(string $key): bool;
 

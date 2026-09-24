@@ -2,7 +2,19 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Seo\Data;
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_mawh8O
+namespace Modules\Seo\Datas;
+=======
+namespace Modules\Seo\Data;
+>>>>>>> .merge_file_JI2xzv
+=======
+namespace Modules\Seo\Datas;
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 
 use Spatie\LaravelData\Data;
 
@@ -29,7 +41,26 @@ class SocialShareData extends Data
         public ?string $image = null,
         public ?string $hashtags = null,
         public ?string $via = null,
+<<<<<<< HEAD
         public array $platforms = ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'],
     ) {
     }
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_mawh8O
+=======
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+        public array $platforms = [
+            'facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy',
+        ],
+    ) {}
+<<<<<<< HEAD
+=======
+        public array $platforms = ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'],
+    ) {
+    }
+>>>>>>> .merge_file_JI2xzv
+=======
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 }

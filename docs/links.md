@@ -65,3 +65,32 @@ https://www.coine.it/web-developing/laravel-localization-seo-friendly/
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_W0HlJH
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+
+
+## Contenuto originale (txt)
+
+---
+module: theme
+topic: links
+canonical: ../../../Themes/docs/shared-components/links-Modules.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/links-Modules.md
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fvcdpg
+=======
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
