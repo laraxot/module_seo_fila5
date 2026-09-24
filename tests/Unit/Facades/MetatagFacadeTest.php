@@ -7,16 +7,6 @@ namespace Modules\Seo\Tests\Unit\Facades;
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Facades\Metatag;
 use PHPUnit\Framework\Assert;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-uses(\Modules\Seo\Tests\TestCase::class);
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 it('resolves metatag adapter through facade accessor', function (): void {
     $adapter = app(MetatagFacadeAdapter::class);
