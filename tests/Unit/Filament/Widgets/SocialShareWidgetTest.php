@@ -7,10 +7,16 @@ namespace Modules\Seo\Tests\Unit\Filament\Widgets;
 use Modules\Seo\Filament\Widgets\SocialShareWidget;
 use PHPUnit\Framework\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(\Modules\Seo\Tests\TestCase::class);
 
 it('builds social links and exposes platforms in widget view data', function (): void {
     $widget = new class extends SocialShareWidget
+=======
+
+it('builds social links and exposes platforms in widget view data', function (): void {
+    $widget = new class() extends SocialShareWidget
+>>>>>>> laraxot/dev
 =======
 
 it('builds social links and exposes platforms in widget view data', function (): void {
@@ -49,7 +55,11 @@ it('builds social links and exposes platforms in widget view data', function ():
 
 it('returns empty form schema', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new SocialShareWidget;
+=======
+    $widget = new SocialShareWidget();
+>>>>>>> laraxot/dev
 =======
     $widget = new SocialShareWidget();
 >>>>>>> laraxot/dev
