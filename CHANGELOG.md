@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 ## [1.0.0-dev.2](https://github.com/laraxot/module_seo_fila5/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-27)
 
 ### Bug Fixes
@@ -14,6 +17,9 @@
 * resolve merge conflict markers, standardize on MetatagFacadeAdapter ([1643a57](https://github.com/laraxot/module_seo_fila5/commit/1643a571133c3379678ec0f1beadbdd97652d441))
 * resolve residual git conflict markers in Seo docs, .gitignore, package.json/lock ([0ddcef3](https://github.com/laraxot/module_seo_fila5/commit/0ddcef31adbe0c30a8243b5946f6b9c054fc9806))
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Changelog
 

@@ -14,6 +14,7 @@ Located in `Seo/app/Datas/`:
 ### Creating Meta Tag Data
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Datas\MetatagData;
 
 // Verified against app/Datas/MetatagData.php: the constructor takes a single
@@ -25,18 +26,24 @@ $metatag = new MetatagData([
     'title' => 'Page Title',
     'description' => 'Page Description',
 =======
+=======
+>>>>>>> laraxot/dev
 use Modules\Seo\app\Datas\MetatagData;
 
 $metatag = MetatagData::from([
     'title' => 'Page Title',
     'description' => 'Page Description',
     'keywords' => ['keyword1', 'keyword2'],
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ]);
 ```
 
 ### Social Sharing Data
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Seo\Datas\SocialShareData;
 
@@ -48,21 +55,29 @@ $sharing = SocialShareData::from([
     'title' => 'Shared Title',
     'text' => 'Shared description',
 =======
+=======
+>>>>>>> laraxot/dev
 use Modules\Seo\app\Datas\SocialShareData;
 
 $sharing = SocialShareData::from([
     'title' => 'Shared Title',
     'description' => 'Shared Description',
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     'image' => 'https://example.com/image.jpg',
 ]);
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Namespace note: the correct namespace is `Modules\Seo\Datas` (module root maps
 > to `app/` via PSR-4 — do not include an `app\` segment). An earlier revision
 > of this doc had `Modules\Seo\app\Datas\...`, which does not exist.
 
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ## Migration Notes

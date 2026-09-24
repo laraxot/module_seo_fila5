@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Tests\Feature;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Seo\Services\MetatagService;
 
 it('can set title', function () {
@@ -43,6 +44,8 @@ it('can set colors', function () {
     $service->setColors($colors);
     expect($service->get()->getColors())->toBe($colors);
 =======
+=======
+>>>>>>> laraxot/dev
 use Modules\Seo\Adapters\MetatagManager;
 use PHPUnit\Framework\Assert;
 
@@ -81,5 +84,8 @@ it('can set colors', function (): void {
     $colors = ['primary' => '#000000', 'secondary' => '#ffffff'];
     $service->setColors($colors);
     Assert::assertSame($colors, $service->get()->getColors());
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 });
