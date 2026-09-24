@@ -2,7 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_nIlfYR
 namespace Modules\Seo\Datas;
+=======
+namespace Modules\Seo\Data;
+>>>>>>> .merge_file_YVHdWq
 
 use DateTimeInterface;
 use Illuminate\Support\Arr;
@@ -210,6 +214,7 @@ class MetatagData extends Data implements MetatagDataContract, Wireable
     /**
      * Get extra metadata.
      */
+<<<<<<< .merge_file_nIlfYR
     public function get(string $key, array|string|int|float|bool|null $default = null): array|string|int|float|bool|null
     {
         $value = Arr::get($this->data, $key, $default);
@@ -222,6 +227,11 @@ class MetatagData extends Data implements MetatagDataContract, Wireable
         }
 
         return $default;
+=======
+    public function get(string $key, mixed $default = null): mixed
+    {
+        return Arr::get($this->data, $key, $default);
+>>>>>>> .merge_file_YVHdWq
     }
 
     /**
