@@ -1,9 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 # Product Requirements Document (PRD) - Seo Module
 
 **Module**: Seo
@@ -447,10 +442,6 @@ CREATE TABLE seo_scores (
 | Design Lead | | | |
 | Stakeholder | | | |
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Seo - Product Requirements Document (PRD)
 
 Documento ponte verso il file canonico legacy:
@@ -461,10 +452,4 @@ Nota operativa:
 - il naming legacy in maiuscolo resta compatibile
 - i nuovi documenti prodotto fanno riferimento a `prd.md`
 - una wave futura puo' convergere il naming a un solo standard
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
