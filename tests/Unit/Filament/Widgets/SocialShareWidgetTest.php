@@ -6,28 +6,9 @@ namespace Modules\Seo\Tests\Unit\Filament\Widgets;
 
 use Modules\Seo\Filament\Widgets\SocialShareWidget;
 use PHPUnit\Framework\Assert;
-<<<<<<< HEAD
 
 it('builds social links and exposes platforms in widget view data', function (): void {
     $widget = new class() extends SocialShareWidget
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-uses(\Modules\Seo\Tests\TestCase::class);
-
-it('builds social links and exposes platforms in widget view data', function (): void {
-    $widget = new class extends SocialShareWidget
-=======
-
-it('builds social links and exposes platforms in widget view data', function (): void {
-    $widget = new class() extends SocialShareWidget
->>>>>>> laraxot/dev
-=======
-
-it('builds social links and exposes platforms in widget view data', function (): void {
-    $widget = new class() extends SocialShareWidget
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     {
         /** @return array<string, mixed> */
         public function exposeViewData(): array
@@ -60,19 +41,7 @@ it('builds social links and exposes platforms in widget view data', function ():
 });
 
 it('returns empty form schema', function (): void {
-<<<<<<< HEAD
     $widget = new SocialShareWidget();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $widget = new SocialShareWidget;
-=======
-    $widget = new SocialShareWidget();
->>>>>>> laraxot/dev
-=======
-    $widget = new SocialShareWidget();
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
     Assert::assertSame([], $widget->getFormSchema());
 });

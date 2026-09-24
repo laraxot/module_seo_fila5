@@ -14,14 +14,6 @@ class SocialShareData extends Data
     /**
      * Create a new SocialShareData instance.
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
      * @param  string  $url  The URL to share.
      * @param  string|null  $title  The title of the content.
      * @param  string|null  $text  Additional text or description.
@@ -29,19 +21,6 @@ class SocialShareData extends Data
      * @param  string|null  $hashtags  Comma-separated list of hashtags.
      * @param  string|null  $via  The Twitter handle (without @).
      * @param  array<int, string>  $platforms  List of enabled platforms.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-     * @param string $url The URL to share.
-     * @param string|null $title The title of the content.
-     * @param string|null $text Additional text or description.
-     * @param string|null $image Canonical image URL.
-     * @param string|null $hashtags Comma-separated list of hashtags.
-     * @param string|null $via The Twitter handle (without @).
-     * @param array<int, string> $platforms List of enabled platforms.
-=======
->>>>>>> laraxot/dev
      * @param  string  $url  The URL to share.
      * @param  string|null  $title  The title of the content.
      * @param  string|null  $text  Additional text or description.
@@ -49,10 +28,6 @@ class SocialShareData extends Data
      * @param  string|null  $hashtags  Comma-separated list of hashtags.
      * @param  string|null  $via  The Twitter handle (without @).
      * @param  array<int, string>  $platforms  List of enabled platforms.
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
      */
     public function __construct(
         public string $url,
@@ -62,14 +37,5 @@ class SocialShareData extends Data
         public ?string $hashtags = null,
         public ?string $via = null,
         public array $platforms = ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'],
-<<<<<<< HEAD
     ) {}
-=======
-<<<<<<< HEAD
-    ) {
-    }
-=======
-    ) {}
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 }

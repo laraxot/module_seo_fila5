@@ -7,17 +7,6 @@ namespace Modules\Seo\Tests\Unit\Datas;
 use Modules\Seo\Datas\SocialShareData;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-uses(\Modules\Seo\Tests\TestCase::class);
-
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 it('creates instance with required url', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');
 
