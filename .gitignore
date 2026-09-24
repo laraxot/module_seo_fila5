@@ -1,0 +1,18 @@
+docs/cache/
+cache/
+-e 
+# PHPStan documentation
+docs/phpstan/
+
+# Backup files
+*.old
+*.old1
+*.backup
+*.backup.*
+lang/lang/
+_docs/
+_docs/
+
+# claude-audit bridge (non committare)
+audit-coverage/
+tests/AuditCoverage/*
