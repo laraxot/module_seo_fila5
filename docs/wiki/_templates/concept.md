@@ -5,6 +5,7 @@ canonical: ../../../../../Themes/docs/shared-components/concept.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md
+<<<<<<< .merge_file_x2dVvv
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -52,3 +53,5 @@ _How this concept is implemented in our codebase (with file references)._
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ol4vox

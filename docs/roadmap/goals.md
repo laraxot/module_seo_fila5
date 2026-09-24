@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/02-goals-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-Modules.md
+<<<<<<< .merge_file_pEoDiJ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -32,3 +33,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_277uAq

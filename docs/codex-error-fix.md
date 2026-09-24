@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/codex-error-fix.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/codex-error-fix.md
+<<<<<<< .merge_file_dq1G72
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -96,3 +97,5 @@ args = ["laravel/artisan", "boost:mcp"]
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Z17RkP

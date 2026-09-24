@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modu
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modules.md
+<<<<<<< .merge_file_h6i1Ic
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -117,3 +118,5 @@ middleware(['auth', 'verified']);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ecjvAn

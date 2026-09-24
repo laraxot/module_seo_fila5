@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh.md
+<<<<<<< .merge_file_TeXsyi
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -27,3 +28,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/rules-testin
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_OZkgTV

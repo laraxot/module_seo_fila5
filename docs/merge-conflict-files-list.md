@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/merge-conflict-files-list.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/merge-conflict-files-list.md
+<<<<<<< .merge_file_GokkKf
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -96,3 +97,5 @@ This file contains a comprehensive list of files with merge conflict markers (`<
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TzYknV

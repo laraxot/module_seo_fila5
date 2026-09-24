@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/00-index.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/00-index.md
+<<<<<<< .merge_file_tYxdF4
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -40,3 +41,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/00-index.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PRJqky

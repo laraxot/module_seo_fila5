@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
+<<<<<<< .merge_file_Milz1x
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -134,3 +135,5 @@ Se entrambi i file contengono contenuto diverso:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_HjiR43

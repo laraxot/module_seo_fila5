@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/rules-index.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/rules-index.md
+<<<<<<< .merge_file_VGWseN
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -19,3 +20,5 @@ This module follows the global Laraxot coding standards.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hwwA6L

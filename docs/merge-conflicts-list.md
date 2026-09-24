@@ -1,11 +1,15 @@
+<<<<<<< .merge_file_fCY4uB
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> .merge_file_9flfqh
 ---
 module: theme
 topic: merge-conflicts-list
 canonical: ../../../Themes/docs/shared-components/merge-conflicts-list.md
 ---
+<<<<<<< .merge_file_fCY4uB
 
 See canonical documentation: ../../../Themes/docs/shared-components/merge-conflicts-list.md
 =======
@@ -68,3 +72,7 @@ Elenco dei file trovati contenenti marker di merge (<<<<<<<, >>>>>>>, .merge_fil
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+See canonical documentation: ../../../Themes/docs/shared-components/merge-conflicts-list.md
+>>>>>>> .merge_file_9flfqh

@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
+<<<<<<< .merge_file_dkt3yn
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -80,3 +81,5 @@ Implement core technical SEO features including meta tags, sitemap, and schema m
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KRsvqC

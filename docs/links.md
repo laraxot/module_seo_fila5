@@ -65,6 +65,7 @@ https://www.coine.it/web-developing/laravel-localization-seo-friendly/
 
 
 
+<<<<<<< .merge_file_W0HlJH
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -85,3 +86,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/links-Module
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fvcdpg

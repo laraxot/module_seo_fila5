@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
+<<<<<<< .merge_file_j3y3lg
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,3 +40,5 @@ Aggiungi solo i server che realmente ti servono per il tuo workflow.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_k3An3Z
