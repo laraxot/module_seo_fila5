@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/USER_RESEARCH.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/USER_RESEARCH.md
+<<<<<<< .merge_file_yqkhOA
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -100,3 +101,5 @@ Long-tail keywords drive qualified traffic.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MYZrnm

@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan.md
+<<<<<<< .merge_file_A6uKBh
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -19,3 +20,5 @@ This module adheres to PHPStan Level 10.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5h1DJS

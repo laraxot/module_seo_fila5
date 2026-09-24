@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
+<<<<<<< .merge_file_x1tHlc
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -30,3 +31,5 @@ Per dettagli e best practice consulta la guida generale MCP nel workspace.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_VErBeO

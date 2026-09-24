@@ -1,27 +1,18 @@
----
-id: module-seo-readme
-title: "SEO — Metadati, Sitemap e Dati Strutturati"
-type: module-readme
-category: module-documentation
-module: Seo
-status: active
-tags: [seo, metadata, sitemap, opengraph, schema]
-created: 2026-09-14
-updated: 2026-09-14
-qmd: "seo metadata sitemap opengraph schema structured data module documentation"
-issues:
-  - "https://github.com/laraxot/module_seo_fila5/issues/13"
-discussions:
-  - "https://github.com/laraxot/module_seo_fila5/discussions/14"
-related:
-  - "./docs/"
-sources: []
----
+# 🔍 Seo
 
-# 🔍 SEO
+[![Domain-SEO](https://img.shields.io/badge/Domain-SEO-827717.svg)](#)
+[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+[![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
+[![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
+[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
+[![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
+[![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 
-> **Metadati, sitemap e dati strutturati.**
+> **Trovabile su Google, accessibile a tutti.** Meta, sitemap, structured data — visibilità istituzionale.
 
+<<<<<<< .merge_file_yQnxmJ
 [![Stars](https://img.shields.io/github/stars/laraxot/module_seo_fila5?style=plastic&color=yellow)]()
 [![Forks](https://img.shields.io/github/forks/laraxot/module_seo_fila5?style=plastic&color=green)]()
 [![Issues](https://img.shields.io/github/issues/laraxot/module_seo_fila5?style=plastic&color=red)]()
@@ -34,43 +25,64 @@ sources: []
 [![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
 
 Pagine pubbliche trovabili, condivisibili e semanticamente leggibili.
+=======
+---
+>>>>>>> .merge_file_2YRKyf
 
-## Cosa offre
+## Perché esiste
 
-- **Meta/canonical** – ottimizzazione SEO
-- **Open Graph** – social sharing
-- **Sitemap/robots** – crawling efficiency
-- **Schema.org/CMS** – structured data
+I servizi comunali devono essere discoverable.
 
+<<<<<<< .merge_file_yQnxmJ
 **Keywords:** SEO, Metadata, Sitemap, Open Graph, Schema.org
 
 ## Confini architetturali
+=======
+## Superpoteri
+>>>>>>> .merge_file_2YRKyf
 
-This module publishes contracts usable by other modules. Logic lives in `Actions`; admin UI follows Laraxot/XotBase.
+- Meta tag e Open Graph
+- Sitemap e robots
+- Integrazione Folio/CMS
+- Filament configurazione
 
-## Integrazione rapida
+## Certificazioni
 
-```bash
-cd laravel
-php artisan module:list
-./vendor/bin/phpstan analyse Modules/Seo
-```
+| Certificazione | Stato |
+|----------------|-------|
+| PHPStan livello 10 | Target progetto |
+| `declare(strict_types=1)` | Su nuovo codice PHP |
+| Filament 5 + XotBase | Admin enterprise |
+| Test PHPUnit / Pest | Suite modulo |
+| Documentazione wiki | Cartella `docs/` |
 
-See local docs for integration patterns.
+## Vuoi entrare nel team?
 
-## Documentazione
+Se non si trova, **non esiste** — SEO matters.
 
-The technical map is in [docs/README.md](./docs/README.md).
+Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — vedi [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
 
+<<<<<<< .merge_file_yQnxmJ
 - [Business card (EN)](./docs/readme-en.md)
 - [Story BMAD del modulo](./docs/stories/)
 - [Regole del progetto](../../../docs/wiki/)
 - [README del progetto](../../README.md)
+=======
+---
+>>>>>>> .merge_file_2YRKyf
 
-## Qualità e manutenzione
+## Documentazione
 
-Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, and update docs when contracts evolve.
+| Lingua | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
 
 ---
 
+<<<<<<< .merge_file_yQnxmJ
 **Modulo** `seo` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
+=======
+**Modulo** `seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> .merge_file_2YRKyf

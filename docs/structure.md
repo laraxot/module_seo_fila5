@@ -172,6 +172,7 @@ tests/Unit
     },
     "require_comment": {
         "openai-php/laravel": "*"
+<<<<<<< .merge_file_EAaL6F
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -181,6 +182,11 @@ tests/Unit
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 1c344a1 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> .merge_file_voil1i
     },
 ```
 

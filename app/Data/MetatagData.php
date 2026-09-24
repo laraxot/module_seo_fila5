@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Data;
 
+use BadMethodCallException;
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
@@ -90,7 +91,7 @@ class MetatagData extends Data implements Wireable
             $result[$strKey] = $strValue;
         }
 
-        return $result ? $result : $default;
+        return $result ?: $default;
     }
 
     /**
@@ -209,15 +210,12 @@ class MetatagData extends Data implements Wireable
     /**
      * Get extra metadata.
      *
-     * @param  string  $key  The metadata key
-     * @param  array<string, mixed>|string|int|float|bool|null  $default  Default value
-     * @return array<string, mixed>|string|int|float|bool|null The metadata value or default
+     * @param  mixed  $default
+     * @return mixed
      */
-    public function get(string $key, array|string|int|float|bool|null $default = null): array|string|int|float|bool|null
+    public function get(string $key, $default = null)
     {
-        $value = Arr::get($this->data, $key, $default);
-        /** @var array<string, mixed>|string|int|float|bool|null $value */
-        return $value;
+        return Arr::get($this->data, $key, $default);
     }
 
     /**
@@ -250,8 +248,10 @@ class MetatagData extends Data implements Wireable
 
     /**
      * Create a new instance from Livewire data.
+     *
+     * @param  mixed  $value
      */
-    public static function fromLivewire(mixed $value): self
+    public static function fromLivewire($value): self
     {
         if (is_array($value)) {
             /** @var array<string, mixed> $typedValue */

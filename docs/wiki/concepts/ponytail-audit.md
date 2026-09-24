@@ -7,6 +7,7 @@
 - [Findings Seo](../../ponytail-audit-over-engineering.md)
 
 Aggiornare solo finding e stato specifici di questo modulo.
+<<<<<<< .merge_file_YMbKnG
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -22,3 +23,5 @@ Documento canonico: [ponytail-audit-over-engineering.md](../../ponytail-audit-ov
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_mQt3N9

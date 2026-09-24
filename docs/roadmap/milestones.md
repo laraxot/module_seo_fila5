@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/04-milestones-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/04-milestones-Modules.md
+<<<<<<< .merge_file_3ZKWqG
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -30,3 +31,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/04-milest
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rvpUms

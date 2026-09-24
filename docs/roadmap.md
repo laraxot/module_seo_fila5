@@ -248,6 +248,7 @@ Seo Module
 - [roadmap/quality.md](roadmap/quality.md)
 - [roadmap/vision.md](roadmap/vision.md)
 - [seo-optimization-roadmap.md](seo-optimization-roadmap.md)
+<<<<<<< .merge_file_V8wpKB
 # Roadmap Modulo Seo
 
 **Versione**: 2025.10
@@ -460,3 +461,5 @@ Secondo le "Regole Windsurf per base_predict_fila3_mono", gli obiettivi per l'an
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PZsgxo

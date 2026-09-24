@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_eWVDQR
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -276,3 +277,8 @@ Residue from doc-sync tooling tests. No informational content.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Documentation Index
+
+- [Conflict Resolution](conflict-resolution.md)
+>>>>>>> .merge_file_p3eCM0

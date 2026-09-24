@@ -5,6 +5,7 @@ canonical: ../../../../../Themes/docs/shared-components/source.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/source.md
+<<<<<<< .merge_file_hty8RL
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -61,3 +62,5 @@ _Any additional notes, context, or observations._
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DJOVDM

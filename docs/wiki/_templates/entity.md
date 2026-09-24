@@ -5,6 +5,7 @@ canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/entity-Modules.md
+<<<<<<< .merge_file_DtDYZ6
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -51,3 +52,5 @@ _How this entity relates to the project, what role it plays._
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fM3OuL

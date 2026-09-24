@@ -1,5 +1,6 @@
 https://github.com/ralphjsmit/laravel-filament-seo
 
+<<<<<<< .merge_file_RKzKZx
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -20,3 +21,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament.md
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_8VI9zf

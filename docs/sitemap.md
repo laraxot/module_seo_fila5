@@ -1,5 +1,6 @@
 https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
 
+<<<<<<< .merge_file_7Qb2uG
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -20,3 +21,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/sitemap.md
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qodQ9s

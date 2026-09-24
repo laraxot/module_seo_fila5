@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/01-current-state-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/01-current-state-Modules.md
+<<<<<<< .merge_file_9h3eqc
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -27,3 +28,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/01-curren
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Lihji7
