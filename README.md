@@ -1,30 +1,88 @@
-# SEO Module
+# 🔍 Seo
 
-The SEO module provides enterprise-grade Search Engine Optimization capabilities including meta management, sitemap generation, structured data, analytics integration, and social sharing for Laraxot applications.
+[![Domain-SEO](https://img.shields.io/badge/Domain-SEO-827717.svg)](#)
+[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+[![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
+[![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
+[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
+[![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
+[![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 
-## 🎯 Core Features
-- 🏷️ **Meta Tag Management**: Dynamic tag generation for titles, descriptions, and keywords.
-- 🗺️ **Sitemap Generation**: Automated XML sitemap creation with index support.
-- 📱 **OpenGraph & Social**: Standardized social media sharing infrastructure and preview tags.
-- 📊 **Schema.org Markup**: JSON-LD structured data integration.
-- 📉 **SEO Analytics**: Score calculation and performance tracking.
+> **Trovabile su Google, accessibile a tutti.** Meta, sitemap, structured data — visibilità istituzionale.
 
-## 🏗️ Architecture
-The module follows the Laraxot modular architecture:
-- **Actions**: Domain logic encapsulated in Spatie Queueable Actions.
-- **Widgets**: Reusable Filament components for backoffice integration.
-- **Models**: Robust Eloquent models for SEO metadata.
+<<<<<<< .merge_file_yQnxmJ
+[![Stars](https://img.shields.io/github/stars/laraxot/module_seo_fila5?style=plastic&color=yellow)]()
+[![Forks](https://img.shields.io/github/forks/laraxot/module_seo_fila5?style=plastic&color=green)]()
+[![Issues](https://img.shields.io/github/issues/laraxot/module_seo_fila5?style=plastic&color=red)]()
+[![License](https://img.shields.io/github/license/laraxot/module_seo_fila5?style=plastic&color=blue)]()
+[![Last Commit](https://img.shields.io/github/last-commit/laraxot/module_seo_fila5?style=plastic&color=purple)]()
+[![Release](https://img.shields.io/github/v/release/laraxot/module_seo_fila5?style=plastic&color=orange&display_name=release)]()
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
 
-## 🚀 Getting Started
-Refer to the `docs/` folder for detailed documentation:
-- [00-index.md](./docs/00-index.md) - Documentation Index
-- [roadmap.md](./docs/roadmap.md) - Development Roadmap
-- [social-sharing-component.md](./docs/social-sharing-component.md) - Social Sharing Guide
+Pagine pubbliche trovabili, condivisibili e semanticamente leggibili.
+=======
+---
+>>>>>>> .merge_file_2YRKyf
 
-## 🛠️ Requirements
-- PHP 8.3+
-- Laravel 11.x/12
-- Filament 4.x
+## Perché esiste
+
+I servizi comunali devono essere discoverable.
+
+<<<<<<< .merge_file_yQnxmJ
+**Keywords:** SEO, Metadata, Sitemap, Open Graph, Schema.org
+
+## Confini architetturali
+=======
+## Superpoteri
+>>>>>>> .merge_file_2YRKyf
+
+- Meta tag e Open Graph
+- Sitemap e robots
+- Integrazione Folio/CMS
+- Filament configurazione
+
+## Certificazioni
+
+| Certificazione | Stato |
+|----------------|-------|
+| PHPStan livello 10 | Target progetto |
+| `declare(strict_types=1)` | Su nuovo codice PHP |
+| Filament 5 + XotBase | Admin enterprise |
+| Test PHPUnit / Pest | Suite modulo |
+| Documentazione wiki | Cartella `docs/` |
+
+## Vuoi entrare nel team?
+
+Se non si trova, **non esiste** — SEO matters.
+
+Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — vedi [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
+
+<<<<<<< .merge_file_yQnxmJ
+- [Business card (EN)](./docs/readme-en.md)
+- [Story BMAD del modulo](./docs/stories/)
+- [Regole del progetto](../../../docs/wiki/)
+- [README del progetto](../../README.md)
+=======
+---
+>>>>>>> .merge_file_2YRKyf
+
+## Documentazione
+
+| Lingua | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
 
 ---
-*Developed by Google DeepMind team - Laraxot methodology*
+
+<<<<<<< .merge_file_yQnxmJ
+**Modulo** `seo` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
+=======
+**Modulo** `seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> .merge_file_2YRKyf

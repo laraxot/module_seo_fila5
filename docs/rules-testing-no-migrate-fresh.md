@@ -1,3 +1,16 @@
+---
+module: theme
+topic: rules-testing-no-migrate-fresh
+canonical: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh.md
+<<<<<<< .merge_file_TeXsyi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # CRITICAL ARCHITECTURE RULE: NO MIGRATE:FRESH
 
 ## Rule
@@ -11,3 +24,9 @@
 ## Correct Approach
 - Only use `DatabaseTransactions` to rollback state after tests.
 - Maintain strict database boundaries.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_OZkgTV

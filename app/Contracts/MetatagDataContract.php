@@ -5,7 +5,11 @@ declare(strict_types=1);
 namespace Modules\Seo\Contracts;
 
 use DateTimeInterface;
+<<<<<<< .merge_file_GSmApn
 use Modules\Seo\Datas\MetatagData;
+=======
+use Modules\Seo\Data\MetatagData;
+>>>>>>> .merge_file_i4Ks3n
 
 /**
  * Contratto read-only per i metadati SEO (title, OG, canonical, …).
@@ -45,6 +49,7 @@ interface MetatagDataContract
 
     public function getModifiedTime(): ?DateTimeInterface;
 
+<<<<<<< .merge_file_GSmApn
     /**
      * Get a metadata value by key.
      *
@@ -53,6 +58,9 @@ interface MetatagDataContract
      * @return array<string, mixed>|string|int|float|bool|null The metadata value or default
      */
     public function get(string $key, array|string|int|float|bool|null $default = null): array|string|int|float|bool|null;
+=======
+    public function get(string $key, mixed $default = null): mixed;
+>>>>>>> .merge_file_i4Ks3n
 
     public function has(string $key): bool;
 
