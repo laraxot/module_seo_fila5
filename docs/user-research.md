@@ -5,6 +5,11 @@ canonical: ../../../Themes/docs/shared-components/USER_RESEARCH.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/USER_RESEARCH.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Seo Module - User Research
 
 **Module:** Seo  
@@ -91,3 +96,7 @@ Long-tail keywords drive qualified traffic.
 
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

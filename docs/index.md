@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Documentation Index
+
+Modulo: Seo
+
+## File disponibili
+
+<!-- auto-generato: elencare i file .md presenti -->
+=======
+>>>>>>> laraxot/dev
 # Seo module — documentation index
 
 Master index of `docs/` for the Seo module, organized by topic. Every `.md` file under `docs/` is linked from here, either directly or inside the "Storico / da consolidare" section. No file was renamed, moved, or deleted while building this index.
@@ -260,3 +272,7 @@ Residue from doc-sync tooling tests. No informational content.
 - [raw/root-import/test-bb-1.md](./raw/root-import/test-bb-1.md)
 - [raw/root-import/test-2025-03-24.md](./raw/root-import/test-2025-03-24.md)
 - [raw/root-import/test-2025-03-24-bb.md](./raw/root-import/test-2025-03-24-bb.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

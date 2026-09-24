@@ -5,6 +5,11 @@ canonical: ../../../../Themes/docs/shared-components/02-goals-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-Modules.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Goals - Seo
 
 ## Short Term
@@ -23,3 +28,7 @@ See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-
 
 1. Stabilita sotto fault randomizzati (chaos testing).
 2. Manutenibilita alta con onboarding rapido.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -5,6 +5,11 @@ canonical: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Seo Module - Product Roadmap
 
 **Module:** Seo  
@@ -111,3 +116,7 @@ To build a **comprehensive SEO optimization system** that drives organic traffic
 
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
