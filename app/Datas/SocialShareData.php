@@ -2,15 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_CKhioL
 namespace Modules\Seo\Datas;
-=======
-<<<<<<< .merge_file_mawh8O
-namespace Modules\Seo\Datas;
-=======
-namespace Modules\Seo\Data;
->>>>>>> .merge_file_JI2xzv
->>>>>>> .merge_file_iqXpkr
 
 use Spatie\LaravelData\Data;
 
@@ -37,20 +29,8 @@ class SocialShareData extends Data
         public ?string $image = null,
         public ?string $hashtags = null,
         public ?string $via = null,
-<<<<<<< .merge_file_CKhioL
-=======
-<<<<<<< .merge_file_mawh8O
->>>>>>> .merge_file_iqXpkr
         public array $platforms = [
             'facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy',
         ],
     ) {}
-<<<<<<< .merge_file_CKhioL
-=======
-=======
-        public array $platforms = ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'],
-    ) {
-    }
->>>>>>> .merge_file_JI2xzv
->>>>>>> .merge_file_iqXpkr
 }
