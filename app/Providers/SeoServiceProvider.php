@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Providers;
 
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
+use Modules\Seo\Adapters\MetatagManager;
 use Modules\Seo\Adapters\MetatagState;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
@@ -19,12 +20,11 @@ class SeoServiceProvider extends XotBaseServiceProvider
     {
         parent::register();
 
-        $this->app->singleton(MetatagState::class, function () {
-            return new MetatagState();
-        });
+        $this->app->singleton(MetatagState::class);
+        $this->app->singleton(MetatagFacadeAdapter::class);
 
-        $this->app->singleton(MetatagFacadeAdapter::class, function () {
-            return new MetatagFacadeAdapter();
+        $this->app->singleton(MetatagManager::class, function () {
+            return new MetatagManager();
         });
     }
 
@@ -37,6 +37,8 @@ class SeoServiceProvider extends XotBaseServiceProvider
     {
         return [
             MetatagFacadeAdapter::class,
+            MetatagState::class,
+            MetatagManager::class,
         ];
     }
 }

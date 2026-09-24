@@ -15,4 +15,16 @@
 ## Notes
 
 - Inventory generated from `rg -l "^(<<<<<<<|=======|>>>>>>>)"`.
+<<<<<<< .merge_file_8Oozo5
+<<<<<<< HEAD
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+=======
+<<<<<<< HEAD
+- Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+=======
+- Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+>>>>>>> .merge_file_EwyaXQ

@@ -116,7 +116,7 @@ app/Http/Controllers
 app/Http/Livewire
 app/Http/Middleware
 app/Http/Requests
-app/Contracts
+app/Interfaces
 app/Jobs
 app/Listeners
 app/Models
@@ -172,9 +172,21 @@ tests/Unit
     },
     "require_comment": {
         "openai-php/laravel": "*"
+<<<<<<< .merge_file_EAaL6F
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 1c344a1 (.)
 =======
 >>>>>>> origin/develop
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 1c344a1 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> .merge_file_voil1i
     },
 ```
 

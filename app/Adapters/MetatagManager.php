@@ -6,13 +6,26 @@ namespace Modules\Seo\Adapters;
 
 use DateTimeInterface;
 use Modules\Seo\Data\MetatagData;
+<<<<<<< .merge_file_CttTuA
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fy7LXR
+use Webmozart\Assert\Assert;
+use Modules\Seo\Facades\Metatag;
+=======
+<<<<<<< .merge_file_oERLzz
+>>>>>>> .merge_file_zzcCoN
 use Webmozart\Assert\Assert;
 use Modules\Seo\Facades\Metatag;
 =======
 use Modules\Seo\Facades\Metatag;
 use Webmozart\Assert\Assert;
+<<<<<<< .merge_file_CttTuA
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_u3oIA6
+>>>>>>> .merge_file_ttyN8I
+>>>>>>> .merge_file_zzcCoN
 
 /**
  * Metatag facade coordinator.
