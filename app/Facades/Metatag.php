@@ -6,19 +6,11 @@ namespace Modules\Seo\Facades;
 
 use DateTimeInterface;
 use Illuminate\Support\Facades\Facade;
-<<<<<<< HEAD
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Data\MetatagData;
 
 /**
  * @method static MetatagData get()
-=======
-use Modules\Seo\Contracts\MetatagDataContract;
-use Modules\Seo\Adapters\MetatagFacadeAdapter;
-
-/**
- * @method static MetatagDataContract get()
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
  * @method static void set(array<string, mixed> $data)
  * @method static void setTitle(string $title)
  * @method static void setDescription(string $description)

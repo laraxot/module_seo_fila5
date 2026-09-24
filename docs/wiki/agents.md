@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 ---
 title: "Agent instructions"
 type: reference
@@ -22,16 +11,6 @@ related:
   - ./coding-agent-manifests.md
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 # Seo {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** Seo

@@ -1,26 +1,7 @@
 # Analisi Metodi Duplicati - Modulo Seo
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_ji9Zjg
-<<<<<<< HEAD
-**Totale Gruppi di Duplicati**:
-=======
-<<<<<<< HEAD
-=======
-**Totale Gruppi di Duplicati**:
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_NK8V3v
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 **Data Generazione**: 2025-10-15 06:41:17
 **Totale Gruppi di Duplicati**: 
-=======
-**Data Generazione**: 2025-10-15 06:41:17
-**Totale Gruppi di Duplicati**:
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
 
 ## Sommario Esecutivo
 
