@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Seo
 
 [![Module](https://img.shields.io/badge/Module-Seo-8B0000.svg)]()
@@ -34,6 +39,10 @@ Core module for the FixCity Platform.
 
 **Modulo** `Seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: README
@@ -41,6 +50,14 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # LLM Wiki
 
 Questa cartella contiene pagine curate per l'uso con LLM (wiki). Mettere qui sintesi, convenzioni e pagine curate.
