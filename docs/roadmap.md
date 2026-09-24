@@ -1,9 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 # 🎯 SEO MODULE - ROADMAP 2025
 
 **Modulo**: Seo ([Description])  
@@ -220,10 +215,6 @@ Seo Module
 
 *Questa roadmap è specifica per il modulo Seo e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Roadmap (Module Seo)
 
 ## Current roadmap
@@ -254,14 +245,6 @@ Seo Module
 - [roadmap/quality.md](roadmap/quality.md)
 - [roadmap/vision.md](roadmap/vision.md)
 - [seo-optimization-roadmap.md](seo-optimization-roadmap.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Roadmap Modulo Seo
 
 **Versione**: 2025.10

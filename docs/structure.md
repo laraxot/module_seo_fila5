@@ -173,19 +173,10 @@ tests/Unit
     "require_comment": {
         "openai-php/laravel": "*"
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 >>>>>>> 1c344a1 (.)
 =======
 >>>>>>> origin/develop
 =======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     },
 ```

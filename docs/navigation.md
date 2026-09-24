@@ -34,15 +34,6 @@ $page->navigation
 ```
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> origin/develop
 =======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> origin/develop
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
