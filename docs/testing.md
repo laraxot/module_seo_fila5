@@ -259,23 +259,7 @@ protected function createApplication()
 
 ### External Resources
 
-<<<<<<< HEAD
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
-=======
-<<<<<<< HEAD
-- [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
-=======
-- [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 

@@ -30,22 +30,11 @@ Le Rules progettuali vivono qui, nel wiki del Module **Seo**, e vengono caricate
 | Ricerca semantica | `qmd search "<topic>"` |
 | Via trigger map | Consulta `../rules/00-TRIGGER_MAP.md` |
 
-<<<<<<< HEAD
-=======
-## Voci ricorrenti
-
-- [module-contracts-naming-placement.md](./module-contracts-naming-placement.md) — `app/Contracts/`, suffisso `*Contract`, no `app/Interfaces/`
-
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
 ## Note
 
 - La sorgente di verita' per le Rules e' sempre il wiki locale
 - Non embeddare Rules nei prompt di avvio
-<<<<<<< HEAD
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
-=======
-- Per Rules globali, consulta il [wiki root](../../../../../../docs/wiki/rules/INDEX.md)
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
 
 ## Aggiungere una Nuova RULES
 

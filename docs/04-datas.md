@@ -13,88 +13,26 @@ Located in `Seo/app/Datas/`:
 
 ### Creating Meta Tag Data
 ```php
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_ADCD4K
-use Modules\Seo\Datas\MetatagData;
-
-// Verified against app/Datas/MetatagData.php: the constructor takes a single
-// array bag ($data), read back through getTitle()/getDescription()/etc. In
-// practice this class is populated via the Metatag facade
-// (Metatag::setTitle(), Metatag::setDescription(), ...), not constructed
-// directly with named ::from() keys.
-$metatag = new MetatagData([
-    'title' => 'Page Title',
-    'description' => 'Page Description',
-=======
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 use Modules\Seo\app\Datas\MetatagData;
 
 $metatag = MetatagData::from([
     'title' => 'Page Title',
     'description' => 'Page Description',
     'keywords' => ['keyword1', 'keyword2'],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_9G2JRu
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 ]);
 ```
 
 ### Social Sharing Data
 ```php
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_ADCD4K
-use Modules\Seo\Datas\SocialShareData;
-
-// SocialShareData has named constructor properties: url (required), title,
-// text, image, hashtags, via, platforms. There is no `description` property
-// (use `text`).
-$sharing = SocialShareData::from([
-    'url' => 'https://example.com/page',
-    'title' => 'Shared Title',
-    'text' => 'Shared description',
-=======
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 use Modules\Seo\app\Datas\SocialShareData;
 
 $sharing = SocialShareData::from([
     'title' => 'Shared Title',
     'description' => 'Shared Description',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_9G2JRu
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
     'image' => 'https://example.com/image.jpg',
 ]);
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_ADCD4K
-> Namespace note: the correct namespace is `Modules\Seo\Datas` (module root maps
-> to `app/` via PSR-4 — do not include an `app\` segment). An earlier revision
-> of this doc had `Modules\Seo\app\Datas\...`, which does not exist.
-
-=======
->>>>>>> .merge_file_9G2JRu
-=======
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 ## Migration Notes
 
 Previously located in `app/Data/` folder, all data classes were migrated to `app/Datas/` following the Laraxot standard:

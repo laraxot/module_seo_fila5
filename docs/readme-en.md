@@ -1,23 +1,7 @@
 # 🔍 Seo — English presentation
 
 [![Domain-SEO](https://img.shields.io/badge/Domain-SEO-827717.svg)](#)
-<<<<<<< HEAD
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-=======
-<<<<<<< HEAD
-[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-=======
-[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
->>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
->>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 [![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
 [![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
 [![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
