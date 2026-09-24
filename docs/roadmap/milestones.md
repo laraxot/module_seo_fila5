@@ -5,6 +5,11 @@ canonical: ../../../../Themes/docs/shared-components/04-milestones-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/04-milestones-Modules.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Milestones - Seo
 
 ## M1 Documentation Baseline
@@ -21,3 +26,7 @@ See canonical documentation: ../../../../Themes/docs/shared-components/04-milest
 
 - Test minimi sui flussi critici in esecuzione regolare.
 - Riduzione regressioni ricorrenti.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

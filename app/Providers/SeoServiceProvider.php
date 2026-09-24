@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\Seo\Providers;
 
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
+<<<<<<< HEAD
+=======
+use Modules\Seo\Adapters\MetatagManager;
+>>>>>>> laraxot/dev
 use Modules\Seo\Adapters\MetatagState;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
@@ -25,6 +29,13 @@ class SeoServiceProvider extends XotBaseServiceProvider
 
         $this->app->singleton(MetatagState::class);
         $this->app->singleton(MetatagFacadeAdapter::class);
+<<<<<<< HEAD
+=======
+
+        $this->app->singleton(MetatagManager::class, function () {
+            return new MetatagManager();
+        });
+>>>>>>> laraxot/dev
     }
 
     /**
@@ -37,6 +48,10 @@ class SeoServiceProvider extends XotBaseServiceProvider
         return [
             MetatagFacadeAdapter::class,
             MetatagState::class,
+<<<<<<< HEAD
+=======
+            MetatagManager::class,
+>>>>>>> laraxot/dev
         ];
     }
 }
