@@ -5,6 +5,11 @@ canonical: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modu
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modules.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Laravel Folio + Volt - Best Practices and Patterns Analysis
 
 ## Overview
@@ -108,3 +113,7 @@ middleware(['auth', 'verified']);
 
 ## Date
 2025-11-29
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

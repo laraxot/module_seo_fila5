@@ -5,6 +5,11 @@ canonical: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Server MCP consigliati per il modulo Seo
 
 ## Scopo del modulo
@@ -30,3 +35,7 @@ Analisi SEO, automazione di audit, recupero dati da web, generazione di report.
 
 **Nota:**
 Aggiungi solo i server che realmente ti servono per il tuo workflow. 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

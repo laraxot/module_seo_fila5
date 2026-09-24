@@ -5,6 +5,11 @@ canonical: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Seo Module - Sprint Planning
 
 **Module:** Seo  
@@ -71,3 +76,7 @@ Implement core technical SEO features including meta tags, sitemap, and schema m
 
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
