@@ -310,7 +310,23 @@ graph TD
 
 ### 7.4 Technical Constraints
 - PHP 8.3+ required
+<<<<<<< HEAD
 - Laravel 12+ required
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Laravel 12+ required
+=======
+<<<<<<< HEAD
+- Laravel 13+ required
+=======
+- Laravel 12+ required
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- Laravel 12+ required
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
+>>>>>>> 19508be (chore(release): 1.0.0-dev.3 [skip ci])
 - Filament v5 compatibility
 
 ### 7.5 Database Schema

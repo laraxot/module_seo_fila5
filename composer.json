@@ -13,8 +13,12 @@
     "extra": {
         "laravel": {
             "providers": [
+<<<<<<< HEAD
                 "Modules\\Seo\\Providers\\SeoServiceProvider",
                 "Modules\\Seo\\Providers\\Filament\\AdminPanelProvider"
+=======
+                "Modules\\Seo\\Providers\\SeoServiceProvider"
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
             ],
             "aliases": {
 
@@ -28,6 +32,7 @@
             "Modules\\Seo\\Database\\Seeders\\": "database/seeders/"
         }
     },
+<<<<<<< HEAD
     "autoload-dev": {
         "psr-4": {
             "Modules\\Seo\\Tests\\": "tests/"
@@ -47,6 +52,16 @@
         "symplify/phpstan-rules": "*",
         "rector/rector": "^0.18.12",
         "thecodingmachine/phpstan-safe-rule": "^1.2"
+=======
+    "require": {
+        "php": "^8.3",
+        "spatie/laravel-data": "^4.23",
+        "spatie/laravel-queueable-action": "^2.17",
+        "livewire/livewire": "^4.3"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13"
+>>>>>>> 54cc9c4 (chore(release): 1.0.0-dev.3 [skip ci])
     },
     "repositories": [
         {
