@@ -55,8 +55,6 @@ tests/AuditCoverage/
 graphify-out
 
 node_modules
-<<<<<<< HEAD
-=======
 .rector.php
 .phpinsights.php
 
@@ -74,4 +72,3 @@ node_modules
 # Generated Claude audit coverage scaffold (never commit)
 /audit-coverage/
 *.lock
->>>>>>> laraxot/dev
