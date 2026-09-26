@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Data;
 
+<<<<<<< .merge_file_0Hyfyj
 use BadMethodCallException;
+=======
+>>>>>>> .merge_file_RqA1QY
 use DateTimeInterface;
 use Illuminate\Support\Arr;
 use Livewire\Wireable;
@@ -91,7 +94,11 @@ class MetatagData extends Data implements Wireable
             $result[$strKey] = $strValue;
         }
 
+<<<<<<< .merge_file_0Hyfyj
         return $result ?: $default;
+=======
+        return $result ? $result : $default;
+>>>>>>> .merge_file_RqA1QY
     }
 
     /**
@@ -210,12 +217,25 @@ class MetatagData extends Data implements Wireable
     /**
      * Get extra metadata.
      *
+<<<<<<< .merge_file_0Hyfyj
      * @param  mixed  $default
      * @return mixed
      */
     public function get(string $key, $default = null)
     {
         return Arr::get($this->data, $key, $default);
+=======
+     * @param  string  $key  The metadata key
+     * @param  array<string, mixed>|string|int|float|bool|null  $default  Default value
+     * @return array<string, mixed>|string|int|float|bool|null The metadata value or default
+     */
+    public function get(string $key, array|string|int|float|bool|null $default = null): array|string|int|float|bool|null
+    {
+        $value = Arr::get($this->data, $key, $default);
+
+        /** @var array<string, mixed>|string|int|float|bool|null $value */
+        return $value;
+>>>>>>> .merge_file_RqA1QY
     }
 
     /**
@@ -248,10 +268,15 @@ class MetatagData extends Data implements Wireable
 
     /**
      * Create a new instance from Livewire data.
+<<<<<<< .merge_file_0Hyfyj
      *
      * @param  mixed  $value
      */
     public static function fromLivewire($value): self
+=======
+     */
+    public static function fromLivewire(mixed $value): self
+>>>>>>> .merge_file_RqA1QY
     {
         if (is_array($value)) {
             /** @var array<string, mixed> $typedValue */

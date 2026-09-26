@@ -5,12 +5,8 @@ canonical: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
-<<<<<<< .merge_file_Vx4OUp
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 # Workstreams - Seo
 
 ## WS1 Architecture
@@ -32,9 +28,4 @@ See canonical documentation: ../../../../Themes/docs/shared-components/03-workst
 
 - Test funzionali mirati sui percorsi ad alto rischio.
 - Checklist di validazione post-fix.
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cd75zF

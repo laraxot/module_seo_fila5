@@ -21,11 +21,7 @@ final class MetatagFacadeAdapter
     }
 
     /**
-<<<<<<< .merge_file_RsPnpm
      * @param  array<string, mixed>  $data
-=======
-     * @param array<string, mixed> $data
->>>>>>> .merge_file_mThHJF
      */
     public function set(array $data): void
     {
@@ -48,11 +44,7 @@ final class MetatagFacadeAdapter
     }
 
     /**
-<<<<<<< .merge_file_RsPnpm
      * @param  array<string, string>  $colors
-=======
-     * @param array<string, string> $colors
->>>>>>> .merge_file_mThHJF
      */
     public function setColors(array $colors): void
     {

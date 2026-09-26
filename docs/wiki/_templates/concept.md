@@ -5,12 +5,8 @@ canonical: ../../../../../Themes/docs/shared-components/concept.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md
-<<<<<<< .merge_file_x2dVvv
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 title: "Untitled Concept"
 type: concept
 sources: ["raw/articles/source-filename.md"]
@@ -49,9 +45,4 @@ _How this concept is implemented in our codebase (with file references)._
 - [[related-concept-1]]
 - [[related-concept-2]]
 - [docs/wiki/concepts/project-concept](../../wiki/concepts/project-concept.md)
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ol4vox

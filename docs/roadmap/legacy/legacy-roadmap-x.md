@@ -1,9 +1,3 @@
-<<<<<<< .merge_file_dTZ72a
-=======
-<<<<<<< .merge_file_g6yruD
-=======
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 ---
 module: theme
@@ -13,9 +7,6 @@ canonical: ../../../../../Themes/docs/shared-components/ROADMAP-Modules.md
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/ROADMAP-Modules.md
 =======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_SOWRgV
->>>>>>> .merge_file_NR4q2R
 # 🎯 SEO MODULE - ROADMAP 2025
 
 **Modulo**: Seo ([Description])  
@@ -231,13 +222,4 @@ Seo Module
 ---
 
 *Questa roadmap è specifica per il modulo Seo e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
-<<<<<<< .merge_file_dTZ72a
-=======
-<<<<<<< .merge_file_g6yruD
-=======
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_SOWRgV
->>>>>>> .merge_file_NR4q2R

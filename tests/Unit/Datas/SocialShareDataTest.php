@@ -7,14 +7,6 @@ namespace Modules\Seo\Tests\Unit\Datas;
 use Modules\Seo\Datas\SocialShareData;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< .merge_file_FGYk96
-=======
-<<<<<<< .merge_file_IPfvzH
-=======
-uses(\Modules\Seo\Tests\TestCase::class);
-
->>>>>>> .merge_file_Uucw0d
->>>>>>> .merge_file_BnWa6B
 it('creates instance with required url', function (): void {
     $data = new SocialShareData(url: 'https://laravelpizza.com');
 
