@@ -5,12 +5,8 @@ canonical: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md
-<<<<<<< .merge_file_tDqcVw
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 # Seo Module - Product Launch Plan
 
 **Module:** Seo  
@@ -92,9 +88,4 @@ See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_LAUN
 
 ---
 
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_IbNoTQ

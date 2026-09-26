@@ -6,6 +6,7 @@ namespace Modules\Seo\Adapters;
 
 use DateTimeInterface;
 use Modules\Seo\Data\MetatagData;
+<<<<<<< .merge_file_RgcXN6
 <<<<<<< .merge_file_CttTuA
 <<<<<<< HEAD
 =======
@@ -26,6 +27,10 @@ use Webmozart\Assert\Assert;
 >>>>>>> .merge_file_u3oIA6
 >>>>>>> .merge_file_ttyN8I
 >>>>>>> .merge_file_zzcCoN
+=======
+use Modules\Seo\Facades\Metatag;
+use Webmozart\Assert\Assert;
+>>>>>>> .merge_file_eZtjVg
 
 /**
  * Metatag facade coordinator.

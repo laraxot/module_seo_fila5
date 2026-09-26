@@ -5,12 +5,8 @@ canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/entity-Modules.md
-<<<<<<< .merge_file_DtDYZ6
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 title: "Entity Name"
 type: entity
 sources: ["raw/articles/source-filename.md"]
@@ -48,9 +44,4 @@ _How this entity relates to the project, what role it plays._
 
 - [[concept-related-1]]
 - [[decision-related-2]]
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_fM3OuL

@@ -5,12 +5,8 @@ canonical: ../../../Themes/docs/shared-components/merge-conflict-files-list.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/merge-conflict-files-list.md
-<<<<<<< .merge_file_GokkKf
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 # Merge Conflict Files List
 
 This file contains a comprehensive list of files with merge conflict markers (`<<<< HEAD` or `<<<< .merge_file`) that need to be resolved.
@@ -93,9 +89,4 @@ This file contains a comprehensive list of files with merge conflict markers (`<
 *Generated on: $(date)
 *Total files: 96
 *Status: Pending resolution*
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_TzYknV
