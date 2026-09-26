@@ -5,12 +5,8 @@ canonical: ../../../../Themes/docs/shared-components/01-current-state-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/01-current-state-Modules.md
-<<<<<<< .merge_file_9h3eqc
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 # Current State - Seo
 
 ## Baseline
@@ -24,9 +20,4 @@ See canonical documentation: ../../../../Themes/docs/shared-components/01-curren
 1. Coerenza tra regole architetturali e implementazione runtime.
 2. Coerenza tra naming, namespace e percorsi view/traduzioni.
 3. Copertura test minima per i flussi critici.
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Lihji7

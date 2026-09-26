@@ -5,12 +5,8 @@ canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
-<<<<<<< .merge_file_Milz1x
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 # Regole di Naming per File
 
 ## 🎯 Regola Fondamentale: NO Duplicati Case-Insensitive
@@ -131,9 +127,4 @@ Se entrambi i file contengono contenuto diverso:
 - Laravel Naming Conventions
 - Filament Best Practices
 - Git Case Sensitivity Issues
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_HjiR43

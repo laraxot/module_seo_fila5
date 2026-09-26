@@ -13,6 +13,7 @@ Located in `Seo/app/Datas/`:
 
 ### Creating Meta Tag Data
 ```php
+<<<<<<< .merge_file_nNtdg7
 <<<<<<< .merge_file_Gtf6dR
 =======
 <<<<<<< .merge_file_ADCD4K
@@ -28,21 +29,27 @@ $metatag = new MetatagData([
     'description' => 'Page Description',
 =======
 >>>>>>> .merge_file_gsGhqe
+=======
+>>>>>>> .merge_file_T4frAV
 use Modules\Seo\app\Datas\MetatagData;
 
 $metatag = MetatagData::from([
     'title' => 'Page Title',
     'description' => 'Page Description',
     'keywords' => ['keyword1', 'keyword2'],
+<<<<<<< .merge_file_nNtdg7
 <<<<<<< .merge_file_Gtf6dR
 =======
 >>>>>>> .merge_file_9G2JRu
 >>>>>>> .merge_file_gsGhqe
+=======
+>>>>>>> .merge_file_T4frAV
 ]);
 ```
 
 ### Social Sharing Data
 ```php
+<<<<<<< .merge_file_nNtdg7
 <<<<<<< .merge_file_Gtf6dR
 =======
 <<<<<<< .merge_file_ADCD4K
@@ -57,19 +64,25 @@ $sharing = SocialShareData::from([
     'text' => 'Shared description',
 =======
 >>>>>>> .merge_file_gsGhqe
+=======
+>>>>>>> .merge_file_T4frAV
 use Modules\Seo\app\Datas\SocialShareData;
 
 $sharing = SocialShareData::from([
     'title' => 'Shared Title',
     'description' => 'Shared Description',
+<<<<<<< .merge_file_nNtdg7
 <<<<<<< .merge_file_Gtf6dR
 =======
 >>>>>>> .merge_file_9G2JRu
 >>>>>>> .merge_file_gsGhqe
+=======
+>>>>>>> .merge_file_T4frAV
     'image' => 'https://example.com/image.jpg',
 ]);
 ```
 
+<<<<<<< .merge_file_nNtdg7
 <<<<<<< .merge_file_Gtf6dR
 =======
 <<<<<<< .merge_file_ADCD4K
@@ -80,6 +93,8 @@ $sharing = SocialShareData::from([
 =======
 >>>>>>> .merge_file_9G2JRu
 >>>>>>> .merge_file_gsGhqe
+=======
+>>>>>>> .merge_file_T4frAV
 ## Migration Notes
 
 Previously located in `app/Data/` folder, all data classes were migrated to `app/Datas/` following the Laraxot standard:

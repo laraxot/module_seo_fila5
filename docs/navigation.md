@@ -32,16 +32,8 @@ return [
 // blade files
 $page->navigation
 ```
-<<<<<<< .merge_file_3ukzCp
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 =======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> origin/develop
->>>>>>> .merge_file_o7SskH

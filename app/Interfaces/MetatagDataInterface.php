@@ -82,17 +82,12 @@ interface MetatagDataInterface
 
     /**
      * Get extra metadata.
-<<<<<<< .merge_file_lNv3xw
      *
      * @param  string  $key  The metadata key
      * @param  array<string, mixed>|string|int|float|bool|null  $default  Default value
      * @return array<string, mixed>|string|int|float|bool|null The metadata value or default
      */
     public function get(string $key, array|string|int|float|bool|null $default = null): array|string|int|float|bool|null;
-=======
-     */
-    public function get(string $key, mixed $default = null): mixed;
->>>>>>> .merge_file_Vw7uW9
 
     /**
      * Check if the metadata has a specific key.

@@ -27,12 +27,8 @@ related:
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md) → canon Xot
 <<<<<<< HEAD
-- [services-to-queueable-actions](./concepts/no-app-support-queueable-actions.md) — Metatag state in Adapter, use case in Actions
-=======
-<<<<<<< HEAD
 =======
 - [services-to-queueable-actions](./concepts/no-app-support-queueable-actions.md) — Metatag state in Adapter, use case in Actions
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 

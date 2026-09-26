@@ -75,16 +75,8 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
-<<<<<<< .merge_file_SsqevP
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 =======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> origin/develop
->>>>>>> .merge_file_hY5PvT
