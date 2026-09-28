@@ -1,4 +1,10 @@
 ---
+title: "seo module"
+tags: [documentation]
+created: 2026-09-26
+qmd: "seo module"
+issues: []
+discussions: []
 type: overview
 module: Seo
 sources:

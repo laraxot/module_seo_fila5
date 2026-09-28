@@ -1,12 +1,19 @@
 ---
+title: "goals"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "goals"
+issues: []
+discussions: []
 module: theme
 topic: goals
 canonical: ../../../../Themes/docs/shared-components/02-goals-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-Modules.md
-<<<<<<< HEAD
-=======
+---
 # Goals - Seo
 
 ## Short Term
@@ -25,4 +32,3 @@ See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-
 
 1. Stabilita sotto fault randomizzati (chaos testing).
 2. Manutenibilita alta con onboarding rapido.
->>>>>>> laraxot/dev

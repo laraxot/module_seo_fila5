@@ -1,3 +1,14 @@
+---
+title: "task creare test suite"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task creare test suite"
+issues: []
+discussions: []
+---
+
 # Task: Creare Test Suite - Seo
 
 **Modulo**: Seo
@@ -6,6 +17,14 @@
 
 ---
 
+title: "task creare test suite"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task creare test suite"
+issues: []
+discussions: []
 ## Test da Implementare
 
 - [ ] Metatag generation: titolo, descrizione, keywords

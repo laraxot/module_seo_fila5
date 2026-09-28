@@ -1,9 +1,19 @@
+---
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
+---
+
 # 📚 Indice Documentazione Modulo Seo
 
 **Status**: 🟡 In Progress
 **Module Version**: 1.0.0
 
-<<<<<<< HEAD
 ## Audit over-engineering
 
 | Documento | Scopo |
@@ -13,10 +23,17 @@
 
 ## 🎯 Lettura Essenziale
 1. [README.md](./README.md) - Panoramica del modulo SEO.
-=======
+---
+title: "00 index"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "00 index"
+issues: []
+discussions: []
 ## 🎯 Lettura Essenziale
 1. [README.md](./readme.md) - Panoramica del modulo SEO.
->>>>>>> laraxot/dev
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: AI Content Optimization & Schema.org.
 
 ## 🏗️ Core Features
@@ -36,11 +53,9 @@
 - ⚠️ PHPStan Level 10 da completare
 
 ## 📦 Pacchetti Composer
-<<<<<<< HEAD
 - [Riferimento composer packages](../../../../bashscripts/ai/wiki/memories/composer-packages-reference.md) - Nessuna dipendenza diretta; usa Xot
-=======
+---
 - [Riferimento](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md) - Nessuna dipendenza diretta; usa Xot
->>>>>>> laraxot/dev
 
 ## 🔗 Moduli Correlati
 - [Xot](../../xot/docs/readme.md) - Core framework e base classes.

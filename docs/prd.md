@@ -1,4 +1,14 @@
-<<<<<<< HEAD
+---
+title: "prd"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "prd"
+issues: []
+discussions: []
+---
+
 # Product Requirements Document (PRD) - Seo Module
 
 **Module**: Seo
@@ -8,6 +18,14 @@
 
 ---
 
+title: "prd"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "prd"
+issues: []
+discussions: []
 ## Document Control
 
 | Version | Date | Author | Changes |
@@ -441,7 +459,7 @@ CREATE TABLE seo_scores (
 | Engineering Lead | | | |
 | Design Lead | | | |
 | Stakeholder | | | |
-=======
+---
 # Seo - Product Requirements Document (PRD)
 
 Documento ponte verso il file canonico legacy:
@@ -452,4 +470,3 @@ Nota operativa:
 - il naming legacy in maiuscolo resta compatibile
 - i nuovi documenti prodotto fanno riferimento a `prd.md`
 - una wave futura puo' convergere il naming a un solo standard
->>>>>>> laraxot/dev

@@ -1,3 +1,14 @@
+---
+title: "USER RESEARCH"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "USER RESEARCH"
+issues: []
+discussions: []
+---
+
 # Seo Module - User Research
 
 **Module:** Seo  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "USER RESEARCH"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "USER RESEARCH"
+issues: []
+discussions: []
 ## Research Goals
 
 1. Understand search behavior
