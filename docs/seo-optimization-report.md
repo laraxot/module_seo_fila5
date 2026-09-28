@@ -1,3 +1,14 @@
+---
+title: "seo optimization report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "seo optimization report"
+issues: []
+discussions: []
+---
+
 # Analisi e Raccomandazioni SEO - TechPlanner
 **Data**: 7 Febbraio 2026
 **Module**: Seo
@@ -46,6 +57,14 @@ Il sito target ha una struttura SEO base, ma mancano molti elementi avanzati per
 
 ---
 
+title: "seo optimization report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "seo optimization report"
+issues: []
+discussions: []
 **Report Versione**: 1.0  
 **Data**: 7 Febbraio 2026  
 **Autore**: iFlow CLI  

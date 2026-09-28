@@ -1,3 +1,14 @@
+---
+title: "log"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "log"
+issues: []
+discussions: []
+---
+
 ## [2026-06-10] phpstan | Modulo Seo zero errori codice
 
 - `./vendor/bin/phpstan analyse Modules/Seo` → 0 errori codice (79 fix: expect→Assert, Pest.php, TestCase)

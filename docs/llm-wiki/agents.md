@@ -1,5 +1,12 @@
-<<<<<<< HEAD
-=======
+---
+title: "agents"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents"
+issues: []
+discussions: []
 ---
 title: "Agent instructions"
 type: reference
@@ -13,7 +20,6 @@ related:
   - ./coding-agent-manifests.md
 ---
 
->>>>>>> laraxot/dev
 # Seo Module LLM Wiki Agent Instructions
 
 > **Module/Theme:** Seo

@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "Seo Module — Doctrine"
 type: doctrine
 tags: [seo, search-engine-optimization, module-doctrine]

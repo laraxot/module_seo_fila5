@@ -1,4 +1,7 @@
 ---
+qmd: "services to adapters conversion"
+issues: []
+discussions: []
 title: "Seo — da Services/Support ad Actions/Adapters"
 type: concept
 module: Seo
