@@ -98,3 +98,5 @@ vendor/
 yarn-error.log*
 yarn.lock
 *:Zone.Identifier
+test-results/
+seo.code-workspace
