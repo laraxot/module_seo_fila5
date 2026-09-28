@@ -1,3 +1,14 @@
+---
+title: "MCP SERVER RECOMMENDED"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "MCP SERVER RECOMMENDED"
+issues: []
+discussions: []
+---
+
 # Server MCP consigliati per Seo
 
 Per il modulo Seo, si consiglia di utilizzare i seguenti server MCP:

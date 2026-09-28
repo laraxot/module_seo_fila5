@@ -1,3 +1,14 @@
+---
+title: "task sitemap generation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task sitemap generation"
+issues: []
+discussions: []
+---
+
 # Task: Implementare Sitemap Generation - Seo
 
 **Modulo**: Seo
@@ -6,6 +17,14 @@
 
 ---
 
+title: "task sitemap generation"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task sitemap generation"
+issues: []
+discussions: []
 ## Funzionalita'
 
 - [ ] Generazione sitemap.xml automatica

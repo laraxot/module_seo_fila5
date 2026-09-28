@@ -1,12 +1,19 @@
 ---
+title: "concept"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "concept"
+issues: []
+discussions: []
 module: theme
 topic: concept
 canonical: ../../../../../Themes/docs/shared-components/concept.md
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md
-<<<<<<< HEAD
-=======
+---
 title: "Untitled Concept"
 type: concept
 sources: ["raw/articles/source-filename.md"]
@@ -45,4 +52,3 @@ _How this concept is implemented in our codebase (with file references)._
 - [[related-concept-1]]
 - [[related-concept-2]]
 - [docs/wiki/concepts/project-concept](../../wiki/concepts/project-concept.md)
->>>>>>> laraxot/dev

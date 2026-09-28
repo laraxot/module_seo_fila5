@@ -1,3 +1,14 @@
+---
+title: "SPRINT PLANNING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SPRINT PLANNING"
+issues: []
+discussions: []
+---
+
 # Seo Module - Sprint Planning
 
 **Module:** Seo  
@@ -6,6 +17,14 @@
 
 ---
 
+title: "SPRINT PLANNING"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "SPRINT PLANNING"
+issues: []
+discussions: []
 ## Sprint Goal
 
 Implement core technical SEO features including meta tags, sitemap, and schema markup.

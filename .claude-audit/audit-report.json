@@ -1,34 +1,34 @@
 {
   "version": "0.2.2",
-  "timestamp": "2026-07-09T19:26:17.537Z",
+  "timestamp": "2026-09-27T22:00:00.265Z",
   "project": {
     "name": "Seo",
-    "path": "/var/www/_bases/base_fixcity_fila5/laravel/Modules/Seo",
+    "path": "/mnt/nas07/var/www/_bases/base_fixcity_fila5/laravel/Modules/Seo",
     "languages": {
-      "Markdown": 160,
+      "Markdown": 198,
       "JSON": 7,
       "XML": 1,
       "JavaScript": 3,
-      "PHP": 73,
+      "PHP": 51,
       "SCSS": 1
     },
     "frameworks": [],
-    "totalFiles": 245,
-    "totalLines": 13504,
+    "totalFiles": 261,
+    "totalLines": 21406,
     "hasTests": true,
     "hasDependencyFile": true,
     "dependencyFile": "package.json",
     "dependencies": {
-      "axios": "^1.1.2",
-      "laravel-vite-plugin": "^0.7.5",
+      "axios": "^1.17.0",
+      "laravel-vite-plugin": "^1.2.0",
       "sass": "^1.69.5",
       "postcss": "^8.3.7",
-      "vite": "^4.0.0"
+      "vite": "^6.4.3"
     },
     "testFrameworks": [],
     "packageManager": "npm"
   },
-  "overallScore": 80,
+  "overallScore": 79,
   "overallGrade": "B",
   "categories": [
     {
@@ -68,9 +68,18 @@
     },
     {
       "category": "testing",
-      "score": 80,
-      "grade": "B",
-      "findings": [],
+      "score": 70,
+      "grade": "C",
+      "findings": [
+        {
+          "id": "QUA-001",
+          "category": "testing",
+          "severity": "high",
+          "title": "No Tests Found",
+          "description": "Only 0% of source files have corresponding tests (0 test files for 53 source files).",
+          "fix": "Add unit tests for critical business logic. Aim for at least 70% code coverage."
+        }
+      ],
       "summary": ""
     },
     {
@@ -81,11 +90,20 @@
       "summary": ""
     }
   ],
-  "allFindings": [],
+  "allFindings": [
+    {
+      "id": "QUA-001",
+      "category": "testing",
+      "severity": "high",
+      "title": "No Tests Found",
+      "description": "Only 0% of source files have corresponding tests (0 test files for 53 source files).",
+      "fix": "Add unit tests for critical business logic. Aim for at least 70% code coverage."
+    }
+  ],
   "criticalCount": 0,
-  "highCount": 0,
+  "highCount": 1,
   "mediumCount": 0,
   "lowCount": 0,
   "aiPowered": false,
-  "durationMs": 65
+  "durationMs": 345
 }

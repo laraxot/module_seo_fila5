@@ -1,3 +1,14 @@
+---
+title: "testing"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "testing"
+issues: []
+discussions: []
+---
+
 # Testing Documentation
 
 ## Overview
@@ -259,11 +270,17 @@ protected function createApplication()
 
 ### External Resources
 
-<<<<<<< HEAD
 - [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
-=======
+---
+title: "testing"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "testing"
+issues: []
+discussions: []
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
->>>>>>> laraxot/dev
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 

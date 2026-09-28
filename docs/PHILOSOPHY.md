@@ -1,3 +1,14 @@
+---
+title: "PHILOSOPHY"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PHILOSOPHY"
+issues: []
+discussions: []
+---
+
 # SEO Module Philosophy
 
 ## RELIGIONE: SEO Dogmas
@@ -21,6 +32,14 @@ The module enforces these dogmas:
 
 ---
 
+title: "PHILOSOPHY"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "PHILOSOPHY"
+issues: []
+discussions: []
 ## FILOSOFIA: Architecture as Principle
 
 ### Why no models? The trait-free paradox.
@@ -873,8 +892,6 @@ SEO is not magic. It's infrastructure. The Seo module is the foundation.
 
 **Last updated:** 2025-09-06  
 **Owner:** Seo Module Team  
-<<<<<<< HEAD
 **Platform:** FixCity · Laravel 13 · Filament 5
-=======
+---
 **Platform:** FixCity · Laravel 12 · Filament 5
->>>>>>> laraxot/dev

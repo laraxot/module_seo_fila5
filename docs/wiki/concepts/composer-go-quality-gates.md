@@ -1,4 +1,7 @@
 ---
+qmd: "composer go quality gates"
+issues: []
+discussions: []
 title: "composer go + quality gates — Seo"
 type: concept
 module: Seo

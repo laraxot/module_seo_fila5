@@ -1,3 +1,14 @@
+---
+title: "task schema org eventi"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task schema org eventi"
+issues: []
+discussions: []
+---
+
 # Task: Implementare Schema.org per Eventi - Seo
 
 **Modulo**: Seo
@@ -6,6 +17,14 @@
 
 ---
 
+title: "task schema org eventi"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "task schema org eventi"
+issues: []
+discussions: []
 ## Scopo e responsabilita'
 
 - **Seo**: assemblare e rendere disponibile JSON-LD nelle pagine (Cms/Theme), evitando duplicazione di logica di dominio.

@@ -1,4 +1,6 @@
 ---
+issues: []
+discussions: []
 title: "Seo — mai Filament\*, sempre XotBase*"
 type: concept
 module: Seo

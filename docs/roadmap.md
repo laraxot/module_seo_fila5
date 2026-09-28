@@ -1,4 +1,14 @@
-<<<<<<< HEAD
+---
+title: "roadmap"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap"
+issues: []
+discussions: []
+---
+
 # 🎯 SEO MODULE - ROADMAP 2025
 
 **Modulo**: Seo ([Description])  
@@ -9,6 +19,14 @@
 
 ---
 
+title: "roadmap"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "roadmap"
+issues: []
+discussions: []
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **Seo** [descrizione del modulo].
@@ -214,7 +232,7 @@ Seo Module
 ---
 
 *Questa roadmap è specifica per il modulo Seo e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
-=======
+---
 # Roadmap (Module Seo)
 
 ## Current roadmap
@@ -452,5 +470,3 @@ Secondo le "Regole Windsurf per base_predict_fila3_mono", gli obiettivi per l'an
 ## Collegamenti
 
 [⬅️ Torna alla Roadmap Principale](/project_docs/roadmap.md)
-
->>>>>>> laraxot/dev

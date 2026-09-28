@@ -1,4 +1,14 @@
-<<<<<<< HEAD
+---
+title: "README"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "README"
+issues: []
+discussions: []
+---
+
 # Seo
 
 [![Module](https://img.shields.io/badge/Module-Seo-8B0000.svg)]()
@@ -32,8 +42,16 @@ Core module for the FixCity Platform.
 
 ---
 
+title: "README"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "README"
+issues: []
+discussions: []
 **Modulo** `Seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-=======
+---
 # 🎯 SEO Module - Search Engine Optimization
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -365,4 +383,3 @@ Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
->>>>>>> laraxot/dev

@@ -1,4 +1,7 @@
 ---
+qmd: "index"
+issues: []
+discussions: []
 title: "concepts index — Seo"
 type: index
 tags: [concepts, Seo]

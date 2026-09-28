@@ -1,10 +1,27 @@
+---
+title: "cyclomatic complexity report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cyclomatic complexity report"
+issues: []
+discussions: []
+---
+
 # Cyclomatic Complexity Report - Module: Seo
 
 **Generated:** 2025-10-01 19:44:11  
-<<<<<<< HEAD
-=======
+---
+title: "cyclomatic complexity report"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "cyclomatic complexity report"
+issues: []
+discussions: []
 **Generated:** 2025-10-01 19:44:11  
->>>>>>> laraxot/dev
 **Analyzer:** Super Mucca 🐮
 
 ---
