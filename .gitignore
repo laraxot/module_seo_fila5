@@ -1,0 +1,102 @@
+
+._*
+audit-coverage/
+# --- Audit coverage bridge (never commit) ---
+*.backup
+*.backup_*
+*.backup-*
+*.backup.*
+# --- Backup files ---
+*.bak
+/build/
+# --- Build & compiled ---
+*.cache
+cache/
+# --- Cache & temporary ---
+composer.lock
+config/development.php
+config/local.php
+.cursor/
+database/Factories_old/
+database/Migrations_old/
+database_old/
+database/Seeders_old/
+# --- Dependencies & packages ---
+.devcontainer/
+# --- Development tools / quality configs (forbidden at module root) ---
+/dist/
+docs/**/archive/
+docs/**/archived/
+docs/**/bashscripts/
+docs/cache/
+docs/**/legacy/
+docs/phpstan/
+docs/**/scripts/
+docs/vendor/
+docs/**/workbench/
+# --- Documentation cache ---
+.DS_Store
+.DS_Store?
+ehthumbs.db
+# --- End of SEO .gitignore ---
+.env
+.env.*
+!.env.example
+# --- Environment & configuration ---
+error_log
+*.fila2
+.git-blame-ignore-revs
+.git-rewrite/
+# --- Git specific ---
+graphify-out
+# Grouped, deduped. See docs/wiki/rules/module-theme-root-cleanup.md
+Homestead.json
+Homestead.yaml
+/.idea
+# --- IDE / dev folders (personal, never commit) ---
+*.jar
+lang/lang/
+laravel
+# LARAXOT MODULE: SEO — .gitignore (organized)
+# --- Legacy directories (historic cleanup) ---
+*.lock
+*.log
+# --- Log files ---
+# --- Module specific ---
+*.new
+node_modules/
+npm-debug.log*
+*.old
+*.old1
+*.old2
+# --- Old directories (legacy cleanup) ---
+package-lock.json
+*.phar
+php-cs-fixer.cache
+phpinsights.php
+.phpintel
+.phpstorm.meta.php
+phpunit.result.cache
+# --- Project specific ---
+public_html
+rector.php
+resources/views/Components_old/
+.Spotlight-V100
+*.stackdump
+*.swo
+*.swp
+# --- System files ---
+tests/AuditCoverage/
+Thumbs.db
+*.tmp
+.Trashes
+v8-compile-cache-*
+/.vagrant
+vendor/
+.vscode/
+.windsurf/
+yarn-error.log*
+yarn.lock
+*:Zone.Identifier
+test-results/
+seo.code-workspace
