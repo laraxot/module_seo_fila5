@@ -1,31 +1,17 @@
 ---
-title: "coverage"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "coverage"
-issues: []
-discussions: []
+title: "Seo — coverage e gate"
+type: report
+updated: 2026-10-01
+sources:
+  - "../../Xot/docs/bmad/stories/5.258-prompts-execute-improve.story.md"
 ---
 
-# Code Coverage: Seo
+# Seo — coverage e gate
 
-**Lines Coverage:** N/A (Search engine optimization module)
+| Data | PHPStan (level max) | Pest | Coverage `app/` | phpmd | Fonte |
+|---|---|---|---|---|---|
+| 2026-10-01 00:40 | 19 errori | 47/47 | non misurato | 0 | baseline story 5.258 |
+| 2026-10-01 10:50 | **0** | 47/47 (142 asserzioni) | **79,1 %** | 0 | G07 story 5.258 (prompt 03/11) |
 
-## Summary
-
-This module contains search engine optimization functionality for the application.
-
-## Files Overview
-
-- SEO metadata management
-- Sitemap generation components
-- Search engine integration
-- Content optimization tools
-
-## Notes
-
-- SEO functionality module
-- Integration with content management
-- Search engine optimization tools
+Comandi (da `laravel/`): vedi `AGENTS.md` in root, sezione Comandi. Coverage:
+`XDEBUG_MODE=coverage ./vendor/bin/pest --test-directory=Modules/Seo/tests Modules/Seo/tests --coverage --coverage-filter=Modules/Seo/app`
