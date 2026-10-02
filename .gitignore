@@ -101,3 +101,4 @@ yarn.lock
 test-results/
 seo.code-workspace
 /.docs-archive/
+.claude-audit
