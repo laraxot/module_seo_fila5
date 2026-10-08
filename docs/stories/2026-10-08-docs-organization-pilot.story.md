@@ -56,7 +56,7 @@ Solo `laravel/Modules/Seo/docs/`, 187 file toccati (186 modificati, 1 nuovo: que
 
 ## Decisions
 
-- Canonico = `index.md` (non `00-INDEX.md`): regola `docs-index-file`, 15 perimetri su 23 hanno `index.md` come indice piu' ricco, e qui era l'unico completo. `README.md` resta l'ingresso del modulo e non e' un indice.
+- Canonico = `index.md` (non `00-INDEX.md`): regola `docs-index-file`, 12 perimetri su 23 hanno `index.md` come indice piu' ricco, e qui era l'unico completo. `README.md` resta l'ingresso del modulo e non e' un indice.
 - Nessun rinominare dei 30 gruppi di varianti di nome (`PRD.md`/`prd.md`...): i link e gli altri agenti li citano; si marca soltanto.
 - Stub `shared-components`: non ripuntati a un file "simile" in Xot; la scelta del destinatario spetta al proprietario.
 
