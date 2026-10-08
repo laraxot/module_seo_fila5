@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "social sharing component"
 issues: []
 discussions: []
+status: active
 ---
 
 # Social Sharing Component Design
@@ -117,12 +118,4 @@ The final implementation follows a pure Laraxot approach:
 - **Widget**: [SocialShareWidget.php](file:///var/www/_bases/base_laravelpizza/laravel/Modules/Seo/app/Filament/Widgets/SocialShareWidget.php)
 
 ---
-title: "social sharing component"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "social sharing component"
-issues: []
-discussions: []
 *Generated and Verified by Antigravity*

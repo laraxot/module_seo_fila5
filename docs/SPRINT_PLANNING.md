@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "SPRINT PLANNING"
 issues: []
 discussions: []
+status: superseded
+superseded_by: sprint_planning.md
 ---
 
 # Seo Module - Sprint Planning
@@ -16,15 +18,6 @@ discussions: []
 **Version:** 1.0.0
 
 ---
-
-title: "SPRINT PLANNING"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "SPRINT PLANNING"
-issues: []
-discussions: []
 ## Sprint Goal
 
 Implement core technical SEO features including meta tags, sitemap, and schema markup.

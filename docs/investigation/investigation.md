@@ -2,7 +2,13 @@
 type: investigation
 title: "Investigation Schema.org Auto-Generation"
 links: {github_issue: #XXX}
+updated: 2026-10-07
+tags: [docs, seo, investigation]
+qmd: "investigation: schema.org auto-generation seo"
+status: draft
 ---
+
+> Nota 2026-10-08 (docs-audit): e' un segnaposto (Feature A/B/C, issue #XXX), nessuna analisi reale. Contenuto non riscritto, verificare prima di usarlo.
 # Investigation: Schema.org Auto-Generation
 
 ## Problem Statement

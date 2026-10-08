@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sitemap"
 issues: []
 discussions: []
+status: active
 ---
 
 https://larafast.com/blog/programmatic-seo-how-to-do-that-in-laravel
