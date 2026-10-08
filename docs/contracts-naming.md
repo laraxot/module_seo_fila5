@@ -10,6 +10,7 @@ tags: [contract, naming, architecture, laraxot, seo]
 related:
   - ../../../../docs/wiki/rules/module-contracts-naming-placement.md
   - ./wiki/concepts/metatag-data-contract.md
+status: active
 ---
 
 # Contracts Naming & Placement in Seo

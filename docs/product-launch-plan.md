@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: product-launch-plan
-canonical: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md
+canonical: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_LAUNCH_PLAN-Modules.md

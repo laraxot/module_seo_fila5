@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "quality"
 issues: []
 discussions: []
+status: active
 ---
 
 # Checklist qualità - Seo Module

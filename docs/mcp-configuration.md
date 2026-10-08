@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mcp configuration"
 issues: []
 discussions: []
+status: active
 ---
 
 # MCP Server Configuration - Seo Module
@@ -16,15 +17,6 @@ discussions: []
 **MCP Servers**: Asana, ClickUp, Filesystem, Database, Redmine (Planned)
 
 ---
-
-title: "mcp configuration"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "mcp configuration"
-issues: []
-discussions: []
 ## 📋 Overview
 
 The Seo module's MCP configuration enables AI assistants to interact with:
@@ -130,10 +122,10 @@ The Seo module's MCP configuration enables AI assistants to interact with:
 
 ## 📚 Related Documentation
 
-- [Asana MCP Configuration](../../../../docs/mcp-asana-configuration.md)
-- [ClickUp MCP Configuration](../../../../docs/mcp-clickup-configuration.md)
-- [Redmine MCP Configuration](../../../../docs/mcp-redmine-configuration.md)
-- [Seo Module Roadmap](./roadmap-[date].md)
+- [Asana MCP Configuration](../../../../docs/mcp-asana-configuration.md) _(target mancante, verificato 2026-10-08)_
+- [ClickUp MCP Configuration](../../../../docs/mcp-clickup-configuration.md) _(target mancante, verificato 2026-10-08)_
+- [Redmine MCP Configuration](../../../../docs/mcp-redmine-configuration.md) _(target mancante, verificato 2026-10-08)_
+- [Seo Module Roadmap](./roadmap-[date].md) _(target mancante, verificato 2026-10-08)_
 
 ---
 

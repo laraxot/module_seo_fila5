@@ -9,11 +9,12 @@ type: overview
 module: Seo
 sources:
   - ../../../README.md
-  - ../../../configuration.md
-  - ../../../sitemap.md
-  - ../../../structure.md
+  - ../../configuration.md
+  - ../../sitemap.md
+  - ../../structure.md
 confidence: high
 updated: 2026-04-15
+status: active
 ---
 
 # Seo Module — Overview

@@ -9,7 +9,9 @@ issues: []
 discussions: []
 module: theme
 topic: REDUNDANCY_ANALYSIS
-canonical: ../../../Themes/docs/shared-components/REDUNDANCY_ANALYSIS.md
+canonical: ../../../Themes/docs/shared-components/REDUNDANCY_ANALYSIS.md  # target mancante, verificato 2026-10-08
+status: superseded
+superseded_by: redundancy_analysis.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/REDUNDANCY_ANALYSIS.md

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "task implementazione base"
 issues: []
 discussions: []
+status: active
 ---
 
 # Task: Completare Implementazione Base - Seo
@@ -16,15 +17,6 @@ discussions: []
 **Completamento**: 30%
 
 ---
-
-title: "task implementazione base"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "task implementazione base"
-issues: []
-discussions: []
 ## Funzionalita' da Completare
 
 - [x] Modello Seo base

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "phpstan roadmap"
 issues: []
 discussions: []
+status: active
 ---
 
 # PHPStan Level 10 Roadmap - Seo Module

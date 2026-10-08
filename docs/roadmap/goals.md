@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: goals
-canonical: ../../../../Themes/docs/shared-components/02-goals-Modules.md
+canonical: ../../../../Themes/docs/shared-components/02-goals-Modules.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-Modules.md

@@ -11,6 +11,7 @@ issues:
   - "https://github.com/laraxot/base_workorder_fila5/issues/46"
 discussions:
   - "https://github.com/laraxot/base_workorder_fila5/discussions/47"
+status: active
 ---
   - "https://github.com/laraxot/base_techplanner_fila5/issues/46"
 discussions:

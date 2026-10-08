@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "action sentinel main to module 20260313t132007z"
 issues: []
 discussions: []
+status: active
 ---
 
 Action main to module sentinel

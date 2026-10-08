@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: phpstan
-canonical: ../../../Themes/docs/shared-components/phpstan.md
+canonical: ../../../Themes/docs/shared-components/phpstan.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan.md
@@ -18,4 +19,4 @@ See canonical documentation: ../../../Themes/docs/shared-components/phpstan.md
 
 This module adheres to PHPStan Level 10.
 
-- [Global PHPStan Guide](../../../../docs/phpstan-level-10.md)
+- [Global PHPStan Guide](../../../../docs/phpstan-level-10.md) _(target mancante, verificato 2026-10-08)_

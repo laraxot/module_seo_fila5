@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "00 INDEX"
 issues: []
 discussions: []
+status: superseded
+superseded_by: 00-index.md
 ---
 
 # Seo Module - Roadmap

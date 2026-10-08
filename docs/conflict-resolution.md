@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "conflict resolution"
 issues: []
 discussions: []
+status: active
 ---
 
 # Conflict Resolution — Module Seo
@@ -25,4 +26,4 @@ discussions: []
 - composer.json
 
 ## Backlinks
-- [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
+- [Root conflict resolution report](../../../../docs/conflict-resolution-report.md) _(target mancante, verificato 2026-10-08)_

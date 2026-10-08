@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "mcp server consigliati"
 issues: []
 discussions: []
+status: active
 ---
 module: theme
 topic: mcp_server_consigliati

@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "git merge conflict inventory 2026 04 28"
 issues: []
 discussions: []
+status: active
 ---
 
 # Git Conflict Inventory
@@ -28,12 +29,4 @@ discussions: []
 - Inventory generated from `rg -l "^(<<<<<<<|=======|>>>>>>>)"`.
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
 ---
-title: "git merge conflict inventory 2026 04 28"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "git merge conflict inventory 2026 04 28"
-issues: []
-discussions: []
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.

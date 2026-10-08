@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sprint"
 issues: []
 discussions: []
+status: active
 ---
 
 # Sprint Planning Meeting - Seo Module

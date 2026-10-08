@@ -12,6 +12,7 @@ discussions:
 related:
   - ../rules/module-contracts-naming-placement.md
   - ../../../../../../docs/wiki/memories/contract-suffix-no-interfaces-folder.md
+status: active
 ---
 
 # Skill: module-contracts-naming-placement

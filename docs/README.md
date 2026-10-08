@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "README"
 issues: []
 discussions: []
+status: stale
 ---
+
+> Nota 2026-10-08 (docs-audit): e' la concatenazione di due README con badge incoerenti (Laravel 13 e 12.x, Filament 5 e 4.x, PHPStan 9 e 10) e link scritti dalla radice del modulo. Contenuto non riscritto, verificare prima di usarlo.
 
 # Seo
 
@@ -37,19 +40,10 @@ Core module for the FixCity Platform.
 | Lingua | Link |
 |--------|------|
 | 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+| 🇬🇧 Business card | [docs/readme-en.md](./readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](.) |
 
 ---
-
-title: "README"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "README"
-issues: []
-discussions: []
 **Modulo** `Seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 ---
 # 🎯 SEO Module - Search Engine Optimization
@@ -158,12 +152,12 @@ SEO::addStructuredData([
 
 ### 🏗️ **Architettura**
 - [Struttura Modulo](structure.md) - Architettura SEO
-- [Best Practices](best-practices.md) - Best practices SEO
+- [Best Practices](best-practices.md) _(target mancante, verificato 2026-10-08)_ - Best practices SEO
 
 ### 🎨 **Components**
-- [Meta Tags](meta-tags.md) - Gestione meta tags
+- [Meta Tags](meta-tags.md) _(target mancante, verificato 2026-10-08)_ - Gestione meta tags
 - [Sitemap](sitemap.md) - Configurazione sitemap
-- [Structured Data](structured-data.md) - Schema.org
+- [Structured Data](structured-data.md) _(target mancante, verificato 2026-10-08)_ - Schema.org
 
 ### 🔧 **Development**
 - [Configuration](configuration.md) - Configurazione modulo
