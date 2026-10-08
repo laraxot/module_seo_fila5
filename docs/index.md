@@ -31,7 +31,7 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 - [getting-started.md](./getting-started.md)
 - [configuration.md](./configuration.md)
 - [04-datas.md](./04-datas.md) — data/model notes
-- [module.md](./module.md) — module doctrine (scope, religion, policy)
+- [module.md](./module.md) - module doctrine (scope, religion, policy)
 - [filament.md](./filament.md) — reference link (ralphjsmit/laravel-filament-seo)
 - [structure.md](./structure.md) — legacy auto-generated structure dump (2025-04-23, contains stale merge-conflict markers; superseded in spirit by `project-structure.md` but kept as-is)
 
@@ -46,7 +46,7 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 - [on-demand-pattern.md](./on-demand-pattern.md) — canonical (see duplicate `ON-DEMAND-PATTERN.md` below)
 - [performance-optimization.md](./performance-optimization.md) — canonical (see duplicate `PERFORMANCE-OPTIMIZATION.md` below)
 - [no-ai-tool-scaffold-dirs.md](./no-ai-tool-scaffold-dirs.md)
-- [PHILOSOPHY.md](./PHILOSOPHY.md) — long philosophy document (stale: cites files that do not exist); [philosophy.md](./philosophy.md) is a different, short introduction
+- [PHILOSOPHY.md](./PHILOSOPHY.md) - long philosophy document (stale: cites files that do not exist); [philosophy.md](./philosophy.md) is a different, short introduction
 
 ## SEO features
 
@@ -118,8 +118,8 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 - [qmd-setup.md](./qmd-setup.md) — canonical (see duplicate `QMD-SETUP.md` below)
 - [mcp_server_consigliati.md](./mcp_server_consigliati.md) — canonical IT variant (see duplicate `MCP_SERVER_CONSIGLIATI.md` below)
 - [mcp_server_recommended.md](./mcp_server_recommended.md) — canonical EN variant (see duplicate `MCP_SERVER_RECOMMENDED.md` below)
-- `root-file-policy.md` — file assente al 2026-10-08 (link rimosso; esiste solo nel tema Meetup)
-- `root-files-hygiene.md` — file assente al 2026-10-08 (link rimosso)
+- `root-file-policy.md` - file assente al 2026-10-08 (link rimosso; esiste solo nel tema Meetup)
+- `root-files-hygiene.md` - file assente al 2026-10-08 (link rimosso)
 - [links.md](./links.md) — raw link dump (SEO packages/tutorials)
 - [action-sentinel-main-to-module-20260313T132007Z.md](./action-sentinel-main-to-module-20260313T132007Z.md) — canonical (see lowercase-timestamp duplicate below)
 
@@ -127,7 +127,7 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 
 - [conflict-resolution.md](./conflict-resolution.md)
 - [boost-skill-fix-summary.md](./boost-skill-fix-summary.md)
-- [redundancy-audit.md](./redundancy-audit.md) — audit del 2026-05-21 (ex `redundancy-audit-2026-05-21.md`), distinct from the `redundancy_analysis.md`/`REDUNDANCY_ANALYSIS.md` stub pair (see Storico)
+- [redundancy-audit.md](./redundancy-audit.md) - audit del 2026-05-21 (ex `redundancy-audit-2026-05-21.md`), distinct from the `redundancy_analysis.md`/`REDUNDANCY_ANALYSIS.md` stub pair (see Storico)
 - [wiki/troubleshooting/git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md) (ex `...-2026-04-28.md`)
 
 ## Wiki / second brain (`docs/wiki/`)
@@ -135,8 +135,8 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 - [wiki/README.md](./wiki/README.md)
 - [wiki/index.md](./wiki/index.md) — wiki master catalog
 - [wiki/schema.md](./wiki/schema.md)
-- [wiki/module-purpose.md](./wiki/module-purpose.md) — module purpose (BMAD, 2026-10-06)
-- [wiki/readme.md](./wiki/readme.md) — lowercase copy of `wiki/README.md`, superseded
+- [wiki/module-purpose.md](./wiki/module-purpose.md) - module purpose (BMAD, 2026-10-06)
+- [wiki/readme.md](./wiki/readme.md) - lowercase copy of `wiki/README.md`, superseded
 - [wiki/log.md](./wiki/log.md) — append-only activity log
 - [wiki/agents.md](./wiki/agents.md) — canonical (see duplicate `wiki/AGENTS.md` below)
 - [wiki/overviews/seo-module.md](./wiki/overviews/seo-module.md)
@@ -183,20 +183,20 @@ La directory `root-md-files/` non esiste piu' al 2026-10-08. Il changelog archiv
 
 ## BMAD, stories and decision records
 
-- [stories/docs-index-audit.story.md](./stories/docs-index-audit.story.md) — first documentation-index audit (2026-09-26)
-- [stories/2026-10-06-phpstan-cleanup-seo.story.md](./stories/2026-10-06-phpstan-cleanup-seo.story.md) and [.dev.md](./stories/2026-10-06-phpstan-cleanup-seo.dev.md) — PHPStan cleanup
-- [stories/phpstan-Seo-fix.md](./stories/phpstan-Seo-fix.md) — earlier PHPStan fix note
-- [stories/2026-10-08-docs-organization-pilot.story.md](./stories/2026-10-08-docs-organization-pilot.story.md) — this reorganization pilot (frontmatter, links, superseded markers)
-- [stories/2026-10-08-services-to-actions-seo.story.md](./stories/2026-10-08-services-to-actions-seo.story.md) — Services to Actions (removal of `MetatagService`); the docs that cite `app/Services/MetatagService.php` become stale after it
-- [bmad/README.md](./bmad/README.md), [bmad/bmad-dossier.md](./bmad/bmad-dossier.md), [bmad/status.md](./bmad/status.md) — BMAD dossier
-- [decision-log.md](./decision-log.md) — decision log (empty template, `draft`)
-- [investigation/investigation.md](./investigation/investigation.md) — Schema.org auto-generation investigation (placeholder, `draft`)
+- [stories/docs-index-audit.story.md](./stories/docs-index-audit.story.md) - first documentation-index audit (2026-09-26)
+- [stories/2026-10-06-phpstan-cleanup-seo.story.md](./stories/2026-10-06-phpstan-cleanup-seo.story.md) and [.dev.md](./stories/2026-10-06-phpstan-cleanup-seo.dev.md) - PHPStan cleanup
+- [stories/phpstan-Seo-fix.md](./stories/phpstan-Seo-fix.md) - earlier PHPStan fix note
+- [stories/2026-10-08-docs-organization-pilot.story.md](./stories/2026-10-08-docs-organization-pilot.story.md) - this reorganization pilot (frontmatter, links, superseded markers)
+- [stories/2026-10-08-services-to-actions-seo.story.md](./stories/2026-10-08-services-to-actions-seo.story.md) - Services to Actions (removal of `MetatagService`); the docs that cite `app/Services/MetatagService.php` become stale after it
+- [bmad/README.md](./bmad/README.md), [bmad/bmad-dossier.md](./bmad/bmad-dossier.md), [bmad/status.md](./bmad/status.md) - BMAD dossier
+- [decision-log.md](./decision-log.md) - decision log (empty template, `draft`)
+- [investigation/investigation.md](./investigation/investigation.md) - Schema.org auto-generation investigation (placeholder, `draft`)
 
 ## Related modules and themes
 
-- [Xot docs](../../Xot/docs/README.md) — core framework and base classes
-- [Geo docs](../../Geo/docs/README.md) — Schema.org Place integration
-- [Meetup theme docs](../../../Themes/Meetup/docs/00-INDEX.md) — Schema.org Event integration (Meetup is a theme, not a module)
+- [Xot docs](../../Xot/docs/README.md) - core framework and base classes
+- [Geo docs](../../Geo/docs/README.md) - Schema.org Place integration
+- [Meetup theme docs](../../../Themes/Meetup/docs/00-INDEX.md) - Schema.org Event integration (Meetup is a theme, not a module)
 
 ---
 
