@@ -14,7 +14,7 @@ status: active
 
 **Ultimo run:** 2026-06-30  
 **Modulo:** SEO, metatag, sitemap.  
-**Hub:** [../../../../docs/audit/ponytail-audit.md](../../../../docs/audit/ponytail-audit.md) _(target mancante, verificato 2026-10-08)_  
+**Hub:** [../../../../docs/audit/ponytail-audit.md](../../../../docs/audit/ponytail-audit.md) _(target mancante, verificato 2026-10-08)_
 **Remediation:** [../../../../docs/project/ponytail-audit-remediation.md](../../../../docs/project/ponytail-audit-remediation.md)
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/base_predict_fila5/issues/221) · [Discussion #222](https://github.com/laraxot/base_predict_fila5/discussions/222) · [Discussion #228](https://github.com/laraxot/base_predict_fila5/discussions/228)
 **Repo upstream:** [module_seo_fila5](https://github.com/laraxot/module_seo_fila5) · [Issue #12](https://github.com/laraxot/module_seo_fila5/issues/12)
