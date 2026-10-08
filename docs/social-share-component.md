@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "social share component"
 issues: []
 discussions: []
+status: active
 ---
 
 # Social Share Component
@@ -19,14 +20,6 @@ discussions: []
 - [Laravel News: Social Media Sharing](https://laravel-news.com/socialmedia-sharing)
 - [codeshotcut: Laravel 13 Social Share](https://codeshotcut.com/blog/laravel-12-social-share-integration-facebook-twitter-linkedin-whatsapp)
 ---
-title: "social share component"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "social share component"
-issues: []
-discussions: []
 - [codeshotcut: Laravel 12 Social Share](https://codeshotcut.com/blog/laravel-12-social-share-integration-facebook-twitter-linkedin-whatsapp)
 
 ### Argomenti Comuni Identificati
@@ -201,9 +194,9 @@ Struttura corretta in `Themes/Meetup/lang/{locale}/event.php`:
 
 ## Riferimenti
 
-- [LaravelLocalization](../../../modules/lang/docs/laravel-localization-mcamara.md)
-- [XotBaseWidget](../../../modules/xot/docs/xotbase-extension-rules.md)
-- [SVG Icons](../../../modules/meetup/docs/svg-icons-no-hardcoded-blade.md)
+- [LaravelLocalization](../../../modules/lang/docs/laravel-localization-mcamara.md) _(target mancante, verificato 2026-10-08)_
+- [XotBaseWidget](../../Xot/docs/xotbase-extension-rules.md)
+- [SVG Icons](../../../modules/meetup/docs/svg-icons-no-hardcoded-blade.md) _(target mancante, verificato 2026-10-08)_
 
 ---
 

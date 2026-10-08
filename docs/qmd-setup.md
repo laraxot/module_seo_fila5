@@ -8,7 +8,8 @@ created: 2026-05-11
 updated: 2026-05-11
 tags: [qmd, search, docs, performance]
 related:
-  - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
+  - ../../../../docs/wiki/concepts/llm-wiki-operational-discipline.md
+status: active
 ---
 
 # QMD Setup per Module **Seo**
@@ -65,8 +66,8 @@ qmd search "form" -c seo  # Solo questo modulo
 
 ## Riferimenti
 
-- [Global QMD Config](../qmd.md) (root docs)
-- [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
+- [Global QMD Config](../qmd.md) _(target mancante, verificato 2026-10-08)_ (root docs)
+- [Operational Discipline](../../../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 
 ---

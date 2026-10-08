@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: product-roadmap
-canonical: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md
+canonical: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md

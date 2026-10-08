@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "strategy"
 issues: []
 discussions: []
+status: active
 ---
 
 # Product Strategy Doc - Seo Module

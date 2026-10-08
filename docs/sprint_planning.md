@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "sprint planning"
 issues: []
 discussions: []
+status: active
 ---
 
 # Seo Module - Sprint Planning
@@ -16,15 +17,6 @@ discussions: []
 **Version:** 1.0.0
 
 ---
-
-title: "sprint planning"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "sprint planning"
-issues: []
-discussions: []
 ## Sprint Goal
 
 Implement core technical SEO features including meta tags, sitemap, and schema markup.

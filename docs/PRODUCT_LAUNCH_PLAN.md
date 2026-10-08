@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "PRODUCT LAUNCH PLAN"
 issues: []
 discussions: []
+status: superseded
+superseded_by: product_launch_plan.md
 ---
 
 # Seo Module - Product Launch Plan
@@ -16,15 +18,6 @@ discussions: []
 **Owner:** Product Team
 
 ---
-
-title: "PRODUCT LAUNCH PLAN"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "PRODUCT LAUNCH PLAN"
-issues: []
-discussions: []
 ## Launch Objectives
 
 1. **Product:** Deploy technical SEO foundation

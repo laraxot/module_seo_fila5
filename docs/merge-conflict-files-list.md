@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: merge-conflict-files-list
-canonical: ../../../Themes/docs/shared-components/merge-conflict-files-list.md
+canonical: ../../../Themes/docs/shared-components/merge-conflict-files-list.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/merge-conflict-files-list.md

@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: folio-volt-best-practices
-canonical: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modules.md
+canonical: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modules.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modules.md

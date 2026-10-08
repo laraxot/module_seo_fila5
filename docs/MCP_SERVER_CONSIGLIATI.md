@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "MCP SERVER CONSIGLIATI"
 issues: []
 discussions: []
+status: active
 ---
 
 # Server MCP consigliati per il modulo Seo

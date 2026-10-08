@@ -7,7 +7,11 @@ updated: 2026-09-26
 qmd: "00 index"
 issues: []
 discussions: []
+status: superseded
+superseded_by: index.md
 ---
+
+> Superseded dal 2026-10-08: l'indice canonico e' [index.md](./index.md). Contenuto conservato per storia.
 
 # 📚 Indice Documentazione Modulo Seo
 
@@ -24,16 +28,8 @@ discussions: []
 ## 🎯 Lettura Essenziale
 1. [README.md](./README.md) - Panoramica del modulo SEO.
 ---
-title: "00 index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "00 index"
-issues: []
-discussions: []
 ## 🎯 Lettura Essenziale
-1. [README.md](./readme.md) - Panoramica del modulo SEO.
+1. [README.md](./README.md) - Panoramica del modulo SEO.
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: AI Content Optimization & Schema.org.
 
 ## 🏗️ Core Features
@@ -58,9 +54,9 @@ discussions: []
 - [Riferimento](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md) - Nessuna dipendenza diretta; usa Xot
 
 ## 🔗 Moduli Correlati
-- [Xot](../../xot/docs/readme.md) - Core framework e base classes.
+- [Xot](../../Xot/docs/readme.md) - Core framework e base classes.
 - [Meetup](../../meetup/docs/readme.md) - Schema.org Event integration.
-- [Geo](../../geo/docs/readme.md) - Schema.org Place integration.
+- [Geo](../../Geo/docs/README.md) - Schema.org Place integration.
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*

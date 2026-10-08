@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "philosophy"
 issues: []
 discussions: []
+status: active
 ---
 
 # Seo Module: Search Engine Optimization
@@ -14,15 +15,6 @@ discussions: []
 > **Metadata & Sitemap** — Open Graph, structured data, dynamic sitemap, RSS feed.
 
 ---
-
-title: "philosophy"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "philosophy"
-issues: []
-discussions: []
 ## Zen
 
 **"Metadata is free SEO. Automate it."**

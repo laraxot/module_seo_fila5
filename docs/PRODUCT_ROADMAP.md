@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "PRODUCT ROADMAP"
 issues: []
 discussions: []
+status: superseded
+superseded_by: product_roadmap.md
 ---
 
 # Seo Module - Product Roadmap
@@ -17,15 +19,6 @@ discussions: []
 **Status:** In Development
 
 ---
-
-title: "PRODUCT ROADMAP"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "PRODUCT ROADMAP"
-issues: []
-discussions: []
 ## Vision Statement
 
 To build a **comprehensive SEO optimization system** that drives organic traffic growth, improves search visibility, and establishes the platform as an authority in prediction markets.

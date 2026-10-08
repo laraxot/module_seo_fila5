@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: rules-testing-no-migrate-fresh
-canonical: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh.md
+canonical: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh.md
