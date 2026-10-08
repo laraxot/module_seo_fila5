@@ -11,8 +11,9 @@ updated: 2026-07-24
 related:
   - ./metatag-data-contract.md
   - ./phpstan-compliance.md
-  - ../../../../../../bashscripts/docs/composer-go-agent-safe.md
-  - ../../../../../../bashscripts/docs/lock-system.md
+  - ../../../../../../bashscripts/docs/composer-go-agent-safe.md  # target mancante, verificato 2026-10-08
+  - ../../../../../../bashscripts/docs/lock-system.md  # target mancante, verificato 2026-10-08
+status: active
 ---
 
 # Seo — post `composer go` (verificato)

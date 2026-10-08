@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: user-research
-canonical: ../../../Themes/docs/shared-components/USER_RESEARCH.md
+canonical: ../../../Themes/docs/shared-components/USER_RESEARCH.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/USER_RESEARCH.md

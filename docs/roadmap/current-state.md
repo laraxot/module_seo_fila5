@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: current-state
-canonical: ../../../../Themes/docs/shared-components/01-current-state-Modules.md
+canonical: ../../../../Themes/docs/shared-components/01-current-state-Modules.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/01-current-state-Modules.md

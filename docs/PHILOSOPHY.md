@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "PHILOSOPHY"
 issues: []
 discussions: []
+status: stale
 ---
+
+> Nota 2026-10-08 (docs-audit): cita file che nel modulo non esistono (config/seo.php, resources/views/layouts/app.blade.php, resources/views/vendor/seo/meta.blade.php), verificato il 2026-10-08. Contenuto non riscritto, verificare prima di usarlo.
 
 # SEO Module Philosophy
 
@@ -31,15 +34,6 @@ The module enforces these dogmas:
 **Reality check:** SEO is not magic. It's a translation layer between your content and machines that don't understand human language. Treat metadata as seriously as you treat your database schema.
 
 ---
-
-title: "PHILOSOPHY"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "PHILOSOPHY"
-issues: []
-discussions: []
 ## FILOSOFIA: Architecture as Principle
 
 ### Why no models? The trait-free paradox.

@@ -7,6 +7,8 @@ updated: 2026-09-26
 qmd: "action sentinel main to module 20260313T132007Z"
 issues: []
 discussions: []
+status: superseded
+superseded_by: action-sentinel-main-to-module-20260313t132007z.md
 ---
 
 Action main to module sentinel

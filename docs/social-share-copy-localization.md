@@ -7,6 +7,7 @@ updated: 2026-09-26
 qmd: "social share copy localization"
 issues: []
 discussions: []
+status: active
 ---
 
 # Social share copy localization
