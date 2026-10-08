@@ -7,7 +7,10 @@ updated: 2026-09-26
 qmd: "agents"
 issues: []
 discussions: []
+status: stale
 ---
+
+> Nota 2026-10-08 (docs-audit): contiene il segnaposto non renderizzato {{TYPE^}} nel titolo. Contenuto non riscritto, verificare prima di usarlo.
 title: "Agent instructions"
 type: reference
 tags: [agents, coding-agent, llm-wiki]

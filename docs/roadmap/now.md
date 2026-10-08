@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: now
-canonical: ../../../../Themes/docs/shared-components/01-now-Modules.md
+canonical: ../../../../Themes/docs/shared-components/01-now-Modules.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/01-now-Modules.md

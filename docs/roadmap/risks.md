@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: risks
-canonical: ../../../../Themes/docs/shared-components/04-risks-Modules.md
+canonical: ../../../../Themes/docs/shared-components/04-risks-Modules.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/04-risks-Modules.md

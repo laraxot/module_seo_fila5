@@ -9,7 +9,8 @@ issues: []
 discussions: []
 module: theme
 topic: file-naming-rules
-canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
+canonical: ../../../Themes/docs/shared-components/file-naming-rules.md  # target mancante, verificato 2026-10-08
+status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
