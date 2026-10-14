@@ -7,8 +7,10 @@ updated: 2026-09-26
 qmd: "testing"
 issues: []
 discussions: []
-status: active
+status: stale
 ---
+
+> Nota 2026-10-14 (docs-audit): Cita \Modules\Seo\Models\SeoMetadata, classe che non esiste in app/Models. I test reali sono in tests/Unit e tests/Feature (MetatagData, MetatagFacadeAdapter, SocialShare). Contenuto non riscritto, verificare prima di usarlo.
 
 # Testing Documentation
 

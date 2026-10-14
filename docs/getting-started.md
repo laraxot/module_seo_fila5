@@ -10,8 +10,10 @@ title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
 extends: _layouts.documentation
 section: content
-status: active
+status: stale
 ---
+
+> Nota 2026-10-14 (docs-audit): Template Jigsaw (generatore di siti di documentazione) copiato nei docs: non descrive il modulo Seo, che non ha navigation.php ne' config.php di sito. Contenuto non riscritto, verificare prima di usarlo.
 
 # Getting Started {#getting-started}
 
