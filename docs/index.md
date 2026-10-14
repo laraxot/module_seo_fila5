@@ -3,7 +3,7 @@ title: "Seo module: indice documentazione"
 type: index
 status: active
 canonical: true
-updated: 2026-10-08
+updated: 2026-10-14
 tags: [seo, docs, index, canonical]
 qmd: "seo module docs index master catalogo canonico superseded duplicati stub stale pilot docs-organization"
 related:
@@ -23,6 +23,26 @@ Master index of `docs/` for the Seo module, organized by topic. Every `.md` file
 Legenda `status` nel frontmatter: `active` (valido), `stub` (rimanda a un canonico), `superseded` (copia di un altro file, `superseded_by` dice quale), `stale` (obsoleto, con nota datata sotto il frontmatter), `draft` (segnaposto da compilare). Nessun file e' stato cancellato, spostato o rinominato.
 
 Related entry points: [README.md](./README.md) (module overview), [docs/wiki/index.md](./wiki/index.md) (second-brain wiki), [docs/roadmap/README.md](./roadmap/README.md) (roadmap hub).
+
+## Stato verificato e mappa delle directory (2026-10-14)
+
+Il codice del modulo e' piccolo: facade `Metatag` con tre Actions in `app/Actions/Metatag/`, link di condivisione social (`GenerateSocialShareLinksAction`, widget, componente Blade). Non ci sono Model, migration, rotte, comandi Artisan, Resource Filament ne' sitemap, e nessun altro modulo importa `Modules\Seo`. Prove e quick start in [README.md](./README.md). I documenti di prodotto (PRD, roadmap, strategy, sprint, launch, research, `task-*`, `seo-optimization-*`) descrivono funzioni previste (sitemap, Schema.org, analisi AI, report PDF) che oggi non esistono: vanno letti come piani, non come stato.
+
+Nota di contratto: `bmad-output/docs-architecture/module-theme-docs-contract.md` indica `00-INDEX.md` come indice operativo, ma in Seo la scelta del 2026-10-08 (pilota) e' `index.md`, con `00-INDEX.md`, `00-index.md` e `INDEX.md` marcati `superseded`. Decisione aperta: vedi la story [2026-10-14-docs-seo-studio](./stories/2026-10-14-docs-seo-studio.story.md).
+
+| Directory | Ruolo | Note |
+|---|---|---|
+| `wiki/` | canonica (concetti, regole, log) | 33 .md; `wiki/log.md` e' il registro cronologico |
+| `stories/` | evidence BMAD | 6 file; la story del 2026-10-14 e' l'ultima |
+| `bmad/` | evidence | dossier e status (3 file) |
+| `investigation/` | diagnosi non risolte | 1 file segnaposto, `draft` |
+| `roadmap/` | piani, non stato | 28 file, molti paralleli |
+| `concepts/` | residuo | 1 file (`xotbase-never-extend-filament.md`); il canone e' `wiki/concepts/` |
+| `llm-wiki/` | legacy | precede `wiki/`, cataloghi quasi vuoti |
+| `raw/` | sorgenti immutabili | non si riscrive |
+| `screenshots/` | evidence | 1 PNG |
+
+File con `status: stale` per codice inesistente o contenuto estraneo (2026-10-14): `getting-started.md`, `navigation.md`, `custom-404-page.md`, `customizing-your-site.md`, `algolia-docsearch.md` (template Jigsaw), `configuration.md`, `testing.md`, `docs-health.md`, `project-structure.md`.
 
 ## Overview and getting started
 
@@ -49,6 +69,8 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 - [PHILOSOPHY.md](./PHILOSOPHY.md) - long philosophy document (stale: cites files that do not exist); [philosophy.md](./philosophy.md) is a different, short introduction
 
 ## SEO features
+
+Attenzione: questa sezione elenca documenti, non funzioni. Esistono nel codice solo i metatag (facade) e la condivisione social; sitemap, Schema.org e analisi non sono implementati.
 
 - [sitemap.md](./sitemap.md) — reference link
 - [navigation.md](./navigation.md)
