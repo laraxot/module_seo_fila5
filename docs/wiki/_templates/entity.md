@@ -1,20 +1,4 @@
 ---
-title: "entity"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "entity"
-issues: []
-discussions: []
-module: theme
-topic: entity
-canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md  # target mancante, verificato 2026-10-08
-status: stub
----
-
-See canonical documentation: ../../../../../Themes/docs/shared-components/entity-Modules.md
----
 title: "Entity Name"
 type: entity
 sources: ["raw/articles/source-filename.md"]
