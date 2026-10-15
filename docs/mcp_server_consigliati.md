@@ -1,3 +1,20 @@
+---
+title: "mcp server consigliati"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "mcp server consigliati"
+issues: []
+discussions: []
+status: active
+---
+module: theme
+topic: mcp_server_consigliati
+canonical: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
 # Server MCP consigliati per il modulo Seo
 
 ## Scopo del modulo

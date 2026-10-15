@@ -1,16 +1,21 @@
 ---
+qmd: "PROJECT STRUCTURE"
+issues: []
+discussions: []
 title: "Project Structure — Module Seo"
 type: documentation
 created: 2026-05-11
 updated: 2026-05-11
 tags: [structure, architecture, module]
+status: superseded
+superseded_by: project-structure.md
 ---
 
 # Project Structure — Module **Seo**
 
 ## Directory Structure
 
-\`\`\`
+```
 ./laravel/Modules/Seo/docs/
 ├── wiki/                          # Knowledge base locale (LLM Wiki)
 │   ├── index.md                  # Master catalog
@@ -37,7 +42,7 @@ tags: [structure, architecture, module]
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 └── README.md                     # (opzionale) Overview modulo
-\`\`\`
+```
 
 ## File Chiave
 
@@ -59,7 +64,7 @@ tags: [structure, architecture, module]
 
 ### Frontmatter Schema
 
-\`\`\`yaml
+```yaml
 ---
 title: "Page Title"
 type: concept|entity|source|comparison|decision|troubleshooting
@@ -71,7 +76,7 @@ tags: [tag1, tag2]
 related:
   - ../concepts/related.md
 ---
-\`\`\`
+```
 
 ### Link Rules
 
@@ -81,7 +86,7 @@ related:
 
 ## Workflow con On-Demand Pattern
 
-\`\`\`mermaid
+```mermaid
 graph TD
     A[Task Received] --> B{Has trigger?}
     B -->|Yes| C[Read trigger_map]
@@ -90,19 +95,19 @@ graph TD
     E --> D
     D --> F[Apply knowledge]
     F --> G[Update wiki/log]
-\`\`\`
+```
 
 ## Riferimenti Globali
 
-- [Project Wiki Root](../../docs/wiki/)
-- [Global Rules](../../docs/wiki/rules/)
-- [Global Skills](../../docs/wiki/skills/)
-- [Global Commands](../../docs/wiki/commands/)
-- [Global Memories](../../docs/wiki/memories/)
+- [Project Wiki Root](../../docs/wiki/) _(target mancante, verificato 2026-10-14)_
+- [Global Rules](wiki/rules)
+- [Global Skills](wiki/skills)
+- [Global Commands](wiki/commands)
+- [Global Memories](wiki/memories)
 
 ## Setup Iniziale (per nuovi moduli)
 
-\`\`\`bash
+```bash
 # 1. Crea struttura wiki
 mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,troubleshooting}
 
@@ -116,7 +121,7 @@ cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 # 4. Committa
 git add docs/
 git commit -m "docs: add wiki structure for Seo"
-\`\`\`
+```
 
 ---
 *Pattern: On-Demand | Source: docs/wiki/*

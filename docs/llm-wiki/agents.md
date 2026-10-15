@@ -1,4 +1,14 @@
 ---
+title: "agents"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "agents"
+issues: []
+discussions: []
+status: active
+---
 title: "Agent instructions"
 type: reference
 tags: [agents, coding-agent, llm-wiki]
