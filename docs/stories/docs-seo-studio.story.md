@@ -9,8 +9,8 @@ tags: [docs, seo, metatag, social-share, stale, docs-organizer, bmad]
 qmd: "seo docs studio 2026-10-14 metatag facade sitemap inesistente jigsaw stale blocco spurio index.md 00-INDEX.md contratto"
 related:
   - ../../../../../bmad-output/docs-architecture/module-theme-docs-contract.md
-  - ../../../Fixcity/docs/stories/2026-10-13-dcp-56-organizzazione-docs-moduli-e-temi.story.md
-  - ./2026-10-08-docs-organization-pilot.story.md
+  - ../../../Fixcity/docs/stories/dcp-56-organizzazione-docs-moduli-e-temi.story.md
+  - ./docs-organization-pilot.story.md
 ---
 
 # Docs Seo: studio del codice e correzione degli ingressi
