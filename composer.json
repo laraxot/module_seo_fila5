@@ -26,14 +26,11 @@
             "Modules\\Seo\\Database\\Seeders\\": "database/seeders/"
         }
     },
-<<<<<<< .merge_file_U10FAW
-=======
     "autoload-dev": {
         "psr-4": {
             "Modules\\Seo\\Tests\\": "tests/"
         }
     },
->>>>>>> .merge_file_QyHm5P
     "require": {
         "spatie/laravel-sitemap": "^7.0"
     },
