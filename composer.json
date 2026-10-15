@@ -16,9 +16,7 @@
                 "Modules\\Seo\\Providers\\SeoServiceProvider",
                 "Modules\\Seo\\Providers\\Filament\\AdminPanelProvider"
             ],
-            "aliases": {
-
-            }
+            "aliases": {}
         }
     },
     "autoload": {
