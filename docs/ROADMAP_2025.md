@@ -1,3 +1,16 @@
+---
+title: "ROADMAP 2025"
+type: note
+tags: [documentation]
+created: 2026-09-26
+updated: 2026-09-26
+qmd: "ROADMAP 2025"
+issues: []
+discussions: []
+status: superseded
+superseded_by: roadmap-2025.md
+---
+
 # 🎯 SEO MODULE - ROADMAP 2025
 
 **Modulo**: Seo ([Description])  
@@ -7,7 +20,6 @@
 **Filament**: 🚧 4.x Compatibile  
 
 ---
-
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **Seo** [descrizione del modulo].
@@ -206,6 +218,7 @@ Seo Module
 
 ---
 
+**Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
 **Status**: 🚧 PLANNING  
 **Confidence Level**: 70%  
