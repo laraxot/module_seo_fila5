@@ -9,14 +9,14 @@ module: Seo
 tags: [docs, organization, pilot, bmad, non-destructive, frontmatter, links, superseded]
 qmd: "seo docs organization pilot indice canonico index.md frontmatter status superseded stale link rotti stub shared-components"
 related:
-  - ../../../../../bmad-output/docs-organization-audit-2026-10-08.md
+  - ../../../../../bmad-output/docs-organization-audit.md
   - ../index.md
-  - ../../../../Themes/Meetup/docs/stories/2026-10-08-docs-organization-pilot.story.md
+  - ../../../../Themes/Meetup/docs/stories/docs-organization-pilot.story.md
 ---
 
 # [STORY] Docs organization pilot Seo
 
-Fase BMAD: Build (manutenzione documentale). Artefatto cross-modulo: `bmad-output/docs-organization-audit-2026-10-08.md`.
+Fase BMAD: Build (manutenzione documentale). Artefatto cross-modulo: `bmad-output/docs-organization-audit.md`.
 
 ## User Request
 
@@ -63,7 +63,7 @@ Solo `laravel/Modules/Seo/docs/`, 187 file toccati (186 modificati, 1 nuovo: que
 ## Aperto
 
 - 27 bersagli di link che non sono mai esistiti (es. `roadmap/*.md` e `phpstan/level_*.md` citati da `roadmap.md`): decidere se creare le pagine o togliere le voci.
-- Dopo la story `2026-10-08-services-to-actions-seo.story.md` (rimozione di `app/Services/MetatagService.php`) vanno riverificati `services-to-adapters-conversion.md`, `duplicate-methods-analysis.md`, `wiki/concepts/no-app-support-queueable-actions.md`: citano il file rimosso.
+- Dopo la story `services-to-actions-seo.story.md` (rimozione di `app/Services/MetatagService.php`) vanno riverificati `services-to-adapters-conversion.md`, `duplicate-methods-analysis.md`, `wiki/concepts/no-app-support-queueable-actions.md`: citano il file rimosso.
 - `PHILOSOPHY.md` e `philosophy.md` sono due documenti diversi con lo stesso nome logico; `README.md` di `docs/` va ricomposto in un solo documento.
 - Il frontmatter generico (`type: note`, `tags: [documentation]`, `qmd` uguale al titolo) resta su 100+ file: arricchirlo richiede lettura di ogni file.
 
