@@ -48,7 +48,8 @@ error_log
 .git-blame-ignore-revs
 .git-rewrite/
 # --- Git specific ---
-graphify-out
+# graphify-out: generated AST/knowledge graph — never commit (no git-lfs; rebuild with graphify update)
+graphify-out/
 # Grouped, deduped. See docs/wiki/rules/module-theme-root-cleanup.md
 Homestead.json
 Homestead.yaml
