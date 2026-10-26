@@ -1,3 +1,11 @@
+---
+title: "BMAD completion pack — Seo"
+type: note
+status: draft
+updated: 2026-10-26
+tags: [docs, seo, bmad]
+qmd: "bmad completion pack   seo seo"
+---
 # BMAD completion pack — Seo
 
 This is the owner-local BMAD entry point. Cross-owner contracts are in plans/fixcity-completion-architecture.md; the backlog is in docs/completion-backlog.md.
