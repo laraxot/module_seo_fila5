@@ -394,4 +394,4 @@ For Filament resources, use the provided SEO trait to add configuration fields t
 Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
-- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
+- [Project Structure](project-structure.md) — Directory layout
