@@ -8,6 +8,8 @@ updated: 2026-10-26
 tags: [bmad, seo, module, stories, remaining-work]
 related:
   - ../../docs/second-brain/project/bmad-architecture.md
+status: draft
+qmd: "seo module   bmad stories & remaining work seo"
 ---
 
 # Seo Module — BMAD Stories & Remaining Work

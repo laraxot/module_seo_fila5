@@ -8,6 +8,7 @@ source_of_truth: true
 related:
   - sitemap.md
   - ../../Modules/Themes/docs/shared-components/sitemap.md
+updated: 2026-10-26
 ---
 
 # Scopo
