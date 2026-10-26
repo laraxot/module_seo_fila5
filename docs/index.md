@@ -158,7 +158,7 @@ Attenzione: questa sezione elenca documenti, non funzioni. Esistono nel codice s
 - [wiki/index.md](./wiki/index.md) — wiki master catalog
 - [wiki/schema.md](./wiki/schema.md)
 - [wiki/module-purpose.md](./wiki/module-purpose.md) - module purpose (BMAD, 2026-10-06)
-- [wiki/readme.md](./wiki/readme.md) - lowercase copy of `wiki/README.md`, superseded
+- [wiki/readme.md](./wiki/README.md) - lowercase copy of `wiki/README.md`, superseded
 - [wiki/log.md](./wiki/log.md) — append-only activity log
 - [wiki/agents.md](wiki/AGENTS.md) — canonical (see duplicate `wiki/AGENTS.md` below)
 - [wiki/overviews/seo-module.md](./wiki/overviews/seo-module.md)
@@ -230,7 +230,7 @@ Nothing below was deleted, renamed, or moved. From 2026-10-08 every copy listed 
 
 | Topic | Files | Note |
 |---|---|---|
-| Top-level index (pre-audit) | [`00-index.md`](./00-index.md), [`00-INDEX.md`](./00-INDEX.md) | Near-identical (1 link differs: `README.md` vs `readme.md`); superseded by this `index.md` (`status: superseded`), kept for history |
+| Top-level index (pre-audit) | [`00-index.md`](./00-index.md), [`00-INDEX.md`](./00-index.md) | Near-identical (1 link differs: `README.md` vs `readme.md`); superseded by this `index.md` (`status: superseded`), kept for history |
 | On-demand pattern | [`ON-DEMAND-PATTERN.md`](on-demand-pattern.md) | Byte-identical to `on-demand-pattern.md` |
 | Performance optimization | [`PERFORMANCE-OPTIMIZATION.md`](performance-optimization.md) | Byte-identical to `performance-optimization.md` |
 | PRD | [`PRD.md`](prd.md) | Byte-identical to `prd.md` |
@@ -242,17 +242,17 @@ Nothing below was deleted, renamed, or moved. From 2026-10-08 every copy listed 
 | Sprint planning | [`SPRINT_PLANNING.md`](sprint_planning.md) | Byte-identical to `sprint_planning.md` |
 | User research | [`USER_RESEARCH.md`](user_research.md) | Byte-identical to `user_research.md` |
 | Roadmap 2025 (top-level) | [`ROADMAP.md`](roadmap.md), [`roadmap-2025.md`](./roadmap-2025.md), [`ROADMAP-2025.md`](./ROADMAP-2025.md), [`ROADMAP_2025.md`](./ROADMAP_2025.md) | All near-identical to `roadmap.md` (only a trailing "Last Updated" line differs). Dal 2026-10-08 `ROADMAP-2025.md` e `ROADMAP_2025.md` sono `superseded_by: roadmap-2025.md` (identici nel corpo); `ROADMAP.md` non e' un duplicato esatto e resta `active` |
-| Roadmap sub-index | [`roadmap/00-INDEX.md`](./roadmap/00-INDEX.md) | Byte-identical to `roadmap/00-index.md` |
+| Roadmap sub-index | [`roadmap/00-INDEX.md`](./roadmap/00-index.md) | Byte-identical to `roadmap/00-index.md` |
 | Action sentinel log | [`action-sentinel-main-to-module-t132007z.md`](./action-sentinel-main-to-module-t132007z.md) | Byte-identical to the uppercase-`T` filename, only timestamp casing differs |
 | MCP server consigliati (IT) | [`MCP_SERVER_CONSIGLIATI.md`](mcp-server-consigliati.md) | Byte-identical to `mcp_server_consigliati.md` |
 | MCP server recommended (EN) | [`MCP_SERVER_RECOMMENDED.md`](mcp-server-recommended.md) | Byte-identical to `mcp_server_recommended.md` |
 | Wiki agents | [`wiki/AGENTS.md`](./wiki/AGENTS.md) | Byte-identical to `wiki/agents.md` (both contain an unrendered `{{TYPE^}}` template placeholder) |
 | LLM-wiki agents | [`llm-wiki/AGENTS.md`](./llm-wiki/AGENTS.md) | Byte-identical to `llm-wiki/agents.md` |
-| Wiki commands index | [`wiki/commands/INDEX.md`](./wiki/commands/INDEX.md) | Byte-identical to `wiki/commands/index.md` |
-| Wiki concepts index | [`wiki/concepts/INDEX.md`](./wiki/concepts/INDEX.md) | Byte-identical to `wiki/concepts/index.md` |
-| Wiki memories index | [`wiki/memories/INDEX.md`](./wiki/memories/INDEX.md) | Byte-identical to `wiki/memories/index.md` |
-| Wiki rules index | [`wiki/rules/INDEX.md`](./wiki/rules/INDEX.md) | Byte-identical to `wiki/rules/index.md` |
-| Wiki skills index | [`wiki/skills/INDEX.md`](./wiki/skills/INDEX.md) | Byte-identical to `wiki/skills/index.md` |
+| Wiki commands index | [`wiki/commands/INDEX.md`](./wiki/commands/index.md) | Byte-identical to `wiki/commands/index.md` |
+| Wiki concepts index | [`wiki/concepts/INDEX.md`](./wiki/concepts/index.md) | Byte-identical to `wiki/concepts/index.md` |
+| Wiki memories index | [`wiki/memories/INDEX.md`](./wiki/memories/index.md) | Byte-identical to `wiki/memories/index.md` |
+| Wiki rules index | [`wiki/rules/INDEX.md`](./wiki/rules/index.md) | Byte-identical to `wiki/rules/index.md` |
+| Wiki skills index | [`wiki/skills/INDEX.md`](./wiki/skills/index.md) | Byte-identical to `wiki/skills/index.md` |
 | Docs root index placeholder | [`INDEX.md`](./INDEX.md) | Thin placeholder, superseded by this `index.md` since 2026-10-08, kept for reference |
 
 ### B. Stub pointers to Themes shared docs (`module: theme` frontmatter — not Seo-specific content)

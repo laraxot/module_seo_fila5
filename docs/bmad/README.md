@@ -23,4 +23,4 @@ status: active
 This folder contains BMAD method documentation for the Seo module.
 
 - [Schema articoli ed eventi](../stories/inbound-article-event-schema.story.md)
-- [Dossier coordinatore](../../Fixcity/docs/bmad/inbound-marketing/README.md)
+- [Dossier coordinatore](../../../Fixcity/docs/bmad/inbound-marketing/README.md)

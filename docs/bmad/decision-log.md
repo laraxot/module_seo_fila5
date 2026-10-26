@@ -19,7 +19,7 @@ related:
 
 - **Stato:** `Modules/Seo/app/Services/` **assente**. L'API storica del monolite vive in `MetatagFacadeAdapter` (delega a QueueableActions). Non reintrodurre `MetatagService`.
 - **Zombie:** `tests/Unit/Services/MetatagServiceExtendedTest.php.old` puntava a `Modules\Seo\Services\MetatagService` (classe inesistente) → rimosso in boy scout post-PHPStan-zero.
-- **Track:** [services-to-actions-seo.story.md](../stories/services-to-actions-seo.story.md), census Xot [decision-log](../../Xot/docs/bmad/decision-log.md#2026-10-20--boy-scout-post-zero-census-modulesappservices).
+- **Track:** [services-to-actions-seo.story.md](../stories/services-to-actions-seo.story.md), census Xot [decision-log](../../../Xot/docs/bmad/decision-log.md#2026-10-20--boy-scout-post-zero-census-modulesappservices).
 
 ## 2026-10-16 — Kit BMAD owner
 
