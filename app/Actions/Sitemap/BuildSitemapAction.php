@@ -75,7 +75,7 @@ final class BuildSitemapAction
             $middleware = $page->getAttribute('middleware');
             // `auth.login` e `auth.register` sono pagine per ospiti (senza middleware `auth`) ma robots.txt chiude /{lang}/auth.
             // `<contenitore>.view` (blog.view, events.view, services.view) e' il modello del dettaglio: /blog/view risponde 200 senza contenuto.
-            if ($slug === '' || str_starts_with($slug, 'tests.') || str_starts_with($slug, 'auth.') || str_ends_with($slug, '.view') || in_array($slug, self::NOT_INDEXABLE, true)) {
+            if ($slug === '' || $slug === 'tests' || str_starts_with($slug, 'tests.') || str_starts_with($slug, 'auth.') || str_ends_with($slug, '.view') || in_array($slug, self::NOT_INDEXABLE, true)) {
                 continue;
             }
             if (is_array($middleware) && in_array('auth', $middleware, true)) {
@@ -86,7 +86,11 @@ final class BuildSitemapAction
 
         foreach (app()->tagged(SitemapPathsContract::TAG) as $source) {
             if ($source instanceof SitemapPathsContract) {
-                array_push($paths, ...$source->execute());
+                array_push($paths, ...array_filter(
+                    $source->execute(),
+                    static fn (string $path): bool => ! str_starts_with(trim($path, '/'), 'tests/')
+                        && trim($path, '/') !== 'tests'
+                ));
             }
         }
 
