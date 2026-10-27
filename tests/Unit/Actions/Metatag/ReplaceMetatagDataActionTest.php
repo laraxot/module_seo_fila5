@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Seo\Unit\Actions\Metatag;
+namespace Modules\Seo\Tests\Unit\Actions\Metatag;
 
 use Modules\Seo\Actions\Metatag\GetMetatagDataAction;
 use Modules\Seo\Actions\Metatag\ReplaceMetatagDataAction;
