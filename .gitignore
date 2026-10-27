@@ -101,3 +101,6 @@ yarn.lock
 *:Zone.Identifier
 test-results/
 seo.code-workspace
+
+# Forbidden parallel documentation archive
+docs/archive/
