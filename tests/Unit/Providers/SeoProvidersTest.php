@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Seo\Unit\Providers;
+namespace Modules\Seo\Tests\Unit\Providers;
 
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use Modules\Seo\Adapters\MetatagState;
