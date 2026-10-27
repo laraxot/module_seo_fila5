@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Modules\Seo\Unit\Actions;
+namespace Modules\Seo\Tests\Unit\Actions;
 
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
 use Modules\Seo\Datas\SocialShareData;
@@ -15,7 +15,7 @@ it('generates social share links for all platforms', function (): void {
         'text' => 'Check this out',
     ]);
 
-    $action = new GenerateSocialShareLinksAction;
+    $action = new GenerateSocialShareLinksAction();
     $links = $action->execute($data);
 
     foreach (['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram', 'copy'] as $key) {
@@ -32,7 +32,7 @@ it('includes via and hashtags in twitter link when provided', function () {
         'hashtags' => 'laravel,php',
     ]);
 
-    $action = new GenerateSocialShareLinksAction;
+    $action = new GenerateSocialShareLinksAction();
     $links = $action->execute($data);
 
     Assert::assertStringContainsString('via='.urlencode('myhandle'), (string) $links['twitter']);
