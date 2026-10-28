@@ -104,8 +104,6 @@ seo.code-workspace
 
 # Forbidden parallel documentation archive
 docs/archive/
-<<<<<<< .merge_file_3EkWvF
-=======
 **/docs/archive/
 _docs/
 
@@ -118,4 +116,3 @@ _docs/
 *.rej
 *~head
 agentdb.rvf
->>>>>>> .merge_file_2DNfXb

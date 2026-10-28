@@ -3,11 +3,7 @@ title: "README"
 type: note
 tags: [documentation]
 created: 2026-09-26
-<<<<<<< .merge_file_39a7Jk
-updated: 2026-10-14
-=======
 updated: 2026-10-28
->>>>>>> .merge_file_akLKih
 qmd: "seo module readme metatag social share stato verificato"
 issues: []
 discussions: []
@@ -54,11 +50,7 @@ Nessun altro modulo o tema importa `Modules\Seo` (grep su `Modules` e `Themes`, 
 
 ## Debito noto nel codice (non modificato qui)
 
-<<<<<<< .merge_file_39a7Jk
-- Due DTO paralleli: `app/Data/` (usato da `Adapters\MetatagManager` e da `tests/Unit/Data`) e `app/Datas/` (usato da Actions, widget e `MetatagState`); `Data\MetatagData` non implementa il contratto.
-=======
 - ~~Due DTO paralleli (`Modules\Seo\Data` e `Modules\Seo\Datas`)~~ risolto 2026-10-28: il namespace canonico e' `Modules\Seo\Datas` (cartella `app/Datas/`, PSR-4); [stories/phpstan-zero-errors-seo.story.md](./stories/phpstan-zero-errors-seo.story.md). Restano in `tests/Unit/` due cartelle gemelle, `Data/` e `Datas/`, con gli stessi test.
->>>>>>> .merge_file_akLKih
 - `app/Interfaces/MetatagDataInterface.php` e il suo `.bak` convivono con `Contracts/MetatagDataContract.php`, che la wiki indica come canone.
 - `Adapters\MetatagManager` e' registrato nel container ma la facade non lo usa; lo usa solo `tests/Feature/MetatagServiceTest.php`.
 
@@ -384,8 +376,4 @@ For Filament resources, use the provided SEO trait to add configuration fields t
 Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
-<<<<<<< .merge_file_39a7Jk
 - [Project Structure](project-structure.md) — Directory layout
-=======
-- [Project Structure](project-structure.md) — Directory layout
->>>>>>> .merge_file_akLKih
