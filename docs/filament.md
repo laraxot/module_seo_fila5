@@ -12,6 +12,7 @@ status: active
 
 https://github.com/ralphjsmit/laravel-filament-seo
 
+<<<<<<< HEAD
 ---
 
 
@@ -32,3 +33,5 @@ canonical: ../../../Themes/docs/shared-components/filament.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament.md
+=======
+>>>>>>> d2f3026 (.)

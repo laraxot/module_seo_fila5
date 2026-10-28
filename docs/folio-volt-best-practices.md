@@ -14,6 +14,7 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/folio-volt-best-practices-Modules.md
+<<<<<<< HEAD
 ---
 # Laravel Folio + Volt - Best Practices and Patterns Analysis
 
@@ -118,3 +119,5 @@ middleware(['auth', 'verified']);
 
 ## Date
 2025-11-29
+=======
+>>>>>>> d2f3026 (.)

@@ -14,6 +14,7 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-Modules.md
+<<<<<<< HEAD
 ---
 # Goals - Seo
 
@@ -33,3 +34,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/02-goals-
 
 1. Stabilita sotto fault randomizzati (chaos testing).
 2. Manutenibilita alta con onboarding rapido.
+=======
+>>>>>>> d2f3026 (.)

@@ -14,6 +14,7 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/merge-conflict-files-list.md
+<<<<<<< HEAD
 ---
 # Merge Conflict Files List
 
@@ -97,3 +98,5 @@ This file contains a comprehensive list of files with merge conflict markers (`<
 *Generated on: $(date)
 *Total files: 96
 *Status: Pending resolution*
+=======
+>>>>>>> d2f3026 (.)

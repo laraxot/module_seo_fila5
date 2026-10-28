@@ -14,9 +14,12 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/02-next-Modules.md
+<<<<<<< HEAD
 ---
 # Next (Module Seo)
 
 ## Features
 
 ## Refactors
+=======
+>>>>>>> d2f3026 (.)
