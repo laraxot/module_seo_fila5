@@ -14,6 +14,7 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
+<<<<<<< HEAD
 ---
 # Regole di Naming per File
 
@@ -135,3 +136,5 @@ Se entrambi i file contengono contenuto diverso:
 - Laravel Naming Conventions
 - Filament Best Practices
 - Git Case Sensitivity Issues
+=======
+>>>>>>> d2f3026 (.)

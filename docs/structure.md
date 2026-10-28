@@ -186,6 +186,7 @@ tests/Unit
     },
     "require_comment": {
         "openai-php/laravel": "*"
+<<<<<<< HEAD
 ---
 title: "structure"
 type: note
@@ -196,6 +197,8 @@ qmd: "structure"
 issues: []
 discussions: []
 ---
+=======
+>>>>>>> d2f3026 (.)
     },
 ```
 

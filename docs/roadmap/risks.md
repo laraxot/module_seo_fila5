@@ -14,9 +14,12 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/04-risks-Modules.md
+<<<<<<< HEAD
 ---
 # Risks and dependencies (Module Seo)
 
 ## Risks
 
 ## Dependencies
+=======
+>>>>>>> d2f3026 (.)

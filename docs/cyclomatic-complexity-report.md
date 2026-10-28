@@ -15,8 +15,11 @@ status: stale
 # Cyclomatic Complexity Report - Module: Seo
 
 **Generated:** 2025-10-01 19:44:11  
+<<<<<<< HEAD
 ---
 **Generated:** 2025-10-01 19:44:11  
+=======
+>>>>>>> d2f3026 (.)
 **Analyzer:** Super Mucca 🐮
 
 ---

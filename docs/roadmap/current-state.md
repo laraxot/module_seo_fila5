@@ -14,6 +14,7 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/01-current-state-Modules.md
+<<<<<<< HEAD
 ---
 # Current State - Seo
 
@@ -28,3 +29,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/01-curren
 1. Coerenza tra regole architetturali e implementazione runtime.
 2. Coerenza tra naming, namespace e percorsi view/traduzioni.
 3. Copertura test minima per i flussi critici.
+=======
+>>>>>>> d2f3026 (.)

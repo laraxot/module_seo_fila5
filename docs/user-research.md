@@ -14,6 +14,7 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/USER_RESEARCH.md
+<<<<<<< HEAD
 ---
 # Seo Module - User Research
 
@@ -100,3 +101,5 @@ Long-tail keywords drive qualified traffic.
 - Develop AI suggestions
 
 ---
+=======
+>>>>>>> d2f3026 (.)
