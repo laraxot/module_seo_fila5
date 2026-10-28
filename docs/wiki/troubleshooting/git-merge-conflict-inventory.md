@@ -27,6 +27,10 @@ status: active
 ## Notes
 
 - Inventory generated from `rg -l "^(<<<<<<<|=======|>>>>>>>)"`.
+<<<<<<< HEAD:docs/wiki/troubleshooting/git-merge-conflict-inventory.md
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
 ---
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+=======
+- Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+>>>>>>> d2f3026 (.):docs/wiki/troubleshooting/git-merge-conflict-inventory-2026-04-28.md

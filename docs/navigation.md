@@ -42,5 +42,8 @@ return [
 // blade files
 $page->navigation
 ```
+<<<<<<< HEAD
 ---
 ---
+=======
+>>>>>>> d2f3026 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "README"
 type: note
@@ -52,6 +53,8 @@ issues: []
 discussions: []
 **Modulo** `Seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 ---
+=======
+>>>>>>> d2f3026 (.)
 ---
 module: theme
 topic: README
@@ -59,6 +62,9 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
+<<<<<<< HEAD
 # LLM Wiki
 
 Questa cartella contiene pagine curate per l'uso con LLM (wiki). Mettere qui sintesi, convenzioni e pagine curate.
+=======
+>>>>>>> d2f3026 (.)

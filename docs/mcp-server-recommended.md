@@ -14,6 +14,7 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_RECOMMENDED.md
+<<<<<<< HEAD
 ---
 # Server MCP consigliati per Seo
 
@@ -31,3 +32,5 @@ Per il modulo Seo, si consiglia di utilizzare i seguenti server MCP:
 - Non usare fetch, mysql o redis se non attivo.
 
 Per dettagli e best practice consulta la guida generale MCP nel workspace.
+=======
+>>>>>>> d2f3026 (.)
