@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Seo\Data;
+namespace Modules\Seo\Datas;
 
 use Spatie\LaravelData\Data;
 

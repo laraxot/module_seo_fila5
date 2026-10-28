@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/03-workstreams-Modules.md
-<<<<<<< HEAD
 ---
 # Workstreams - Seo
 
@@ -37,5 +36,3 @@ See canonical documentation: ../../../../Themes/docs/shared-components/03-workst
 
 - Test funzionali mirati sui percorsi ad alto rischio.
 - Checklist di validazione post-fix.
-=======
->>>>>>> d2f3026 (.)

@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/00-overview-Modules.md
-<<<<<<< HEAD
 ---
 # Roadmap overview (Module Seo)
 
@@ -23,5 +22,3 @@ See canonical documentation: ../../../../Themes/docs/shared-components/00-overvi
 ## Goals
 
 ## Non-goals
-=======
->>>>>>> d2f3026 (.)

@@ -14,12 +14,9 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan.md
-<<<<<<< HEAD
 ---
 # PHPStan Configuration
 
 This module adheres to PHPStan Level 10.
 
 - [Global PHPStan Guide](../../../../docs/phpstan-level-10.md) _(target mancante, verificato 2026-10-08)_
-=======
->>>>>>> d2f3026 (.)

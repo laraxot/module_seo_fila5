@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "Untitled Concept"
 type: concept
 sources: ["raw/articles/source-filename.md"]
@@ -40,11 +39,3 @@ _How this concept is implemented in our codebase (with file references)._
 - [[related-concept-1]]
 - [[related-concept-2]]
 - [docs/wiki/concepts/project-concept](../../wiki/concepts/project-concept.md) _(target mancante, verificato 2026-10-08)_
-=======
-module: theme
-topic: concept
-canonical: ../../../../../Themes/docs/shared-components/concept.md
----
-
-See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md
->>>>>>> d2f3026 (.)

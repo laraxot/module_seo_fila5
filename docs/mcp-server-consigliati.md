@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
-<<<<<<< HEAD
 ---
 # Server MCP consigliati per il modulo Seo
 
@@ -41,5 +40,3 @@ Analisi SEO, automazione di audit, recupero dati da web, generazione di report.
 
 **Nota:**
 Aggiungi solo i server che realmente ti servono per il tuo workflow. 
-=======
->>>>>>> d2f3026 (.)

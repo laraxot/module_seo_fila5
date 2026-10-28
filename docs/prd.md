@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "prd"
 type: note
@@ -453,8 +452,6 @@ CREATE TABLE seo_scores (
 | Design Lead | | | |
 | Stakeholder | | | |
 ---
-=======
->>>>>>> d2f3026 (.)
 # Seo - Product Requirements Document (PRD)
 
 Documento ponte verso il file canonico legacy:

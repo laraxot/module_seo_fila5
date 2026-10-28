@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "README"
 type: note
@@ -10,8 +9,6 @@ issues: []
 discussions: []
 ---
 
-=======
->>>>>>> d2f3026 (.)
 # 🔍 Seo
 
 [![Domain-SEO](https://img.shields.io/badge/Domain-SEO-827717.svg)](#)
@@ -67,7 +64,6 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
-<<<<<<< HEAD
 title: "README"
 type: note
 tags: [documentation]
@@ -140,6 +136,3 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 ---
 
 **Modulo** `seo` · **Laraxot ecosystem** · **Project-agnostic**
-=======
-**Modulo** `seo` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
->>>>>>> d2f3026 (.)

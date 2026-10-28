@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/SPRINT_PLANNING.md
-<<<<<<< HEAD
 ---
 # Seo Module - Sprint Planning
 
@@ -81,5 +80,3 @@ Implement core technical SEO features including meta tags, sitemap, and schema m
 | **Performance impact** | Caching, optimization |
 
 ---
-=======
->>>>>>> d2f3026 (.)
