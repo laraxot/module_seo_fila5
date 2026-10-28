@@ -3,8 +3,11 @@
 # Sync: bash bashscripts/templates/sync-gitattributes-modules.sh
 #
 # Git LFS VIETATO. Binari = blob git normali.
+<<<<<<< .merge_file_r34I36
 # Mai: filter=lfs / diff=lfs / merge=lfs
 
+=======
+>>>>>>> .merge_file_ZvHdfF
 * text=auto
 *.css linguist-vendored
 *.scss linguist-vendored
