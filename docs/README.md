@@ -1,10 +1,9 @@
 ---
-<<<<<<< HEAD
 title: "README"
 type: note
 tags: [documentation]
 created: 2026-09-26
-updated: 2026-10-14
+updated: 2026-10-28
 qmd: "seo module readme metatag social share stato verificato"
 issues: []
 discussions: []
@@ -51,7 +50,7 @@ Nessun altro modulo o tema importa `Modules\Seo` (grep su `Modules` e `Themes`, 
 
 ## Debito noto nel codice (non modificato qui)
 
-- Due DTO paralleli: `app/Data/` (usato da `Adapters\MetatagManager` e da `tests/Unit/Data`) e `app/Datas/` (usato da Actions, widget e `MetatagState`); `Data\MetatagData` non implementa il contratto.
+- ~~Due DTO paralleli (`Modules\Seo\Data` e `Modules\Seo\Datas`)~~ risolto 2026-10-28: il namespace canonico e' `Modules\Seo\Datas` (cartella `app/Datas/`, PSR-4); [stories/phpstan-zero-errors-seo.story.md](./stories/phpstan-zero-errors-seo.story.md). Restano in `tests/Unit/` due cartelle gemelle, `Data/` e `Datas/`, con gli stessi test.
 - `app/Interfaces/MetatagDataInterface.php` e il suo `.bak` convivono con `Contracts/MetatagDataContract.php`, che la wiki indica come canone.
 - `Adapters\MetatagManager` e' registrato nel container ma la facade non lo usa; lo usa solo `tests/Feature/MetatagServiceTest.php`.
 
@@ -66,16 +65,6 @@ Indice canonico: [index.md](./index.md) (il `00-INDEX.md` e' marcato superseded)
 ## Testo storico (non verificato)
 
 # 🎯 SEO Module - Search Engine Optimization
-=======
-title: "Seo Module Documentation"
-type: documentation
-tags: [module, documentation]
-created: 2026-06-05
-updated: 2026-06-05
----
-
-# Seo Module
->>>>>>> d2f3026 (.)
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
@@ -387,21 +376,4 @@ For Filament resources, use the provided SEO trait to add configuration fields t
 Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
-<<<<<<< HEAD
 - [Project Structure](project-structure.md) — Directory layout
-=======
-
-
-## Standard Rules & Workflow
-
-- [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
-- [[Context Engineering](../../../../docs/wiki/concepts/context-engineering.md)]
-- [[LLM Wiki Governance](../../../../docs/wiki/concepts/llm-wiki-governance.md)]
-
-## Documentation
-
-- [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
-- [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
-- [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
-- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
->>>>>>> d2f3026 (.)

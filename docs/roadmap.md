@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "roadmap"
 type: note
@@ -226,8 +225,6 @@ Seo Module
 
 *Questa roadmap è specifica per il modulo Seo e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
 ---
-=======
->>>>>>> d2f3026 (.)
 # Roadmap (Module Seo)
 
 ## Current roadmap
@@ -258,7 +255,6 @@ Seo Module
 - [roadmap/quality.md](roadmap/quality.md)
 - [roadmap/vision.md](roadmap/vision.md)
 - [seo-optimization-roadmap.md](seo-optimization-roadmap.md)
-<<<<<<< HEAD
 # Roadmap Modulo Seo
 
 **Versione**: 2025.10
@@ -466,5 +462,3 @@ Secondo le "Regole Windsurf per base_predict_fila3_mono", gli obiettivi per l'an
 ## Collegamenti
 
 [⬅️ Torna alla Roadmap Principale](/project_docs/roadmap.md)
-=======
->>>>>>> d2f3026 (.)

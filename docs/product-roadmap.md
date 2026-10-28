@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/PRODUCT_ROADMAP-Modules.md
-<<<<<<< HEAD
 ---
 # Seo Module - Product Roadmap
 
@@ -121,5 +120,3 @@ To build a **comprehensive SEO optimization system** that drives organic traffic
 | **Domain Authority** | 10 | 20 | 30 | 40 |
 
 ---
-=======
->>>>>>> d2f3026 (.)

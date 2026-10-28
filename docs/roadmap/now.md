@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/01-now-Modules.md
-<<<<<<< HEAD
 ---
 # Now (Module Seo)
 
@@ -23,5 +22,3 @@ See canonical documentation: ../../../../Themes/docs/shared-components/01-now-Mo
 ## Bugfixes
 
 ## Quality gates
-=======
->>>>>>> d2f3026 (.)

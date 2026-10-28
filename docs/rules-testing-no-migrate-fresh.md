@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/rules-testing-no-migrate-fresh.md
-<<<<<<< HEAD
 ---
 # CRITICAL ARCHITECTURE RULE: NO MIGRATE:FRESH
 
@@ -29,5 +28,3 @@ See canonical documentation: ../../../Themes/docs/shared-components/rules-testin
 ## Correct Approach
 - Only use `DatabaseTransactions` to rollback state after tests.
 - Maintain strict database boundaries.
-=======
->>>>>>> d2f3026 (.)

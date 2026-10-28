@@ -85,8 +85,5 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
-<<<<<<< HEAD
 ---
 ---
-=======
->>>>>>> d2f3026 (.)
