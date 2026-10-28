@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "metodi duplicati analisi"
 type: note
@@ -16,8 +15,6 @@ status: stub
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
-=======
->>>>>>> d2f3026 (.)
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
 **Powered by**: Super Mucca AI 🐄✨

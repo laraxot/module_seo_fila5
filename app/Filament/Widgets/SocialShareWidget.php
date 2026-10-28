@@ -6,7 +6,7 @@ namespace Modules\Seo\Filament\Widgets;
 
 use Filament\Schemas\Components\Component;
 use Modules\Seo\Actions\GenerateSocialShareLinksAction;
-use Modules\Seo\Data\SocialShareData;
+use Modules\Seo\Datas\SocialShareData;
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**

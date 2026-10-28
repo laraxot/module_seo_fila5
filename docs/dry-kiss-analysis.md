@@ -15,11 +15,8 @@ status: stale
 # 🐄 DRY & KISS Analysis - Seo
 
 **Data:** [DATE] | **Status:** ✅
-<<<<<<< HEAD
 ---
 **Data:** 2025-10-15 | **Status:** ✅
-=======
->>>>>>> d2f3026 (.)
 
 ## 📊 Struttura
 Models: 0 | Resources: 0 | Services: 1 | Actions: 0 | Docs: 21

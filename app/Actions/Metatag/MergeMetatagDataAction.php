@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Actions\Metatag;
 
 use Modules\Seo\Adapters\MetatagState;
-use Modules\Seo\Data\MetatagData;
+use Modules\Seo\Datas\MetatagData;
 use Spatie\QueueableAction\QueueableAction;
 
 final class MergeMetatagDataAction
