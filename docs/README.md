@@ -3,7 +3,11 @@ title: "README"
 type: note
 tags: [documentation]
 created: 2026-09-26
+<<<<<<< .merge_file_39a7Jk
 updated: 2026-10-14
+=======
+updated: 2026-10-28
+>>>>>>> .merge_file_akLKih
 qmd: "seo module readme metatag social share stato verificato"
 issues: []
 discussions: []
@@ -50,7 +54,11 @@ Nessun altro modulo o tema importa `Modules\Seo` (grep su `Modules` e `Themes`, 
 
 ## Debito noto nel codice (non modificato qui)
 
+<<<<<<< .merge_file_39a7Jk
 - Due DTO paralleli: `app/Data/` (usato da `Adapters\MetatagManager` e da `tests/Unit/Data`) e `app/Datas/` (usato da Actions, widget e `MetatagState`); `Data\MetatagData` non implementa il contratto.
+=======
+- ~~Due DTO paralleli (`Modules\Seo\Data` e `Modules\Seo\Datas`)~~ risolto 2026-10-28: il namespace canonico e' `Modules\Seo\Datas` (cartella `app/Datas/`, PSR-4); [stories/phpstan-zero-errors-seo.story.md](./stories/phpstan-zero-errors-seo.story.md). Restano in `tests/Unit/` due cartelle gemelle, `Data/` e `Datas/`, con gli stessi test.
+>>>>>>> .merge_file_akLKih
 - `app/Interfaces/MetatagDataInterface.php` e il suo `.bak` convivono con `Contracts/MetatagDataContract.php`, che la wiki indica come canone.
 - `Adapters\MetatagManager` e' registrato nel container ma la facade non lo usa; lo usa solo `tests/Feature/MetatagServiceTest.php`.
 
@@ -72,8 +80,6 @@ Indice canonico: [index.md](./index.md) (il `00-INDEX.md` e' marcato superseded)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN-green.svg)](https://laravel.com/docs/localization)
 
 The **Seo Module** provides a comprehensive search engine optimization toolkit for Laravel applications, integrating advanced metadata management, sitemaps, structured data, and AI-powered content analysis.
-
-**Metatag facade (canone):** `MetatagFacadeAdapter` + `MetatagState` + Actions — vedi [conflict-resolution.md](./conflict-resolution.md) e [metatag-data-contract.md](./wiki/concepts/metatag-data-contract.md).
 
 ## 🚀 Features
 
@@ -98,21 +104,6 @@ composer require laraxot/module-seo
 php artisan module:enable Seo
 php artisan migrate
 ```
-
-> **🚀 Modulo SEO**: Sistema completo per ottimizzazione motori di ricerca, gestione meta tags, sitemap e structured data.
-
-## 📋 **Panoramica**
-
-Il modulo **SEO** fornisce strumenti avanzati per l'ottimizzazione SEO:
-
-- 🎯 **Meta Tags** - Gestione meta tags dinamici
-- 🗺️ **Sitemap** - Generazione sitemap automatica
-- 📊 **Structured Data** - Schema.org markup
-- 🔍 **Robots.txt** - Configurazione robots.txt
-- 🎨 **Open Graph** - Meta tags social media
-- 🌐 **Multi-lingua** - SEO multilingua
-
-## ⚡ **Funzionalità Core**
 
 ### 🎯 **Meta Tags Management**
 ```php
@@ -361,7 +352,6 @@ php artisan seo:validate-schema
 
 
 
-Developers are encouraged to contribute to this documentation to keep it accurate and up-to-date.
 ## ⚙️ Configuration
 
 Publish the configuration file to set up API keys (e.g., OpenAI) and defaults:
@@ -394,4 +384,8 @@ For Filament resources, use the provided SEO trait to add configuration fields t
 Please verify all changes with:
 - `phpstan analyse Modules/Seo` (Level 10)
 - `pest` (Test Suite)
+<<<<<<< .merge_file_39a7Jk
 - [Project Structure](project-structure.md) — Directory layout
+=======
+- [Project Structure](project-structure.md) — Directory layout
+>>>>>>> .merge_file_akLKih

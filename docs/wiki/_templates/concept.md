@@ -38,4 +38,8 @@ _How this concept is implemented in our codebase (with file references)._
 
 - [[related-concept-1]]
 - [[related-concept-2]]
+<<<<<<< .merge_file_FjYabH
 - [docs/wiki/concepts/project-concept](../../wiki/concepts/project-concept.md) _(target mancante, verificato 2026-10-08)_
+=======
+- [docs/wiki/concepts/project-concept](../../wiki/concepts/project-concept.md) _(target mancante, verificato 2026-10-08)_
+>>>>>>> .merge_file_aAPQ5a

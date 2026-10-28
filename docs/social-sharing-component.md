@@ -29,7 +29,7 @@ Based on the research of modern UI libraries (FlyonUI, Tailwind Elements) and in
 We use `spatie/laravel-data` for strict typing and integration with Spatie Actions.
 
 ```php
-namespace Modules\Seo\Data;
+namespace Modules\Seo\Datas;
 
 use Spatie\LaravelData\Data;
 
