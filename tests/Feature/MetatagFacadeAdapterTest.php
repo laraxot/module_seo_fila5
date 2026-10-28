@@ -7,6 +7,8 @@ namespace Modules\Seo\Tests\Feature;
 use Modules\Seo\Adapters\MetatagFacadeAdapter;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Seo\Tests\TestCase::class);
+
 it('can set title', function (): void {
     $adapter = app(MetatagFacadeAdapter::class);
     $adapter->setTitle('Test Title');

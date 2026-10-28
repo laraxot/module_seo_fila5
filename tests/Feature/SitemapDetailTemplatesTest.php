@@ -2,9 +2,16 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_JGmJj3
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 use Modules\Blog\Models\Article;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Str;
+use PHPUnit\Framework\Assert;
+>>>>>>> .merge_file_sgQAb5
 use Tests\TestCase;
 
 use function Safe\simplexml_load_string;
@@ -25,11 +32,23 @@ function seoSitemapLocs(TestCase $test): array
     return array_values(array_map(static fn (SimpleXMLElement $loc): string => (string) $loc, $xml->xpath('//s:url/s:loc') ?: []));
 }
 
+<<<<<<< .merge_file_JGmJj3
 /** Saves a published post or event and returns its slug. */
 function seoSitemapArticle(string $contentType): string
 {
     $title = 'Sitemap '.$contentType.' '.Str::lower(Str::random(6));
     $article = new Article;
+=======
+/** Saves a published post or event and returns its slug. Blog is an optional consumer of Seo: without it there is nothing to publish. */
+function seoSitemapArticle(string $contentType): string
+{
+    $article = class_exists('Modules\\Blog\\Models\\Article') ? app('Modules\\Blog\\Models\\Article') : null;
+    if (! $article instanceof Model) {
+        Assert::markTestSkipped('Modules\\Blog is not installed.');
+    }
+
+    $title = 'Sitemap '.$contentType.' '.Str::lower(Str::random(6));
+>>>>>>> .merge_file_sgQAb5
     $article->forceFill([
         'uuid' => (string) Str::uuid(),
         'title' => $title,

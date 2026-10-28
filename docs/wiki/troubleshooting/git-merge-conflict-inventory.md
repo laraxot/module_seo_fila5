@@ -29,4 +29,8 @@ status: active
 - Inventory generated from `rg -l "^(<<<<<<<|=======|>>>>>>>)"`.
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
 ---
+<<<<<<< .merge_file_srp4aZ
 - Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+=======
+- Use this list as a volatile coordination map; re-open each file before editing because other agents may resolve items in parallel.
+>>>>>>> .merge_file_dNIbmG
