@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/00-index.md
-<<<<<<< HEAD
 ---
 # Seo Module - Roadmap
 
@@ -42,5 +41,3 @@ See canonical documentation: ../../../../Themes/docs/shared-components/00-index.
 ## Collegamenti
 
 - [00-index modulo](../00-index.md)
-=======
->>>>>>> d2f3026 (.)

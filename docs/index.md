@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Seo module: indice documentazione"
 type: index
@@ -317,8 +316,3 @@ Residue from doc-sync tooling tests. No informational content.
 - [raw/root-import/test-bb-1.md](./raw/root-import/test-bb-1.md)
 - [raw/root-import/test-2025-03-24.md](./raw/root-import/test-2025-03-24.md)
 - [raw/root-import/test-2025-03-24-bb.md](./raw/root-import/test-2025-03-24-bb.md)
-=======
-# Documentation Index
-
-- [Conflict Resolution](conflict-resolution.md)
->>>>>>> d2f3026 (.)

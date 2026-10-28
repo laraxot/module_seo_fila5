@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/codex-error-fix.md
-<<<<<<< HEAD
 ---
 # Codex Configuration Error Fixes
 
@@ -98,5 +97,3 @@ args = ["laravel/artisan", "boost:mcp"]
     ]
 }
 ```
-=======
->>>>>>> d2f3026 (.)

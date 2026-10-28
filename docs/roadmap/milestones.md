@@ -14,7 +14,6 @@ status: stub
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/04-milestones-Modules.md
-<<<<<<< HEAD
 ---
 # Milestones - Seo
 
@@ -32,5 +31,3 @@ See canonical documentation: ../../../../Themes/docs/shared-components/04-milest
 
 - Test minimi sui flussi critici in esecuzione regolare.
 - Riduzione regressioni ricorrenti.
-=======
->>>>>>> d2f3026 (.)

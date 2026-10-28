@@ -186,7 +186,6 @@ tests/Unit
     },
     "require_comment": {
         "openai-php/laravel": "*"
-<<<<<<< HEAD
 ---
 title: "structure"
 type: note
@@ -197,8 +196,6 @@ qmd: "structure"
 issues: []
 discussions: []
 ---
-=======
->>>>>>> d2f3026 (.)
     },
 ```
 
@@ -211,4 +208,3 @@ discussions: []
 
 - [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/project_docs/phpstan/)
-

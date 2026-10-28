@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Tests\Unit\Datas;
 
-use Modules\Seo\Data\MetatagData;
+use Modules\Seo\Datas\MetatagData;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
