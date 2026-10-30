@@ -7,6 +7,7 @@ namespace Modules\Seo\Actions\Sitemap;
 use Illuminate\Http\Response;
 use Illuminate\Database\Eloquent\Collection;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
+use Modules\Cms\Actions\Head\ResolveRobotsPolicyAction;
 use Modules\Cms\Models\Page;
 use Modules\Seo\Contracts\SitemapPathsContract;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
@@ -51,13 +52,26 @@ final class BuildSitemapAction
         $xml = '<?xml version="1.0" encoding="UTF-8"?>'."\n"
             .'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'."\n";
 
-        foreach ($this->indexablePaths() as $path) {
-            foreach ($locales as $locale) {
-                $xml .= "  <url>\n    <loc>".$this->url($locale, $path)."</loc>\n";
-                foreach ($locales as $alternate) {
-                    $xml .= '    <xhtml:link rel="alternate" hreflang="'.$alternate.'" href="'.$this->url($alternate, $path)."\"/>\n";
+        // Stessa regola del <head> (Cms `ResolveRobotsPolicyAction`): una URL `noindex` non va in sitemap e gli hreflang
+        // collegano solo le lingue in cui la pagina esiste davvero.
+        $policy = app(ResolveRobotsPolicyAction::class);
+        foreach ($this->indexableEntries() as $entry) {
+            $pageLocales = array_values(array_filter(
+                $locales,
+                static fn (string $locale): bool => ($entry['written'] === null || in_array($locale, $entry['written'], true))
+                    && $policy->isIndexable('/'.$locale.'/'.$entry['path'], $locales),
+            ));
+            foreach ($pageLocales as $locale) {
+                $xml .= "  <url>\n    <loc>".$this->url($locale, $entry['path'])."</loc>\n";
+                if (count($pageLocales) > 1) {
+                    foreach ($pageLocales as $alternate) {
+                        $xml .= '    <xhtml:link rel="alternate" hreflang="'.$alternate.'" href="'.$this->url($alternate, $entry['path'])."\"/>\n";
+                    }
+                    if (in_array($default, $pageLocales, true)) {
+                        $xml .= '    <xhtml:link rel="alternate" hreflang="x-default" href="'.$this->url($default, $entry['path'])."\"/>\n";
+                    }
                 }
-                $xml .= '    <xhtml:link rel="alternate" hreflang="x-default" href="'.$this->url($default, $path)."\"/>\n  </url>\n";
+                $xml .= "  </url>\n";
             }
         }
 
@@ -65,11 +79,15 @@ final class BuildSitemapAction
     }
 
     /**
-     * @return list<string> percorsi senza lingua: '' per la home, 'privacy', 'tickets/track', 'blog/{slug}', 'tickets/{id}'
+     * `path`: percorso senza lingua ('' per la home, 'privacy', 'tickets/track', 'blog/{slug}', 'tickets/{id}').
+     * `written`: lingue in cui la pagina CMS ha un titolo scritto; `null` = nessuna restrizione (URL di dettaglio dei moduli).
+     *
+     * @return list<array{path: string, written: list<string>|null}>
      */
-    private function indexablePaths(): array
+    private function indexableEntries(): array
     {
-        $paths = [];
+        // La chiave comincia con '/': un percorso numerico ('2024') non diventi un indice intero di PHP.
+        $entries = [];
         foreach ($this->indexableCmsPages() as $page) {
             $slug = app(SafeStringCastAction::class)->execute($page->getAttribute('slug'));
             $middleware = $page->getAttribute('middleware');
