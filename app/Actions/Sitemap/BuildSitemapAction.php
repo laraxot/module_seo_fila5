@@ -4,10 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Actions\Sitemap;
 
-use Illuminate\Http\Response;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Http\Response;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 use Modules\Cms\Actions\Head\ResolveRobotsPolicyAction;
+use Modules\Cms\Actions\Head\ResolveWrittenLocalesAction;
 use Modules\Cms\Models\Page;
 use Modules\Seo\Contracts\SitemapPathsContract;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
@@ -28,14 +29,6 @@ use function Safe\preg_replace;
 final class BuildSitemapAction
 {
     use QueueableAction;
-
-    /**
-     * `segnalazioni.index` e' l'alias Design Comuni di `tickets` (301 a /{lang}/tickets, FrontofficeContainerAliases del tema):
-     * in sitemap va solo l'URL finale, un reindirizzamento e' un «URL non seguito» per Search Console (DCP-272).
-     *
-     * @var list<string>
-     */
-    private const array NOT_INDEXABLE = ['tickets.confirmation', 'segnalazione-dettaglio', 'segnalazioni.index'];
 
     /** Risposta HTTP della rotta `/sitemap.xml` (invokable: `route:cache` non ammette closure). */
     public function __invoke(): Response
@@ -80,7 +73,7 @@ final class BuildSitemapAction
 
     /**
      * `path`: percorso senza lingua ('' per la home, 'privacy', 'tickets/track', 'blog/{slug}', 'tickets/{id}').
-     * `written`: lingue in cui la pagina CMS ha un titolo scritto; `null` = nessuna restrizione (URL di dettaglio dei moduli).
+     * `written`: lingue in cui la pagina CMS e' scritta (titolo e contenuto); `null` = nessuna restrizione (URL di dettaglio dei moduli).
      *
      * @return list<array{path: string, written: list<string>|null}>
      */
@@ -90,35 +83,32 @@ final class BuildSitemapAction
         $entries = [];
         foreach ($this->indexableCmsPages() as $page) {
             $slug = app(SafeStringCastAction::class)->execute($page->getAttribute('slug'));
-            $middleware = $page->getAttribute('middleware');
-            // `auth.login` e `auth.register` sono pagine per ospiti (senza middleware `auth`) ma robots.txt chiude /{lang}/auth.
-            // `<contenitore>.view` (blog.view, events.view, services.view) e' il modello del dettaglio: /blog/view risponde 200 senza contenuto.
-            if ($slug === '' || $slug === 'tests' || str_starts_with($slug, 'tests.') || str_starts_with($slug, 'auth.') || str_ends_with($slug, '.view') || in_array($slug, self::NOT_INDEXABLE, true)) {
+            // Stessa regola del <head> (pagine di prova, `auth.*`, modello di dettaglio `*.view`, alias che reindirizzano, pagine dietro `auth`).
+            if (! app(ResolveRobotsPolicyAction::class)->isPageIndexable($slug, $page->getAttribute('middleware'))) {
                 continue;
             }
-            if (is_array($middleware) && in_array('auth', $middleware, true)) {
-                continue;
-            }
-            $paths[] = $this->pathOf($slug);
+            $path = $this->pathOf($slug);
+            $entries['/'.$path] = ['path' => $path, 'written' => app(ResolveWrittenLocalesAction::class)->execute($page)];
         }
 
         foreach (app()->tagged(SitemapPathsContract::TAG) as $source) {
             if ($source instanceof SitemapPathsContract) {
-                array_push($paths, ...array_filter(
-                    $source->execute(),
-                    static fn (string $path): bool => ! str_starts_with(trim($path, '/'), 'tests/')
-                        && trim($path, '/') !== 'tests'
-                ));
+                foreach ($source->execute() as $path) {
+                    if (! str_starts_with(trim($path, '/'), 'tests/') && trim($path, '/') !== 'tests') {
+                        // Una pagina CMS gia' vista conserva le sue lingue: il modulo che la elenca non ne sa nulla.
+                        $entries['/'.$path] ??= ['path' => $path, 'written' => null];
+                    }
+                }
             }
         }
 
-        sort($paths);
+        ksort($entries, SORT_STRING);
 
-        return array_values(array_unique($paths));
+        return array_values($entries);
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Collection<int, \Modules\Cms\Models\Page>
+     * @return Collection<int, Page>
      */
     private function indexableCmsPages(): Collection
     {
