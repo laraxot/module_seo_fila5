@@ -12,13 +12,10 @@ class SeoConfigData extends Data
 {
     use MakesFromTenantConfig;
 
-<<<<<<< HEAD
     public bool $enabled = true;
-=======
     public string $site_title = '';
 
     public string $site_description = '';
 
     public bool $indexable = true;
->>>>>>> 4760ea75f63406ab21713e82fab7102dd398d091
 }
