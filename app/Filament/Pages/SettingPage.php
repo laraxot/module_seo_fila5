@@ -6,14 +6,25 @@ namespace Modules\Seo\Filament\Pages;
 
 use Modules\Xot\Filament\Pages\BaseSettingPage;
 
-/** Tenant settings entry point for Seo; no mutable settings are exposed yet. */
+use Filament\Forms\Components\Toggle;
+use Modules\Seo\Datas\SeoConfigData;
+
+/**
+ * Impostazioni di Seo (`config/{tenant}/seo.php`), solo super-admin.
+ *
+ * Form configurato con i campi esposti da SeoConfigData.
+ *
+ * @see SeoConfigData
+ */
 class SettingPage extends BaseSettingPage
 {
     /**
-     * @return array<string, never>
+     * @return array<string, Toggle>
      */
     protected function getFormSchema(): array
     {
-        return [];
+        return [
+            'enabled' => Toggle::make('enabled')->default(true)->required(),
+        ];
     }
 }
