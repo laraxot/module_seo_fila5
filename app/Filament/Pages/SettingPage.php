@@ -6,10 +6,8 @@ namespace Modules\Seo\Filament\Pages;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
-use Modules\Xot\Filament\Pages\BaseSettingPage;
-
-use Filament\Forms\Components\Toggle;
 use Modules\Seo\Datas\SeoConfigData;
+use Modules\Xot\Filament\Pages\BaseSettingPage;
 
 /**
  * Impostazioni di Seo (`config/{tenant}/seo.php`), solo super-admin.
