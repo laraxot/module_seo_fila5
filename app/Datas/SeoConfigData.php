@@ -11,4 +11,10 @@ use Spatie\LaravelData\Data;
 class SeoConfigData extends Data
 {
     use MakesFromTenantConfig;
+
+    public string $site_title = '';
+
+    public string $site_description = '';
+
+    public bool $indexable = true;
 }
