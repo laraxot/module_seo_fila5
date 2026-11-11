@@ -28,6 +28,8 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 
 Il codice del modulo e' piccolo: facade `Metatag` con tre Actions in `app/Actions/Metatag/`, link di condivisione social (`GenerateSocialShareLinksAction`, widget, componente Blade). Non ci sono Model, migration, rotte, comandi Artisan, Resource Filament ne' sitemap, e nessun altro modulo importa `Modules\Seo`. Prove e quick start in [README.md](./README.md). I documenti di prodotto (PRD, roadmap, strategy, sprint, launch, research, `task-*`, `seo-optimization-*`) descrivono funzioni previste (sitemap, Schema.org, analisi AI, report PDF) che oggi non esistono: vanno letti come piani, non come stato.
 
+**Aggiornamento 2026-11-01:** il paragrafo sopra descrive lo stato del 2026-10-14. Oggi il modulo ha anche `GET /sitemap.xml` (`seo.sitemap`) e `GET /robots.txt` (`seo.robots`) in `routes/web.php`, `Actions/Sitemap/BuildSitemapAction`, `Actions/Robots/BuildRobotsTxtAction` e `Actions/Url/NormalizeLocalizedPathAction`; `SeoServiceProvider` definisce `$module_dir` e `$module_ns`. Seo importa l'Action di Cms `ResolveRobotsPolicyAction` (non il contrario). Il componente `<head>` sta in Cms. Cause e correzioni: [story dcp-274](./stories/dcp-274-sitemap-completeness-verification.story.md).
+
 Nota di contratto: `bmad-output/docs-architecture/module-theme-docs-contract.md` indica `00-INDEX.md` come indice operativo, ma in Seo la scelta del 2026-10-08 (pilota) e' `index.md`, con `00-INDEX.md`, `00-index.md` e `INDEX.md` marcati `superseded`. Decisione aperta: vedi la story [2026-10-14-docs-seo-studio](./stories/docs-seo-studio.story.md).
 
 | Directory | Ruolo | Note |
@@ -149,7 +151,7 @@ Attenzione: questa sezione elenca documenti, non funzioni. Esistono nel codice s
 
 - [conflict-resolution.md](./conflict-resolution.md)
 - [boost-skill-fix-summary.md](./boost-skill-fix-summary.md)
-- [redundancy-audit.md](./redundancy-audit.md) - audit del 2026-05-21 (ex `redundancy-audit-2026-05-21.md`), distinct from the `redundancy_analysis.md`/`REDUNDANCY_ANALYSIS.md` stub pair (see Storico)
+- [redundancy-audit.md](./redundancy-audit.md) - audit del 2026-05-21 (ex `redundancy-audit.md`), distinct from the `redundancy_analysis.md`/`REDUNDANCY_ANALYSIS.md` stub pair (see Storico)
 - [wiki/troubleshooting/git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md) (ex `...-2026-04-28.md`)
 
 ## Wiki / second brain (`docs/wiki/`)
@@ -205,11 +207,13 @@ La directory `root-md-files/` non esiste piu' al 2026-10-08. Il changelog archiv
 
 ## BMAD, stories and decision records
 
+- [stories/seo-site-defaults-hreflang-schema.story.md](./stories/seo-site-defaults-hreflang-schema.story.md) — policy ownership and shared CMS SEO actions
 - [stories/docs-index-audit.story.md](./stories/docs-index-audit.story.md) - first documentation-index audit (2026-09-26)
 - [stories/phpstan-cleanup-seo.story.md](./stories/phpstan-cleanup-seo.story.md) and [.dev.md](./stories/phpstan-cleanup-seo.dev.md) - PHPStan cleanup
 - [stories/phpstan-Seo-fix.md](./stories/phpstan-Seo-fix.md) - earlier PHPStan fix note
 - [stories/2026-10-08-docs-organization-pilot.story.md](./stories/docs-organization-pilot.story.md) - this reorganization pilot (frontmatter, links, superseded markers)
 - [stories/services-to-actions-seo.story.md](./stories/services-to-actions-seo.story.md) - Services to Actions (removal of `MetatagService`); the docs that cite `app/Services/MetatagService.php` become stale after it
+- [stories/blade-i18n-no-hardcoded-text.story.md](./stories/blade-i18n-no-hardcoded-text.story.md) - no fixed text in Blade views (it, en, de, es): rule, numbers, residuals
 - [bmad/README.md](./bmad/README.md), [bmad/bmad-dossier.md](./bmad/bmad-dossier.md), [bmad/status.md](./bmad/status.md) - BMAD dossier
 - [decision-log.md](./decision-log.md) - decision log (empty template, `draft`)
 - [investigation/investigation.md](./investigation/investigation.md) - Schema.org auto-generation investigation (placeholder, `draft`)
