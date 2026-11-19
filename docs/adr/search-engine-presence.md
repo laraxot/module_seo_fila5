@@ -46,8 +46,10 @@ Fatti da cui parte la decisione:
    - `GET /{chiave}.txt` → `ServeIndexNowKeyAction`, 404 per ogni chiave diversa;
    - `SubmitIndexNowAction` invia a `api.indexnow.org` solo URL dell'host del sito, a blocchi da 10.000
      ([contratto](../contracts/submit-index-now-action.md));
-   - `php artisan seo:indexnow` invia le URL della sitemap **non ancora inviate** (stato in
-     `storage/app/seo/indexnow-submitted.json`); `--all`, `--url=`, `--dry-run`. Gira a ogni deploy, a sito online.
+   - `php artisan seo:indexnow` invia le URL della sitemap **nuove o cambiate** (`<lastmod>` più recente dell'ultimo
+     invio; stato URL => data in `storage/app/seo/indexnow-submitted.json`); `--all`, `--url=`, `--dry-run`. Gira a
+     ogni deploy, a sito online.
+   - `<lastmod>` in sitemap solo con date vere, da `SitemapLastModifiedContract` (#736).
 3. **Identità dell'entità** (Xot `MetatagData`, Cms `BuildHeadSchemaAction`): in home `Organization` riceve
    `description` (la descrizione del sito) e `sameAs` (link social + `same_as` del tenant, solo URL https validi); un
    segnaposto non diventa un profilo dichiarato.
@@ -66,8 +68,9 @@ Fatti da cui parte la decisione:
   (`SitemapPathsContract`): l'invio la legge e resta agnostico. Un invio per evento si può aggiungere sopra.
 - **Chiave IndexNow in `.env`**: la chiave è pubblica per protocollo; in configurazione del tenant è versionata con il
   dominio a cui appartiene e non va ricordata a ogni server.
-- **`lastmod` in sitemap ora**: utile solo se accurato; `SitemapPathsContract` restituisce percorsi senza data, e una data
-  inventata (oggi per tutto) fa ignorare il campo ai motori. Resta un passo separato (contratto con date).
+- **`lastmod` inventato**: una data uguale per tutto (oggi) fa ignorare il campo ai motori. Da #736 le fonti che hanno
+  una data vera la danno con `SitemapLastModifiedContract` (segnalazioni e articoli: `updated_at`); le pagine CMS restano
+  senza `<lastmod>` perché la data del file JSON cambia a ogni checkout e non dice quando è cambiato il contenuto.
 - **`llms.txt`**: costo basso ma valore non dimostrato; si rivaluta se un motore lo adotta pubblicamente.
 
 ## Conseguenze

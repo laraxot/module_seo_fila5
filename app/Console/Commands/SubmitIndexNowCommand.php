@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Seo\Console\Commands;
 
+use DateTimeInterface;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Storage;
 use Modules\Seo\Actions\IndexNow\SubmitIndexNowAction;
@@ -12,14 +13,16 @@ use Modules\Seo\Datas\SeoConfigData;
 
 use function Safe\json_decode;
 use function Safe\json_encode;
+use function Safe\preg_match;
 use function Safe\preg_match_all;
+use function Safe\strtotime;
 
 /**
- * `php artisan seo:indexnow`: invia a IndexNow le URL della sitemap non ancora inviate (pagine, segnalazioni e articoli
- * nuovi). `--all` reinvia tutto, `--url=` invia URL precise, `--dry-run` conta senza inviare.
+ * `php artisan seo:indexnow`: invia a IndexNow le URL della sitemap nuove o cambiate (`<lastmod>` piu' recente del
+ * loro ultimo invio, #736). `--all` reinvia tutto, `--url=` invia URL precise, `--dry-run` conta senza inviare.
  *
- * Gira a ogni deploy (deploy.sh): IndexNow vuole URL nuove o cambiate, non la sitemap intera ogni volta; l'elenco gia'
- * inviato sta in `storage/app/seo/indexnow-submitted.json`. Senza chiave configurata non fa nulla.
+ * Gira a ogni deploy (deploy.sh): IndexNow vuole URL nuove o cambiate, non la sitemap intera ogni volta. Lo stato e'
+ * `storage/app/seo/indexnow-submitted.json`: URL => data dell'ultimo invio riuscito. Senza chiave non fa nulla.
  *
  * @see Modules/Seo/docs/adr/search-engine-presence.md
  * @see Modules/Seo/docs/contracts/submit-index-now-action.md
@@ -43,12 +46,11 @@ final class SubmitIndexNowCommand extends Command
         }
 
         $explicit = $this->explicitUrls();
-        $sitemap = $explicit === [] ? $this->sitemapUrls() : [];
-        $already = $this->option('all') === true || $explicit !== [] ? [] : $this->submittedUrls();
-        $urls = $explicit !== [] ? $explicit : array_values(array_diff($sitemap, $already));
+        $state = $this->submittedState();
+        $urls = $explicit !== [] ? $explicit : $this->pendingUrls($this->option('all') === true ? [] : $state);
 
         if ($urls === []) {
-            $this->info('Nessuna URL nuova da inviare.');
+            $this->info('Nessuna URL nuova o cambiata da inviare.');
 
             return self::SUCCESS;
         }
@@ -58,11 +60,12 @@ final class SubmitIndexNowCommand extends Command
             return self::SUCCESS;
         }
 
+        $sentAt = now()->format(DateTimeInterface::ATOM);
         $result = $submit->execute($urls);
         $this->info($result['submitted'].' URL inviate, '.$result['skipped'].' scartate, risposte: '.implode(', ', $result['statuses']));
 
         if ($explicit === [] && $result['submitted'] === count($urls)) {
-            $this->rememberSubmitted([...$already, ...$urls]);
+            $this->rememberSubmitted([...$state, ...array_fill_keys($urls, $sentAt)]);
         }
 
         return $result['submitted'] === count($urls) - $result['skipped'] ? self::SUCCESS : self::FAILURE;
@@ -79,23 +82,50 @@ final class SubmitIndexNowCommand extends Command
     }
 
     /**
+     * URL della sitemap mai inviate o con `<lastmod>` successivo all'ultimo invio.
+     *
+     * @param  array<string, string>  $state  URL => data ATOM dell'ultimo invio
      * @return list<string>
      */
-    private function sitemapUrls(): array
+    private function pendingUrls(array $state): array
     {
-        $matches = [];
-        preg_match_all('#<loc>([^<]+)</loc>#', app(BuildSitemapAction::class)->execute(), $matches);
+        $pending = [];
+        foreach ($this->sitemapEntries() as $url => $lastModified) {
+            $sentAt = $state[$url] ?? null;
+            if ($sentAt === null || ($lastModified !== null && strtotime($lastModified) > strtotime($sentAt))) {
+                $pending[] = $url;
+            }
+        }
 
-        return array_values(array_unique(array_map(
-            static fn (string $loc): string => html_entity_decode($loc, ENT_XML1 | ENT_QUOTES, 'UTF-8'),
-            $matches[1],
-        )));
+        return $pending;
     }
 
     /**
-     * @return list<string>
+     * @return array<string, string|null> URL => `<lastmod>` (null se la pagina non ha una data vera)
      */
-    private function submittedUrls(): array
+    private function sitemapEntries(): array
+    {
+        $blocks = [];
+        preg_match_all('#<url>(.*?)</url>#s', app(BuildSitemapAction::class)->execute(), $blocks);
+
+        $entries = [];
+        foreach ($blocks[1] as $block) {
+            $loc = [];
+            $lastmod = [];
+            if (preg_match('#<loc>([^<]+)</loc>#', $block, $loc) !== 1 || ! isset($loc[1])) {
+                continue;
+            }
+            $url = html_entity_decode($loc[1], ENT_XML1 | ENT_QUOTES, 'UTF-8');
+            $entries[$url] = preg_match('#<lastmod>([^<]+)</lastmod>#', $block, $lastmod) === 1 && isset($lastmod[1]) ? $lastmod[1] : null;
+        }
+
+        return $entries;
+    }
+
+    /**
+     * @return array<string, string> URL => data ATOM dell'ultimo invio riuscito
+     */
+    private function submittedState(): array
     {
         $disk = Storage::disk('local');
         if (! $disk->exists(self::STATE_FILE)) {
@@ -103,16 +133,22 @@ final class SubmitIndexNowCommand extends Command
         }
         $data = json_decode((string) $disk->get(self::STATE_FILE), true);
 
-        return is_array($data) ? array_values(array_filter($data, is_string(...))) : [];
+        $state = [];
+        foreach (is_array($data) ? $data : [] as $url => $sentAt) {
+            if (is_string($url) && is_string($sentAt)) {
+                $state[$url] = $sentAt;
+            }
+        }
+
+        return $state;
     }
 
     /**
-     * @param  list<string>  $urls
+     * @param  array<string, string>  $state
      */
-    private function rememberSubmitted(array $urls): void
+    private function rememberSubmitted(array $state): void
     {
-        $unique = array_values(array_unique($urls));
-        sort($unique);
-        Storage::disk('local')->put(self::STATE_FILE, json_encode($unique, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+        ksort($state);
+        Storage::disk('local')->put(self::STATE_FILE, json_encode($state, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
     }
 }

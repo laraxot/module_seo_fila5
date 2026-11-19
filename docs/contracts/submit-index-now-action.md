@@ -44,7 +44,8 @@ Sorgente: `app/Actions/IndexNow/SubmitIndexNowAction.php`. Perché: [ADR](../adr
 
 ## Non fa
 
-- Non ricorda cosa ha inviato: lo fa il comando `seo:indexnow` (`storage/app/seo/indexnow-submitted.json`).
+- Non ricorda cosa ha inviato né quando: lo fa il comando `seo:indexnow` (`storage/app/seo/indexnow-submitted.json`,
+  URL => data dell'ultimo invio), che reinvia una URL solo se il suo `<lastmod>` è più recente.
 - Non legge la sitemap: le URL le passa il chiamante.
 - Non serve il file della chiave: lo fa `ServeIndexNowKeyAction` sulla rotta `/{chiave}.txt`.
 - Non avvisa Google (non aderisce a IndexNow): per Google valgono sitemap e Search Console.

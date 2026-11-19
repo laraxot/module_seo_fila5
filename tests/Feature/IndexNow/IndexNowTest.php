@@ -11,10 +11,16 @@ use Illuminate\Support\Facades\Storage;
 use Modules\Seo\Actions\IndexNow\ServeIndexNowKeyAction;
 use Modules\Seo\Actions\IndexNow\SubmitIndexNowAction;
 use Modules\Seo\Console\Commands\SubmitIndexNowCommand;
+use Modules\Seo\Contracts\SitemapLastModifiedContract;
+use Modules\Seo\Contracts\SitemapPathsContract;
 use Modules\Seo\Tests\Support\FakeTenantSeoConfig;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
+use Safe\DateTimeImmutable;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+
+use function Safe\json_encode;
+use function Safe\preg_match;
 
 uses(TestCase::class);
 
@@ -29,6 +35,7 @@ const INDEXNOW_TEST_KEY = 'a1b2c3d4e5f60718293a4b5c6d7e8f90';
 beforeEach(function (): void {
     config(['app.url' => 'https://civic.example']);
     url()->useOrigin('https://civic.example');
+    url()->forceScheme('https');
     Storage::fake('local');
 });
 
@@ -93,17 +100,39 @@ it('splits large submissions at the protocol limit', function (): void {
     Assert::assertSame([200, 200], $result['statuses']);
 });
 
-it('submits only urls not sent before, and remembers them', function (): void {
+it('keeps the sitemap state untouched when urls are passed by hand', function (): void {
     FakeTenantSeoConfig::bind(['indexnow_key' => INDEXNOW_TEST_KEY]);
     Http::fake(['api.indexnow.org/*' => Http::response('', 200)]);
-    Storage::disk('local')->put(SubmitIndexNowCommand::STATE_FILE, '["https://civic.example/it/a"]');
+    $state = '{"https://civic.example/it/a":"2026-01-01T00:00:00+00:00"}';
+    Storage::disk('local')->put(SubmitIndexNowCommand::STATE_FILE, $state);
 
     Assert::assertSame(0, Artisan::call('seo:indexnow', ['--url' => ['https://civic.example/it/b']]));
-    // Le URL passate a mano non cambiano l'elenco delle URL della sitemap gia' inviate.
-    Assert::assertSame('["https://civic.example/it/a"]', Storage::disk('local')->get(SubmitIndexNowCommand::STATE_FILE));
-
-    Assert::assertSame(0, Artisan::call('seo:indexnow', ['--dry-run' => true]));
+    Assert::assertSame($state, Storage::disk('local')->get(SubmitIndexNowCommand::STATE_FILE));
     Http::assertSentCount(1);
+});
+
+it('resends a sitemap url only when its lastmod is newer than its last submission', function (): void {
+    FakeTenantSeoConfig::bind(['indexnow_key' => INDEXNOW_TEST_KEY]);
+    app()->instance(IndexNowProbeSource::class, new IndexNowProbeSource);
+    app()->tag([IndexNowProbeSource::class], SitemapPathsContract::TAG);
+
+    $pending = static function (string $sentAt): int {
+        $state = [];
+        foreach (['it', 'en', 'de', 'es'] as $locale) {
+            $state['https://civic.example/'.$locale.'/zz-probe/1'] = $sentAt;
+        }
+        Storage::disk('local')->put(SubmitIndexNowCommand::STATE_FILE, json_encode($state));
+        Artisan::call('seo:indexnow', ['--dry-run' => true]);
+        $matches = [];
+        preg_match('/(\d+) URL da inviare/', Artisan::output(), $matches);
+
+        return isset($matches[1]) ? (int) $matches[1] : 0;
+    };
+
+    // Inviate prima della modifica (2026-03-01): tornano da inviare; inviate dopo: no.
+    $before = $pending('2026-02-01T00:00:00+00:00');
+    $after = $pending('2026-04-01T00:00:00+00:00');
+    Assert::assertSame(4, $before - $after);
 });
 
 it('does nothing when IndexNow is off', function (): void {
@@ -114,3 +143,19 @@ it('does nothing when IndexNow is off', function (): void {
     Assert::assertStringContainsString('IndexNow spento', Artisan::output());
     Http::assertNothingSent();
 });
+
+/** Fonte di prova: una pagina con data di modifica nota. */
+final class IndexNowProbeSource implements SitemapLastModifiedContract, SitemapPathsContract
+{
+    /** @return list<string> */
+    public function execute(): array
+    {
+        return ['zz-probe/1'];
+    }
+
+    /** @return array<string, \DateTimeInterface> */
+    public function lastModified(): array
+    {
+        return ['zz-probe/1' => new DateTimeImmutable('2026-03-01T00:00:00+00:00')];
+    }
+}
