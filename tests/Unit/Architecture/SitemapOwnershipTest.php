@@ -3,10 +3,7 @@
 declare(strict_types=1);
 
 use Modules\Xot\Tests\TestCase;
-<<<<<<< HEAD
-=======
 use PHPUnit\Framework\Assert;
->>>>>>> laraxot/dev
 use Symfony\Component\Finder\Finder;
 
 use function Safe\file_get_contents;
@@ -46,20 +43,12 @@ it('builds the sitemap only inside the Seo module', function (): void {
         }
     }
 
-<<<<<<< HEAD
-    expect($strangers)->toBe([]);
-=======
     Assert::assertSame([], $strangers);
->>>>>>> laraxot/dev
 });
 
 it('keeps Seo independent of the modules that feed its sitemap', function (): void {
     $offenders = [];
     foreach (Finder::create()->files()->name('*.php')->in(base_path('Modules/Seo/app')) as $file) {
-<<<<<<< HEAD
-        preg_match_all('/^use Modules\\\\([A-Za-z]+)\\\\/m', file_get_contents($file->getRealPath()), $found);
-        foreach (array_unique($found[1]) as $module) {
-=======
         $matches = [];
         preg_match_all('/^use Modules\\\\([A-Za-z]+)\\\\/m', file_get_contents($file->getRealPath()), $matches);
         $modules = $matches[1] ?? [];
@@ -69,16 +58,11 @@ it('keeps Seo independent of the modules that feed its sitemap', function (): vo
         /** @var list<string> $unique */
         $unique = array_values(array_unique(array_filter($modules, is_string(...))));
         foreach ($unique as $module) {
->>>>>>> laraxot/dev
             if (! in_array($module, SEO_ALLOWED_MODULES, true)) {
                 $offenders[] = $file->getRelativePathname().' importa Modules\\'.$module;
             }
         }
     }
 
-<<<<<<< HEAD
-    expect($offenders)->toBe([]);
-=======
     Assert::assertSame([], $offenders);
->>>>>>> laraxot/dev
 });
