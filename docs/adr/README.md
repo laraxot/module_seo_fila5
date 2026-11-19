@@ -40,3 +40,5 @@ Pro, contro, debito che resta, cosa misurare. Chi cambia la decisione scrive un 
 
 ## Decisioni
 
+- [search-engine-presence](search-engine-presence.md) — sitemap dichiarata, IndexNow, identità dell'entità in JSON-LD, verifica dei motori, niente file per l'AI
+

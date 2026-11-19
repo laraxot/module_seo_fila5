@@ -30,3 +30,4 @@ Chi cambia il comportamento aggiorna il contratto nello stesso commit.
 
 ## Contratti
 
+- [submit-index-now-action](submit-index-now-action.md) — invio delle URL nuove a IndexNow (Bing, Yandex, Seznam, Naver)
