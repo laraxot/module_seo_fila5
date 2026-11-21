@@ -63,7 +63,7 @@ Solo `laravel/Modules/Seo/docs/`, 187 file toccati (186 modificati, 1 nuovo: que
 ## Aperto
 
 - 27 bersagli di link che non sono mai esistiti (es. `roadmap/*.md` e `phpstan/level_*.md` citati da `roadmap.md`): decidere se creare le pagine o togliere le voci.
-- Dopo la story `2026-10-08-services-to-actions-seo.story.md` (rimozione di `app/Services/MetatagService.php`) vanno riverificati `services-to-adapters-conversion.md`, `duplicate-methods-analysis.md`, `wiki/concepts/no-app-support-queueable-actions.md`: citano il file rimosso.
+- Dopo la story `services-to-actions-seo.story.md` (rimozione di `app/Services/MetatagService.php`) vanno riverificati `services-to-adapters-conversion.md`, `duplicate-methods-analysis.md`, `wiki/concepts/no-app-support-queueable-actions.md`: citano il file rimosso.
 - `PHILOSOPHY.md` e `philosophy.md` sono due documenti diversi con lo stesso nome logico; `README.md` di `docs/` va ricomposto in un solo documento.
 - Il frontmatter generico (`type: note`, `tags: [documentation]`, `qmd` uguale al titolo) resta su 100+ file: arricchirlo richiede lettura di ogni file.
 
