@@ -7,7 +7,7 @@ updated: 2026-10-08
 tags: [seo, docs, index, canonical]
 qmd: "seo module docs index master catalogo canonico superseded duplicati stub stale pilot docs-organization"
 related:
-  - ./stories/2026-10-08-docs-organization-pilot.story.md
+  - ./stories/docs-organization-pilot.story.md
   - ./stories/docs-index-audit.story.md
   - ../../../../bmad-output/docs-organization-audit-2026-10-08.md
 issues: []
@@ -121,13 +121,13 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 - `root-file-policy.md` - file assente al 2026-10-08 (link rimosso; esiste solo nel tema Meetup)
 - `root-files-hygiene.md` - file assente al 2026-10-08 (link rimosso)
 - [links.md](./links.md) — raw link dump (SEO packages/tutorials)
-- [action-sentinel-main-to-module-20260313T132007Z.md](./action-sentinel-main-to-module-20260313T132007Z.md) — canonical (see lowercase-timestamp duplicate below)
+- [action-sentinel-main-to-module-20260313T132007Z.md](./action-sentinel-main-to-module-Z.md) — canonical (see lowercase-timestamp duplicate below)
 
 ## Fixes, conflicts and incident reports
 
 - [conflict-resolution.md](./conflict-resolution.md)
 - [boost-skill-fix-summary.md](./boost-skill-fix-summary.md)
-- [redundancy-audit.md](./redundancy-audit.md) - audit del 2026-05-21 (ex `redundancy-audit-2026-05-21.md`), distinct from the `redundancy_analysis.md`/`REDUNDANCY_ANALYSIS.md` stub pair (see Storico)
+- [redundancy-audit.md](./redundancy-audit.md) - audit del 2026-05-21 (ex `redundancy-audit.md`), distinct from the `redundancy_analysis.md`/`REDUNDANCY_ANALYSIS.md` stub pair (see Storico)
 - [wiki/troubleshooting/git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md) (ex `...-2026-04-28.md`)
 
 ## Wiki / second brain (`docs/wiki/`)
@@ -184,10 +184,10 @@ La directory `root-md-files/` non esiste piu' al 2026-10-08. Il changelog archiv
 ## BMAD, stories and decision records
 
 - [stories/docs-index-audit.story.md](./stories/docs-index-audit.story.md) - first documentation-index audit (2026-09-26)
-- [stories/2026-10-06-phpstan-cleanup-seo.story.md](./stories/2026-10-06-phpstan-cleanup-seo.story.md) and [.dev.md](./stories/2026-10-06-phpstan-cleanup-seo.dev.md) - PHPStan cleanup
+- [stories/2026-10-06-phpstan-cleanup-seo.story.md](./stories/phpstan-cleanup-seo.story.md) and [.dev.md](./stories/phpstan-cleanup-seo.dev.md) - PHPStan cleanup
 - [stories/phpstan-Seo-fix.md](./stories/phpstan-Seo-fix.md) - earlier PHPStan fix note
-- [stories/2026-10-08-docs-organization-pilot.story.md](./stories/2026-10-08-docs-organization-pilot.story.md) - this reorganization pilot (frontmatter, links, superseded markers)
-- [stories/2026-10-08-services-to-actions-seo.story.md](./stories/2026-10-08-services-to-actions-seo.story.md) - Services to Actions (removal of `MetatagService`); the docs that cite `app/Services/MetatagService.php` become stale after it
+- [stories/2026-10-08-docs-organization-pilot.story.md](./stories/docs-organization-pilot.story.md) - this reorganization pilot (frontmatter, links, superseded markers)
+- [stories/2026-10-08-services-to-actions-seo.story.md](./stories/services-to-actions-seo.story.md) - Services to Actions (removal of `MetatagService`); the docs that cite `app/Services/MetatagService.php` become stale after it
 - [bmad/README.md](./bmad/README.md), [bmad/bmad-dossier.md](./bmad/bmad-dossier.md), [bmad/status.md](./bmad/status.md) - BMAD dossier
 - [decision-log.md](./decision-log.md) - decision log (empty template, `draft`)
 - [investigation/investigation.md](./investigation/investigation.md) - Schema.org auto-generation investigation (placeholder, `draft`)
@@ -221,7 +221,7 @@ Nothing below was deleted, renamed, or moved. From 2026-10-08 every copy listed 
 | User research | [`USER_RESEARCH.md`](./USER_RESEARCH.md) | Byte-identical to `user_research.md` |
 | Roadmap 2025 (top-level) | [`ROADMAP.md`](./ROADMAP.md), [`roadmap-2025.md`](./roadmap-2025.md), [`ROADMAP-2025.md`](./ROADMAP-2025.md), [`ROADMAP_2025.md`](./ROADMAP_2025.md) | All near-identical to `roadmap.md` (only a trailing "Last Updated" line differs). Dal 2026-10-08 `ROADMAP-2025.md` e `ROADMAP_2025.md` sono `superseded_by: roadmap-2025.md` (identici nel corpo); `ROADMAP.md` non e' un duplicato esatto e resta `active` |
 | Roadmap sub-index | [`roadmap/00-INDEX.md`](./roadmap/00-INDEX.md) | Byte-identical to `roadmap/00-index.md` |
-| Action sentinel log | [`action-sentinel-main-to-module-20260313t132007z.md`](./action-sentinel-main-to-module-20260313t132007z.md) | Byte-identical to the uppercase-`T` filename, only timestamp casing differs |
+| Action sentinel log | [`action-sentinel-main-to-module-t132007z.md`](./action-sentinel-main-to-module-t132007z.md) | Byte-identical to the uppercase-`T` filename, only timestamp casing differs |
 | MCP server consigliati (IT) | [`MCP_SERVER_CONSIGLIATI.md`](./MCP_SERVER_CONSIGLIATI.md) | Byte-identical to `mcp_server_consigliati.md` |
 | MCP server recommended (EN) | [`MCP_SERVER_RECOMMENDED.md`](./MCP_SERVER_RECOMMENDED.md) | Byte-identical to `mcp_server_recommended.md` |
 | Wiki agents | [`wiki/AGENTS.md`](./wiki/AGENTS.md) | Byte-identical to `wiki/agents.md` (both contain an unrendered `{{TYPE^}}` template placeholder) |

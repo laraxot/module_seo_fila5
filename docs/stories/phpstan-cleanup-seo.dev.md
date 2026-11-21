@@ -2,7 +2,7 @@
 title: "[DEV] PHPStan cleanup — Seo"
 type: dev
 module: Seo
-story: "./2026-10-06-phpstan-cleanup-seo.story.md"
+story: "./phpstan-cleanup-seo.story.md"
 status: done
 created: 2026-10-06
 updated: 2026-10-06
