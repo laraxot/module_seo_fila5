@@ -7,6 +7,10 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
+<<<<<<< .merge_file_Jht94o
+use Modules\Seo\Tests\TestCase;
+=======
+>>>>>>> .merge_file_Zb16dm
 
 use function Safe\simplexml_load_string;
 
