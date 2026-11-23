@@ -7,19 +7,16 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-<<<<<<< .merge_file_Jht94o
-use Modules\Seo\Tests\TestCase;
-=======
->>>>>>> .merge_file_Zb16dm
 
 use function Safe\simplexml_load_string;
 
 uses(TestCase::class);
 
-/*
+/**
  * sitemap.xml (front-office completeness audit, item 1): the `{container}.view` CMS pages are detail templates with no record
  * (`/it/blog/view` has no content), so they stay out; published posts and events come in through `SitemapPathsContract`.
- * Story: Modules/Seo/docs/stories/sitemap-detail-templates-and-articles.story.md.
+ *
+ * @see Modules/Seo/docs/sitemap.md
  */
 /** @return list<string> */
 function seoSitemapLocs(TestCase $test): array
@@ -30,7 +27,12 @@ function seoSitemapLocs(TestCase $test): array
     return array_values(array_map(static fn (SimpleXMLElement $loc): string => (string) $loc, $xml->xpath('//s:url/s:loc') ?: []));
 }
 
-/** Saves a published post or event and returns its slug. Blog is an optional consumer of Seo: without it there is nothing to publish. */
+/**
+ * Saves a published post or event and returns its slug.
+ * Blog is an optional consumer of Seo: without it there is nothing to publish.
+ *
+ * @see Modules/Seo/docs/sitemap.md
+ */
 function seoSitemapArticle(string $contentType): string
 {
     $article = class_exists('Modules\\Blog\\Models\\Article') ? app('Modules\\Blog\\Models\\Article') : null;
