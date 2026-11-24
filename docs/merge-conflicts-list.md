@@ -40,7 +40,7 @@ Elenco dei file trovati contenenti marker di merge (<<<<<<<, >>>>>>>, .merge_fil
 - laravel/Modules/Fixcity/docs/wiki/index.md
 - laravel/Modules/Fixcity/docs/wiki/log.md
 - laravel/Modules/Fixcity/docs/wiki/README.md
-- laravel/Modules/Xot/docs/phpstan-fixes.md
+- laravel/Modules/Lang/docs/phpstan-fixes-2.md
 - laravel/Modules/Fixcity/resources/views/filament/widgets/ticket-create-wizard.blade.php
 - laravel/Modules/Xot/docs/phpstan-audit.md
 - laravel/Modules/Xot/docs/filament-4-laraxot-e5a872.md
