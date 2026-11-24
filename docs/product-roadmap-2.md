@@ -8,7 +8,7 @@ qmd: "PRODUCT ROADMAP"
 issues: []
 discussions: []
 status: superseded
-superseded_by: product_roadmap.md
+superseded_by: product-roadmap-3.md
 ---
 
 # Seo Module - Product Roadmap

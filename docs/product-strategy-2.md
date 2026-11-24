@@ -8,7 +8,7 @@ qmd: "PRODUCT STRATEGY"
 issues: []
 discussions: []
 status: superseded
-superseded_by: product_strategy.md
+superseded_by: product-strategy-3.md
 ---
 
 # Seo Module - Product Strategy

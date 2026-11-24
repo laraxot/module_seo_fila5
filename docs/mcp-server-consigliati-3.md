@@ -11,10 +11,10 @@ status: active
 ---
 module: theme
 topic: mcp_server_consigliati
-canonical: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
+canonical: ../../../Themes/docs/shared-components/mcp-server-consigliati-2.md
 ---
 
-See canonical documentation: ../../../Themes/docs/shared-components/MCP_SERVER_CONSIGLIATI.md
+See canonical documentation: ../../../Themes/docs/shared-components/mcp-server-consigliati-2.md
 # Server MCP consigliati per il modulo Seo
 
 ## Scopo del modulo

@@ -57,4 +57,4 @@ senza cambiare il comportamento pubblico (`/sitemap.xml`, `/robots.txt`, `seo:ro
 
 - `Modules/Xot/routes/web_seo.php` e `routes/seo.php` dichiarano anch'esse `/sitemap.xml`: verificare quale rotta vince e togliere il doppione (modulo Xot).
 - `docs/docs_master_index.md` e `Modules/Notify/docs/ai-agents/project-docs-index.md` puntano ancora agli indici rimossi.
-- Le voci di `index.md` che puntavano a file vuoti rimossi sono rimaste come testo semplice: da potare alla prossima revisione.
+- Le voci di `index-2.md` che puntavano a file vuoti rimossi sono rimaste come testo semplice: da potare alla prossima revisione.

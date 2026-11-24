@@ -8,7 +8,7 @@ qmd: "PRODUCT LAUNCH PLAN"
 issues: []
 discussions: []
 status: superseded
-superseded_by: product_launch_plan.md
+superseded_by: product-launch-plan-3.md
 ---
 
 # Seo Module - Product Launch Plan

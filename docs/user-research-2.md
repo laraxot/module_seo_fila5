@@ -8,7 +8,7 @@ qmd: "USER RESEARCH"
 issues: []
 discussions: []
 status: superseded
-superseded_by: user_research.md
+superseded_by: user-research-3.md
 ---
 
 # Seo Module - User Research

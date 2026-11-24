@@ -8,7 +8,7 @@ qmd: "SPRINT PLANNING"
 issues: []
 discussions: []
 status: superseded
-superseded_by: sprint_planning.md
+superseded_by: sprint-planning-3.md
 ---
 
 # Seo Module - Sprint Planning
