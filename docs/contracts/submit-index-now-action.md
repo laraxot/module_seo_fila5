@@ -40,7 +40,7 @@ Test: `cd laravel && vendor/bin/pest Modules/Seo/tests/Feature/IndexNow/IndexNow
 ## Invarianti
 
 | ID | Regola | Group Pest |
-|:---|:---|:---|
+|---|---|---|
 | SEO-INDEXNOW-INV-1 | Senza chiave valida non parte nessuna richiesta: `submitted = 0`, `skipped = count($urls)`, `statuses = []`. | `SEO-INDEXNOW-INV-1` |
 | SEO-INDEXNOW-INV-2 | Si inviano solo URL valide dell'host del sito, ciascuna una volta. | `SEO-INDEXNOW-INV-2` |
 | SEO-INDEXNOW-INV-3 | Endpoint unico `https://api.indexnow.org/indexnow` (`DEFAULT_ENDPOINT`): i motori aderenti si condividono l'invio. | `SEO-INDEXNOW-INV-3` |

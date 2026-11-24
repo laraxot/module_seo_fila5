@@ -33,7 +33,7 @@ Test: `cd laravel && vendor/bin/pest Modules/Seo/tests/Feature/IndexNow/IndexNow
 ## Invarianti
 
 | ID | Regola | Group Pest |
-|:---|:---|:---|
+|---|---|---|
 | SEO-INDEXNOW-KEY-INV-1 | Risponde 200 solo per la chiave configurata; qualunque altra `/{x}.txt` è 404. | `SEO-INDEXNOW-KEY-INV-1` |
 | SEO-INDEXNOW-KEY-INV-2 | Con IndexNow spento o chiave malformata (corta, caratteri non ammessi) non esiste nessun file: sempre 404. | `SEO-INDEXNOW-KEY-INV-2` |
 | SEO-INDEXNOW-KEY-INV-3 | Il confronto è a tempo costante (`hash_equals`): la rotta non aiuta a indovinare la chiave per tentativi. | — |

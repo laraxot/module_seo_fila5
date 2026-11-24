@@ -49,9 +49,9 @@ Domanda: come fa la sitemap a contenere le pagine di altri moduli senza che Seo 
 
 - Pro: un modulo nuovo entra in sitemap (e in IndexNow) implementando un'interfaccia, senza toccare Seo.
 - Contro: un modulo che si dimentica il tag non compare in sitemap, senza errori.
-- Debito: `app/Actions/Sitemap/BuildSitemapAction.php` contiene oggi marcatori di conflitto di merge (`<<<<<<<`, due
-  versioni di `lastmod`: stringa dalle pagine CMS contro `DateTimeInterface` da `SitemapLastModifiedContract`) e non
-  si compila (`php -l`); va risolto prima di ogni altra modifica alla sitemap.
+- `<lastmod>` viene da due fonti: stringa `Y-m-d` per le pagine CMS (`lastModified()` della pagina), `DateTimeInterface`
+  dalle sorgenti che implementano `SitemapLastModifiedContract` (formattata ATOM). Una sorgente senza data vera non la
+  inventa: niente `<lastmod>`.
 
 ## Verifica
 
