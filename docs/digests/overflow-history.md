@@ -32,41 +32,45 @@ Test: `cd laravel && vendor/bin/pest Modules/Seo/tests/Feature/IndexNow/IndexNow
 
 ## Inva
 
-### `getting-started.md` — Getting Started {#getting-started}
+### `stories/phpstan-cleanup-seo.dev.md` — [DEV] PHPStan cleanup — Seo
 
 
-# Getting Started {#getting-started}
+# [DEV] PHPStan cleanup — Seo
 
-This is a starter template for creating a beautiful, customizable documentation site for your project with minimal effort. You’ll only have to change a few settings and you’re ready to go.
+## Technical Plan
 
-## Configuration {#getting-started-configuration}
+- Fixture con nome al posto della classe anonima, stessa semantica
 
-As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
+## Files to Modify
 
-```php
-// config.php
-return [
-    'baseUrl' => 'https://my-awesome-jigsaw-site.com/',
-    'production' => false,
-    'siteName' => 'My Site',
-    'siteDescription' => 'Gi
+- `tests/Unit/Filament/Widgets/SocialShareWidgetTest.php`
+- `tests/Fixtures/ExposedSocialShareWidget.php` (nuovo)
+- `docs/README.md` (write-back)
 
-### `stories/done-log.md` — Done log - storie Seo chiuse
+## Implementation Steps
+
+- [x] Verificato che l'errore non compare su singolo file (sintomo da cache) ma nel run completo
+- [x] Creata la fixture, sostituita l'anonima, aggiunto l'import
+- [x] PHPStan + `php -l`
+
+## Testing
+
+### `stories/phpstan-seo-fix.md` — Problema
 
 
-# Done log - storie Seo chiuse
+## Problema
+PHPStan errors in Modules/Seo (4, resurfaced after the 2026-09-06 22:05
+phpstan.neon Larastan/Pest-extension regression — owner confirmed config
+stays as-is).
 
-Una voce per story chiusa. I file completi sono nel backup
-`~/backups/laravelpizza-docs-md-before-cap100.tar.gz` (sola lettura) sotto
-`laravel/Modules/Seo/docs/stories/`. Le storie attive restano file `*.story.md` separati.
-
-## docs-organization-pilot
-
-- Titolo: pilota di organizzazione della docs del modulo Seo (non distruttivo).
-- Esito: frontmatter, indice canonico, superseded e stale marcati; nessuna cancellazione in quel giro.
-- Seguito: il tetto di 100 file (questo giro) ha ridotto il modulo a una struttura canonica; vedi `archive-digest.md`.
-
-## fo-audit-seo-path-aliases
-
-- Titolo: alias Seo per tenant con bersagli canonici inesistenti.
-- Esito: override per tenant in `config/{tenant}/seo.php`; alias verso bersagli reali; alias verso pagine inesisten
+## Solution
+1. Analyze with phpstan -> 4 `method.nonObject` errors in `tests/TestCase.php`
+   on `$this->app['config']->set(...)` (ArrayAccess on the container resolves
+   to `mixed` without Larastan).
+2. Fix: use the `config()` helper instead of `$this->app['config']` — Laravel's
+   own conditional-return-type PHPDoc on the helper resolves to
+   `Repository` without needing Larastan.
+3. Verify: phpstan 0; phpmd (1 pre-existing non-actionable finding, see
+   coverage.md); pest 35/47 passing — 12 pre-existing failures
+   (`Target class [config] does not exist`), confirmed via `git stash`
+   NOT caused by this fix, unrela
