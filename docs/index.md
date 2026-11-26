@@ -121,11 +121,8 @@ Related entry points: [README.md](./README.md) (module overview), [docs/wiki/ind
 - `root-file-policy.md` - file assente al 2026-10-08 (link rimosso; esiste solo nel tema Meetup)
 - `root-files-hygiene.md` - file assente al 2026-10-08 (link rimosso)
 - [links.md](./links.md) — raw link dump (SEO packages/tutorials)
-<<<<<<< .merge_file_jxqndS
 - [action-sentinel-main-to-module-20260313T132007Z.md](./action-sentinel-main-to-module-Z.md) — canonical (see lowercase-timestamp duplicate below)
-=======
 - [action-sentinel-main-to-module.md](./action-sentinel-main-to-module.md) — sentinel del 2026-03-13T13:20:07Z (le due copie con timestamp nel nome sono state fuse qui)
->>>>>>> .merge_file_ejfk9g
 
 ## Fixes, conflicts and incident reports
 
@@ -225,10 +222,7 @@ Nothing below was deleted, renamed, or moved. From 2026-10-08 every copy listed 
 | User research | [`USER_RESEARCH.md`](./USER_RESEARCH.md) | Byte-identical to `user_research.md` |
 | Roadmap (top-level) | [`ROADMAP.md`](./ROADMAP.md) | Quasi identico a `roadmap.md` (differisce solo la riga finale "Last Updated"), resta `active`. Le copie con l'anno nel nome (`roadmap-2025.md`, `ROADMAP-2025.md`, `ROADMAP_2025.md`) sono state fuse in `roadmap.md` il 2026-11-19 |
 | Roadmap sub-index | [`roadmap/00-INDEX.md`](./roadmap/00-INDEX.md) | Byte-identical to `roadmap/00-index.md` |
-<<<<<<< .merge_file_jxqndS
 | Action sentinel log | [`action-sentinel-main-to-module-t132007z.md`](./action-sentinel-main-to-module-t132007z.md) | Byte-identical to the uppercase-`T` filename, only timestamp casing differs |
-=======
->>>>>>> .merge_file_ejfk9g
 | MCP server consigliati (IT) | [`MCP_SERVER_CONSIGLIATI.md`](./MCP_SERVER_CONSIGLIATI.md) | Byte-identical to `mcp_server_consigliati.md` |
 | MCP server recommended (EN) | [`MCP_SERVER_RECOMMENDED.md`](./MCP_SERVER_RECOMMENDED.md) | Byte-identical to `mcp_server_recommended.md` |
 | Wiki agents | [`wiki/AGENTS.md`](./wiki/AGENTS.md) | Byte-identical to `wiki/agents.md` (both contain an unrendered `{{TYPE^}}` template placeholder) |
