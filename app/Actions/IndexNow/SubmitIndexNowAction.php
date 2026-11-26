@@ -20,8 +20,6 @@ use function Safe\parse_url;
  * restano sitemap e Search Console.
  *
  * @contract docs/contracts/submit-index-now-action.md
- * Contratto di comportamento (sei sezioni: input, output, invarianti, effetti
- * collaterali, errori, non fa).
  *
  * @see Modules/Seo/docs/adr/search-engine-presence.md
  */
