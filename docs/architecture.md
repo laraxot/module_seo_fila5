@@ -8,9 +8,9 @@ qmd: "seo architettura actions adapters datas contracts facade metatag sitemap r
 related:
   - ./metatag.md
   - ./configuration.md
-  - ./adr/search-engine-presence.md
-  - ./adr/sitemap-built-in-seo-fed-by-tagged-sources.md
-  - ./adr/robots-disallow-subset-of-head-noindex.md
+  - ./adr/0002-search-engine-presence.md
+  - ./adr/0003-sitemap-built-in-seo-fed-by-tagged-sources.md
+  - ./adr/0001-robots-disallow-subset-of-head-noindex.md
 ---
 
 # Seo: architettura
@@ -26,9 +26,9 @@ richiesta (metatag) oppure nel file di configurazione del tenant (`SeoConfigData
   architettura, non una comodita'.
 - Seo non conosce i modelli dei moduli che lo usano. Un modulo con pagine di dettaglio da indicizzare implementa
   `SitemapPathsContract` e si registra col tag `SitemapPathsContract::TAG` (`seo.sitemap.paths`) nel proprio service
-  provider: vedi [ADR sitemap](./adr/sitemap-built-in-seo-fed-by-tagged-sources.md).
+  provider: vedi [ADR sitemap](./adr/0003-sitemap-built-in-seo-fed-by-tagged-sources.md).
 - L'esclusione dall'indice e' del `<head>` (`noindex`, deciso da Cms `ResolveRobotsPolicyAction`); `robots.txt` chiude
-  solo un sottoinsieme di quelle aree: vedi [ADR robots](./adr/robots-disallow-subset-of-head-noindex.md).
+  solo un sottoinsieme di quelle aree: vedi [ADR robots](./adr/0001-robots-disallow-subset-of-head-noindex.md).
 
 ## Livelli del codice (`app/`)
 

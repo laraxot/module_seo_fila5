@@ -7,7 +7,7 @@ tags: [seo, configurazione, tenant, rotte, comandi, indexnow, robots, sitemap]
 qmd: "seo configurazione SeoConfigData path_aliases indexnow_key SettingPage seo:robots seo:indexnow rotte sitemap.xml robots.txt config.php tenant"
 related:
   - ./architecture.md
-  - ./adr/search-engine-presence.md
+  - ./adr/0002-search-engine-presence.md
   - ./contracts/README.md
 ---
 

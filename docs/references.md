@@ -35,4 +35,4 @@ Pacchetti e letture consultati per le scelte del modulo. Nessuno e' una dipenden
 - Inertia e SEO: https://dev.to/hazzazbinfaiz/trick-to-make-laravel-inertia-seo-friendly-3h3j
 - Localizzazione SEO-friendly: https://www.coine.it/web-developing/laravel-localization-seo-friendly/
 - Fonti di protocollo usate dalle ADR: indexnow.org/documentation e la documentazione Google Search Central sulle
-  funzioni AI di Search (vedi [adr/search-engine-presence.md](./adr/search-engine-presence.md)).
+  funzioni AI di Search (vedi [adr/0002-search-engine-presence.md](./adr/0002-search-engine-presence.md)).

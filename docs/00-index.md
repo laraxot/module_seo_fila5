@@ -25,9 +25,9 @@ Una riga per file. Il modulo presenta se stesso in [README.md](./README.md).
 ## Decisioni (`adr/`)
 
 - [adr/README.md](./adr/README.md): indice delle decisioni del modulo.
-- [adr/search-engine-presence.md](./adr/search-engine-presence.md): presenza nei motori, IndexNow, nessun file "per l'AI", sameAs.
-- [adr/sitemap-built-in-seo-fed-by-tagged-sources.md](./adr/sitemap-built-in-seo-fed-by-tagged-sources.md): la sitemap la costruisce solo Seo, alimentata da sorgenti col tag `seo.sitemap.paths`.
-- [adr/robots-disallow-subset-of-head-noindex.md](./adr/robots-disallow-subset-of-head-noindex.md): `Disallow` di `robots.txt` sottoinsieme del `noindex` del `<head>`.
+- [adr/0002-search-engine-presence.md](./adr/0002-search-engine-presence.md): presenza nei motori, IndexNow, nessun file "per l'AI", sameAs.
+- [adr/0003-sitemap-built-in-seo-fed-by-tagged-sources.md](./adr/0003-sitemap-built-in-seo-fed-by-tagged-sources.md): la sitemap la costruisce solo Seo, alimentata da sorgenti col tag `seo.sitemap.paths`.
+- [adr/0001-robots-disallow-subset-of-head-noindex.md](./adr/0001-robots-disallow-subset-of-head-noindex.md): `Disallow` di `robots.txt` sottoinsieme del `noindex` del `<head>`.
 
 ## Contratti (`contracts/`)
 

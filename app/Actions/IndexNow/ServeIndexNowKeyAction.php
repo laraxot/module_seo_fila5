@@ -15,7 +15,7 @@ use Modules\Seo\Datas\SeoConfigData;
  *
  * @contract docs/contracts/serve-index-now-key-action.md
  *
- * @see Modules/Seo/docs/adr/search-engine-presence.md
+ * @see Modules/Seo/docs/adr/0002-search-engine-presence.md
  */
 final class ServeIndexNowKeyAction
 {

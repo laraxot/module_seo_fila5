@@ -60,7 +60,7 @@ codice di Seo.
 ## Quando si tocca il codice
 
 - `declare(strict_types=1);` in ogni file PHP; ogni classe o metodo toccato porta nel docblock un `@see` verso la pagina di
-  `docs/` che spiega cosa fa (qui: `adr/search-engine-presence.md`, `contracts/*.md` e le pagine di questa cartella).
+  `docs/` che spiega cosa fa (qui: `adr/0002-search-engine-presence.md`, `contracts/*.md` e le pagine di questa cartella).
 - Il comportamento verificabile delle Action esterne (IndexNow) e' fissato in [contracts/](./contracts/README.md); le
   invarianti con `group` si lanciano con `vendor/bin/pest Modules/Seo/tests --group=<ID>`.
 - Gate di una modifica solo `.md`: PHPStan e Pest non si applicano; si verificano link e marcatori di conflitto.

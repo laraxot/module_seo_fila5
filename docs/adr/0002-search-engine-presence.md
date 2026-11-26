@@ -4,8 +4,9 @@ title: "ADR — Presenza nei motori di ricerca: sitemap dichiarata, IndexNow, id
 type: decision
 module: Seo
 status: accepted
+decision-makers: [team Laraxot]
 created: 2026-11-19
-updated: 2026-11-24
+updated: 2026-11-26
 issues:
   - "progetto ospite #736"
   - "progetto ospite #738"
@@ -40,8 +41,11 @@ Fatti da cui parte la decisione:
 
 ## Driver della decisione
 
-- Presenza SERP (sitemap, robots, IndexNow, JSON-LD) deve avere un owner unico nel modulo Seo.
-- Evitare che temi o Cms pubblichino segnali SEO contraddittori.
+- Una pagina deve essere scoperta, indicizzata e riconosciuta come parte di un'entita' prima di poter salire nei risultati: ogni segnale (sitemap, robots, IndexNow, JSON-LD) deve avere un solo proprietario, il modulo Seo, e non contraddirsi con quelli del tema o di Cms.
+- Le date inviate ai motori devono essere vere: una `<lastmod>` uguale per tutte le pagine viene ignorata.
+- Il costo di invio deve restare basso: solo URL nuove o cambiate (IndexNow chiede di evitare gli invii ripetuti, 429).
+- Per i motori AI non c'e' un canale proprio: Google dichiara che usa lo stesso indice, quindi si investe nelle pagine e non in file dedicati.
+
 ## Decisione
 
 1. **Sitemap dichiarata** in `robots.txt` con URL assoluto. Il `robots.txt` dinamico del modulo
@@ -88,7 +92,19 @@ Fatti da cui parte la decisione:
 - Le pagine restano la leva principale: indicizzabili, veloci (Core Web Vitals) e con contenuto che risponde a una
   domanda reale. Questo ADR mette il sito in condizione di essere trovato, non di salire da solo.
 
-## Verifica
+## Stato attuale
+
+Letto dal codice il 2026-11-26 (nessun test eseguito):
+
+- **`<lastmod>` delle pagine CMS.** Questo ADR dice che restano senza `<lastmod>` (alternativa «`lastmod` inventato»); l'ADR [0003](0003-sitemap-built-in-seo-fed-by-tagged-sources.md) e il codice dicono il contrario:
+  `BuildSitemapAction::lastModified(Page)` (riga 143) legge `updated_at` della pagina e lo scrive come `Y-m-d` (riga 109). Il docblock della classe («Niente `lastmod`») e' rimasto indietro.
+  In pratica solo le pagine il cui JSON ha `updated_at` al primo livello ne hanno una: su 115 file in `config/local/fixcity/database/content/pages` sono 4 (`home.json`, `auth/login.json`, `auth/auth.register.json`, `tests/tests.eventi.json`);
+  le ultime tre sono fuori dalla sitemap per le regole di indicizzabilita'. Resta la home, con `updated_at` 2026-10-23 mentre `home.json` e' cambiato in git il 2026-11-12: il suo `<lastmod>` e' vecchio. Da decidere se togliere la data dal JSON o aggiornarla a ogni modifica.
+- La chiave IndexNow e' configurata per il tenant (`config/local/fixcity/seo.php` riga 26) e `deploy.sh` riga 229 lancia `seo:indexnow`: l'invio e' acceso.
+- Il test di Seo che registra una fonte taggata annuncia in un commento che «questo progetto non lo fa per Blog»: non e' piu' vero, `BlogServiceProvider.php` riga 32 registra il tag.
+
+## Conferma
+
 
 - `cd laravel && vendor/bin/pest Modules/Seo/tests/Feature/IndexNow/IndexNowTest.php`: file della chiave solo per la chiave
   configurata, invio solo di URL dell'host a `api.indexnow.org` a blocchi da 10.000, niente invio senza chiave, reinvio di

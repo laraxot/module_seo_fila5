@@ -2,6 +2,7 @@
 title: "ADR — La sitemap la costruisce solo Seo; i moduli le danno i percorsi con un contratto taggato"
 type: decision
 status: accepted
+decision-makers: [team Laraxot]
 module: Seo
 tags: [adr, seo, sitemap, contracts, container-tag, dipendenze]
 created: 2026-11-24
@@ -65,4 +66,7 @@ Domanda: come fa la sitemap a contenere le pagine di altri moduli senza che Seo 
   fuori da Seo usa `Spatie\Sitemap` o dichiara `BuildSitemapAction`, o se `Modules/Seo/app` importa un modulo diverso da
   Seo, Xot, Cms.
 - `vendor/bin/pest Modules/Seo/tests/Feature/IndexNow/IndexNowTest.php` (test «resends a sitemap url only when its
-  lastmod is newer…») registra una sorgente di prova con il tag e ne legge i percorsi e le date.
+  lastmod is newer…», group `SEO-SITEMAP-INV-4`) registra una sorgente di prova con il tag e ne legge i percorsi e le date.
+- `vendor/bin/pest Modules/Seo/tests/Feature/SitemapDetailTemplatesTest.php` (group `SEO-SITEMAP-INV-1..3`): la sitemap risponde, esclude i modelli di dettaglio, include i percorsi di Blog taggati.
+  Contratto: [BuildSitemapAction](../contracts/build-sitemap-action.md).
+- Non provato: che un modulo senza tag resti fuori e che `<lastmod>` manchi quando la fonte non ha una data (INV-5 del contratto).

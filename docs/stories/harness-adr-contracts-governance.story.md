@@ -5,7 +5,7 @@ status: done
 date: 2026-11-26
 owner: Seo
 related:
-  - ../adr/sitemap-built-in-seo-fed-by-tagged-sources.md
+  - ../adr/0003-sitemap-built-in-seo-fed-by-tagged-sources.md
   - ../../../Xot/docs/stories/0042-laravel-day-harness-adoption.story.md
   - ../../../Xot/docs/adr/0012-behavioral-contract-governance.md
 ---
@@ -20,7 +20,7 @@ workflow agente. Xot resta owner delle regole trasversali.
 
 ## Stato
 
-- [x] ADR substantive owner: [sitemap taggata + IndexNow](../adr/sitemap-built-in-seo-fed-by-tagged-sources.md)
+- [x] ADR substantive owner: [sitemap taggata + IndexNow](../adr/0003-sitemap-built-in-seo-fed-by-tagged-sources.md)
 - [x] Indice `docs/adr/README.md` aggiornato con link relativi
 - [x] Gate `PackagesHaveContractsAndAdrTest` verde (substantive ADR + sezioni minime)
 
