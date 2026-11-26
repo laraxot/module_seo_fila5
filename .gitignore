@@ -262,3 +262,11 @@ resources/lang
 # screenshot di comparazione visiva (artefatti locali)
 docs/project/visual-comparison/
 docs/visual-comparison/
+
+# --- entries uniti da laraxot/dev (sync merge) ---
+# da unione con laraxot/dev (pattern mancanti)
+docs/screenshots/
+tests/coverage-*.xml
+tests/coverage-*.*
+# Indice vettoriale locale (non versionare)
+ruvector.db

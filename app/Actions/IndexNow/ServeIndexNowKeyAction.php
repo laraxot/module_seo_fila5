@@ -13,7 +13,9 @@ use Modules\Seo\Datas\SeoConfigData;
  * I motori che ricevono un invio scaricano questo file per verificare che le URL siano del sito. Qualunque altro
  * `/{x}.txt` risponde 404, come se la rotta non esistesse; con IndexNow spento non esiste nessun file.
  *
- * @see Modules/Seo/docs/adr/search-engine-presence.md
+ * @contract docs/contracts/serve-index-now-key-action.md
+ *
+ * @see Modules/Seo/docs/adr/0002-search-engine-presence.md
  */
 final class ServeIndexNowKeyAction
 {

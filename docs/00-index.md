@@ -1,66 +1,47 @@
 ---
-title: "00 index"
-type: note
-tags: [documentation]
-created: 2026-09-26
-updated: 2026-09-26
-qmd: "00 index"
-issues: []
-discussions: []
-status: superseded
-superseded_by: index.md
+title: "Seo: indice della documentazione"
+type: index
+status: active
+module: Seo
+tags: [seo, indice]
+qmd: "seo indice documentazione mappa pagine adr contracts stories"
 ---
 
-> Superseded dal 2026-10-08: l'indice canonico e' [index.md](./index.md). Contenuto conservato per storia.
+# Seo: indice della documentazione
 
-# 📚 Indice Documentazione Modulo Seo
+Una riga per file. Il modulo presenta se stesso in [README.md](./README.md).
 
-**Status**: 🟡 In Progress
-**Module Version**: 1.0.0
+## Pagine di riferimento
 
-## Audit over-engineering
+- [README.md](./README.md): cosa fa il modulo, tabella delle funzioni, comandi di qualita'.
+- [architecture.md](./architecture.md): confini del modulo, livelli di `app/`, regole di costruzione, redirect canonico.
+- [metatag.md](./metatag.md): facade `Metatag`, adapter, stato per richiesta, `MetatagData` e `MetatagDataContract`.
+- [social-share.md](./social-share.md): link di condivisione, componente Blade, widget, traduzioni.
+- [configuration.md](./configuration.md): `SeoConfigData`, alias di pagina, chiave IndexNow, rotte, comandi artisan.
+- [testing-and-quality.md](./testing-and-quality.md): gate, mappa dei test, cause radice chiuse per PHPStan livello max.
+- [roadmap.md](./roadmap.md): cosa esiste oggi e cosa e' solo pianificato (JSON-LD di dettaglio, analytics).
+- [references.md](./references.md): pacchetti e letture esterne consultati.
 
-| Documento | Scopo |
-|-----------|--------|
-| [ponytail-audit-over-engineering.md](./ponytail-audit-over-engineering.md) | Findings Ponytail Seo (`node_modules`, interface) |
-| [Hub repo](../../../../docs/audit/ponytail-audit.md) | Audit repo-wide |
+## Decisioni (`adr/`)
 
-## 🎯 Lettura Essenziale
-1. [README.md](./README.md) - Panoramica del modulo SEO.
----
-## 🎯 Lettura Essenziale
-1. [README.md](./README.md) - Panoramica del modulo SEO.
-2. [roadmap.md](./roadmap.md) - Evoluzione 2026: AI Content Optimization & Schema.org.
+- [adr/README.md](./adr/README.md): indice delle decisioni del modulo.
+- [adr/0002-search-engine-presence.md](./adr/0002-search-engine-presence.md): presenza nei motori, IndexNow, nessun file "per l'AI", sameAs.
+- [adr/0003-sitemap-built-in-seo-fed-by-tagged-sources.md](./adr/0003-sitemap-built-in-seo-fed-by-tagged-sources.md): la sitemap la costruisce solo Seo, alimentata da sorgenti col tag `seo.sitemap.paths`.
+- [adr/0001-robots-disallow-subset-of-head-noindex.md](./adr/0001-robots-disallow-subset-of-head-noindex.md): `Disallow` di `robots.txt` sottoinsieme del `noindex` del `<head>`.
 
-## 🏗️ Core Features
-- 🏷️ **Meta Tag Management** - Tag dinamici, canonical URLs, meta descriptions.
-- 🗺️ **Sitemap Generation** - XML sitemap con multi-sitemap e ping automatico.
-- 📱 **OpenGraph & Social** - Tags OpenGraph, Twitter Cards, social previews.
-- 📊 **Schema.org Markup** - JSON-LD strutturato (Event, LocalBusiness, Article, Product).
-- 📈 **SEO Analytics** - Score calculation, keyword analysis, recommendations.
+## Contratti (`contracts/`)
 
-## 🔗 Integration Cross-Module
-- **[Schema.org Event Tasks](./task-schema-org-eventi.md)** - Task per implementazione Schema.org per eventi.
-- **[Meetup: Event Series Actions](../../meetup/docs/tasks-schema-org-event-series-actions.md)** - Schema.org EventSeries.
-- **[Geo: Place & GeoCircle](../../geo/docs/tasks-schema-org-place-geocircle.md)** - Schema.org Place.
+- [contracts/README.md](./contracts/README.md): cosa promettono le Action che parlano con l'esterno.
+- [contracts/submit-index-now-action.md](./contracts/submit-index-now-action.md): invio delle URL a IndexNow.
+- [contracts/serve-index-now-key-action.md](./contracts/serve-index-now-key-action.md): file pubblico della chiave `/{chiave}.txt`.
 
-## 🧪 Qualità e Testing
-- ⚠️ Test suite da implementare (Pest)
-- ⚠️ PHPStan Level 10 da completare
+## Story (`stories/`)
 
-## 📦 Pacchetti Composer
-- [Riferimento composer packages](../../../../bashscripts/ai/wiki/memories/composer-packages-reference.md) - Nessuna dipendenza diretta; usa Xot
----
-- [Riferimento](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md) - Nessuna dipendenza diretta; usa Xot
-
-## 🔗 Moduli Correlati
-- [Xot](../../Xot/docs/readme.md) - Core framework e base classes.
-- [Meetup](../../meetup/docs/readme.md) - Schema.org Event integration.
-- [Geo](../../Geo/docs/README.md) - Schema.org Place integration.
-
----
-*Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
-
-## Dependency Intelligence
-
-- [Dependency intelligence](dependency-intelligence.md)
+- [stories/audit-qualita.story.md](./stories/audit-qualita.story.md): audit di qualita' del modulo e lavoro in corso.
+- [stories/phpstan-cleanup-seo.story.md](./stories/phpstan-cleanup-seo.story.md): pulizia PHPStan, sintesi.
+- [stories/phpstan-cleanup-seo.dev.md](./stories/phpstan-cleanup-seo.dev.md): note di sviluppo della pulizia PHPStan.
+- [stories/phpstan-seo-fix.md](./stories/phpstan-seo-fix.md): correzioni PHPStan applicate al modulo.
+- [stories/services-to-actions-seo.story.md](./stories/services-to-actions-seo.story.md): conversione di `MetatagService` in Adapter e Action.
+- [stories/fo-audit-seo-path-aliases-fixcity.story.md](./stories/fo-audit-seo-path-aliases-fixcity.story.md): audit del front office e alias di pagina.
+- [stories/docs-index-audit.story.md](./stories/docs-index-audit.story.md): audit dell'indice della documentazione.
+- [stories/docs-organization-pilot.story.md](./stories/docs-organization-pilot.story.md): pilota di riorganizzazione dei docs.
