@@ -3,7 +3,7 @@ title: "ADR del modulo Seo"
 type: index
 tags: [adr, decisioni, seo]
 created: 2026-11-18
-updated: 2026-11-24
+updated: 2026-11-26
 ---
 
 # ADR del modulo Seo
@@ -21,5 +21,5 @@ Formato (cinque sezioni, `type: decision`, nome file senza date né numeri) e re
 ## Indice
 
 - [Presenza nei motori di ricerca](search-engine-presence.md) — sitemap dichiarata, IndexNow per le URL nuove, identità dell'entità, niente `llms.txt`.
-- [La sitemap la costruisce solo Seo, alimentata da sorgenti taggate](sitemap-built-in-seo-fed-by-tagged-sources.md) — i moduli implementano `SitemapPathsContract` e si registrano col tag; Seo importa solo Xot e Cms.
+- [La sitemap la costruisce solo Seo, alimentata da sorgenti taggate](sitemap-built-in-seo-fed-by-tagged-sources.md) — `SitemapPathsContract` + tag; stessa fonte per IndexNow (**substantive**).
 - [robots.txt chiude solo aree già noindex nel head](robots-disallow-subset-of-head-noindex.md) — `PRIVATE_SEGMENTS` ⊆ `HIDDEN_SEGMENTS`, perché un `Disallow` nasconde il `noindex`.
