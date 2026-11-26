@@ -5,7 +5,7 @@ status: accepted
 module: Seo
 tags: [adr, seo, sitemap, contracts, container-tag, dipendenze]
 created: 2026-11-24
-updated: 2026-11-24
+updated: 2026-11-26
 related:
   - ../../app/Contracts/SitemapPathsContract.php
   - ../../app/Contracts/SitemapLastModifiedContract.php
@@ -25,6 +25,12 @@ related:
 - Seo è un modulo condiviso: se importa i modelli dei moduli che lo usano, ogni progetto si porta dietro moduli che non ha.
 
 Domanda: come fa la sitemap a contenere le pagine di altri moduli senza che Seo li conosca?
+
+## Driver della decisione
+
+- Seo installabile senza Blog/Fixcity/altri moduli di dominio.
+- Un solo builder (`BuildSitemapAction`) per sitemap e IndexNow, niente elenchi URL duplicati.
+- Estensione per tag di container: un modulo spento non lascia classi fantasma in config.
 
 ## Decisione
 
@@ -53,7 +59,7 @@ Domanda: come fa la sitemap a contenere le pagine di altri moduli senza che Seo 
   dalle sorgenti che implementano `SitemapLastModifiedContract` (formattata ATOM). Una sorgente senza data vera non la
   inventa: niente `<lastmod>`.
 
-## Verifica
+## Conferma
 
 - `cd laravel && vendor/bin/pest Modules/Seo/tests/Unit/Architecture/SitemapOwnershipTest.php`: fallisce se una classe
   fuori da Seo usa `Spatie\Sitemap` o dichiara `BuildSitemapAction`, o se `Modules/Seo/app` importa un modulo diverso da

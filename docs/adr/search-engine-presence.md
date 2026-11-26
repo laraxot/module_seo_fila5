@@ -37,6 +37,11 @@ Fatti da cui parte la decisione:
 - Il JSON-LD della home pubblicava `Organization` con solo nome, URL e logo. `description` e `sameAs` (i profili
   ufficiali) sono i dati con cui un motore lega un nome a un'entità e la distingue da omonimi.
 
+
+## Driver della decisione
+
+- Presenza SERP (sitemap, robots, IndexNow, JSON-LD) deve avere un owner unico nel modulo Seo.
+- Evitare che temi o Cms pubblichino segnali SEO contraddittori.
 ## Decisione
 
 1. **Sitemap dichiarata** in `robots.txt` con URL assoluto. Il `robots.txt` dinamico del modulo
