@@ -5,9 +5,13 @@ declare(strict_types=1);
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
+<<<<<<< .merge_file_OTDXPq
 use PHPUnit\Framework\Assert;
+=======
+>>>>>>> .merge_file_qLx72U
 use Modules\Seo\Contracts\SitemapPathsContract;
 use Modules\Seo\Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
 use function Safe\simplexml_load_string;
 
@@ -66,7 +70,7 @@ it('leaves the detail templates out of the sitemap', function (): void {
     foreach ($locs as $loc) {
         Assert::assertDoesNotMatchRegularExpression('#/(blog|events|services)/view$#', (string) $loc);
     }
-});
+})->group('SEO-SITEMAP-INV-1', 'SEO-SITEMAP-INV-2');
 
 it('lists the published posts and events in every language', function (): void {
     /** @var TestCase $this */
@@ -79,4 +83,4 @@ it('lists the published posts and events in every language', function (): void {
         Assert::assertContains(url('/'.$lang.'/blog/'.$post), $locs);
         Assert::assertContains(url('/'.$lang.'/events/'.$event), $locs);
     }
-});
+})->group('BLOG-SITEMAP-INV-1', 'SEO-SITEMAP-INV-3');
