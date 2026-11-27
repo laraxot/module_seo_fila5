@@ -1,14 +1,6 @@
 ---
 title: "Contratto — SubmitIndexNowAction"
 type: contract
-<<<<<<< .merge_file_TCmc2z
-action: "Modules\Seo\Actions\IndexNow\SubmitIndexNowAction"
-tags: [contract, action, indexnow, http]
-created: 2026-11-19
-updated: 2026-11-24
-related:
-  - ../adr/search-engine-presence.md
-=======
 action: "Modules\\Seo\\Actions\\IndexNow\\SubmitIndexNowAction"
 module: Seo
 status: active
@@ -17,7 +9,6 @@ created: 2026-11-19
 updated: 2026-11-26
 related:
   - ../adr/0002-search-engine-presence.md
->>>>>>> .merge_file_T8poxt
   - ../../app/Actions/IndexNow/SubmitIndexNowAction.php
   - ../../app/Console/Commands/SubmitIndexNowCommand.php
   - ../../tests/Feature/IndexNow/IndexNowTest.php
@@ -26,11 +17,7 @@ related:
 # SubmitIndexNowAction
 
 Avvisa i motori IndexNow (Bing, Yandex, Seznam, Naver…) che delle URL del sito sono nuove o cambiate. Perché:
-<<<<<<< .merge_file_TCmc2z
-[ADR presenza nei motori di ricerca](../adr/search-engine-presence.md). Sorgente:
-=======
 [ADR presenza nei motori di ricerca](../adr/0002-search-engine-presence.md). Sorgente:
->>>>>>> .merge_file_T8poxt
 `app/Actions/IndexNow/SubmitIndexNowAction.php`; chiamante: il comando `seo:indexnow`
 (`app/Console/Commands/SubmitIndexNowCommand.php`).
 
@@ -62,11 +49,7 @@ Test: `cd laravel && vendor/bin/pest Modules/Seo/tests/Feature/IndexNow/IndexNow
 | SEO-INDEXNOW-INV-4 | Il corpo è `{host, key, keyLocation, urlList}` con `keyLocation = <schema delle URL>://<host>/<chiave>.txt`, mai l'host della richiesta corrente. | `SEO-INDEXNOW-INV-4` |
 | SEO-INDEXNOW-INV-5 | Blocchi di al massimo 10.000 URL (`MAX_URLS_PER_REQUEST`), una richiesta per blocco. | `SEO-INDEXNOW-INV-5` |
 | SEO-INDEXNOW-INV-6 | Un rifiuto (codice diverso da 200/202) non conta le URL del blocco in `submitted` e il codice compare in `statuses`. | `SEO-INDEXNOW-INV-6` |
-<<<<<<< .merge_file_TCmc2z
-| SEO-INDEXNOW-INV-7 | Servizio irraggiungibile = `0` in `statuses`, nessuna eccezione. | — |
-=======
 | SEO-INDEXNOW-INV-7 | Servizio irraggiungibile = `0` in `statuses`, nessuna eccezione. | — (non dimostrato) |
->>>>>>> .merge_file_T8poxt
 
 ## Effetti collaterali
 

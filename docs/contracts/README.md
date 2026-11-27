@@ -1,35 +1,13 @@
 ---
 title: "Contratti del modulo Seo"
 type: index
-<<<<<<< .merge_file_wrlsjH
-tags: [contracts, actions, seo, indexnow]
-created: 2026-11-18
-updated: 2026-11-24
-=======
 tags: [contracts, actions, seo, indexnow, sitemap, robots]
 created: 2026-11-18
 updated: 2026-11-26
->>>>>>> .merge_file_pglhc1
 ---
 
 # Contratti del modulo Seo
 
-<<<<<<< .merge_file_wrlsjH
-Cosa promettono le Action di Seo che parlano con l'esterno: l'invio delle URL a IndexNow e il file pubblico della chiave
-che i motori scaricano per verificarlo. Le altre Action del modulo (metatag, sitemap, robots, URL) costruiscono testo o
-risposte senza effetti collaterali e sono coperte dagli ADR e dai loro test.
-
-Leggili prima di chiamare o modificare l'invio a IndexNow o la rotta `/{chiave}.txt`. Le invarianti con group si
-verificano con `cd laravel && vendor/bin/pest Modules/Seo/tests --group=<ID>`; `—` è debito dichiarato.
-
-Formato (sei sezioni, tabella invarianti con ID, `@contract` nel docblock):
-[action-behavioral-contract](../../../Xot/docs/rules/action-behavioral-contract.md).
-
-## Indice
-
-- [SubmitIndexNowAction](submit-index-now-action.md) — invia a `api.indexnow.org` solo URL dell'host, una volta, a blocchi da 10.000; spenta senza chiave valida.
-- [ServeIndexNowKeyAction](serve-index-now-key-action.md) — `/{chiave}.txt` risponde solo per la chiave configurata, 404 per tutto il resto.
-=======
 Cosa promettono le Action di Seo che parlano con i motori di ricerca: l'invio delle URL a IndexNow, il file pubblico della chiave che i motori scaricano per verificarlo, la sitemap (con `<lastmod>` e hreflang)
 e il `robots.txt`. Le altre Action (metatag, URL, link social) costruiscono testo senza effetti collaterali e sono coperte dai loro test. Il JSON-LD (`Organization`, `sameAs`, meta di verifica) non e' in Seo:
 sta in Xot (`MetatagData`) e Cms (`BuildHeadSchemaAction`) e va coperto li'.
@@ -87,4 +65,3 @@ Action del modulo senza contratto (nessuna scrive o chiama servizi esterni: lo s
 | SEO-SITEMAP-INV-5 | Una fonte taggata senza `SitemapLastModifiedContract`: il suo `<url>` non ha `<lastmod>`. |
 | SEO-SITEMAP-INV-6 | Aggiungere il group ai test di `Modules/Fixcity/tests/Feature/Pages/SeoLinksTest.php` (altro pacchetto); in Seo un test con pagina `auth.*`, alias e pagina `noindex`. |
 | SEO-SITEMAP-INV-7, SEO-SITEMAP-INV-8, SEO-SITEMAP-INV-9 | Hreflang e `x-default` letti dal XML con una pagina scritta in due lingue; un percorso con `&`; ordine e `??=`. |
->>>>>>> .merge_file_pglhc1
