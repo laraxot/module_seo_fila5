@@ -24,11 +24,7 @@ it('writes the same robots.txt the route serves', function (): void {
         ->toContain('Disallow: /*/admin');
 
     File::delete($path);
-<<<<<<< .merge_file_zFot9M
-});
-=======
 })->group('SEO-ROBOTS-INV-5');
->>>>>>> .merge_file_hoIzI5
 
 it('only prints the content with --dry-run', function (): void {
     $path = sys_get_temp_dir().'/robots-'.uniqid().'.txt';

@@ -23,8 +23,7 @@ Verificato sul codice del modulo. Solo cio' che e' elencato come "Fatto" esiste 
 
 ## Fatto
 
-<<<<<<< .merge_file_T3FLn7
-### 🎯 2025 Year-End Goals
+### Snapshot legacy: obiettivi 2025
 - [ ] All planned features implemented
 - [ ] Test coverage > 80%
 - [ ] Performance optimized
@@ -42,6 +41,7 @@ Verificato sul codice del modulo. Solo cio' che e' elencato come "Fatto" esiste 
 
 *Questa roadmap è specifica per il modulo Seo e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
 ---
+### Roadmap documentale
 # Roadmap (Module Seo)
 
 ## Current roadmap
@@ -271,7 +271,7 @@ Secondo le "Regole Windsurf per base_predict_fila5_mono", gli obiettivi per l'an
 5. Eseguire regolarmente l'analisi PHPStan durante lo sviluppo
 
 ---
-=======
+### Capacità implementate
 - `sitemap.xml` multi-lingua con hreflang e `<lastmod>`, alimentata dalle pagine CMS e dai moduli che si registrano col tag
   `SitemapPathsContract::TAG`.
 - `robots.txt` dinamico con aree riservate chiuse in ogni lingua e `Sitemap:` assoluta; comando `seo:robots`.
@@ -281,7 +281,6 @@ Secondo le "Regole Windsurf per base_predict_fila5_mono", gli obiettivi per l'an
   `WebSite`.
 - Condivisione social (Action, componente Blade, widget Filament).
 - PHPStan livello max a 0 errori, suite Pest del modulo.
->>>>>>> .merge_file_rjZvIa
 
 ## Pianificato, non implementato
 

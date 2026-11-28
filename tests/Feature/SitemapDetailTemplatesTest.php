@@ -5,10 +5,6 @@ declare(strict_types=1);
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-<<<<<<< .merge_file_OTDXPq
-use PHPUnit\Framework\Assert;
-=======
->>>>>>> .merge_file_qLx72U
 use Modules\Seo\Contracts\SitemapPathsContract;
 use Modules\Seo\Tests\TestCase;
 use PHPUnit\Framework\Assert;

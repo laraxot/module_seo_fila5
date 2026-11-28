@@ -2,22 +2,16 @@
 title: "Modulo Seo"
 type: documentation
 status: active
-<<<<<<< .merge_file_VE2djV
-tags: [seo, sitemap, robots, metatag, documentation]
+tags: [seo, sitemap, robots, metatag, indexnow, documentation]
 created: 2026-09-26
 updated: 2026-11-19
-qmd: "seo modulo presentazione sitemap robots metatag canonical alias"
-=======
-tags: [seo, sitemap, robots, metatag, indexnow, documentation]
 qmd: "seo modulo presentazione sitemap robots metatag canonical alias indexnow social share"
->>>>>>> .merge_file_I9Bocf
 issues: [64]
 discussions: []
 ---
 
 # Modulo Seo
 
-<<<<<<< .merge_file_VE2djV
 Presentazione del modulo. L'indice completo della documentazione e' **[index.md](./index.md)** (unico indice di `docs/`).
 
 ## Cosa fa
@@ -34,7 +28,6 @@ Presentazione del modulo. L'indice completo della documentazione e' **[index.md]
 
 Le lingue gestite sono quelle di `config('laravellocalization.supportedLocales')`.
 
-=======
 Rende il sito trovabile: sitemap e `robots.txt` dinamici, redirect canonici, metatag della pagina, link di
 condivisione social e notifica IndexNow. Senza modelli ne' migrazioni: lo stato vive per richiesta (metatag) o nel
 file `seo` del tenant. La mappa completa della documentazione e' in **[00-index.md](./00-index.md)**.
@@ -66,7 +59,6 @@ Le lingue gestite sono quelle di `config('laravellocalization.supportedLocales')
 - Decisioni e contratti verificabili: [adr/README.md](./adr/README.md), [contracts/README.md](./contracts/README.md)
 - Cosa c'e' e cosa manca: [roadmap.md](./roadmap.md)
 
->>>>>>> .merge_file_I9Bocf
 ## Qualita'
 
 ```bash
@@ -75,9 +67,5 @@ cd laravel
 ./vendor/bin/pest Modules/Seo/tests
 ```
 
-<<<<<<< .merge_file_VE2djV
-Audit e lavoro in corso: [stories/audit-qualita.story.md](./stories/audit-qualita.story.md).
-=======
 Dettaglio dei gate e delle cause radice chiuse: [testing-and-quality.md](./testing-and-quality.md). Audit e lavoro in
 corso: [stories/audit-qualita.story.md](./stories/audit-qualita.story.md).
->>>>>>> .merge_file_I9Bocf

@@ -147,11 +147,7 @@ final class BuildSitemapAction
     private function lastModified(Page $page): ?string
     {
         $updatedAt = $page->getAttribute('updated_at');
-<<<<<<< .merge_file_fvWetR
-        if ($updatedAt instanceof \DateTimeInterface) {
-=======
         if ($updatedAt instanceof DateTimeInterface) {
->>>>>>> .merge_file_jPfR0D
             return $updatedAt->format('Y-m-d');
         }
 
